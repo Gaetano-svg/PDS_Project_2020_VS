@@ -240,6 +240,25 @@ void Server::ClientConn::waitForMessage() {
 
             std::cout << "[MSG ARRIVED]: " + buf << std::endl;
 
+            // check if the JSON is well formatted
+            if( 
+                buf.find("body") == std::string::npos ||
+                buf.find("fileName") == std::string::npos ||
+                buf.find("folderPath") == std::string::npos ||
+                buf.find("hash") == std::string::npos ||
+                buf.find("packetNumber") == std::string::npos ||
+                buf.find("type") == std::string::npos ||
+                buf.find("typeCode") == std::string::npos ||
+                buf.find("userName") == std::string::npos
+            ){
+
+                log->info(logName + "");
+                log->info(logName + "[RCV HEADER]: JSON BAD FORMATTED -> " + buf);
+
+                resCode = -1;
+
+            }
+
             if (resCode == 0) {
 
                 ms = duration_cast<milliseconds>(

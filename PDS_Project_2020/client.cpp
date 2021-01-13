@@ -604,6 +604,18 @@ int Client::sendToServer(int sock, int operation, std::string folderPath, std::s
     if (resCode < 0)
         return -2;
 
+    message2 respMSG;
+    this->fromStringToMessage(response, respMSG);
+
+    if (respMSG.typeCode < 0) {
+
+        myLogger->info("[OPERATION_" + std::to_string(operation) + "]: error on the server");
+        myLogger->flush();
+
+        return -20;
+
+    }
+
     // UPDATE OR CREATE OPERATION
     if (operation == 1 || operation == 3) {
 
@@ -626,6 +638,18 @@ int Client::sendToServer(int sock, int operation, std::string folderPath, std::s
 
         if (resCode < 0) {
             return -4;
+        }
+
+        message2 respMSG;
+        this->fromStringToMessage(response, respMSG);
+
+        if (respMSG.typeCode < 0) {
+
+            myLogger->info("[OPERATION_" + std::to_string(operation) + "]: error on the server");
+            myLogger->flush();
+
+            return -20;
+
         }
 
     }
@@ -837,6 +861,18 @@ int Client::sendToServer2(int sock, int operation, std::string folderPath, std::
     if (resCode < 0)
         return -2;
 
+    message2 respMSG;
+    this->fromStringToMessage(response, respMSG);
+
+    if (respMSG.typeCode < 0) {
+
+        myLogger->info("[OPERATION_" + std::to_string(operation) + "]: error on the server");
+        myLogger->flush();
+
+        return -20;
+
+    }
+
     // UPDATE OR CREATE OPERATION
     if (operation == 1 || operation == 3) {
 
@@ -859,6 +895,18 @@ int Client::sendToServer2(int sock, int operation, std::string folderPath, std::
 
         if (resCode < 0) {
             return -4;
+        }
+
+        message2 respMSG;
+        this->fromStringToMessage(response, respMSG);
+
+        if (respMSG.typeCode < 0) {
+
+            myLogger->info("[OPERATION_" + std::to_string(operation) + "]: error on the server");
+            myLogger->flush();
+
+            return -20;
+
         }
 
     }
@@ -995,6 +1043,18 @@ int Client::serverDisconnection(int sock) {
 
         myLogger->info("disconnected from server " + uc.serverIp + ":" + uc.serverPort);
         myLogger->flush();
+
+        message2 respMSG;
+        this->fromStringToMessage(response, respMSG);
+
+        if (respMSG.typeCode < 0) {
+
+            myLogger->info("error on the server");
+            myLogger->flush();
+
+            return -20;
+
+        }
 
         return resCode;
 
