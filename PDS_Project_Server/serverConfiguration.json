@@ -1,0 +1,9 @@
+{
+  "ip": "127.0.0.1",
+  "port": "3524",
+  "backupFolder": "C:\\Users\\gabuscema\\Desktop\\BackupFolder",
+  "userInactivityMS": 30000,
+  "numberActiveClients": 40,
+  "secondTimeout": 30000,
+  "numberUserActiveConnections": 10
+}

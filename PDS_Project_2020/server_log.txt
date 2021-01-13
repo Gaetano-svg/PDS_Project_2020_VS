@@ -1,0 +1,9 @@
+[2020-12-21 23:03:34.253] [127.0.0.1] [info] Logger initialized correctly
+[2020-12-21 23:03:34.255] [127.0.0.1] [info] waiting for client connection
+[2020-12-21 23:03:34.257] [127.0.0.1] [info] [CHECK-INACTIVITY]: go to sleep for 60 seconds
+[2020-12-21 23:03:48.027] [127.0.0.1] [info] Logger initialized correctly
+[2020-12-21 23:03:48.029] [127.0.0.1] [info] waiting for client connection
+[2020-12-21 23:03:48.032] [127.0.0.1] [info] [CHECK-INACTIVITY]: go to sleep for 60 seconds
+[2020-12-21 23:34:56.321] [127.0.0.1] [info] Logger initialized correctly
+[2020-12-21 23:34:56.323] [127.0.0.1] [info] waiting for client connection
+[2020-12-21 23:34:56.329] [127.0.0.1] [info] [CHECK-INACTIVITY]: go to sleep for 60 seconds

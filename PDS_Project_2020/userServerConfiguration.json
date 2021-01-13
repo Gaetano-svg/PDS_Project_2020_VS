@@ -1,0 +1,9 @@
+{
+  "ip": "127.0.0.1",
+  "port": "3534",
+  "backupFolder": "",
+  "userInactivityMS": 30000,
+  "numberActiveClients": 40,
+  "secondTimeout": 30000,
+  "numberUserActiveConnections": 10
+}

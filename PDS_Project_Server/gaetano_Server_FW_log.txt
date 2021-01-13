@@ -1,0 +1,601 @@
+[2020-12-22 00:06:13.915] [gaetano_Server_FW] [info] Logger initialized correctly with file gaetano_Server_FW_log.txt
+[2020-12-22 00:06:13.924] [gaetano_Server_FW] [info] try to connect to server - IP: 127.0.0.1 PORT: 3534
+[2020-12-22 00:06:13.926] [gaetano_Server_FW] [info] try to connect to server - IP: 127.0.0.1 PORT: 3534
+[2020-12-22 00:06:13.932] [gaetano_Server_FW] [info] try to connect to server - IP: 127.0.0.1 PORT: 3534
+[2020-12-22 00:06:13.933] [gaetano_Server_FW] [info] try to connect to server - IP: 127.0.0.1 PORT: 3534
+[2020-12-22 00:06:13.938] [gaetano_Server_FW] [info] try to connect to server - IP: 127.0.0.1 PORT: 3534
+[2020-12-22 00:06:13.941] [gaetano_Server_FW] [info] try to connect to server - IP: 127.0.0.1 PORT: 3534
+[2020-12-22 00:06:19.571] [gaetano_Server_FW] [info] 
+[2020-12-22 00:06:19.571] [gaetano_Server_FW] [info] [OPERATION_1]: path C:\Users\gabuscema\Desktop\BackupFolder\gaetano\C_\Users\gabuscema\Desktop\UserFolder\Folder1 - Copia\Nuovo documento di testo - Copia (2).txt
+[2020-12-22 00:06:19.571] [gaetano_Server_FW] [info] 
+[2020-12-22 00:06:19.571] [gaetano_Server_FW] [info] 
+[2020-12-22 00:06:19.571] [gaetano_Server_FW] [info] [OPERATION_1]: path C:\Users\gabuscema\Desktop\BackupFolder\gaetano\C_\Users\gabuscema\Desktop\UserFolder\Folder1 - Copia\Nuovo documento di testo - Copia (5).txt
+[2020-12-22 00:06:19.571] [gaetano_Server_FW] [info] 
+[2020-12-22 00:06:19.571] [gaetano_Server_FW] [info] 
+[2020-12-22 00:06:19.572] [gaetano_Server_FW] [info] [OPERATION_1]: path C:\Users\gabuscema\Desktop\BackupFolder\gaetano\C_\Users\gabuscema\Desktop\UserFolder\Folder1 - Copia\Nuovo documento di testo - Copia (3).txt
+[2020-12-22 00:06:19.572] [gaetano_Server_FW] [info] 
+[2020-12-22 00:06:19.572] [gaetano_Server_FW] [info] 
+[2020-12-22 00:06:19.572] [gaetano_Server_FW] [info] 
+[2020-12-22 00:06:19.572] [gaetano_Server_FW] [info] [OPERATION_1]: path C:\Users\gabuscema\Desktop\BackupFolder\gaetano\C_\Users\gabuscema\Desktop\UserFolder\Folder1 - Copia\Nuovo documento di testo.txt
+[2020-12-22 00:06:19.572] [gaetano_Server_FW] [info] 
+[2020-12-22 00:06:19.572] [gaetano_Server_FW] [info] 
+[2020-12-22 00:06:19.572] [gaetano_Server_FW] [info] [OPERATION_1]: path C:\Users\gabuscema\Desktop\BackupFolder\gaetano\C_\Users\gabuscema\Desktop\UserFolder\Folder1 - Copia\Nuovo documento di testo - Copia.txt
+[2020-12-22 00:06:19.572] [gaetano_Server_FW] [info] [OPERATION_1]: path C:\Users\gabuscema\Desktop\BackupFolder\gaetano\C_\Users\gabuscema\Desktop\UserFolder\Folder1 - Copia\Nuovo documento di testo - Copia (4).txt
+[2020-12-22 00:06:19.572] [gaetano_Server_FW] [info] 
+[2020-12-22 00:06:19.572] [gaetano_Server_FW] [info] 
+[2020-12-22 00:06:19.572] [gaetano_Server_FW] [info] [OPERATION_1]: SND MSG returned code: -2
+[2020-12-22 00:06:19.572] [gaetano_Server_FW] [info] [OPERATION_1]: SND MSG returned code: -2
+[2020-12-22 00:06:19.572] [gaetano_Server_FW] [info] [OPERATION_1]: SND MSG returned code: -2
+[2020-12-22 00:06:19.573] [gaetano_Server_FW] [info] 
+[2020-12-22 00:06:19.573] [gaetano_Server_FW] [info] [OPERATION_1]: SND MSG returned code: -2
+[2020-12-22 00:06:19.573] [gaetano_Server_FW] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3534
+[2020-12-22 00:06:19.573] [gaetano_Server_FW] [info] [OPERATION_1]: SND MSG returned code: -2
+[2020-12-22 00:06:19.573] [gaetano_Server_FW] [info] [OPERATION_1]: SND MSG returned code: -2
+[2020-12-22 00:06:19.575] [gaetano_Server_FW] [info] 
+[2020-12-22 00:06:19.575] [gaetano_Server_FW] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3534
+[2020-12-22 00:06:19.576] [gaetano_Server_FW] [info] 
+[2020-12-22 00:06:19.576] [gaetano_Server_FW] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3534
+[2020-12-22 00:06:19.577] [gaetano_Server_FW] [info] 
+[2020-12-22 00:06:19.577] [gaetano_Server_FW] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3534
+[2020-12-22 00:06:19.579] [gaetano_Server_FW] [info] 
+[2020-12-22 00:06:19.579] [gaetano_Server_FW] [info] 
+[2020-12-22 00:06:19.579] [gaetano_Server_FW] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3534
+[2020-12-22 00:06:19.579] [gaetano_Server_FW] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3534
+[2020-12-22 00:07:48.534] [gaetano_Server_FW] [info] Logger initialized correctly with file gaetano_Server_FW_log.txt
+[2020-12-22 00:07:48.548] [gaetano_Server_FW] [info] try to connect to server - IP: 127.0.0.1 PORT: 3534
+[2020-12-22 00:07:48.549] [gaetano_Server_FW] [info] try to connect to server - IP: 127.0.0.1 PORT: 3534
+[2020-12-22 00:07:48.550] [gaetano_Server_FW] [info] try to connect to server - IP: 127.0.0.1 PORT: 3534
+[2020-12-22 00:07:48.551] [gaetano_Server_FW] [info] try to connect to server - IP: 127.0.0.1 PORT: 3534
+[2020-12-22 00:07:48.552] [gaetano_Server_FW] [info] try to connect to server - IP: 127.0.0.1 PORT: 3534
+[2020-12-22 00:07:48.552] [gaetano_Server_FW] [info] try to connect to server - IP: 127.0.0.1 PORT: 3534
+[2020-12-22 00:07:50.552] [gaetano_Server_FW] [info] 
+[2020-12-22 00:07:50.552] [gaetano_Server_FW] [info] [OPERATION_1]: path C:\Users\gabuscema\Desktop\BackupFolder\gaetano\C_\Users\gabuscema\Desktop\UserFolder\Folder1 - Copia\Nuovo documento di testo - Copia.txt
+[2020-12-22 00:07:50.552] [gaetano_Server_FW] [info] 
+[2020-12-22 00:07:50.552] [gaetano_Server_FW] [info] [OPERATION_1]: SND MSG returned code: -2
+[2020-12-22 00:07:50.553] [gaetano_Server_FW] [info] 
+[2020-12-22 00:07:50.553] [gaetano_Server_FW] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3534
+[2020-12-22 00:07:50.553] [gaetano_Server_FW] [info] 
+[2020-12-22 00:07:50.553] [gaetano_Server_FW] [info] 
+[2020-12-22 00:07:50.553] [gaetano_Server_FW] [info] [OPERATION_1]: path C:\Users\gabuscema\Desktop\BackupFolder\gaetano\C_\Users\gabuscema\Desktop\UserFolder\Folder1 - Copia\Nuovo documento di testo - Copia (3).txt
+[2020-12-22 00:07:50.553] [gaetano_Server_FW] [info] 
+[2020-12-22 00:07:50.553] [gaetano_Server_FW] [info] 
+[2020-12-22 00:07:50.553] [gaetano_Server_FW] [info] [OPERATION_1]: path C:\Users\gabuscema\Desktop\BackupFolder\gaetano\C_\Users\gabuscema\Desktop\UserFolder\Folder1 - Copia\Nuovo documento di testo.txt
+[2020-12-22 00:07:50.553] [gaetano_Server_FW] [info] [OPERATION_1]: path C:\Users\gabuscema\Desktop\BackupFolder\gaetano\C_\Users\gabuscema\Desktop\UserFolder\Folder1 - Copia\Nuovo documento di testo - Copia (2).txt
+[2020-12-22 00:07:50.553] [gaetano_Server_FW] [info] 
+[2020-12-22 00:07:50.553] [gaetano_Server_FW] [info] 
+[2020-12-22 00:07:50.553] [gaetano_Server_FW] [info] 
+[2020-12-22 00:07:50.553] [gaetano_Server_FW] [info] 
+[2020-12-22 00:07:50.553] [gaetano_Server_FW] [info] [OPERATION_1]: path C:\Users\gabuscema\Desktop\BackupFolder\gaetano\C_\Users\gabuscema\Desktop\UserFolder\Folder1 - Copia\Nuovo documento di testo - Copia (4).txt
+[2020-12-22 00:07:50.554] [gaetano_Server_FW] [info] [OPERATION_1]: path C:\Users\gabuscema\Desktop\BackupFolder\gaetano\C_\Users\gabuscema\Desktop\UserFolder\Folder1 - Copia\Nuovo documento di testo - Copia (5).txt
+[2020-12-22 00:07:50.554] [gaetano_Server_FW] [info] 
+[2020-12-22 00:07:50.554] [gaetano_Server_FW] [info] 
+[2020-12-22 00:07:50.554] [gaetano_Server_FW] [info] [OPERATION_1]: SND MSG returned code: -2
+[2020-12-22 00:07:50.554] [gaetano_Server_FW] [info] [OPERATION_1]: SND MSG returned code: -2
+[2020-12-22 00:07:50.554] [gaetano_Server_FW] [info] [OPERATION_1]: SND MSG returned code: -2
+[2020-12-22 00:07:50.554] [gaetano_Server_FW] [info] [OPERATION_1]: SND MSG returned code: -2
+[2020-12-22 00:07:50.554] [gaetano_Server_FW] [info] [OPERATION_1]: SND MSG returned code: -2
+[2020-12-22 00:07:50.556] [gaetano_Server_FW] [info] 
+[2020-12-22 00:07:50.556] [gaetano_Server_FW] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3534
+[2020-12-22 00:07:50.556] [gaetano_Server_FW] [info] 
+[2020-12-22 00:07:50.556] [gaetano_Server_FW] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3534
+[2020-12-22 00:07:50.557] [gaetano_Server_FW] [info] 
+[2020-12-22 00:07:50.557] [gaetano_Server_FW] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3534
+[2020-12-22 00:07:50.558] [gaetano_Server_FW] [info] 
+[2020-12-22 00:07:50.558] [gaetano_Server_FW] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3534
+[2020-12-22 00:07:50.558] [gaetano_Server_FW] [info] 
+[2020-12-22 00:07:50.558] [gaetano_Server_FW] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3534
+[2020-12-22 00:08:33.848] [gaetano_Server_FW] [info] try to connect to server - IP: 127.0.0.1 PORT: 3534
+[2020-12-22 00:08:33.848] [gaetano_Server_FW] [info] try to connect to server - IP: 127.0.0.1 PORT: 3534
+[2020-12-22 00:08:33.848] [gaetano_Server_FW] [info] Socket 308 was created
+[2020-12-22 00:08:33.848] [gaetano_Server_FW] [info] try to connect to server - IP: 127.0.0.1 PORT: 3534
+[2020-12-22 00:08:33.848] [gaetano_Server_FW] [info] Socket 312 was created
+[2020-12-22 00:08:33.849] [gaetano_Server_FW] [info] Socket 316 was created
+[2020-12-22 00:08:33.849] [gaetano_Server_FW] [info] try to connect to server - IP: 127.0.0.1 PORT: 3534
+[2020-12-22 00:08:33.849] [gaetano_Server_FW] [info] try to connect to server - IP: 127.0.0.1 PORT: 3534
+[2020-12-22 00:08:33.849] [gaetano_Server_FW] [info] Socket 276 was created
+[2020-12-22 00:08:33.849] [gaetano_Server_FW] [info] try to connect to server - IP: 127.0.0.1 PORT: 3534
+[2020-12-22 00:08:33.849] [gaetano_Server_FW] [info] Socket 320 was created
+[2020-12-22 00:08:33.849] [gaetano_Server_FW] [info] Socket 248 was created
+[2020-12-22 00:08:33.852] [gaetano_Server_FW] [info] connected to server 127.0.0.1:3534
+[2020-12-22 00:08:33.853] [gaetano_Server_FW] [info] 
+[2020-12-22 00:08:33.853] [gaetano_Server_FW] [info] [OPERATION_1]: path C:\Users\gabuscema\Desktop\BackupFolder\gaetano\C_\Users\gabuscema\Desktop\UserFolder\Folder1 - Copia\Nuovo documento di testo - Copia (3).txt
+[2020-12-22 00:08:33.853] [gaetano_Server_FW] [info] 
+[2020-12-22 00:08:33.853] [gaetano_Server_FW] [info] connected to server 127.0.0.1:3534
+[2020-12-22 00:08:33.853] [gaetano_Server_FW] [info] 
+[2020-12-22 00:08:33.853] [gaetano_Server_FW] [info] [OPERATION_1]: path C:\Users\gabuscema\Desktop\BackupFolder\gaetano\C_\Users\gabuscema\Desktop\UserFolder\Folder1 - Copia\Nuovo documento di testo - Copia.txt
+[2020-12-22 00:08:33.853] [gaetano_Server_FW] [info] 
+[2020-12-22 00:08:33.853] [gaetano_Server_FW] [info] connected to server 127.0.0.1:3534
+[2020-12-22 00:08:33.853] [gaetano_Server_FW] [info] 
+[2020-12-22 00:08:33.853] [gaetano_Server_FW] [info] [OPERATION_1]: path C:\Users\gabuscema\Desktop\BackupFolder\gaetano\C_\Users\gabuscema\Desktop\UserFolder\Folder1 - Copia\Nuovo documento di testo - Copia (5).txt
+[2020-12-22 00:08:33.853] [gaetano_Server_FW] [info] 
+[2020-12-22 00:08:33.854] [gaetano_Server_FW] [info] [OPERATION_1]: SND MSG returned code: 0
+[2020-12-22 00:08:33.854] [gaetano_Server_FW] [info] [OPERATION_1]: SND MSG returned code: 0
+[2020-12-22 00:08:33.855] [gaetano_Server_FW] [info] [OPERATION_1]: SND MSG returned code: 0
+[2020-12-22 00:08:33.855] [gaetano_Server_FW] [info] connected to server 127.0.0.1:3534
+[2020-12-22 00:08:33.855] [gaetano_Server_FW] [info] 
+[2020-12-22 00:08:33.855] [gaetano_Server_FW] [info] [OPERATION_1]: path C:\Users\gabuscema\Desktop\BackupFolder\gaetano\C_\Users\gabuscema\Desktop\UserFolder\Folder1 - Copia\Nuovo documento di testo.txt
+[2020-12-22 00:08:33.855] [gaetano_Server_FW] [info] 
+[2020-12-22 00:08:33.856] [gaetano_Server_FW] [info] [OPERATION_1]: RCV RESP returned code: 0
+[2020-12-22 00:08:33.856] [gaetano_Server_FW] [info] [OPERATION_1]: RCV RESP returned code: 0
+[2020-12-22 00:08:33.856] [gaetano_Server_FW] [info] [OPERATION_1]: SND FILE STREAM returned code: 0
+[2020-12-22 00:08:33.856] [gaetano_Server_FW] [info] connected to server 127.0.0.1:3534
+[2020-12-22 00:08:33.856] [gaetano_Server_FW] [info] 
+[2020-12-22 00:08:33.856] [gaetano_Server_FW] [info] [OPERATION_1]: path C:\Users\gabuscema\Desktop\BackupFolder\gaetano\C_\Users\gabuscema\Desktop\UserFolder\Folder1 - Copia\Nuovo documento di testo - Copia (2).txt
+[2020-12-22 00:08:33.856] [gaetano_Server_FW] [info] 
+[2020-12-22 00:08:33.856] [gaetano_Server_FW] [info] [OPERATION_1]: RCV RESP returned code: 0
+[2020-12-22 00:08:33.856] [gaetano_Server_FW] [info] [OPERATION_1]: SND FILE STREAM returned code: 0
+[2020-12-22 00:08:33.857] [gaetano_Server_FW] [info] [OPERATION_1]: SND MSG returned code: 0
+[2020-12-22 00:08:33.857] [gaetano_Server_FW] [info] [OPERATION_1]: SND FILE STREAM returned code: 0
+[2020-12-22 00:08:33.857] [gaetano_Server_FW] [info] connected to server 127.0.0.1:3534
+[2020-12-22 00:08:33.857] [gaetano_Server_FW] [info] 
+[2020-12-22 00:08:33.857] [gaetano_Server_FW] [info] [OPERATION_1]: path C:\Users\gabuscema\Desktop\BackupFolder\gaetano\C_\Users\gabuscema\Desktop\UserFolder\Folder1 - Copia\Nuovo documento di testo - Copia (4).txt
+[2020-12-22 00:08:33.857] [gaetano_Server_FW] [info] 
+[2020-12-22 00:08:33.858] [gaetano_Server_FW] [info] [OPERATION_1]: SND MSG returned code: 0
+[2020-12-22 00:08:33.858] [gaetano_Server_FW] [info] [OPERATION_1]: RCV RESP returned code: 0
+[2020-12-22 00:08:33.858] [gaetano_Server_FW] [info] [OPERATION_1]: RCV RESP returned code: 0
+[2020-12-22 00:08:33.858] [gaetano_Server_FW] [info] [OPERATION_1]: SND FILE STREAM returned code: 0
+[2020-12-22 00:08:33.859] [gaetano_Server_FW] [info] [OPERATION_1]: SND MSG returned code: 0
+[2020-12-22 00:08:33.859] [gaetano_Server_FW] [info] [OPERATION_1]: RCV RESP returned code: 0
+[2020-12-22 00:08:33.859] [gaetano_Server_FW] [info] [OPERATION_1]: SND FILE STREAM returned code: 0
+[2020-12-22 00:08:33.860] [gaetano_Server_FW] [info] [OPERATION_1]: SND FILE STREAM returned code: 0
+[2020-12-22 00:08:33.866] [gaetano_Server_FW] [info] [OPERATION_1]: RCV STREAM RESP returned code: 0
+[2020-12-22 00:08:33.867] [gaetano_Server_FW] [info] 
+[2020-12-22 00:08:33.867] [gaetano_Server_FW] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3534
+[2020-12-22 00:08:33.868] [gaetano_Server_FW] [info] disconnected from server 127.0.0.1:3534
+[2020-12-22 00:08:33.869] [gaetano_Server_FW] [info] [OPERATION_1]: RCV STREAM RESP returned code: 0
+[2020-12-22 00:08:33.869] [gaetano_Server_FW] [info] 
+[2020-12-22 00:08:33.870] [gaetano_Server_FW] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3534
+[2020-12-22 00:08:33.871] [gaetano_Server_FW] [info] [OPERATION_1]: RCV STREAM RESP returned code: 0
+[2020-12-22 00:08:33.871] [gaetano_Server_FW] [info] [OPERATION_1]: RCV STREAM RESP returned code: 0
+[2020-12-22 00:08:33.871] [gaetano_Server_FW] [info] disconnected from server 127.0.0.1:3534
+[2020-12-22 00:08:33.872] [gaetano_Server_FW] [info] [OPERATION_1]: RCV STREAM RESP returned code: 0
+[2020-12-22 00:08:33.872] [gaetano_Server_FW] [info] 
+[2020-12-22 00:08:33.872] [gaetano_Server_FW] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3534
+[2020-12-22 00:08:33.872] [gaetano_Server_FW] [info] [OPERATION_1]: RCV STREAM RESP returned code: 0
+[2020-12-22 00:08:33.873] [gaetano_Server_FW] [info] 
+[2020-12-22 00:08:33.873] [gaetano_Server_FW] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3534
+[2020-12-22 00:08:33.874] [gaetano_Server_FW] [info] 
+[2020-12-22 00:08:33.874] [gaetano_Server_FW] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3534
+[2020-12-22 00:08:33.875] [gaetano_Server_FW] [info] disconnected from server 127.0.0.1:3534
+[2020-12-22 00:08:33.876] [gaetano_Server_FW] [info] disconnected from server 127.0.0.1:3534
+[2020-12-22 00:08:33.876] [gaetano_Server_FW] [info] 
+[2020-12-22 00:08:33.876] [gaetano_Server_FW] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3534
+[2020-12-22 00:08:33.876] [gaetano_Server_FW] [info] disconnected from server 127.0.0.1:3534
+[2020-12-22 00:08:33.877] [gaetano_Server_FW] [info] disconnected from server 127.0.0.1:3534
+[2020-12-22 00:12:46.999] [gaetano_Server_FW] [info] Logger initialized correctly with file gaetano_Server_FW_log.txt
+[2020-12-22 00:12:47.016] [gaetano_Server_FW] [info] try to connect to server - IP: 127.0.0.1 PORT: 3534
+[2020-12-22 00:12:47.017] [gaetano_Server_FW] [info] try to connect to server - IP: 127.0.0.1 PORT: 3534
+[2020-12-22 00:12:47.018] [gaetano_Server_FW] [info] try to connect to server - IP: 127.0.0.1 PORT: 3534
+[2020-12-22 00:12:47.020] [gaetano_Server_FW] [info] try to connect to server - IP: 127.0.0.1 PORT: 3534
+[2020-12-22 00:12:47.021] [gaetano_Server_FW] [info] try to connect to server - IP: 127.0.0.1 PORT: 3534
+[2020-12-22 00:12:47.021] [gaetano_Server_FW] [info] try to connect to server - IP: 127.0.0.1 PORT: 3534
+[2020-12-22 00:12:49.020] [gaetano_Server_FW] [info] 
+[2020-12-22 00:12:49.020] [gaetano_Server_FW] [info] [OPERATION_1]: path C:\Users\gabuscema\Desktop\BackupFolder\gaetano\C_\Users\gabuscema\Desktop\UserFolder\Folder1 - Copia\Nuovo documento di testo - Copia (2).txt
+[2020-12-22 00:12:49.020] [gaetano_Server_FW] [info] 
+[2020-12-22 00:12:49.021] [gaetano_Server_FW] [info] [OPERATION_1]: SND MSG returned code: -2
+[2020-12-22 00:12:49.021] [gaetano_Server_FW] [info] 
+[2020-12-22 00:12:49.021] [gaetano_Server_FW] [info] [OPERATION_1]: path C:\Users\gabuscema\Desktop\BackupFolder\gaetano\C_\Users\gabuscema\Desktop\UserFolder\Folder1 - Copia\Nuovo documento di testo - Copia (4).txt
+[2020-12-22 00:12:49.022] [gaetano_Server_FW] [info] 
+[2020-12-22 00:12:49.022] [gaetano_Server_FW] [info] 
+[2020-12-22 00:12:49.022] [gaetano_Server_FW] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3534
+[2020-12-22 00:12:49.022] [gaetano_Server_FW] [info] 
+[2020-12-22 00:12:49.022] [gaetano_Server_FW] [info] [OPERATION_1]: path C:\Users\gabuscema\Desktop\BackupFolder\gaetano\C_\Users\gabuscema\Desktop\UserFolder\Folder1 - Copia\Nuovo documento di testo - Copia.txt
+[2020-12-22 00:12:49.022] [gaetano_Server_FW] [info] 
+[2020-12-22 00:12:49.022] [gaetano_Server_FW] [info] 
+[2020-12-22 00:12:49.022] [gaetano_Server_FW] [info] [OPERATION_1]: path C:\Users\gabuscema\Desktop\BackupFolder\gaetano\C_\Users\gabuscema\Desktop\UserFolder\Folder1 - Copia\Nuovo documento di testo - Copia (3).txt
+[2020-12-22 00:12:49.022] [gaetano_Server_FW] [info] 
+[2020-12-22 00:12:49.022] [gaetano_Server_FW] [info] [OPERATION_1]: SND MSG returned code: -2
+[2020-12-22 00:12:49.022] [gaetano_Server_FW] [info] [OPERATION_1]: SND MSG returned code: -2
+[2020-12-22 00:12:49.022] [gaetano_Server_FW] [info] [OPERATION_1]: SND MSG returned code: -2
+[2020-12-22 00:12:49.023] [gaetano_Server_FW] [info] 
+[2020-12-22 00:12:49.023] [gaetano_Server_FW] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3534
+[2020-12-22 00:12:49.024] [gaetano_Server_FW] [info] 
+[2020-12-22 00:12:49.024] [gaetano_Server_FW] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3534
+[2020-12-22 00:12:49.025] [gaetano_Server_FW] [info] 
+[2020-12-22 00:12:49.025] [gaetano_Server_FW] [info] [OPERATION_1]: path C:\Users\gabuscema\Desktop\BackupFolder\gaetano\C_\Users\gabuscema\Desktop\UserFolder\Folder1 - Copia\Nuovo documento di testo - Copia (5).txt
+[2020-12-22 00:12:49.025] [gaetano_Server_FW] [info] 
+[2020-12-22 00:12:49.025] [gaetano_Server_FW] [info] [OPERATION_1]: SND MSG returned code: -2
+[2020-12-22 00:12:49.025] [gaetano_Server_FW] [info] 
+[2020-12-22 00:12:49.026] [gaetano_Server_FW] [info] [OPERATION_1]: path C:\Users\gabuscema\Desktop\BackupFolder\gaetano\C_\Users\gabuscema\Desktop\UserFolder\Folder1 - Copia\Nuovo documento di testo.txt
+[2020-12-22 00:12:49.026] [gaetano_Server_FW] [info] 
+[2020-12-22 00:12:49.026] [gaetano_Server_FW] [info] 
+[2020-12-22 00:12:49.026] [gaetano_Server_FW] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3534
+[2020-12-22 00:12:49.026] [gaetano_Server_FW] [info] [OPERATION_1]: SND MSG returned code: -2
+[2020-12-22 00:12:49.026] [gaetano_Server_FW] [info] 
+[2020-12-22 00:12:49.026] [gaetano_Server_FW] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3534
+[2020-12-22 00:12:49.027] [gaetano_Server_FW] [info] 
+[2020-12-22 00:12:49.027] [gaetano_Server_FW] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3534
+[2020-12-22 00:13:31.788] [gaetano_Server_FW] [info] try to connect to server - IP: 127.0.0.1 PORT: 3534
+[2020-12-22 00:13:31.788] [gaetano_Server_FW] [info] try to connect to server - IP: 127.0.0.1 PORT: 3534
+[2020-12-22 00:13:31.788] [gaetano_Server_FW] [info] Socket 308 was created
+[2020-12-22 00:13:31.788] [gaetano_Server_FW] [info] Socket 272 was created
+[2020-12-22 00:13:31.788] [gaetano_Server_FW] [info] try to connect to server - IP: 127.0.0.1 PORT: 3534
+[2020-12-22 00:13:31.789] [gaetano_Server_FW] [info] Socket 260 was created
+[2020-12-22 00:13:31.790] [gaetano_Server_FW] [info] try to connect to server - IP: 127.0.0.1 PORT: 3534
+[2020-12-22 00:13:31.790] [gaetano_Server_FW] [info] Socket 312 was created
+[2020-12-22 00:13:31.790] [gaetano_Server_FW] [info] try to connect to server - IP: 127.0.0.1 PORT: 3534
+[2020-12-22 00:13:31.790] [gaetano_Server_FW] [info] Socket 316 was created
+[2020-12-22 00:13:31.791] [gaetano_Server_FW] [info] try to connect to server - IP: 127.0.0.1 PORT: 3534
+[2020-12-22 00:13:31.791] [gaetano_Server_FW] [info] Socket 248 was created
+[2020-12-22 00:13:31.798] [gaetano_Server_FW] [info] connected to server 127.0.0.1:3534
+[2020-12-22 00:13:31.798] [gaetano_Server_FW] [info] 
+[2020-12-22 00:13:31.799] [gaetano_Server_FW] [info] [OPERATION_1]: path C:\Users\gabuscema\Desktop\BackupFolder\gaetano\C_\Users\gabuscema\Desktop\UserFolder\Folder1 - Copia\Nuovo documento di testo - Copia.txt
+[2020-12-22 00:13:31.799] [gaetano_Server_FW] [info] 
+[2020-12-22 00:13:31.800] [gaetano_Server_FW] [info] [OPERATION_1]: SND MSG returned code: 0
+[2020-12-22 00:13:31.800] [gaetano_Server_FW] [info] connected to server 127.0.0.1:3534
+[2020-12-22 00:13:31.800] [gaetano_Server_FW] [info] 
+[2020-12-22 00:13:31.800] [gaetano_Server_FW] [info] [OPERATION_1]: path C:\Users\gabuscema\Desktop\BackupFolder\gaetano\C_\Users\gabuscema\Desktop\UserFolder\Folder1 - Copia\Nuovo documento di testo - Copia (4).txt
+[2020-12-22 00:13:31.800] [gaetano_Server_FW] [info] 
+[2020-12-22 00:13:31.801] [gaetano_Server_FW] [info] [OPERATION_1]: SND MSG returned code: 0
+[2020-12-22 00:13:31.801] [gaetano_Server_FW] [info] connected to server 127.0.0.1:3534
+[2020-12-22 00:13:31.801] [gaetano_Server_FW] [info] [OPERATION_1]: RCV RESP returned code: 0
+[2020-12-22 00:13:31.801] [gaetano_Server_FW] [info] 
+[2020-12-22 00:13:31.801] [gaetano_Server_FW] [info] [OPERATION_1]: path C:\Users\gabuscema\Desktop\BackupFolder\gaetano\C_\Users\gabuscema\Desktop\UserFolder\Folder1 - Copia\Nuovo documento di testo.txt
+[2020-12-22 00:13:31.801] [gaetano_Server_FW] [info] 
+[2020-12-22 00:13:31.802] [gaetano_Server_FW] [info] [OPERATION_1]: SND FILE STREAM returned code: 0
+[2020-12-22 00:13:31.802] [gaetano_Server_FW] [info] [OPERATION_1]: RCV RESP returned code: 0
+[2020-12-22 00:13:31.803] [gaetano_Server_FW] [info] [OPERATION_1]: SND MSG returned code: 0
+[2020-12-22 00:13:31.803] [gaetano_Server_FW] [info] connected to server 127.0.0.1:3534
+[2020-12-22 00:13:31.804] [gaetano_Server_FW] [info] 
+[2020-12-22 00:13:31.804] [gaetano_Server_FW] [info] [OPERATION_1]: path C:\Users\gabuscema\Desktop\BackupFolder\gaetano\C_\Users\gabuscema\Desktop\UserFolder\Folder1 - Copia\Nuovo documento di testo - Copia (5).txt
+[2020-12-22 00:13:31.804] [gaetano_Server_FW] [info] 
+[2020-12-22 00:13:31.804] [gaetano_Server_FW] [info] [OPERATION_1]: RCV RESP returned code: 0
+[2020-12-22 00:13:31.804] [gaetano_Server_FW] [info] [OPERATION_1]: SND FILE STREAM returned code: 0
+[2020-12-22 00:13:31.808] [gaetano_Server_FW] [info] [OPERATION_1]: SND FILE STREAM returned code: 0
+[2020-12-22 00:13:31.808] [gaetano_Server_FW] [info] [OPERATION_1]: SND MSG returned code: 0
+[2020-12-22 00:13:31.809] [gaetano_Server_FW] [info] [OPERATION_1]: RCV RESP returned code: 0
+[2020-12-22 00:13:31.809] [gaetano_Server_FW] [info] [OPERATION_1]: SND FILE STREAM returned code: 0
+[2020-12-22 00:13:31.812] [gaetano_Server_FW] [info] connected to server 127.0.0.1:3534
+[2020-12-22 00:13:31.812] [gaetano_Server_FW] [info] 
+[2020-12-22 00:13:31.812] [gaetano_Server_FW] [info] [OPERATION_1]: path C:\Users\gabuscema\Desktop\BackupFolder\gaetano\C_\Users\gabuscema\Desktop\UserFolder\Folder1 - Copia\Nuovo documento di testo - Copia (3).txt
+[2020-12-22 00:13:31.812] [gaetano_Server_FW] [info] 
+[2020-12-22 00:13:31.813] [gaetano_Server_FW] [info] [OPERATION_1]: SND MSG returned code: 0
+[2020-12-22 00:13:31.814] [gaetano_Server_FW] [info] [OPERATION_1]: RCV RESP returned code: 0
+[2020-12-22 00:13:31.815] [gaetano_Server_FW] [info] connected to server 127.0.0.1:3534
+[2020-12-22 00:13:31.815] [gaetano_Server_FW] [info] 
+[2020-12-22 00:13:31.815] [gaetano_Server_FW] [info] [OPERATION_1]: path C:\Users\gabuscema\Desktop\BackupFolder\gaetano\C_\Users\gabuscema\Desktop\UserFolder\Folder1 - Copia\Nuovo documento di testo - Copia (2).txt
+[2020-12-22 00:13:31.815] [gaetano_Server_FW] [info] [OPERATION_1]: SND FILE STREAM returned code: 0
+[2020-12-22 00:13:31.815] [gaetano_Server_FW] [info] 
+[2020-12-22 00:13:31.817] [gaetano_Server_FW] [info] [OPERATION_1]: RCV STREAM RESP returned code: 0
+[2020-12-22 00:13:31.817] [gaetano_Server_FW] [info] [OPERATION_1]: RCV STREAM RESP returned code: 0
+[2020-12-22 00:13:31.819] [gaetano_Server_FW] [info] [OPERATION_1]: SND MSG returned code: 0
+[2020-12-22 00:13:31.819] [gaetano_Server_FW] [info] [OPERATION_1]: RCV RESP returned code: 0
+[2020-12-22 00:13:31.821] [gaetano_Server_FW] [info] 
+[2020-12-22 00:13:31.821] [gaetano_Server_FW] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3534
+[2020-12-22 00:13:31.822] [gaetano_Server_FW] [info] 
+[2020-12-22 00:13:31.822] [gaetano_Server_FW] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3534
+[2020-12-22 00:13:31.822] [gaetano_Server_FW] [info] [OPERATION_1]: SND FILE STREAM returned code: 0
+[2020-12-22 00:13:31.823] [gaetano_Server_FW] [info] disconnected from server 127.0.0.1:3534
+[2020-12-22 00:13:31.823] [gaetano_Server_FW] [info] disconnected from server 127.0.0.1:3534
+[2020-12-22 00:13:31.826] [gaetano_Server_FW] [info] [OPERATION_1]: RCV STREAM RESP returned code: 0
+[2020-12-22 00:13:31.826] [gaetano_Server_FW] [info] [OPERATION_1]: RCV STREAM RESP returned code: 0
+[2020-12-22 00:13:31.827] [gaetano_Server_FW] [info] 
+[2020-12-22 00:13:31.827] [gaetano_Server_FW] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3534
+[2020-12-22 00:13:31.830] [gaetano_Server_FW] [info] disconnected from server 127.0.0.1:3534
+[2020-12-22 00:13:31.832] [gaetano_Server_FW] [info] 
+[2020-12-22 00:13:31.832] [gaetano_Server_FW] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3534
+[2020-12-22 00:13:31.833] [gaetano_Server_FW] [info] disconnected from server 127.0.0.1:3534
+[2020-12-22 00:13:31.835] [gaetano_Server_FW] [info] [OPERATION_1]: RCV STREAM RESP returned code: 0
+[2020-12-22 00:13:31.841] [gaetano_Server_FW] [info] 
+[2020-12-22 00:13:31.841] [gaetano_Server_FW] [info] [OPERATION_1]: RCV STREAM RESP returned code: 0
+[2020-12-22 00:13:31.841] [gaetano_Server_FW] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3534
+[2020-12-22 00:13:31.845] [gaetano_Server_FW] [info] 
+[2020-12-22 00:13:31.845] [gaetano_Server_FW] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3534
+[2020-12-22 00:13:31.860] [gaetano_Server_FW] [info] disconnected from server 127.0.0.1:3534
+[2020-12-22 00:13:31.861] [gaetano_Server_FW] [info] disconnected from server 127.0.0.1:3534
+[2020-12-22 00:15:56.294] [gaetano_Server_FW] [info] Logger initialized correctly with file gaetano_Server_FW_log.txt
+[2020-12-22 00:15:56.315] [gaetano_Server_FW] [info] try to connect to server - IP: 127.0.0.1 PORT: 3534
+[2020-12-22 00:15:56.326] [gaetano_Server_FW] [info] try to connect to server - IP: 127.0.0.1 PORT: 3534
+[2020-12-22 00:15:56.328] [gaetano_Server_FW] [info] try to connect to server - IP: 127.0.0.1 PORT: 3534
+[2020-12-22 00:15:56.329] [gaetano_Server_FW] [info] try to connect to server - IP: 127.0.0.1 PORT: 3534
+[2020-12-22 00:15:56.331] [gaetano_Server_FW] [info] try to connect to server - IP: 127.0.0.1 PORT: 3534
+[2020-12-22 00:15:56.331] [gaetano_Server_FW] [info] try to connect to server - IP: 127.0.0.1 PORT: 3534
+[2020-12-22 00:15:58.325] [gaetano_Server_FW] [info] 
+[2020-12-22 00:15:58.326] [gaetano_Server_FW] [info] [OPERATION_1]: path C:\Users\gabuscema\Desktop\BackupFolder\gaetano\C_\Users\gabuscema\Desktop\UserFolder\Folder1 - Copia\Nuovo documento di testo - Copia (2).txt
+[2020-12-22 00:15:58.326] [gaetano_Server_FW] [info] 
+[2020-12-22 00:15:58.326] [gaetano_Server_FW] [info] [OPERATION_1]: SND MSG returned code: -2
+[2020-12-22 00:15:58.327] [gaetano_Server_FW] [info] 
+[2020-12-22 00:15:58.327] [gaetano_Server_FW] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3534
+[2020-12-22 00:15:58.328] [gaetano_Server_FW] [info] 
+[2020-12-22 00:15:58.328] [gaetano_Server_FW] [info] [OPERATION_1]: path C:\Users\gabuscema\Desktop\BackupFolder\gaetano\C_\Users\gabuscema\Desktop\UserFolder\Folder1 - Copia\Nuovo documento di testo - Copia.txt
+[2020-12-22 00:15:58.328] [gaetano_Server_FW] [info] 
+[2020-12-22 00:15:58.328] [gaetano_Server_FW] [info] [OPERATION_1]: SND MSG returned code: -2
+[2020-12-22 00:15:58.329] [gaetano_Server_FW] [info] 
+[2020-12-22 00:15:58.329] [gaetano_Server_FW] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3534
+[2020-12-22 00:15:58.331] [gaetano_Server_FW] [info] 
+[2020-12-22 00:15:58.331] [gaetano_Server_FW] [info] [OPERATION_1]: path C:\Users\gabuscema\Desktop\BackupFolder\gaetano\C_\Users\gabuscema\Desktop\UserFolder\Folder1 - Copia\Nuovo documento di testo - Copia (3).txt
+[2020-12-22 00:15:58.331] [gaetano_Server_FW] [info] 
+[2020-12-22 00:15:58.332] [gaetano_Server_FW] [info] 
+[2020-12-22 00:15:58.332] [gaetano_Server_FW] [info] [OPERATION_1]: SND MSG returned code: -2
+[2020-12-22 00:15:58.332] [gaetano_Server_FW] [info] 
+[2020-12-22 00:15:58.332] [gaetano_Server_FW] [info] [OPERATION_1]: path C:\Users\gabuscema\Desktop\BackupFolder\gaetano\C_\Users\gabuscema\Desktop\UserFolder\Folder1 - Copia\Nuovo documento di testo.txt
+[2020-12-22 00:15:58.332] [gaetano_Server_FW] [info] 
+[2020-12-22 00:15:58.332] [gaetano_Server_FW] [info] [OPERATION_1]: path C:\Users\gabuscema\Desktop\BackupFolder\gaetano\C_\Users\gabuscema\Desktop\UserFolder\Folder1 - Copia\Nuovo documento di testo - Copia (4).txt
+[2020-12-22 00:15:58.332] [gaetano_Server_FW] [info] 
+[2020-12-22 00:15:58.332] [gaetano_Server_FW] [info] [OPERATION_1]: SND MSG returned code: -2
+[2020-12-22 00:15:58.332] [gaetano_Server_FW] [info] [OPERATION_1]: SND MSG returned code: -2
+[2020-12-22 00:15:58.333] [gaetano_Server_FW] [info] 
+[2020-12-22 00:15:58.333] [gaetano_Server_FW] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3534
+[2020-12-22 00:15:58.337] [gaetano_Server_FW] [info] 
+[2020-12-22 00:15:58.337] [gaetano_Server_FW] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3534
+[2020-12-22 00:15:58.338] [gaetano_Server_FW] [info] 
+[2020-12-22 00:15:58.338] [gaetano_Server_FW] [info] [OPERATION_1]: path C:\Users\gabuscema\Desktop\BackupFolder\gaetano\C_\Users\gabuscema\Desktop\UserFolder\Folder1 - Copia\Nuovo documento di testo - Copia (5).txt
+[2020-12-22 00:15:58.338] [gaetano_Server_FW] [info] 
+[2020-12-22 00:15:58.338] [gaetano_Server_FW] [info] 
+[2020-12-22 00:15:58.338] [gaetano_Server_FW] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3534
+[2020-12-22 00:15:58.338] [gaetano_Server_FW] [info] [OPERATION_1]: SND MSG returned code: -2
+[2020-12-22 00:15:58.339] [gaetano_Server_FW] [info] 
+[2020-12-22 00:15:58.339] [gaetano_Server_FW] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3534
+[2020-12-22 00:16:26.345] [gaetano_Server_FW] [info] try to connect to server - IP: 127.0.0.1 PORT: 3534
+[2020-12-22 00:16:26.345] [gaetano_Server_FW] [info] try to connect to server - IP: 127.0.0.1 PORT: 3534
+[2020-12-22 00:16:26.345] [gaetano_Server_FW] [info] try to connect to server - IP: 127.0.0.1 PORT: 3534
+[2020-12-22 00:16:26.345] [gaetano_Server_FW] [info] Socket 284 was created
+[2020-12-22 00:16:26.345] [gaetano_Server_FW] [info] Socket 312 was created
+[2020-12-22 00:16:26.345] [gaetano_Server_FW] [info] Socket 308 was created
+[2020-12-22 00:16:26.352] [gaetano_Server_FW] [info] try to connect to server - IP: 127.0.0.1 PORT: 3534
+[2020-12-22 00:16:26.353] [gaetano_Server_FW] [info] Socket 204 was created
+[2020-12-22 00:16:26.353] [gaetano_Server_FW] [info] try to connect to server - IP: 127.0.0.1 PORT: 3534
+[2020-12-22 00:16:26.353] [gaetano_Server_FW] [info] Socket 228 was created
+[2020-12-22 00:16:26.355] [gaetano_Server_FW] [info] try to connect to server - IP: 127.0.0.1 PORT: 3534
+[2020-12-22 00:16:26.356] [gaetano_Server_FW] [info] connected to server 127.0.0.1:3534
+[2020-12-22 00:16:26.356] [gaetano_Server_FW] [info] Socket 240 was created
+[2020-12-22 00:16:26.356] [gaetano_Server_FW] [info] 
+[2020-12-22 00:16:26.356] [gaetano_Server_FW] [info] [OPERATION_1]: path C:\Users\gabuscema\Desktop\BackupFolder\gaetano\C_\Users\gabuscema\Desktop\UserFolder\Folder1 - Copia\Nuovo documento di testo - Copia (5).txt
+[2020-12-22 00:16:26.356] [gaetano_Server_FW] [info] 
+[2020-12-22 00:16:26.357] [gaetano_Server_FW] [info] [OPERATION_1]: SND MSG returned code: 0
+[2020-12-22 00:16:26.358] [gaetano_Server_FW] [info] [OPERATION_1]: RCV RESP returned code: 0
+[2020-12-22 00:16:26.359] [gaetano_Server_FW] [info] [OPERATION_1]: SND FILE STREAM returned code: 0
+[2020-12-22 00:16:26.360] [gaetano_Server_FW] [info] connected to server 127.0.0.1:3534
+[2020-12-22 00:16:26.360] [gaetano_Server_FW] [info] 
+[2020-12-22 00:16:26.360] [gaetano_Server_FW] [info] [OPERATION_1]: path C:\Users\gabuscema\Desktop\BackupFolder\gaetano\C_\Users\gabuscema\Desktop\UserFolder\Folder1 - Copia\Nuovo documento di testo - Copia (2).txt
+[2020-12-22 00:16:26.360] [gaetano_Server_FW] [info] 
+[2020-12-22 00:16:26.363] [gaetano_Server_FW] [info] connected to server 127.0.0.1:3534
+[2020-12-22 00:16:26.363] [gaetano_Server_FW] [info] 
+[2020-12-22 00:16:26.363] [gaetano_Server_FW] [info] [OPERATION_1]: path C:\Users\gabuscema\Desktop\BackupFolder\gaetano\C_\Users\gabuscema\Desktop\UserFolder\Folder1 - Copia\Nuovo documento di testo.txt
+[2020-12-22 00:16:26.363] [gaetano_Server_FW] [info] 
+[2020-12-22 00:16:26.363] [gaetano_Server_FW] [info] connected to server 127.0.0.1:3534
+[2020-12-22 00:16:26.363] [gaetano_Server_FW] [info] 
+[2020-12-22 00:16:26.363] [gaetano_Server_FW] [info] [OPERATION_1]: path C:\Users\gabuscema\Desktop\BackupFolder\gaetano\C_\Users\gabuscema\Desktop\UserFolder\Folder1 - Copia\Nuovo documento di testo - Copia (4).txt
+[2020-12-22 00:16:26.363] [gaetano_Server_FW] [info] 
+[2020-12-22 00:16:26.363] [gaetano_Server_FW] [info] [OPERATION_1]: SND MSG returned code: 0
+[2020-12-22 00:16:26.364] [gaetano_Server_FW] [info] connected to server 127.0.0.1:3534
+[2020-12-22 00:16:26.364] [gaetano_Server_FW] [info] [OPERATION_1]: RCV RESP returned code: 0
+[2020-12-22 00:16:26.364] [gaetano_Server_FW] [info] 
+[2020-12-22 00:16:26.364] [gaetano_Server_FW] [info] [OPERATION_1]: path C:\Users\gabuscema\Desktop\BackupFolder\gaetano\C_\Users\gabuscema\Desktop\UserFolder\Folder1 - Copia\Nuovo documento di testo - Copia.txt
+[2020-12-22 00:16:26.364] [gaetano_Server_FW] [info] 
+[2020-12-22 00:16:26.364] [gaetano_Server_FW] [info] [OPERATION_1]: SND FILE STREAM returned code: 0
+[2020-12-22 00:16:26.365] [gaetano_Server_FW] [info] [OPERATION_1]: SND MSG returned code: 0
+[2020-12-22 00:16:26.365] [gaetano_Server_FW] [info] [OPERATION_1]: RCV STREAM RESP returned code: 0
+[2020-12-22 00:16:26.366] [gaetano_Server_FW] [info] [OPERATION_1]: RCV RESP returned code: 0
+[2020-12-22 00:16:26.366] [gaetano_Server_FW] [info] [OPERATION_1]: RCV STREAM RESP returned code: 0
+[2020-12-22 00:16:26.367] [gaetano_Server_FW] [info] connected to server 127.0.0.1:3534
+[2020-12-22 00:16:26.367] [gaetano_Server_FW] [info] 
+[2020-12-22 00:16:26.367] [gaetano_Server_FW] [info] [OPERATION_1]: path C:\Users\gabuscema\Desktop\BackupFolder\gaetano\C_\Users\gabuscema\Desktop\UserFolder\Folder1 - Copia\Nuovo documento di testo - Copia (3).txt
+[2020-12-22 00:16:26.367] [gaetano_Server_FW] [info] 
+[2020-12-22 00:16:26.367] [gaetano_Server_FW] [info] 
+[2020-12-22 00:16:26.367] [gaetano_Server_FW] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3534
+[2020-12-22 00:16:26.369] [gaetano_Server_FW] [info] [OPERATION_1]: SND FILE STREAM returned code: 0
+[2020-12-22 00:16:26.369] [gaetano_Server_FW] [info] [OPERATION_1]: SND MSG returned code: 0
+[2020-12-22 00:16:26.369] [gaetano_Server_FW] [info] [OPERATION_1]: RCV RESP returned code: 0
+[2020-12-22 00:16:26.370] [gaetano_Server_FW] [info] [OPERATION_1]: SND MSG returned code: 0
+[2020-12-22 00:16:26.370] [gaetano_Server_FW] [info] [OPERATION_1]: SND MSG returned code: 0
+[2020-12-22 00:16:26.370] [gaetano_Server_FW] [info] [OPERATION_1]: RCV RESP returned code: 0
+[2020-12-22 00:16:26.370] [gaetano_Server_FW] [info] [OPERATION_1]: RCV RESP returned code: 0
+[2020-12-22 00:16:26.371] [gaetano_Server_FW] [info] [OPERATION_1]: SND FILE STREAM returned code: 0
+[2020-12-22 00:16:26.372] [gaetano_Server_FW] [info] [OPERATION_1]: SND FILE STREAM returned code: 0
+[2020-12-22 00:16:26.374] [gaetano_Server_FW] [info] disconnected from server 127.0.0.1:3534
+[2020-12-22 00:16:26.375] [gaetano_Server_FW] [info] [OPERATION_1]: SND FILE STREAM returned code: 0
+[2020-12-22 00:16:26.375] [gaetano_Server_FW] [info] 
+[2020-12-22 00:16:26.375] [gaetano_Server_FW] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3534
+[2020-12-22 00:16:26.377] [gaetano_Server_FW] [info] disconnected from server 127.0.0.1:3534
+[2020-12-22 00:16:26.381] [gaetano_Server_FW] [info] [OPERATION_1]: RCV STREAM RESP returned code: 0
+[2020-12-22 00:16:26.382] [gaetano_Server_FW] [info] 
+[2020-12-22 00:16:26.382] [gaetano_Server_FW] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3534
+[2020-12-22 00:16:26.383] [gaetano_Server_FW] [info] disconnected from server 127.0.0.1:3534
+[2020-12-22 00:16:26.387] [gaetano_Server_FW] [info] [OPERATION_1]: RCV STREAM RESP returned code: 0
+[2020-12-22 00:16:26.389] [gaetano_Server_FW] [info] [OPERATION_1]: RCV STREAM RESP returned code: 0
+[2020-12-22 00:16:26.390] [gaetano_Server_FW] [info] 
+[2020-12-22 00:16:26.390] [gaetano_Server_FW] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3534
+[2020-12-22 00:16:26.391] [gaetano_Server_FW] [info] [OPERATION_1]: RCV STREAM RESP returned code: 0
+[2020-12-22 00:16:26.395] [gaetano_Server_FW] [info] 
+[2020-12-22 00:16:26.395] [gaetano_Server_FW] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3534
+[2020-12-22 00:16:26.399] [gaetano_Server_FW] [info] disconnected from server 127.0.0.1:3534
+[2020-12-22 00:16:26.400] [gaetano_Server_FW] [info] disconnected from server 127.0.0.1:3534
+[2020-12-22 00:16:26.401] [gaetano_Server_FW] [info] 
+[2020-12-22 00:16:26.401] [gaetano_Server_FW] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3534
+[2020-12-22 00:16:26.403] [gaetano_Server_FW] [info] disconnected from server 127.0.0.1:3534
+[2021-01-03 16:28:46.713] [gaetano_Server_FW] [info] Logger initialized correctly with file gaetano_Server_FW_log.txt
+[2021-01-03 16:28:46.728] [gaetano_Server_FW] [info] try to connect to server - IP: 127.0.0.1 PORT: 3534
+[2021-01-03 16:28:46.728] [gaetano_Server_FW] [info] try to connect to server - IP: 127.0.0.1 PORT: 3534
+[2021-01-03 16:28:46.729] [gaetano_Server_FW] [info] try to connect to server - IP: 127.0.0.1 PORT: 3534
+[2021-01-03 16:28:46.730] [gaetano_Server_FW] [info] try to connect to server - IP: 127.0.0.1 PORT: 3534
+[2021-01-03 16:28:46.731] [gaetano_Server_FW] [info] try to connect to server - IP: 127.0.0.1 PORT: 3534
+[2021-01-03 16:28:46.733] [gaetano_Server_FW] [info] try to connect to server - IP: 127.0.0.1 PORT: 3534
+[2021-01-03 16:28:46.734] [gaetano_Server_FW] [info] try to connect to server - IP: 127.0.0.1 PORT: 3534
+[2021-01-03 16:28:46.734] [gaetano_Server_FW] [info] try to connect to server - IP: 127.0.0.1 PORT: 3534
+[2021-01-03 16:28:48.732] [gaetano_Server_FW] [info] 
+[2021-01-03 16:28:48.732] [gaetano_Server_FW] [info] [OPERATION_1]: path C:\Users\gabuscema\Desktop\BackupFolder\gaetano\C_\Users\gabuscema\Desktop\UserFolder\test\RENAME (3) - Copia - Copia.json
+[2021-01-03 16:28:48.732] [gaetano_Server_FW] [info] 
+[2021-01-03 16:28:48.732] [gaetano_Server_FW] [info] 
+[2021-01-03 16:28:48.732] [gaetano_Server_FW] [info] [OPERATION_1]: path C:\Users\gabuscema\Desktop\BackupFolder\gaetano\C_\Users\gabuscema\Desktop\UserFolder\RENAME (4) - Copia.json
+[2021-01-03 16:28:48.732] [gaetano_Server_FW] [info] 
+[2021-01-03 16:28:48.732] [gaetano_Server_FW] [info] 
+[2021-01-03 16:28:48.732] [gaetano_Server_FW] [info] [OPERATION_1]: path C:\Users\gabuscema\Desktop\BackupFolder\gaetano\C_\Users\gabuscema\Desktop\UserFolder\test\RENAME (5) - Copia - Copia - Copia.json
+[2021-01-03 16:28:48.732] [gaetano_Server_FW] [info] 
+[2021-01-03 16:28:48.732] [gaetano_Server_FW] [info] [OPERATION_1]: SND MSG returned code: -2
+[2021-01-03 16:28:48.733] [gaetano_Server_FW] [info] [OPERATION_1]: SND MSG returned code: -2
+[2021-01-03 16:28:48.733] [gaetano_Server_FW] [info] [OPERATION_1]: SND MSG returned code: -2
+[2021-01-03 16:28:48.733] [gaetano_Server_FW] [info] 
+[2021-01-03 16:28:48.733] [gaetano_Server_FW] [info] [OPERATION_1]: path C:\Users\gabuscema\Desktop\BackupFolder\gaetano\C_\Users\gabuscema\Desktop\UserFolder\test\RENAME (3) - Copia.json
+[2021-01-03 16:28:48.733] [gaetano_Server_FW] [info] 
+[2021-01-03 16:28:48.734] [gaetano_Server_FW] [info] [OPERATION_1]: SND MSG returned code: -2
+[2021-01-03 16:28:48.735] [gaetano_Server_FW] [info] 
+[2021-01-03 16:28:48.735] [gaetano_Server_FW] [info] [OPERATION_1]: path C:\Users\gabuscema\Desktop\BackupFolder\gaetano\C_\Users\gabuscema\Desktop\UserFolder\test\RENAME (5) - Copia - Copia.json
+[2021-01-03 16:28:48.735] [gaetano_Server_FW] [info] 
+[2021-01-03 16:28:48.735] [gaetano_Server_FW] [info] [OPERATION_1]: SND MSG returned code: -2
+[2021-01-03 16:28:48.735] [gaetano_Server_FW] [info] 
+[2021-01-03 16:28:48.735] [gaetano_Server_FW] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3534
+[2021-01-03 16:28:48.736] [gaetano_Server_FW] [info] 
+[2021-01-03 16:28:48.736] [gaetano_Server_FW] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3534
+[2021-01-03 16:28:48.737] [gaetano_Server_FW] [info] 
+[2021-01-03 16:28:48.737] [gaetano_Server_FW] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3534
+[2021-01-03 16:28:48.738] [gaetano_Server_FW] [info] 
+[2021-01-03 16:28:48.738] [gaetano_Server_FW] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3534
+[2021-01-03 16:28:48.738] [gaetano_Server_FW] [info] 
+[2021-01-03 16:28:48.738] [gaetano_Server_FW] [info] [OPERATION_1]: path C:\Users\gabuscema\Desktop\BackupFolder\gaetano\C_\Users\gabuscema\Desktop\UserFolder\test\RENAME (6) - Copia - Copia - Copia.json
+[2021-01-03 16:28:48.738] [gaetano_Server_FW] [info] 
+[2021-01-03 16:28:48.738] [gaetano_Server_FW] [info] 
+[2021-01-03 16:28:48.738] [gaetano_Server_FW] [info] [OPERATION_1]: path C:\Users\gabuscema\Desktop\BackupFolder\gaetano\C_\Users\gabuscema\Desktop\UserFolder\test\RENAME (6) - Copia - Copia.json
+[2021-01-03 16:28:48.738] [gaetano_Server_FW] [info] 
+[2021-01-03 16:28:48.739] [gaetano_Server_FW] [info] 
+[2021-01-03 16:28:48.739] [gaetano_Server_FW] [info] [OPERATION_1]: SND MSG returned code: -2
+[2021-01-03 16:28:48.739] [gaetano_Server_FW] [info] 
+[2021-01-03 16:28:48.739] [gaetano_Server_FW] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3534
+[2021-01-03 16:28:48.739] [gaetano_Server_FW] [info] [OPERATION_1]: path C:\Users\gabuscema\Desktop\BackupFolder\gaetano\C_\Users\gabuscema\Desktop\UserFolder\test\RENAME (5) - Copia.json
+[2021-01-03 16:28:48.739] [gaetano_Server_FW] [info] 
+[2021-01-03 16:28:48.739] [gaetano_Server_FW] [info] [OPERATION_1]: SND MSG returned code: -2
+[2021-01-03 16:28:48.740] [gaetano_Server_FW] [info] [OPERATION_1]: SND MSG returned code: -2
+[2021-01-03 16:28:48.740] [gaetano_Server_FW] [info] 
+[2021-01-03 16:28:48.740] [gaetano_Server_FW] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3534
+[2021-01-03 16:28:48.742] [gaetano_Server_FW] [info] 
+[2021-01-03 16:28:48.742] [gaetano_Server_FW] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3534
+[2021-01-03 16:28:48.742] [gaetano_Server_FW] [info] 
+[2021-01-03 16:28:48.743] [gaetano_Server_FW] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3534
+[2021-01-03 16:29:01.740] [gaetano_Server_FW] [info] try to connect to server - IP: 127.0.0.1 PORT: 3534
+[2021-01-03 16:29:01.741] [gaetano_Server_FW] [info] Socket 296 was created
+[2021-01-03 16:29:01.743] [gaetano_Server_FW] [info] connected to server 127.0.0.1:3534
+[2021-01-03 16:29:01.743] [gaetano_Server_FW] [info] 
+[2021-01-03 16:29:01.743] [gaetano_Server_FW] [info] [OPERATION_1]: path C:\Users\gabuscema\Desktop\BackupFolder\gaetano\C_\Users\gabuscema\Desktop\UserFolder\test\RENAME (7) - Copia - Copia - Copia.json
+[2021-01-03 16:29:01.743] [gaetano_Server_FW] [info] 
+[2021-01-03 16:29:01.743] [gaetano_Server_FW] [info] [OPERATION_1]: SND MSG returned code: 0
+[2021-01-03 16:29:01.744] [gaetano_Server_FW] [info] [OPERATION_1]: RCV RESP returned code: 0
+[2021-01-03 16:29:01.744] [gaetano_Server_FW] [info] [OPERATION_1]: SND FILE STREAM returned code: 0
+[2021-01-03 16:29:01.746] [gaetano_Server_FW] [info] [OPERATION_1]: RCV STREAM RESP returned code: 0
+[2021-01-03 16:29:01.747] [gaetano_Server_FW] [info] 
+[2021-01-03 16:29:01.747] [gaetano_Server_FW] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3534
+[2021-01-03 16:29:01.748] [gaetano_Server_FW] [info] disconnected from server 127.0.0.1:3534
+[2021-01-03 16:29:16.748] [gaetano_Server_FW] [info] try to connect to server - IP: 127.0.0.1 PORT: 3534
+[2021-01-03 16:29:16.748] [gaetano_Server_FW] [info] try to connect to server - IP: 127.0.0.1 PORT: 3534
+[2021-01-03 16:29:16.748] [gaetano_Server_FW] [info] Socket 260 was created
+[2021-01-03 16:29:16.748] [gaetano_Server_FW] [info] Socket 328 was created
+[2021-01-03 16:29:16.748] [gaetano_Server_FW] [info] try to connect to server - IP: 127.0.0.1 PORT: 3534
+[2021-01-03 16:29:16.749] [gaetano_Server_FW] [info] try to connect to server - IP: 127.0.0.1 PORT: 3534
+[2021-01-03 16:29:16.749] [gaetano_Server_FW] [info] Socket 256 was created
+[2021-01-03 16:29:16.749] [gaetano_Server_FW] [info] Socket 332 was created
+[2021-01-03 16:29:16.749] [gaetano_Server_FW] [info] try to connect to server - IP: 127.0.0.1 PORT: 3534
+[2021-01-03 16:29:16.750] [gaetano_Server_FW] [info] Socket 308 was created
+[2021-01-03 16:29:16.750] [gaetano_Server_FW] [info] try to connect to server - IP: 127.0.0.1 PORT: 3534
+[2021-01-03 16:29:16.750] [gaetano_Server_FW] [info] try to connect to server - IP: 127.0.0.1 PORT: 3534
+[2021-01-03 16:29:16.750] [gaetano_Server_FW] [info] Socket 336 was created
+[2021-01-03 16:29:16.751] [gaetano_Server_FW] [info] try to connect to server - IP: 127.0.0.1 PORT: 3534
+[2021-01-03 16:29:16.751] [gaetano_Server_FW] [info] Socket 272 was created
+[2021-01-03 16:29:16.751] [gaetano_Server_FW] [info] Socket 244 was created
+[2021-01-03 16:29:16.752] [gaetano_Server_FW] [info] connected to server 127.0.0.1:3534
+[2021-01-03 16:29:16.752] [gaetano_Server_FW] [info] 
+[2021-01-03 16:29:16.752] [gaetano_Server_FW] [info] [OPERATION_1]: path C:\Users\gabuscema\Desktop\BackupFolder\gaetano\C_\Users\gabuscema\Desktop\UserFolder\test\RENAME (6) - Copia - Copia.json
+[2021-01-03 16:29:16.752] [gaetano_Server_FW] [info] 
+[2021-01-03 16:29:16.753] [gaetano_Server_FW] [info] [OPERATION_1]: SND MSG returned code: 0
+[2021-01-03 16:29:16.754] [gaetano_Server_FW] [info] connected to server 127.0.0.1:3534
+[2021-01-03 16:29:16.754] [gaetano_Server_FW] [info] 
+[2021-01-03 16:29:16.754] [gaetano_Server_FW] [info] [OPERATION_1]: path C:\Users\gabuscema\Desktop\BackupFolder\gaetano\C_\Users\gabuscema\Desktop\UserFolder\RENAME (4) - Copia.json
+[2021-01-03 16:29:16.754] [gaetano_Server_FW] [info] 
+[2021-01-03 16:29:16.755] [gaetano_Server_FW] [info] [OPERATION_1]: RCV RESP returned code: 0
+[2021-01-03 16:29:16.755] [gaetano_Server_FW] [info] [OPERATION_1]: SND MSG returned code: 0
+[2021-01-03 16:29:16.755] [gaetano_Server_FW] [info] [OPERATION_1]: SND FILE STREAM returned code: 0
+[2021-01-03 16:29:16.755] [gaetano_Server_FW] [info] connected to server 127.0.0.1:3534
+[2021-01-03 16:29:16.755] [gaetano_Server_FW] [info] 
+[2021-01-03 16:29:16.755] [gaetano_Server_FW] [info] [OPERATION_1]: path C:\Users\gabuscema\Desktop\BackupFolder\gaetano\C_\Users\gabuscema\Desktop\UserFolder\test\RENAME (6) - Copia - Copia - Copia.json
+[2021-01-03 16:29:16.755] [gaetano_Server_FW] [info] 
+[2021-01-03 16:29:16.756] [gaetano_Server_FW] [info] [OPERATION_1]: SND MSG returned code: 0
+[2021-01-03 16:29:16.757] [gaetano_Server_FW] [info] [OPERATION_1]: RCV RESP returned code: 0
+[2021-01-03 16:29:16.757] [gaetano_Server_FW] [info] [OPERATION_1]: SND FILE STREAM returned code: 0
+[2021-01-03 16:29:16.757] [gaetano_Server_FW] [info] [OPERATION_1]: RCV STREAM RESP returned code: 0
+[2021-01-03 16:29:16.758] [gaetano_Server_FW] [info] connected to server 127.0.0.1:3534
+[2021-01-03 16:29:16.758] [gaetano_Server_FW] [info] 
+[2021-01-03 16:29:16.758] [gaetano_Server_FW] [info] [OPERATION_1]: path C:\Users\gabuscema\Desktop\BackupFolder\gaetano\C_\Users\gabuscema\Desktop\UserFolder\test\RENAME (3) - Copia - Copia.json
+[2021-01-03 16:29:16.758] [gaetano_Server_FW] [info] 
+[2021-01-03 16:29:16.758] [gaetano_Server_FW] [info] [OPERATION_1]: RCV RESP returned code: 0
+[2021-01-03 16:29:16.758] [gaetano_Server_FW] [info] 
+[2021-01-03 16:29:16.758] [gaetano_Server_FW] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3534
+[2021-01-03 16:29:16.758] [gaetano_Server_FW] [info] [OPERATION_1]: SND FILE STREAM returned code: 0
+[2021-01-03 16:29:16.759] [gaetano_Server_FW] [info] [OPERATION_1]: RCV STREAM RESP returned code: 0
+[2021-01-03 16:29:16.759] [gaetano_Server_FW] [info] [OPERATION_1]: SND MSG returned code: 0
+[2021-01-03 16:29:16.760] [gaetano_Server_FW] [info] 
+[2021-01-03 16:29:16.760] [gaetano_Server_FW] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3534
+[2021-01-03 16:29:16.761] [gaetano_Server_FW] [info] [OPERATION_1]: RCV STREAM RESP returned code: 0
+[2021-01-03 16:29:16.761] [gaetano_Server_FW] [info] [OPERATION_1]: RCV RESP returned code: 0
+[2021-01-03 16:29:16.761] [gaetano_Server_FW] [info] disconnected from server 127.0.0.1:3534
+[2021-01-03 16:29:16.761] [gaetano_Server_FW] [info] 
+[2021-01-03 16:29:16.761] [gaetano_Server_FW] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3534
+[2021-01-03 16:29:16.761] [gaetano_Server_FW] [info] [OPERATION_1]: SND FILE STREAM returned code: 0
+[2021-01-03 16:29:16.762] [gaetano_Server_FW] [info] connected to server 127.0.0.1:3534
+[2021-01-03 16:29:16.762] [gaetano_Server_FW] [info] 
+[2021-01-03 16:29:16.762] [gaetano_Server_FW] [info] [OPERATION_1]: path C:\Users\gabuscema\Desktop\BackupFolder\gaetano\C_\Users\gabuscema\Desktop\UserFolder\test\RENAME (5) - Copia - Copia - Copia.json
+[2021-01-03 16:29:16.762] [gaetano_Server_FW] [info] 
+[2021-01-03 16:29:16.762] [gaetano_Server_FW] [info] disconnected from server 127.0.0.1:3534
+[2021-01-03 16:29:16.763] [gaetano_Server_FW] [info] [OPERATION_1]: SND MSG returned code: 0
+[2021-01-03 16:29:16.763] [gaetano_Server_FW] [info] [OPERATION_1]: RCV STREAM RESP returned code: 0
+[2021-01-03 16:29:16.763] [gaetano_Server_FW] [info] disconnected from server 127.0.0.1:3534
+[2021-01-03 16:29:16.764] [gaetano_Server_FW] [info] [OPERATION_1]: RCV RESP returned code: 0
+[2021-01-03 16:29:16.764] [gaetano_Server_FW] [info] [OPERATION_1]: SND FILE STREAM returned code: 0
+[2021-01-03 16:29:16.765] [gaetano_Server_FW] [info] 
+[2021-01-03 16:29:16.765] [gaetano_Server_FW] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3534
+[2021-01-03 16:29:16.765] [gaetano_Server_FW] [info] connected to server 127.0.0.1:3534
+[2021-01-03 16:29:16.765] [gaetano_Server_FW] [info] 
+[2021-01-03 16:29:16.765] [gaetano_Server_FW] [info] [OPERATION_1]: path C:\Users\gabuscema\Desktop\BackupFolder\gaetano\C_\Users\gabuscema\Desktop\UserFolder\test\RENAME (5) - Copia - Copia.json
+[2021-01-03 16:29:16.765] [gaetano_Server_FW] [info] 
+[2021-01-03 16:29:16.766] [gaetano_Server_FW] [info] [OPERATION_1]: SND MSG returned code: 0
+[2021-01-03 16:29:16.766] [gaetano_Server_FW] [info] [OPERATION_1]: RCV STREAM RESP returned code: 0
+[2021-01-03 16:29:16.767] [gaetano_Server_FW] [info] disconnected from server 127.0.0.1:3534
+[2021-01-03 16:29:16.767] [gaetano_Server_FW] [info] 
+[2021-01-03 16:29:16.767] [gaetano_Server_FW] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3534
+[2021-01-03 16:29:16.768] [gaetano_Server_FW] [info] connected to server 127.0.0.1:3534
+[2021-01-03 16:29:16.768] [gaetano_Server_FW] [info] 
+[2021-01-03 16:29:16.768] [gaetano_Server_FW] [info] [OPERATION_1]: RCV RESP returned code: 0
+[2021-01-03 16:29:16.768] [gaetano_Server_FW] [info] [OPERATION_1]: path C:\Users\gabuscema\Desktop\BackupFolder\gaetano\C_\Users\gabuscema\Desktop\UserFolder\test\RENAME (5) - Copia.json
+[2021-01-03 16:29:16.768] [gaetano_Server_FW] [info] 
+[2021-01-03 16:29:16.768] [gaetano_Server_FW] [info] [OPERATION_1]: SND FILE STREAM returned code: 0
+[2021-01-03 16:29:16.768] [gaetano_Server_FW] [info] [OPERATION_1]: SND MSG returned code: 0
+[2021-01-03 16:29:16.769] [gaetano_Server_FW] [info] disconnected from server 127.0.0.1:3534
+[2021-01-03 16:29:16.770] [gaetano_Server_FW] [info] [OPERATION_1]: RCV STREAM RESP returned code: 0
+[2021-01-03 16:29:16.770] [gaetano_Server_FW] [info] connected to server 127.0.0.1:3534
+[2021-01-03 16:29:16.770] [gaetano_Server_FW] [info] [OPERATION_1]: RCV RESP returned code: 0
+[2021-01-03 16:29:16.770] [gaetano_Server_FW] [info] 
+[2021-01-03 16:29:16.770] [gaetano_Server_FW] [info] [OPERATION_1]: path C:\Users\gabuscema\Desktop\BackupFolder\gaetano\C_\Users\gabuscema\Desktop\UserFolder\test\RENAME (3) - Copia.json
+[2021-01-03 16:29:16.770] [gaetano_Server_FW] [info] 
+[2021-01-03 16:29:16.770] [gaetano_Server_FW] [info] [OPERATION_1]: SND FILE STREAM returned code: 0
+[2021-01-03 16:29:16.771] [gaetano_Server_FW] [info] [OPERATION_1]: SND MSG returned code: 0
+[2021-01-03 16:29:16.771] [gaetano_Server_FW] [info] 
+[2021-01-03 16:29:16.771] [gaetano_Server_FW] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3534
+[2021-01-03 16:29:16.772] [gaetano_Server_FW] [info] [OPERATION_1]: RCV RESP returned code: 0
+[2021-01-03 16:29:16.772] [gaetano_Server_FW] [info] [OPERATION_1]: RCV STREAM RESP returned code: 0
+[2021-01-03 16:29:16.773] [gaetano_Server_FW] [info] [OPERATION_1]: SND FILE STREAM returned code: 0
+[2021-01-03 16:29:16.773] [gaetano_Server_FW] [info] disconnected from server 127.0.0.1:3534
+[2021-01-03 16:29:16.773] [gaetano_Server_FW] [info] 
+[2021-01-03 16:29:16.774] [gaetano_Server_FW] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3534
+[2021-01-03 16:29:16.774] [gaetano_Server_FW] [info] [OPERATION_1]: RCV STREAM RESP returned code: 0
+[2021-01-03 16:29:16.775] [gaetano_Server_FW] [info] disconnected from server 127.0.0.1:3534
+[2021-01-03 16:29:16.776] [gaetano_Server_FW] [info] 
+[2021-01-03 16:29:16.776] [gaetano_Server_FW] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3534
+[2021-01-03 16:29:16.777] [gaetano_Server_FW] [info] disconnected from server 127.0.0.1:3534
+[2021-01-03 16:29:31.752] [gaetano_Server_FW] [info] try to connect to server - IP: 127.0.0.1 PORT: 3534
+[2021-01-03 16:29:31.752] [gaetano_Server_FW] [info] Socket 316 was created
+[2021-01-03 16:29:31.755] [gaetano_Server_FW] [info] connected to server 127.0.0.1:3534
+[2021-01-03 16:29:31.755] [gaetano_Server_FW] [info] 
+[2021-01-03 16:29:31.755] [gaetano_Server_FW] [info] [OPERATION_8]: path \
+[2021-01-03 16:29:31.755] [gaetano_Server_FW] [info] 
+[2021-01-03 16:29:31.755] [gaetano_Server_FW] [info] [OPERATION_8]: SND MSG returned code: 0
+[2021-01-03 16:29:31.756] [gaetano_Server_FW] [info] [OPERATION_8]: RCV RESP returned code: 0
+[2021-01-03 16:29:31.756] [gaetano_Server_FW] [info] 
+[2021-01-03 16:29:31.756] [gaetano_Server_FW] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3534
+[2021-01-06 15:23:53.042] [gaetano_Server_FW] [info] Logger initialized correctly with file gaetano_Server_FW_log.txt
+[2021-01-06 15:24:08.048] [gaetano_Server_FW] [info] try to connect to server - IP: 127.0.0.1 PORT: 3534
+[2021-01-06 15:24:08.049] [gaetano_Server_FW] [info] Socket 248 was created
+[2021-01-06 15:24:08.057] [gaetano_Server_FW] [info] connected to server 127.0.0.1:3534
+[2021-01-06 15:24:08.057] [gaetano_Server_FW] [info] 
+[2021-01-06 15:24:08.057] [gaetano_Server_FW] [info] [OPERATION_8]: path \
+[2021-01-06 15:24:08.057] [gaetano_Server_FW] [info] 
+[2021-01-06 15:24:08.059] [gaetano_Server_FW] [info] [OPERATION_8]: SND MSG returned code: 0
+[2021-01-06 15:24:08.063] [gaetano_Server_FW] [info] [OPERATION_8]: RCV RESP returned code: 0
+[2021-01-06 15:24:08.063] [gaetano_Server_FW] [info] 
+[2021-01-06 15:24:08.063] [gaetano_Server_FW] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3534
