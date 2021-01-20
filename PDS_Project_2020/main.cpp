@@ -29,23 +29,20 @@ int main(int argc, char* argv[]) {
 
     bool isMode2 = client.uc.backupFromServer;
 
-    // MODALITA' 2 -> CLIENT RICEVE DAL SERVER TUTTO IL FILE SYSTEM
-    if (isMode2) {
+    // bool variable to understand if some error happens during the backup from server
+    bool noErrorWithBackup = false;
 
-        // remove all the contents of the folder path of the user
-        fs::directory_iterator dir(client.uc.folderPath), end;
-        while (dir != end) {
-            //if (dir->path().string() != client.uc.folderPath)
-                fs::remove_all(dir->path().string());
-            dir++;
-        }
-        /*fs::remove_all(client.uc.folderPath);
-        fs::create_directory(client.uc.folderPath);*/
+    // BACKUP MODE -> client receive all the backup folder from server
+    // 1. run a LOCAL server
+    // 2. erase all the local folder
+    // 3. receive all the server backup folder
+    // 4. close the server
+    while (isMode2 && !noErrorWithBackup) {
 
         // instantiate the LOCAL SERVER
         Server server;
         server.readConfiguration("userServerConfiguration.json");
-        server.logFile = "gaetano_Local_Server.txt";
+        server.logFile = client.uc.name + "_Local_Server.txt";
 
         // get the user-local server configuration to be sent to the SERVER
         userServerConf userSC = {
@@ -67,6 +64,17 @@ int main(int argc, char* argv[]) {
 
         }
 
+        // remove all the contents of the folder path of the user
+        // the folder will be erased only if the connection with the server is ok
+        fs::directory_iterator dir(client.uc.folderPath), end;
+
+        while (dir != end) {
+
+            fs::remove_all(dir->path().string());
+            dir++;
+
+        }
+
         // send the Local_Server configuration to the SERVER
         int resCode = client.sendToServer(sock, 7, "", "", userScString, 0, "", 0, b);
         client.serverDisconnection(sock);
@@ -74,65 +82,50 @@ int main(int argc, char* argv[]) {
         // start the local_Server
         server.initLogger();
         int exitCode = -1;
+
         try {
 
             exitCode = server.startListening();
+            noErrorWithBackup = true;
+
         }
         catch (...) {
-            std::cout << "catched" << std::endl;
+            noErrorWithBackup = false;
         }
 
         std::cout << "SERVER EXITED with code: " << exitCode << std::endl;
 
-        // start the FW
-        /*FileWatcher2 fw{ client, "C:\\Users\\gabuscema\\Desktop\\UserFolder", std::chrono::milliseconds(15000) };
-        fw.start();*/
-
     }
-    /*else */{
 
-        FileWatcher2 fw{ client, client.uc.folderPath, std::chrono::milliseconds(15000) };
+    // Receive all the Server folder configuration
 
-        // ask for the configuration on the server side
-        int resCode = -1;
+    FileWatcher2 fw{ client, client.uc.folderPath, std::chrono::milliseconds(15000) };
 
-        while (resCode < 0) {
+    // ask for the configuration on the server side
+    int resCode = -1;
 
-            while (client.serverConnection(sock) < 0) {
+    while (resCode < 0) {
 
-                std::cout << "couldn't open the connection with the server -> go to sleep for 5 seconds" << std::endl;
+        while (client.serverConnection(sock) < 0) {
+
+            std::cout << "couldn't open the connection with the server -> go to sleep for 5 seconds" << std::endl;
 #ifdef _WIN32
-                Sleep(5000);
+            Sleep(5000);
 #else
-                sleep(5);
+            sleep(5);
 #endif
 
-            }
-
-            //std::cout << "TENTETIVE " << std::endl;
-            resCode = client.sendToServer2(sock, 5, client.uc.folderPath, "", "", 0, "", 0, b, fw.paths_);
-            client.serverDisconnection(sock);
-
         }
-        //Sleep(10000);
-        std::cout << "INITIAL CONF RECEIVED" << std::endl;
-        /*Sleep(50000);
-        std::cout << "INITIAL CONF RECEIVED" << std::endl;*/
 
-        fw.start();
+        resCode = client.sendToServer2(sock, 5, client.uc.folderPath, "", "", 0, "", 0, b, fw.paths_);
+        client.serverDisconnection(sock);
+
     }
 
+    std::cout << "INITIAL CONF RECEIVED" << std::endl;
+
+    fw.start();
+
     return 0;
+
 }
-
-
-// Per eseguire il programma: CTRL+F5 oppure Debug > Avvia senza eseguire debug
-// Per eseguire il debug del programma: F5 oppure Debug > Avvia debug
-
-// Suggerimenti per iniziare: 
-//   1. Usare la finestra Esplora soluzioni per aggiungere/gestire i file
-//   2. Usare la finestra Team Explorer per connettersi al controllo del codice sorgente
-//   3. Usare la finestra di output per visualizzare l'output di compilazione e altri messaggi
-//   4. Usare la finestra Elenco errori per visualizzare gli errori
-//   5. Passare a Progetto > Aggiungi nuovo elemento per creare nuovi file di codice oppure a Progetto > Aggiungi elemento esistente per aggiungere file di codice esistenti al progetto
-//   6. Per aprire di nuovo questo progetto in futuro, passare a File > Apri > Progetto e selezionare il file con estensione sln

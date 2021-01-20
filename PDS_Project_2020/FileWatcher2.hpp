@@ -41,6 +41,7 @@ struct info {
 #endif
     std::uintmax_t file_size;
     std::string file_hash;
+    bool checkHash = false;
 };
 
 struct info_backup_file {

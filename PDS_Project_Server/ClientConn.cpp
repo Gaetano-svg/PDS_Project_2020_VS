@@ -18,7 +18,7 @@
 
 #endif
 
-#define PACKET_SIZE 8192
+#define PACKET_SIZE 1024
 
 //////////////////////////////////
 //        PUBLIC METHODS        //
@@ -237,8 +237,6 @@ void Server::ClientConn::waitForMessage() {
 
             buf.clear();
             resCode = readMessage(sock, buf);
-
-            std::cout << "[MSG ARRIVED]: " + buf << std::endl;
 
             // check if the JSON is well formatted
             if( 
@@ -514,25 +512,27 @@ Update the file on the server side.
 */
 void Server::ClientConn::updateFile(int& resCode, std::string buf, message2& msg) {
 
+    bool error = false;
     resCode = sendResponse(resCode, buf, msg);
     log->info(logName + "[SND HEADER RESP]: returned code: " + std::to_string(resCode));
     //log->flush();
-    //if (resCode < 0) goto checkCode;
-    if (isClosed(sock) || !this->running.load()) goto checkCode;
+    if (resCode < 0) error = true;
+    if (isClosed(sock) || !this->running.load() || resCode < 0) goto checkCode;
 
     resCode = handleFileUpdate(msg, buf);
     log->info(logName + "[RCV STREAM]: returned code: " + std::to_string(resCode));
     //log->flush();
-    //if (resCode < 0) goto checkCode;
+    if (resCode < 0) error = true;
     if (isClosed(sock) || !this->running.load()) goto checkCode;
 
     std::cout << "[SND STREAM RESP]: " << buf << std::endl;
+    if (resCode < 0) error = true;
     resCode = sendResponse(resCode, buf, msg);
     log->info(logName + "[SND STREAM RESP]: returned code: " + std::to_string(resCode));
 
 checkCode:
 
-    if (isClosed(sock) || !this->running.load()) {
+    if (isClosed(sock) || !this->running.load() || error) {
 
         this->running.store(false);
         return;
@@ -791,6 +791,8 @@ int Server::ClientConn::handleFileUpdate(message2 msg, std::string buf) {
 
         dstFolder = path;
 
+        std::cout << dstFolder << std::endl;
+
         if (!fs::exists(dstFolder))
 #ifdef _WIN32
             std::filesystem::create_directories(path);
@@ -813,6 +815,8 @@ int Server::ClientConn::handleFileUpdate(message2 msg, std::string buf) {
 
         if (msg.packetNumber > 0) {
 
+            fileWriteString.clear();
+
             do {
 
                 if (isClosed(sock)) {
@@ -833,6 +837,13 @@ int Server::ClientConn::handleFileUpdate(message2 msg, std::string buf) {
                 if (read_return == -1) {
 
                     buf = "Error reading bytes from file- std::string received";
+                    return -1;
+
+                }
+
+                if (i < msg.packetNumber && read_return != PACKET_SIZE) {
+
+                    buf = "Error: the chunk was incomplete";
                     return -1;
 
                 }
@@ -864,7 +875,7 @@ int Server::ClientConn::handleFileUpdate(message2 msg, std::string buf) {
         boost::algorithm::to_lower(output);
 
         if (output != msg.hash)
-            return -2;
+            return -3;
 
         FILE* file = fopen(path.c_str(), "wb");
 
@@ -875,7 +886,7 @@ int Server::ClientConn::handleFileUpdate(message2 msg, std::string buf) {
 
             buf = "Error updating bytes into server-local file";
             fclose(file);
-            return -2;
+            return -4;
 
         }
 
@@ -888,7 +899,7 @@ int Server::ClientConn::handleFileUpdate(message2 msg, std::string buf) {
 
         std::string error = e.what();
         buf = "Unexpected error updating file " + error;
-        return -3;
+        return -5;
 
     }
 
@@ -1089,7 +1100,7 @@ int Server::ClientConn::handleFileRename(message2 msg, std::string buf) {
 
         // if the path doesn't exist return because there isn't any files inside
         if (!fs::exists(dstFolder))
-            return -1;
+            return 0;
 
         oldPathString = path + separator() + msg.fileName;
 
@@ -1106,12 +1117,28 @@ int Server::ClientConn::handleFileRename(message2 msg, std::string buf) {
             return -2;
 
         }
+         
+        std::string newMessageFolder;
 
-        //check if the new folder exists
-        std::string newPathCheck = newPathString.substr(0, newPathString.length() - msg.fileName.length());
-        if (!fs::exists(newPathCheck)) {
+        size_t i = newMsgFolderPath.rfind(separator(), newMsgFolderPath.length());
+        if (i != std::string::npos) {
+            newMessageFolder = (newMsgFolderPath.substr(0, i));
+        }
 
-            fs::create_directory(newPathCheck);
+        std::cout << msgFolderPath + " " + newMessageFolder << std::endl;
+
+        if (msgFolderPath != newMessageFolder) {
+
+            //check if the new folder exists
+            std::string newPathCheck = serverBackupFolder + separator() + msg.userName + separator() + newMessageFolder;
+
+            std::cout <<"PATHCHECK:" + newPathCheck << std::endl;
+            
+            if (!fs::exists(newPathCheck)) {
+
+                fs::create_directory(newPathCheck);
+
+            }
 
         }
 

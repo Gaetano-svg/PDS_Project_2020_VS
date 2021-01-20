@@ -130,7 +130,6 @@ RETURN:
 int Client::initLogger() {
 
     // Logger initialization
-
     try
     {
 
@@ -139,7 +138,6 @@ int Client::initLogger() {
 #else
         myLogger = spdlog::basic_logger_mt(uc.name, uc.name + "_log.txt");
 #endif
-        //myLogger = spdlog::rotating_logger_mt(uc.name, uc.name + "_log.txt", 1048576 * 4, 100000);
         myLogger->info("Logger initialized correctly with file " + uc.name + "_log.txt");
         myLogger->flush();
     }
@@ -633,6 +631,8 @@ int Client::sendToServer(int sock, int operation, std::string folderPath, std::s
 
         resCode = readMessageResponse(sock, response);
 
+        //std::cout << response << std::endl;
+
         myLogger->info("[OPERATION_" + std::to_string(operation) + "]: RCV STREAM RESP returned code: " + std::to_string(resCode));
         myLogger->flush();
 
@@ -729,27 +729,7 @@ int Client::sendToServer(int sock, int operation, std::string folderPath, std::s
 }
 
 /*
-Send a message to the server.
-Connection must be opened in order to send message correctly.
-
-PARAMETERS:
-    operation: (int) the operation code type number
-    folderPath: (string) the folder Path of the file
-    fileName: (string) the name of the file to update on the server
-    content: (string) optional content to send with the request (Rename)
-
-RETURN:
-    0 -> no error
-    -1 -> error sending msg header
-    -2 -> error receiving msg header response
-    -3 -> error sending msg STREAM
-    -4 -> error receiving msg STREAM response
-    -5 -> error sending CONF response
-    -6 -> error receiving CONF STREAM
-    -7 -> error sending CONF STREAM response
-    -8 -> error receving END STREAM
-    -10 -> filePath wasn't found on the client side
-    -11 -> interrupt from file watcher
+* This method will only be used to receive the configuration from the server and manipulate the local _paths structure
 */
 int Client::sendToServer2(int sock, int operation, std::string folderPath, std::string fileName, std::string content, std::uintmax_t file_size, std::string hash, unsigned long long timestamp, std::atomic<bool>& b, std::unordered_map<std::string, struct info>& paths_) {
 
@@ -782,66 +762,6 @@ int Client::sendToServer2(int sock, int operation, std::string folderPath, std::
 
     };
 
-    // Set the # of packets because of FILE size
-    if (operation == 1 || operation == 3) {
-
-        if (b.load())
-            return -11;
-
-        FILE* file = fopen(filePath.c_str(), "r");
-
-        // check if the File exists in the local folder
-        if (file == NULL) {
-
-            myLogger->error("the file " + filePath + " wasn't found! ");
-            //fclose(file);
-            //b.store(true);
-            //b.store(true);
-            return -10;
-
-        }
-
-        // obtain file size
-        // ?? FILE_SIZE DA FILE WATCHER ??
-        fseek(file, 0L, SEEK_END);
-        int fileSize = ftell(file);
-
-        int div = fileSize / PACKET_SIZE;
-        int rest = fileSize % PACKET_SIZE;
-        int numberOfPackets = div;
-        if (rest > 0)
-            numberOfPackets++;
-
-        // set the # of packets 
-        msg.packetNumber = numberOfPackets;
-
-        fclose(file);
-
-        // if the client runs on Server Side, the folder Path sent to the user side is relative to the user sub dir
-        if (isServerSide) {
-
-            std::string folderToUser = folderPath.substr(this->uc.folderPath.length() + separator().length(), folderPath.length());
-
-#ifdef _WIN32
-            std::string preFolder = folderToUser.substr(0, folderToUser.find(separator()));
-
-#       ifdef BOOST_POSIX_API 
-            std::replace(preFolder.begin(), preFolder.end(), '\_', '\:');
-#       else
-            std::replace(preFolder.begin(), preFolder.end(), '\_', '\:');
-#       endif
-
-            std::string extraFolder = folderToUser.substr(folderToUser.find(separator()), folderToUser.length());
-            std::string folder = preFolder + extraFolder;
-#else
-            std::string folder = folderToUser;
-#endif
-            msg.folderPath = folder;
-
-        }
-
-    }
-
     resCode = sendMessage(sock, msg, b);
 
     myLogger->info("[OPERATION_" + std::to_string(operation) + "]: SND MSG returned code: " + std::to_string(resCode));
@@ -873,44 +793,6 @@ int Client::sendToServer2(int sock, int operation, std::string folderPath, std::
 
     }
 
-    // UPDATE OR CREATE OPERATION
-    if (operation == 1 || operation == 3) {
-
-        resCode = sendFileStream(sock, filePath, b);
-
-        myLogger->info("[OPERATION_" + std::to_string(operation) + "]: SND FILE STREAM returned code: " + std::to_string(resCode));
-        myLogger->flush();
-
-        if (resCode == -11)
-            return -11;
-
-        if (resCode < 0) {
-            return -3;
-        }
-
-        resCode = readMessageResponse(sock, response);
-
-        myLogger->info("[OPERATION_" + std::to_string(operation) + "]: RCV STREAM RESP returned code: " + std::to_string(resCode));
-        myLogger->flush();
-
-        if (resCode < 0) {
-            return -4;
-        }
-
-        message2 respMSG;
-        this->fromStringToMessage(response, respMSG);
-
-        if (respMSG.typeCode < 0) {
-
-            myLogger->info("[OPERATION_" + std::to_string(operation) + "]: error on the server");
-            myLogger->flush();
-
-            return -20;
-
-        }
-
-    }
-
     // INITIAL CONFIGURATION FROM THE SERVER
     else if (operation == 5) {
 
@@ -921,8 +803,6 @@ int Client::sendToServer2(int sock, int operation, std::string folderPath, std::
         msg.typeCode = 0;
         msg.type = "ok";
         int numberPackets = msgResp.packetNumber;
-
-        //std::cout << numberPackets << std::endl;
 
         resCode = sendMessage(sock, msg, a);
 
@@ -947,10 +827,6 @@ int Client::sendToServer2(int sock, int operation, std::string folderPath, std::
             msgVector.push_back(msg);
         }
 
-        std::cout << initialConf << std::endl;
-
-        // MESSAGE VECTOR obtained
-        //std::cout << "[" << ' ';
         for (auto i = msgVector.begin(); i != msgVector.end(); ++i) {
             //std::cout << (*i).fileName << ', ';
             info inf;
@@ -963,26 +839,14 @@ int Client::sendToServer2(int sock, int operation, std::string folderPath, std::
             inf.file_last_write = the_time;
             //inserire in qualche modo conversione tra timestamp e file_time_type
             paths_[(*i).folderPath] = inf;
+            paths_[(*i).folderPath].checkHash = true;
         }
-        //std::cout << "]";
-
+        
         myLogger->info("[OPERATION_" + std::to_string(operation) + "]: RCV CONF STREAM returned code: " + std::to_string(resCode));
         myLogger->flush();
 
         if (resCode < 0)
             return -6;
-
-        // MESSAGE VECTOR obtained
-        /*std::cout << "[" << ' ';
-        for (auto i = msgVector.begin(); i != msgVector.end(); ++i)
-            std::cout << (*i).fileName << ', ';
-        std::cout << "]";
-
-        myLogger->info("[OPERATION_" + std::to_string(operation) + "]: RCV CONF STREAM returned code: " + std::to_string(resCode));
-        myLogger->flush();
-
-        if (resCode < 0)
-            return -6;*/
 
     }
 
@@ -1194,6 +1058,7 @@ int sendFile2(int nOutFd, std::string path, off_t* pOffset, int nCount) {
     int byteRead = 0;
     while (!fin.eof()) {
 
+        memset(buffer, 0, PACKET_SIZE);
         fin.read(buffer, PACKET_SIZE);
         byteRead += fin.gcount();
 

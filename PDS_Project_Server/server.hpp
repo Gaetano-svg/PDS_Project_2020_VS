@@ -2,7 +2,7 @@
 #define _CRT_SECURE_NO_WARNINGS 1
 #define _CRT_NONSTDC_NO_DEPRECATE 1
 
-#define BUFF_SIZE 8192
+#define BUFF_SIZE 1024
 
 #include <iostream>
 #include <fstream>
@@ -93,7 +93,7 @@ class Server {
         std::string user_server_path;
         std::string user_server_IP;
         std::string user_server_PORT;
-        int user_server_timeout;
+        int user_server_timeout = -1;
 
         Server& serv;
         conf::server server;
@@ -150,11 +150,25 @@ class Server {
         std::atomic_long activeMS;
 
         ClientConn(Server& serv, std::string& logFile, conf::server server, int sock) : serv(serv), logFile(logFile), server(server), sock(sock) {
+            
+            std::cout << "[CLIENT-CONN]: for user " + userName + " created!" << std::endl;
+
+            // start with running bool setted at true
             running.store(true);
+
         };
 
         void handleConnection();
         std::string compute_hash(const std::string file_path);
+
+        ~ClientConn() {
+
+            std::cout << "[CLIENT-CONN]: for user " + userName + " closed!"<< std::endl;
+
+            // close socket
+            shutdown(sock, 2);
+
+        };
 
     };
 

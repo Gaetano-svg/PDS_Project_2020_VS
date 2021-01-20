@@ -599,3 +599,4 @@
 [2021-01-06 15:24:08.063] [gaetano_Server_FW] [info] [OPERATION_8]: RCV RESP returned code: 0
 [2021-01-06 15:24:08.063] [gaetano_Server_FW] [info] 
 [2021-01-06 15:24:08.063] [gaetano_Server_FW] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3534
+[2021-01-15 15:22:08.211] [gaetano_Server_FW] [info] Logger initialized correctly with file gaetano_Server_FW_log.txt

@@ -61,7 +61,7 @@ using json = nlohmann::json;
 #ifndef CLientClass
 #define CLientClass
 
-#define PACKET_SIZE 8192
+#define PACKET_SIZE 1024
 
 class Client {
 

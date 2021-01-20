@@ -5610,3 +5610,1791 @@
 [2021-01-11 23:16:37.937] [127.0.0.1] [info] [CHECK-INACTIVITY]: go to sleep for 60 seconds
 [2021-01-11 23:16:41.330] [127.0.0.1] [info] the socket 208 was accepted
 [2021-01-11 23:16:41.331] [127.0.0.1] [info] waiting for client connection
+[2021-01-14 14:18:24.791] [127.0.0.1] [info] Logger initialized correctly
+[2021-01-14 14:18:24.809] [127.0.0.1] [info] waiting for client connection
+[2021-01-14 14:18:24.824] [127.0.0.1] [info] [CHECK-INACTIVITY]: go to sleep for 60 seconds
+[2021-01-14 14:19:10.384] [127.0.0.1] [info] the socket 204 was accepted
+[2021-01-14 14:19:10.385] [127.0.0.1] [info] waiting for client connection
+[2021-01-14 14:19:10.387] [127.0.0.1] [info] [client_204]: Logger initialized correctly
+[2021-01-14 14:19:10.387] [127.0.0.1] [info] [client_204]: 
+[2021-01-14 14:19:10.387] [127.0.0.1] [info] [client_204]: wait for message from the client
+[2021-01-14 14:19:10.389] [127.0.0.1] [info] [client_204]: 
+[2021-01-14 14:19:10.389] [127.0.0.1] [info] [client_204]: [RCV HEADER]: message 5 parsed correctly
+[2021-01-14 14:19:19.848] [127.0.0.1] [info] the socket 220 was accepted
+[2021-01-14 14:19:19.849] [127.0.0.1] [info] waiting for client connection
+[2021-01-14 14:19:22.834] [127.0.0.1] [info] [client_220]: Logger initialized correctly
+[2021-01-14 14:19:22.834] [127.0.0.1] [info] the socket 200 was accepted
+[2021-01-14 14:19:22.835] [127.0.0.1] [info] [client_220]: 
+[2021-01-14 14:19:22.835] [127.0.0.1] [info] [client_220]: wait for message from the client
+[2021-01-14 14:19:22.835] [127.0.0.1] [info] waiting for client connection
+[2021-01-14 14:19:22.837] [127.0.0.1] [info] [client_200]: Logger initialized correctly
+[2021-01-14 14:19:22.837] [127.0.0.1] [info] [client_200]: 
+[2021-01-14 14:19:22.837] [127.0.0.1] [info] [client_200]: wait for message from the client
+[2021-01-14 14:19:22.838] [127.0.0.1] [info] [client_200]: 
+[2021-01-14 14:19:22.838] [127.0.0.1] [info] [client_200]: [RCV HEADER]: message 5 parsed correctly
+[2021-01-14 14:19:24.645] [127.0.0.1] [info] [client_220]: 
+[2021-01-14 14:19:24.645] [127.0.0.1] [info] [client_220]: [RCV HEADER]: message 5 parsed correctly
+[2021-01-14 14:19:27.586] [127.0.0.1] [info] socket 200 was inactive for 4749
+[2021-01-14 14:19:27.586] [127.0.0.1] [info] socket 204 was inactive for 17197
+[2021-01-14 14:19:27.586] [127.0.0.1] [info] socket 220 was inactive for 2941
+[2021-01-14 14:19:27.586] [127.0.0.1] [info] [CHECK-INACTIVITY]: go to sleep for 60 seconds
+[2021-01-14 14:19:27.586] [127.0.0.1] [info] [client_220]: [SND HEADER CONF]: returned code: 0
+[2021-01-14 14:19:27.586] [127.0.0.1] [info] [client_220]: [RCV HEADER CONF RESP]: returned code: 0
+[2021-01-14 14:19:27.586] [127.0.0.1] [info] [client_220]: [SND STREAM]: returned code: 2
+[2021-01-14 14:19:27.586] [127.0.0.1] [info] [client_220]: 
+[2021-01-14 14:19:27.586] [127.0.0.1] [info] [client_220]: wait for message from the client
+[2021-01-14 14:19:27.587] [127.0.0.1] [info] [client_220]: 
+[2021-01-14 14:19:27.587] [127.0.0.1] [info] [client_220]: [RCV HEADER]: message 6 parsed correctly
+[2021-01-14 14:19:27.587] [127.0.0.1] [info] [client_220]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 14:19:27.587] [127.0.0.1] [info] [client_220]: [CLIENT-CONN-220]: exited from run
+
+[2021-01-14 14:19:27.587] [127.0.0.1] [info] Exited from waiting messages from socket: 220 
+
+[2021-01-14 14:19:32.839] [127.0.0.1] [info] the socket 260 was accepted
+[2021-01-14 14:19:32.840] [127.0.0.1] [info] waiting for client connection
+[2021-01-14 14:19:32.842] [127.0.0.1] [info] [client_260]: Logger initialized correctly
+[2021-01-14 14:19:32.842] [127.0.0.1] [info] [client_260]: 
+[2021-01-14 14:19:32.842] [127.0.0.1] [info] [client_260]: wait for message from the client
+[2021-01-14 14:19:32.843] [127.0.0.1] [info] [client_260]: 
+[2021-01-14 14:19:32.843] [127.0.0.1] [info] [client_260]: [RCV HEADER]: message 5 parsed correctly
+[2021-01-14 14:19:36.533] [127.0.0.1] [info] [client_200]: [SND HEADER CONF]: returned code: 0
+[2021-01-14 14:19:36.533] [127.0.0.1] [info] [client_200]: [CLIENT-CONN-200]: exited from run
+
+[2021-01-14 14:19:36.533] [127.0.0.1] [info] Exited from waiting messages from socket: 200 
+
+[2021-01-14 14:19:50.870] [127.0.0.1] [info] [client_204]: [SND HEADER CONF]: returned code: 0
+[2021-01-14 14:19:50.868] [127.0.0.1] [info] the socket 276 was accepted
+[2021-01-14 14:25:27.654] [127.0.0.1] [info] socket 204 was inactive for 377265
+[2021-01-14 14:25:27.654] [127.0.0.1] [info] [client_204]: [CLIENT-CONN-204]: exited from run
+
+[2021-01-14 14:25:27.654] [127.0.0.1] [info] [CHECK-INACTIVITY]: client - socket 204 will be closed for inactivity (30000 milliSeconds)
+[2021-01-14 14:25:27.654] [127.0.0.1] [info] Exited from waiting messages from socket: 204 
+
+[2021-01-14 14:25:27.672] [127.0.0.1] [info] waiting for client connection
+[2021-01-14 14:25:31.409] [127.0.0.1] [info] Logger initialized correctly
+[2021-01-14 14:25:31.451] [127.0.0.1] [info] waiting for client connection
+[2021-01-14 14:25:31.454] [127.0.0.1] [info] [CHECK-INACTIVITY]: go to sleep for 60 seconds
+[2021-01-14 14:25:35.977] [127.0.0.1] [info] the socket 200 was accepted
+[2021-01-14 14:25:35.978] [127.0.0.1] [info] waiting for client connection
+[2021-01-14 14:25:35.979] [127.0.0.1] [info] [client_200]: Logger initialized correctly
+[2021-01-14 14:25:35.979] [127.0.0.1] [info] [client_200]: 
+[2021-01-14 14:25:35.979] [127.0.0.1] [info] [client_200]: wait for message from the client
+[2021-01-14 14:25:35.980] [127.0.0.1] [info] [client_200]: 
+[2021-01-14 14:25:35.980] [127.0.0.1] [info] [client_200]: [RCV HEADER]: message 5 parsed correctly
+[2021-01-14 14:25:55.316] [127.0.0.1] [info] [client_200]: [SND HEADER CONF]: returned code: 0
+[2021-01-14 14:25:55.322] [127.0.0.1] [info] the socket 228 was accepted
+[2021-01-14 14:26:22.666] [127.0.0.1] [info] [client_200]: [CLIENT-CONN-200]: exited from run
+
+[2021-01-14 14:26:22.667] [127.0.0.1] [info] Exited from waiting messages from socket: 200 
+
+[2021-01-14 14:26:22.669] [127.0.0.1] [info] waiting for client connection
+[2021-01-14 14:26:22.669] [127.0.0.1] [info] [client_228]: Logger initialized correctly
+[2021-01-14 14:26:22.669] [127.0.0.1] [info] [client_228]: 
+[2021-01-14 14:26:22.669] [127.0.0.1] [info] [client_228]: wait for message from the client
+[2021-01-14 14:26:25.987] [127.0.0.1] [info] [client_228]: 
+[2021-01-14 14:26:25.987] [127.0.0.1] [info] [client_228]: [RCV HEADER]: message 5 parsed correctly
+[2021-01-14 14:26:31.456] [127.0.0.1] [info] socket 228 was inactive for 5469
+[2021-01-14 14:26:31.456] [127.0.0.1] [info] [CHECK-INACTIVITY]: go to sleep for 60 seconds
+[2021-01-14 14:29:11.223] [127.0.0.1] [info] socket 228 was inactive for 163761
+[2021-01-14 14:29:11.228] [127.0.0.1] [info] [CHECK-INACTIVITY]: client - socket 228 will be closed for inactivity (30000 milliSeconds)
+[2021-01-14 14:29:11.228] [127.0.0.1] [info] [CHECK-INACTIVITY]: go to sleep for 60 seconds
+[2021-01-14 14:29:13.794] [127.0.0.1] [info] [client_228]: [SND HEADER CONF]: returned code: 0
+[2021-01-14 14:29:13.801] [127.0.0.1] [info] the socket 220 was accepted
+[2021-01-14 14:29:31.314] [127.0.0.1] [info] [client_228]: [CLIENT-CONN-228]: exited from run
+
+[2021-01-14 14:29:31.314] [127.0.0.1] [info] Exited from waiting messages from socket: 228 
+
+[2021-01-14 14:29:31.314] [127.0.0.1] [info] waiting for client connection
+[2021-01-14 14:29:31.315] [127.0.0.1] [info] [client_220]: Logger initialized correctly
+[2021-01-14 14:29:31.316] [127.0.0.1] [info] [client_220]: 
+[2021-01-14 14:29:31.316] [127.0.0.1] [info] [client_220]: wait for message from the client
+[2021-01-14 14:29:36.009] [127.0.0.1] [info] [client_220]: 
+[2021-01-14 14:29:36.009] [127.0.0.1] [info] [client_220]: [RCV HEADER]: message 5 parsed correctly
+[2021-01-14 14:29:46.290] [127.0.0.1] [info] [client_220]: [SND HEADER CONF]: returned code: 0
+[2021-01-14 14:29:48.436] [127.0.0.1] [info] the socket 268 was accepted
+[2021-01-14 14:29:51.554] [127.0.0.1] [info] [client_220]: [RCV HEADER CONF RESP]: returned code: 0
+[2021-01-14 14:29:51.555] [127.0.0.1] [info] waiting for client connection
+[2021-01-14 14:29:51.564] [127.0.0.1] [info] [client_268]: Logger initialized correctly
+[2021-01-14 14:29:52.943] [127.0.0.1] [info] [client_220]: [SND STREAM]: returned code: -2
+[2021-01-14 14:29:52.943] [127.0.0.1] [info] [client_220]: [CLIENT-CONN-220]: exited from run
+
+[2021-01-14 14:29:52.943] [127.0.0.1] [info] Exited from waiting messages from socket: 220 
+
+[2021-01-14 14:29:52.944] [127.0.0.1] [info] [client_268]: 
+[2021-01-14 14:29:52.944] [127.0.0.1] [info] [client_268]: wait for message from the client
+[2021-01-14 14:29:55.865] [127.0.0.1] [info] [client_268]: 
+[2021-01-14 14:29:55.865] [127.0.0.1] [info] [client_268]: [RCV HEADER]: message 5 parsed correctly
+[2021-01-14 14:30:05.070] [127.0.0.1] [info] [client_268]: [SND HEADER CONF]: returned code: 0
+[2021-01-14 14:30:05.070] [127.0.0.1] [info] [client_268]: [RCV HEADER CONF RESP]: returned code: 0
+[2021-01-14 14:30:05.070] [127.0.0.1] [info] [client_268]: [SND STREAM]: returned code: -2
+[2021-01-14 14:30:05.070] [127.0.0.1] [info] [client_268]: [CLIENT-CONN-268]: exited from run
+
+[2021-01-14 14:30:05.070] [127.0.0.1] [info] Exited from waiting messages from socket: 268 
+
+[2021-01-14 14:30:05.071] [127.0.0.1] [info] the socket 264 was accepted
+[2021-01-14 14:30:05.072] [127.0.0.1] [info] waiting for client connection
+[2021-01-14 14:30:05.073] [127.0.0.1] [info] [client_264]: Logger initialized correctly
+[2021-01-14 14:30:05.073] [127.0.0.1] [info] [client_264]: 
+[2021-01-14 14:30:05.073] [127.0.0.1] [info] [client_264]: wait for message from the client
+[2021-01-14 14:30:05.075] [127.0.0.1] [info] [client_264]: 
+[2021-01-14 14:30:05.075] [127.0.0.1] [info] [client_264]: [RCV HEADER]: message 5 parsed correctly
+[2021-01-14 14:30:11.229] [127.0.0.1] [info] socket 264 was inactive for 6154
+[2021-01-14 14:30:11.229] [127.0.0.1] [info] [CHECK-INACTIVITY]: go to sleep for 60 seconds
+[2021-01-14 14:30:16.906] [127.0.0.1] [info] the socket 240 was accepted
+[2021-01-14 14:30:17.338] [127.0.0.1] [info] [client_264]: [SND HEADER CONF]: returned code: 0
+[2021-01-14 14:30:17.342] [127.0.0.1] [info] waiting for client connection
+[2021-01-14 14:30:17.361] [127.0.0.1] [info] [client_240]: Logger initialized correctly
+[2021-01-14 14:30:35.523] [127.0.0.1] [info] [client_264]: [CLIENT-CONN-264]: exited from run
+
+[2021-01-14 14:30:43.605] [127.0.0.1] [info] Exited from waiting messages from socket: 264 
+
+[2021-01-14 14:30:52.831] [127.0.0.1] [info] [client_240]: 
+[2021-01-14 14:30:52.831] [127.0.0.1] [info] [client_240]: wait for message from the client
+[2021-01-14 14:30:55.083] [127.0.0.1] [info] [client_240]: 
+[2021-01-14 14:30:55.083] [127.0.0.1] [info] [client_240]: [RCV HEADER]: message 5 parsed correctly
+[2021-01-14 14:31:08.404] [127.0.0.1] [info] [client_240]: [SND HEADER CONF]: returned code: 0
+[2021-01-14 14:31:32.915] [127.0.0.1] [info] [client_240]: [CLIENT-CONN-240]: exited from run
+
+[2021-01-14 14:31:14.842] [127.0.0.1] [info] socket 240 was inactive for 19754
+[2021-01-14 14:31:32.915] [127.0.0.1] [info] the socket 284 was accepted
+[2021-01-14 14:31:32.915] [127.0.0.1] [info] [CHECK-INACTIVITY]: go to sleep for 60 seconds
+[2021-01-14 14:31:32.915] [127.0.0.1] [info] Exited from waiting messages from socket: 240 
+
+[2021-01-14 14:31:32.916] [127.0.0.1] [info] waiting for client connection
+[2021-01-14 14:31:59.513] [127.0.0.1] [info] Logger initialized correctly
+[2021-01-14 14:31:59.533] [127.0.0.1] [info] waiting for client connection
+[2021-01-14 14:31:59.535] [127.0.0.1] [info] [CHECK-INACTIVITY]: go to sleep for 60 seconds
+[2021-01-14 14:32:03.233] [127.0.0.1] [info] the socket 204 was accepted
+[2021-01-14 14:32:03.234] [127.0.0.1] [info] waiting for client connection
+[2021-01-14 14:32:03.235] [127.0.0.1] [info] [client_204]: Logger initialized correctly
+[2021-01-14 14:32:25.975] [127.0.0.1] [info] [client_204]: 
+[2021-01-14 14:32:25.975] [127.0.0.1] [info] [client_204]: wait for message from the client
+[2021-01-14 14:32:25.976] [127.0.0.1] [info] [client_204]: 
+[2021-01-14 14:32:25.976] [127.0.0.1] [info] [client_204]: [RCV HEADER]: message 5 parsed correctly
+[2021-01-14 14:32:32.759] [127.0.0.1] [info] [client_204]: [SND HEADER CONF]: returned code: 0
+[2021-01-14 14:32:32.759] [127.0.0.1] [info] [client_204]: [RCV HEADER CONF RESP]: returned code: 0
+[2021-01-14 14:32:32.759] [127.0.0.1] [info] [client_204]: [SND STREAM]: returned code: -2
+[2021-01-14 14:32:32.759] [127.0.0.1] [info] [client_204]: [CLIENT-CONN-204]: exited from run
+
+[2021-01-14 14:32:32.759] [127.0.0.1] [info] Exited from waiting messages from socket: 204 
+
+[2021-01-14 14:32:32.761] [127.0.0.1] [info] the socket 236 was accepted
+[2021-01-14 14:32:32.763] [127.0.0.1] [info] waiting for client connection
+[2021-01-14 14:32:32.764] [127.0.0.1] [info] [client_236]: Logger initialized correctly
+[2021-01-14 14:32:32.764] [127.0.0.1] [info] [client_236]: 
+[2021-01-14 14:32:32.764] [127.0.0.1] [info] [client_236]: wait for message from the client
+[2021-01-14 14:32:32.765] [127.0.0.1] [info] [client_236]: 
+[2021-01-14 14:32:32.765] [127.0.0.1] [info] [client_236]: [RCV HEADER]: message 5 parsed correctly
+[2021-01-14 14:32:39.902] [127.0.0.1] [info] [client_236]: [SND HEADER CONF]: returned code: 0
+[2021-01-14 14:32:49.258] [127.0.0.1] [info] the socket 264 was accepted
+[2021-01-14 14:32:54.889] [127.0.0.1] [info] waiting for client connection
+[2021-01-14 14:34:41.856] [127.0.0.1] [info] Logger initialized correctly
+[2021-01-14 14:34:41.891] [127.0.0.1] [info] waiting for client connection
+[2021-01-14 14:34:41.894] [127.0.0.1] [info] [CHECK-INACTIVITY]: go to sleep for 60 seconds
+[2021-01-14 14:34:52.449] [127.0.0.1] [info] the socket 204 was accepted
+[2021-01-14 14:34:52.450] [127.0.0.1] [info] waiting for client connection
+[2021-01-14 14:34:52.452] [127.0.0.1] [info] [client_204]: Logger initialized correctly
+[2021-01-14 14:34:52.452] [127.0.0.1] [info] [client_204]: 
+[2021-01-14 14:34:52.452] [127.0.0.1] [info] [client_204]: wait for message from the client
+[2021-01-14 14:34:52.453] [127.0.0.1] [info] [client_204]: 
+[2021-01-14 14:34:52.453] [127.0.0.1] [info] [client_204]: [RCV HEADER]: message 5 parsed correctly
+[2021-01-14 14:34:52.453] [127.0.0.1] [info] [client_204]: [SND HEADER CONF]: returned code: 0
+[2021-01-14 14:34:57.464] [127.0.0.1] [info] [client_204]: [RCV HEADER CONF RESP]: returned code: 0
+[2021-01-14 14:34:57.464] [127.0.0.1] [info] [client_204]: [SND STREAM]: returned code: 2
+[2021-01-14 14:34:57.464] [127.0.0.1] [info] [client_204]: 
+[2021-01-14 14:34:57.464] [127.0.0.1] [info] [client_204]: wait for message from the client
+[2021-01-14 14:34:57.464] [127.0.0.1] [info] the socket 216 was accepted
+[2021-01-14 14:34:57.465] [127.0.0.1] [info] [client_204]: 
+[2021-01-14 14:34:57.465] [127.0.0.1] [info] [client_204]: [RCV HEADER]: message 6 parsed correctly
+[2021-01-14 14:34:57.465] [127.0.0.1] [info] waiting for client connection
+[2021-01-14 14:34:57.466] [127.0.0.1] [info] [client_216]: Logger initialized correctly
+[2021-01-14 14:34:57.466] [127.0.0.1] [info] [client_204]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 14:34:57.466] [127.0.0.1] [info] [client_204]: [CLIENT-CONN-204]: exited from run
+
+[2021-01-14 14:34:57.466] [127.0.0.1] [info] Exited from waiting messages from socket: 204 
+
+[2021-01-14 14:34:57.467] [127.0.0.1] [info] [client_216]: 
+[2021-01-14 14:34:57.467] [127.0.0.1] [info] [client_216]: wait for message from the client
+[2021-01-14 14:34:57.467] [127.0.0.1] [info] [client_216]: 
+[2021-01-14 14:34:57.467] [127.0.0.1] [info] [client_216]: [RCV HEADER]: message 5 parsed correctly
+[2021-01-14 14:35:04.296] [127.0.0.1] [info] [client_216]: [SND HEADER CONF]: returned code: 0
+[2021-01-14 14:35:10.532] [127.0.0.1] [info] [client_216]: [RCV HEADER CONF RESP]: returned code: 0
+[2021-01-14 14:35:10.532] [127.0.0.1] [info] [client_216]: [SND STREAM]: returned code: 2923
+[2021-01-14 14:35:10.532] [127.0.0.1] [info] [client_216]: 
+[2021-01-14 14:35:10.532] [127.0.0.1] [info] [client_216]: wait for message from the client
+[2021-01-14 14:35:10.536] [127.0.0.1] [info] [client_216]: 
+[2021-01-14 14:35:10.536] [127.0.0.1] [info] [client_216]: [RCV HEADER]: message 6 parsed correctly
+[2021-01-14 14:35:10.536] [127.0.0.1] [info] [client_216]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 14:35:10.536] [127.0.0.1] [info] [client_216]: [CLIENT-CONN-216]: exited from run
+
+[2021-01-14 14:35:10.536] [127.0.0.1] [info] Exited from waiting messages from socket: 216 
+
+[2021-01-14 14:35:28.637] [127.0.0.1] [info] the socket 244 was accepted
+[2021-01-14 14:35:28.638] [127.0.0.1] [info] waiting for client connection
+[2021-01-14 14:35:28.640] [127.0.0.1] [info] the socket 240 was accepted
+[2021-01-14 14:35:28.640] [127.0.0.1] [info] [client_244]: Logger initialized correctly
+[2021-01-14 14:35:28.640] [127.0.0.1] [info] [client_244]: 
+[2021-01-14 14:35:28.640] [127.0.0.1] [info] [client_244]: wait for message from the client
+[2021-01-14 14:35:28.642] [127.0.0.1] [info] waiting for client connection
+[2021-01-14 14:35:28.642] [127.0.0.1] [info] [client_244]: 
+[2021-01-14 14:35:28.642] [127.0.0.1] [info] [client_244]: [RCV HEADER]: message 1 parsed correctly
+[2021-01-14 14:35:28.642] [127.0.0.1] [info] [client_240]: Logger initialized correctly
+[2021-01-14 14:35:28.642] [127.0.0.1] [info] [client_240]: 
+[2021-01-14 14:35:28.642] [127.0.0.1] [info] [client_240]: wait for message from the client
+[2021-01-14 14:35:28.642] [127.0.0.1] [info] the socket 208 was accepted
+[2021-01-14 14:35:28.642] [127.0.0.1] [info] [client_244]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 14:35:28.643] [127.0.0.1] [info] [client_240]: 
+[2021-01-14 14:35:28.643] [127.0.0.1] [info] [client_240]: [RCV HEADER]: message 1 parsed correctly
+[2021-01-14 14:35:28.643] [127.0.0.1] [info] [client_240]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 14:35:28.643] [127.0.0.1] [info] waiting for client connection
+[2021-01-14 14:35:28.645] [127.0.0.1] [info] [client_208]: Logger initialized correctly
+[2021-01-14 14:35:28.645] [127.0.0.1] [info] the socket 236 was accepted
+[2021-01-14 14:35:28.646] [127.0.0.1] [info] [client_208]: 
+[2021-01-14 14:35:28.646] [127.0.0.1] [info] [client_208]: wait for message from the client
+[2021-01-14 14:35:28.647] [127.0.0.1] [info] waiting for client connection
+[2021-01-14 14:35:28.647] [127.0.0.1] [info] the socket 228 was accepted
+[2021-01-14 14:35:28.648] [127.0.0.1] [info] [client_236]: Logger initialized correctly
+[2021-01-14 14:35:28.648] [127.0.0.1] [info] [client_208]: 
+[2021-01-14 14:35:28.648] [127.0.0.1] [info] [client_208]: [RCV HEADER]: message 1 parsed correctly
+[2021-01-14 14:35:28.649] [127.0.0.1] [info] [client_208]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 14:35:28.651] [127.0.0.1] [info] waiting for client connection
+[2021-01-14 14:35:28.651] [127.0.0.1] [info] [client_228]: Logger initialized correctly
+[2021-01-14 14:35:28.652] [127.0.0.1] [info] [client_236]: 
+[2021-01-14 14:35:28.653] [127.0.0.1] [info] [client_236]: wait for message from the client
+[2021-01-14 14:35:28.653] [127.0.0.1] [info] [client_228]: 
+[2021-01-14 14:35:28.653] [127.0.0.1] [info] [client_228]: wait for message from the client
+[2021-01-14 14:35:28.656] [127.0.0.1] [info] [client_228]: 
+[2021-01-14 14:35:28.656] [127.0.0.1] [info] [client_228]: [RCV HEADER]: message 1 parsed correctly
+[2021-01-14 14:35:28.656] [127.0.0.1] [info] [client_228]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 14:35:28.661] [127.0.0.1] [info] [client_236]: 
+[2021-01-14 14:35:28.661] [127.0.0.1] [info] [client_236]: [RCV HEADER]: message 1 parsed correctly
+[2021-01-14 14:35:28.663] [127.0.0.1] [info] [client_236]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 14:35:30.114] [127.0.0.1] [info] [client_208]: [RCV STREAM]: returned code: 0
+[2021-01-14 14:35:30.115] [127.0.0.1] [info] [client_208]: [SND STREAM RESP]: returned code: 0
+[2021-01-14 14:35:30.115] [127.0.0.1] [info] [client_208]: 
+[2021-01-14 14:35:30.115] [127.0.0.1] [info] [client_208]: wait for message from the client
+[2021-01-14 14:35:30.116] [127.0.0.1] [info] [client_208]: 
+[2021-01-14 14:35:30.116] [127.0.0.1] [info] [client_208]: [RCV HEADER]: message 6 parsed correctly
+[2021-01-14 14:35:30.117] [127.0.0.1] [info] [client_208]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 14:35:30.117] [127.0.0.1] [info] [client_208]: [CLIENT-CONN-208]: exited from run
+
+[2021-01-14 14:35:30.117] [127.0.0.1] [info] Exited from waiting messages from socket: 208 
+
+[2021-01-14 14:35:30.547] [127.0.0.1] [info] [client_240]: [RCV STREAM]: returned code: 0
+[2021-01-14 14:35:30.548] [127.0.0.1] [info] [client_240]: [SND STREAM RESP]: returned code: 0
+[2021-01-14 14:35:30.548] [127.0.0.1] [info] [client_240]: 
+[2021-01-14 14:35:30.548] [127.0.0.1] [info] [client_240]: wait for message from the client
+[2021-01-14 14:35:30.550] [127.0.0.1] [info] [client_240]: 
+[2021-01-14 14:35:30.550] [127.0.0.1] [info] [client_240]: [RCV HEADER]: message 6 parsed correctly
+[2021-01-14 14:35:30.550] [127.0.0.1] [info] [client_240]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 14:35:30.550] [127.0.0.1] [info] [client_240]: [CLIENT-CONN-240]: exited from run
+
+[2021-01-14 14:35:30.550] [127.0.0.1] [info] Exited from waiting messages from socket: 240 
+
+[2021-01-14 14:35:30.570] [127.0.0.1] [info] [client_244]: [RCV STREAM]: returned code: 0
+[2021-01-14 14:35:30.571] [127.0.0.1] [info] [client_244]: [SND STREAM RESP]: returned code: 0
+[2021-01-14 14:35:30.571] [127.0.0.1] [info] [client_244]: 
+[2021-01-14 14:35:30.571] [127.0.0.1] [info] [client_244]: wait for message from the client
+[2021-01-14 14:35:30.572] [127.0.0.1] [info] [client_244]: 
+[2021-01-14 14:35:30.572] [127.0.0.1] [info] [client_244]: [RCV HEADER]: message 6 parsed correctly
+[2021-01-14 14:35:30.572] [127.0.0.1] [info] [client_244]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 14:35:30.572] [127.0.0.1] [info] [client_244]: [CLIENT-CONN-244]: exited from run
+
+[2021-01-14 14:35:30.572] [127.0.0.1] [info] Exited from waiting messages from socket: 244 
+
+[2021-01-14 14:35:30.589] [127.0.0.1] [info] [client_228]: [RCV STREAM]: returned code: 0
+[2021-01-14 14:35:30.597] [127.0.0.1] [info] [client_236]: [RCV STREAM]: returned code: 0
+[2021-01-14 14:35:30.598] [127.0.0.1] [info] [client_228]: [SND STREAM RESP]: returned code: 0
+[2021-01-14 14:35:30.598] [127.0.0.1] [info] [client_228]: 
+[2021-01-14 14:35:30.598] [127.0.0.1] [info] [client_228]: wait for message from the client
+[2021-01-14 14:35:30.600] [127.0.0.1] [info] [client_228]: 
+[2021-01-14 14:35:30.600] [127.0.0.1] [info] [client_228]: [RCV HEADER]: message 6 parsed correctly
+[2021-01-14 14:35:30.600] [127.0.0.1] [info] [client_236]: [SND STREAM RESP]: returned code: 0
+[2021-01-14 14:35:30.600] [127.0.0.1] [info] [client_236]: 
+[2021-01-14 14:35:30.600] [127.0.0.1] [info] [client_236]: wait for message from the client
+[2021-01-14 14:35:30.600] [127.0.0.1] [info] [client_228]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 14:35:30.600] [127.0.0.1] [info] [client_228]: [CLIENT-CONN-228]: exited from run
+
+[2021-01-14 14:35:30.600] [127.0.0.1] [info] Exited from waiting messages from socket: 228 
+
+[2021-01-14 14:35:30.602] [127.0.0.1] [info] [client_236]: 
+[2021-01-14 14:35:30.602] [127.0.0.1] [info] [client_236]: [RCV HEADER]: message 6 parsed correctly
+[2021-01-14 14:35:30.602] [127.0.0.1] [info] [client_236]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 14:35:30.602] [127.0.0.1] [info] [client_236]: [CLIENT-CONN-236]: exited from run
+
+[2021-01-14 14:35:30.602] [127.0.0.1] [info] Exited from waiting messages from socket: 236 
+
+[2021-01-14 14:35:41.904] [127.0.0.1] [info] [CHECK-INACTIVITY]: go to sleep for 60 seconds
+[2021-01-14 14:36:02.315] [127.0.0.1] [info] Logger initialized correctly
+[2021-01-14 14:36:02.341] [127.0.0.1] [info] waiting for client connection
+[2021-01-14 14:36:02.345] [127.0.0.1] [info] [CHECK-INACTIVITY]: go to sleep for 60 seconds
+[2021-01-14 14:37:02.348] [127.0.0.1] [info] [CHECK-INACTIVITY]: go to sleep for 60 seconds
+[2021-01-14 14:37:23.563] [127.0.0.1] [info] Logger initialized correctly
+[2021-01-14 14:37:23.573] [127.0.0.1] [info] waiting for client connection
+[2021-01-14 14:37:23.576] [127.0.0.1] [info] [CHECK-INACTIVITY]: go to sleep for 60 seconds
+[2021-01-14 14:37:27.307] [127.0.0.1] [info] the socket 212 was accepted
+[2021-01-14 14:37:27.309] [127.0.0.1] [info] waiting for client connection
+[2021-01-14 14:37:27.311] [127.0.0.1] [info] [client_212]: Logger initialized correctly
+[2021-01-14 14:37:27.312] [127.0.0.1] [info] [client_212]: 
+[2021-01-14 14:37:27.312] [127.0.0.1] [info] [client_212]: wait for message from the client
+[2021-01-14 14:37:27.313] [127.0.0.1] [info] [client_212]: 
+[2021-01-14 14:37:27.313] [127.0.0.1] [info] [client_212]: [RCV HEADER]: message 5 parsed correctly
+[2021-01-14 14:37:27.314] [127.0.0.1] [info] [client_212]: [SND HEADER CONF]: returned code: 0
+[2021-01-14 14:37:30.000] [127.0.0.1] [info] [client_212]: [RCV HEADER CONF RESP]: returned code: 0
+[2021-01-14 14:37:30.000] [127.0.0.1] [info] [client_212]: [SND STREAM]: returned code: 2
+[2021-01-14 14:37:30.000] [127.0.0.1] [info] [client_212]: 
+[2021-01-14 14:37:30.000] [127.0.0.1] [info] [client_212]: wait for message from the client
+[2021-01-14 14:37:30.001] [127.0.0.1] [info] [client_212]: 
+[2021-01-14 14:37:30.001] [127.0.0.1] [info] [client_212]: [RCV HEADER]: message 6 parsed correctly
+[2021-01-14 14:37:30.001] [127.0.0.1] [info] [client_212]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 14:37:30.001] [127.0.0.1] [info] [client_212]: [CLIENT-CONN-212]: exited from run
+
+[2021-01-14 14:37:30.001] [127.0.0.1] [info] Exited from waiting messages from socket: 212 
+
+[2021-01-14 14:37:33.500] [127.0.0.1] [info] the socket 216 was accepted
+[2021-01-14 14:37:33.501] [127.0.0.1] [info] waiting for client connection
+[2021-01-14 14:37:33.503] [127.0.0.1] [info] [client_216]: Logger initialized correctly
+[2021-01-14 14:37:33.503] [127.0.0.1] [info] [client_216]: 
+[2021-01-14 14:37:33.503] [127.0.0.1] [info] [client_216]: wait for message from the client
+[2021-01-14 14:37:33.504] [127.0.0.1] [info] [client_216]: 
+[2021-01-14 14:37:33.504] [127.0.0.1] [info] [client_216]: [RCV HEADER]: message 5 parsed correctly
+[2021-01-14 14:37:43.321] [127.0.0.1] [info] [client_216]: [SND HEADER CONF]: returned code: 0
+[2021-01-14 14:37:43.321] [127.0.0.1] [info] [client_216]: [RCV HEADER CONF RESP]: returned code: 0
+[2021-01-14 14:37:43.321] [127.0.0.1] [info] [client_216]: [SND STREAM]: returned code: 4257
+[2021-01-14 14:37:43.321] [127.0.0.1] [info] [client_216]: 
+[2021-01-14 14:37:43.321] [127.0.0.1] [info] [client_216]: wait for message from the client
+[2021-01-14 14:37:43.330] [127.0.0.1] [info] [client_216]: 
+[2021-01-14 14:37:43.330] [127.0.0.1] [info] [client_216]: [RCV HEADER]: message 6 parsed correctly
+[2021-01-14 14:37:43.330] [127.0.0.1] [info] [client_216]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 14:37:43.330] [127.0.0.1] [info] [client_216]: [CLIENT-CONN-216]: exited from run
+
+[2021-01-14 14:37:43.330] [127.0.0.1] [info] Exited from waiting messages from socket: 216 
+
+[2021-01-14 14:38:23.579] [127.0.0.1] [info] [CHECK-INACTIVITY]: go to sleep for 60 seconds
+[2021-01-14 14:38:55.197] [127.0.0.1] [info] the socket 144 was accepted
+[2021-01-14 14:38:55.198] [127.0.0.1] [info] waiting for client connection
+[2021-01-14 14:38:55.199] [127.0.0.1] [info] the socket 256 was accepted
+[2021-01-14 14:38:55.199] [127.0.0.1] [info] [client_144]: Logger initialized correctly
+[2021-01-14 14:38:55.199] [127.0.0.1] [info] [client_144]: 
+[2021-01-14 14:38:55.199] [127.0.0.1] [info] [client_144]: wait for message from the client
+[2021-01-14 14:38:55.201] [127.0.0.1] [info] waiting for client connection
+[2021-01-14 14:38:55.201] [127.0.0.1] [info] [client_256]: Logger initialized correctly
+[2021-01-14 14:38:55.201] [127.0.0.1] [info] [client_144]: 
+[2021-01-14 14:38:55.201] [127.0.0.1] [info] [client_144]: [RCV HEADER]: message 1 parsed correctly
+[2021-01-14 14:38:55.201] [127.0.0.1] [info] [client_144]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 14:38:55.201] [127.0.0.1] [info] the socket 248 was accepted
+[2021-01-14 14:38:55.201] [127.0.0.1] [info] [client_256]: 
+[2021-01-14 14:38:55.201] [127.0.0.1] [info] [client_256]: wait for message from the client
+[2021-01-14 14:38:55.202] [127.0.0.1] [info] [client_256]: 
+[2021-01-14 14:38:55.202] [127.0.0.1] [info] [client_256]: [RCV HEADER]: message 1 parsed correctly
+[2021-01-14 14:38:55.202] [127.0.0.1] [info] [client_256]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 14:38:55.203] [127.0.0.1] [info] waiting for client connection
+[2021-01-14 14:38:55.205] [127.0.0.1] [info] the socket 232 was accepted
+[2021-01-14 14:38:55.205] [127.0.0.1] [info] [client_248]: Logger initialized correctly
+[2021-01-14 14:38:55.206] [127.0.0.1] [info] [client_248]: 
+[2021-01-14 14:38:55.206] [127.0.0.1] [info] [client_248]: wait for message from the client
+[2021-01-14 14:38:55.210] [127.0.0.1] [info] [client_248]: 
+[2021-01-14 14:38:55.210] [127.0.0.1] [info] [client_248]: [RCV HEADER]: message 1 parsed correctly
+[2021-01-14 14:38:55.210] [127.0.0.1] [info] [client_232]: Logger initialized correctly
+[2021-01-14 14:38:55.210] [127.0.0.1] [info] waiting for client connection
+[2021-01-14 14:38:55.210] [127.0.0.1] [info] [client_248]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 14:38:55.210] [127.0.0.1] [info] the socket 268 was accepted
+[2021-01-14 14:38:55.212] [127.0.0.1] [info] [client_232]: 
+[2021-01-14 14:38:55.212] [127.0.0.1] [info] [client_232]: wait for message from the client
+[2021-01-14 14:38:55.212] [127.0.0.1] [info] waiting for client connection
+[2021-01-14 14:38:55.212] [127.0.0.1] [info] the socket 260 was accepted
+[2021-01-14 14:38:55.214] [127.0.0.1] [info] waiting for client connection
+[2021-01-14 14:38:55.214] [127.0.0.1] [info] the socket 220 was accepted
+[2021-01-14 14:38:55.216] [127.0.0.1] [info] waiting for client connection
+[2021-01-14 14:38:55.217] [127.0.0.1] [info] the socket 240 was accepted
+[2021-01-14 14:38:55.219] [127.0.0.1] [info] [client_268]: Logger initialized correctly
+[2021-01-14 14:38:55.219] [127.0.0.1] [info] [client_232]: 
+[2021-01-14 14:38:55.219] [127.0.0.1] [info] [client_232]: [RCV HEADER]: message 1 parsed correctly
+[2021-01-14 14:38:55.220] [127.0.0.1] [info] [client_232]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 14:38:55.220] [127.0.0.1] [info] [client_268]: 
+[2021-01-14 14:38:55.220] [127.0.0.1] [info] [client_268]: wait for message from the client
+[2021-01-14 14:38:55.222] [127.0.0.1] [info] [client_220]: Logger initialized correctly
+[2021-01-14 14:38:55.227] [127.0.0.1] [info] [client_268]: 
+[2021-01-14 14:38:55.227] [127.0.0.1] [info] [client_268]: [RCV HEADER]: message 1 parsed correctly
+[2021-01-14 14:38:55.228] [127.0.0.1] [info] [client_268]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 14:38:55.235] [127.0.0.1] [info] [client_220]: 
+[2021-01-14 14:38:55.235] [127.0.0.1] [info] [client_220]: wait for message from the client
+[2021-01-14 14:38:55.240] [127.0.0.1] [info] waiting for client connection
+[2021-01-14 14:38:55.245] [127.0.0.1] [info] [client_220]: 
+[2021-01-14 14:38:55.245] [127.0.0.1] [info] [client_220]: [RCV HEADER]: message 1 parsed correctly
+[2021-01-14 14:38:55.259] [127.0.0.1] [info] [client_260]: Logger initialized correctly
+[2021-01-14 14:38:55.267] [127.0.0.1] [info] [client_220]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 14:38:55.280] [127.0.0.1] [info] [client_240]: Logger initialized correctly
+[2021-01-14 14:38:55.284] [127.0.0.1] [info] [client_240]: 
+[2021-01-14 14:38:55.285] [127.0.0.1] [info] [client_240]: wait for message from the client
+[2021-01-14 14:38:55.290] [127.0.0.1] [info] [client_260]: 
+[2021-01-14 14:38:55.290] [127.0.0.1] [info] [client_260]: wait for message from the client
+[2021-01-14 14:38:55.304] [127.0.0.1] [info] [client_240]: 
+[2021-01-14 14:38:55.305] [127.0.0.1] [info] [client_240]: [RCV HEADER]: message 1 parsed correctly
+[2021-01-14 14:38:55.305] [127.0.0.1] [info] [client_240]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 14:38:55.328] [127.0.0.1] [info] [client_260]: 
+[2021-01-14 14:38:55.328] [127.0.0.1] [info] [client_260]: [RCV HEADER]: message 1 parsed correctly
+[2021-01-14 14:38:55.328] [127.0.0.1] [info] [client_260]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 14:38:57.420] [127.0.0.1] [info] [client_220]: [RCV STREAM]: returned code: 0
+[2021-01-14 14:38:57.425] [127.0.0.1] [info] [client_220]: [SND STREAM RESP]: returned code: 0
+[2021-01-14 14:38:57.425] [127.0.0.1] [info] [client_220]: 
+[2021-01-14 14:38:57.425] [127.0.0.1] [info] [client_220]: wait for message from the client
+[2021-01-14 14:38:57.429] [127.0.0.1] [info] [client_220]: 
+[2021-01-14 14:38:57.429] [127.0.0.1] [info] [client_220]: [RCV HEADER]: message 6 parsed correctly
+[2021-01-14 14:38:57.429] [127.0.0.1] [info] [client_220]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 14:38:57.429] [127.0.0.1] [info] [client_220]: [CLIENT-CONN-220]: exited from run
+
+[2021-01-14 14:38:57.430] [127.0.0.1] [info] Exited from waiting messages from socket: 220 
+
+[2021-01-14 14:38:57.461] [127.0.0.1] [info] [client_248]: [RCV STREAM]: returned code: 0
+[2021-01-14 14:38:57.462] [127.0.0.1] [info] [client_248]: [SND STREAM RESP]: returned code: 0
+[2021-01-14 14:38:57.462] [127.0.0.1] [info] [client_248]: 
+[2021-01-14 14:38:57.462] [127.0.0.1] [info] [client_248]: wait for message from the client
+[2021-01-14 14:38:57.463] [127.0.0.1] [info] [client_248]: 
+[2021-01-14 14:38:57.463] [127.0.0.1] [info] [client_248]: [RCV HEADER]: message 6 parsed correctly
+[2021-01-14 14:38:57.464] [127.0.0.1] [info] [client_248]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 14:38:57.464] [127.0.0.1] [info] [client_248]: [CLIENT-CONN-248]: exited from run
+
+[2021-01-14 14:38:57.464] [127.0.0.1] [info] Exited from waiting messages from socket: 248 
+
+[2021-01-14 14:38:57.753] [127.0.0.1] [info] [client_232]: [RCV STREAM]: returned code: 0
+[2021-01-14 14:38:57.754] [127.0.0.1] [info] [client_232]: [SND STREAM RESP]: returned code: 0
+[2021-01-14 14:38:57.754] [127.0.0.1] [info] [client_232]: 
+[2021-01-14 14:38:57.754] [127.0.0.1] [info] [client_232]: wait for message from the client
+[2021-01-14 14:38:57.756] [127.0.0.1] [info] [client_232]: 
+[2021-01-14 14:38:57.756] [127.0.0.1] [info] [client_232]: [RCV HEADER]: message 6 parsed correctly
+[2021-01-14 14:38:57.756] [127.0.0.1] [info] [client_232]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 14:38:57.756] [127.0.0.1] [info] [client_232]: [CLIENT-CONN-232]: exited from run
+
+[2021-01-14 14:38:57.756] [127.0.0.1] [info] Exited from waiting messages from socket: 232 
+
+[2021-01-14 14:38:57.811] [127.0.0.1] [info] [client_256]: [RCV STREAM]: returned code: 0
+[2021-01-14 14:38:57.812] [127.0.0.1] [info] [client_256]: [SND STREAM RESP]: returned code: 0
+[2021-01-14 14:38:57.812] [127.0.0.1] [info] [client_256]: 
+[2021-01-14 14:38:57.812] [127.0.0.1] [info] [client_256]: wait for message from the client
+[2021-01-14 14:38:57.813] [127.0.0.1] [info] [client_256]: 
+[2021-01-14 14:38:57.813] [127.0.0.1] [info] [client_256]: [RCV HEADER]: message 6 parsed correctly
+[2021-01-14 14:38:57.813] [127.0.0.1] [info] [client_256]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 14:38:57.813] [127.0.0.1] [info] [client_256]: [CLIENT-CONN-256]: exited from run
+
+[2021-01-14 14:38:57.813] [127.0.0.1] [info] Exited from waiting messages from socket: 256 
+
+[2021-01-14 14:38:57.878] [127.0.0.1] [info] [client_240]: [RCV STREAM]: returned code: 0
+[2021-01-14 14:38:57.879] [127.0.0.1] [info] [client_240]: [SND STREAM RESP]: returned code: 0
+[2021-01-14 14:38:57.879] [127.0.0.1] [info] [client_240]: 
+[2021-01-14 14:38:57.879] [127.0.0.1] [info] [client_240]: wait for message from the client
+[2021-01-14 14:38:57.880] [127.0.0.1] [info] [client_240]: 
+[2021-01-14 14:38:57.880] [127.0.0.1] [info] [client_240]: [RCV HEADER]: message 6 parsed correctly
+[2021-01-14 14:38:57.880] [127.0.0.1] [info] [client_240]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 14:38:57.880] [127.0.0.1] [info] [client_240]: [CLIENT-CONN-240]: exited from run
+
+[2021-01-14 14:38:57.881] [127.0.0.1] [info] Exited from waiting messages from socket: 240 
+
+[2021-01-14 14:38:57.917] [127.0.0.1] [info] [client_144]: [RCV STREAM]: returned code: 0
+[2021-01-14 14:38:57.917] [127.0.0.1] [info] [client_268]: [RCV STREAM]: returned code: 0
+[2021-01-14 14:38:57.923] [127.0.0.1] [info] [client_260]: [RCV STREAM]: returned code: 0
+[2021-01-14 14:38:57.923] [127.0.0.1] [info] [client_144]: [SND STREAM RESP]: returned code: 0
+[2021-01-14 14:38:57.923] [127.0.0.1] [info] [client_144]: 
+[2021-01-14 14:38:57.923] [127.0.0.1] [info] [client_268]: [SND STREAM RESP]: returned code: 0
+[2021-01-14 14:38:57.923] [127.0.0.1] [info] [client_144]: wait for message from the client
+[2021-01-14 14:38:57.923] [127.0.0.1] [info] [client_268]: 
+[2021-01-14 14:38:57.923] [127.0.0.1] [info] [client_268]: wait for message from the client
+[2021-01-14 14:38:57.923] [127.0.0.1] [info] [client_260]: [SND STREAM RESP]: returned code: 0
+[2021-01-14 14:38:57.923] [127.0.0.1] [info] [client_260]: 
+[2021-01-14 14:38:57.923] [127.0.0.1] [info] [client_260]: wait for message from the client
+[2021-01-14 14:38:57.924] [127.0.0.1] [info] [client_260]: 
+[2021-01-14 14:38:57.924] [127.0.0.1] [info] [client_260]: [RCV HEADER]: message 6 parsed correctly
+[2021-01-14 14:38:57.925] [127.0.0.1] [info] [client_260]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 14:38:57.925] [127.0.0.1] [info] [client_260]: [CLIENT-CONN-260]: exited from run
+
+[2021-01-14 14:38:57.925] [127.0.0.1] [info] Exited from waiting messages from socket: 260 
+
+[2021-01-14 14:38:57.926] [127.0.0.1] [info] [client_268]: 
+[2021-01-14 14:38:57.926] [127.0.0.1] [info] [client_144]: 
+[2021-01-14 14:38:57.926] [127.0.0.1] [info] [client_268]: [RCV HEADER]: message 6 parsed correctly
+[2021-01-14 14:38:57.926] [127.0.0.1] [info] [client_144]: [RCV HEADER]: message 6 parsed correctly
+[2021-01-14 14:38:57.926] [127.0.0.1] [info] [client_144]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 14:38:57.926] [127.0.0.1] [info] [client_144]: [CLIENT-CONN-144]: exited from run
+
+[2021-01-14 14:38:57.926] [127.0.0.1] [info] [client_268]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 14:38:57.926] [127.0.0.1] [info] Exited from waiting messages from socket: 144 
+
+[2021-01-14 14:38:57.926] [127.0.0.1] [info] [client_268]: [CLIENT-CONN-268]: exited from run
+
+[2021-01-14 14:38:57.927] [127.0.0.1] [info] Exited from waiting messages from socket: 268 
+
+[2021-01-14 14:39:10.205] [127.0.0.1] [info] the socket 284 was accepted
+[2021-01-14 14:39:10.206] [127.0.0.1] [info] waiting for client connection
+[2021-01-14 14:39:10.207] [127.0.0.1] [info] the socket 276 was accepted
+[2021-01-14 14:39:10.207] [127.0.0.1] [info] [client_284]: Logger initialized correctly
+[2021-01-14 14:39:10.207] [127.0.0.1] [info] [client_284]: 
+[2021-01-14 14:39:10.207] [127.0.0.1] [info] [client_284]: wait for message from the client
+[2021-01-14 14:39:10.208] [127.0.0.1] [info] waiting for client connection
+[2021-01-14 14:39:10.208] [127.0.0.1] [info] [client_276]: Logger initialized correctly
+[2021-01-14 14:39:10.208] [127.0.0.1] [info] the socket 224 was accepted
+[2021-01-14 14:39:10.209] [127.0.0.1] [info] [client_276]: 
+[2021-01-14 14:39:10.209] [127.0.0.1] [info] [client_276]: wait for message from the client
+[2021-01-14 14:39:10.209] [127.0.0.1] [info] [client_284]: 
+[2021-01-14 14:39:10.209] [127.0.0.1] [info] [client_284]: [RCV HEADER]: message 1 parsed correctly
+[2021-01-14 14:39:10.209] [127.0.0.1] [info] waiting for client connection
+[2021-01-14 14:39:10.209] [127.0.0.1] [info] [client_284]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 14:39:10.209] [127.0.0.1] [info] [client_224]: Logger initialized correctly
+[2021-01-14 14:39:10.210] [127.0.0.1] [info] the socket 280 was accepted
+[2021-01-14 14:39:10.210] [127.0.0.1] [info] [client_224]: 
+[2021-01-14 14:39:10.210] [127.0.0.1] [info] [client_224]: wait for message from the client
+[2021-01-14 14:39:10.210] [127.0.0.1] [info] [client_276]: 
+[2021-01-14 14:39:10.210] [127.0.0.1] [info] [client_276]: [RCV HEADER]: message 1 parsed correctly
+[2021-01-14 14:39:10.210] [127.0.0.1] [info] [client_276]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 14:39:10.211] [127.0.0.1] [info] waiting for client connection
+[2021-01-14 14:39:10.212] [127.0.0.1] [info] the socket 328 was accepted
+[2021-01-14 14:39:10.212] [127.0.0.1] [info] [client_280]: Logger initialized correctly
+[2021-01-14 14:39:10.212] [127.0.0.1] [info] [client_224]: 
+[2021-01-14 14:39:10.212] [127.0.0.1] [info] [client_224]: [RCV HEADER]: message 1 parsed correctly
+[2021-01-14 14:39:10.213] [127.0.0.1] [info] waiting for client connection
+[2021-01-14 14:39:10.213] [127.0.0.1] [info] [client_224]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 14:39:10.214] [127.0.0.1] [info] the socket 340 was accepted
+[2021-01-14 14:39:10.215] [127.0.0.1] [info] waiting for client connection
+[2021-01-14 14:39:10.216] [127.0.0.1] [info] [client_328]: Logger initialized correctly
+[2021-01-14 14:39:10.216] [127.0.0.1] [info] the socket 204 was accepted
+[2021-01-14 14:39:10.218] [127.0.0.1] [info] waiting for client connection
+[2021-01-14 14:39:10.218] [127.0.0.1] [info] [client_340]: Logger initialized correctly
+[2021-01-14 14:39:10.219] [127.0.0.1] [info] [client_280]: 
+[2021-01-14 14:39:10.219] [127.0.0.1] [info] [client_280]: wait for message from the client
+[2021-01-14 14:39:10.219] [127.0.0.1] [info] [client_204]: Logger initialized correctly
+[2021-01-14 14:39:10.220] [127.0.0.1] [info] the socket 228 was accepted
+[2021-01-14 14:39:10.221] [127.0.0.1] [info] [client_328]: 
+[2021-01-14 14:39:10.221] [127.0.0.1] [info] [client_328]: wait for message from the client
+[2021-01-14 14:39:10.224] [127.0.0.1] [info] waiting for client connection
+[2021-01-14 14:39:10.225] [127.0.0.1] [info] [client_328]: 
+[2021-01-14 14:39:10.225] [127.0.0.1] [info] [client_328]: [RCV HEADER]: message 1 parsed correctly
+[2021-01-14 14:39:10.225] [127.0.0.1] [info] [client_328]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 14:39:10.226] [127.0.0.1] [info] [client_280]: 
+[2021-01-14 14:39:10.226] [127.0.0.1] [info] [client_280]: [RCV HEADER]: message 1 parsed correctly
+[2021-01-14 14:39:10.229] [127.0.0.1] [info] [client_280]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 14:39:10.229] [127.0.0.1] [info] [client_204]: 
+[2021-01-14 14:39:10.229] [127.0.0.1] [info] [client_204]: wait for message from the client
+[2021-01-14 14:39:10.231] [127.0.0.1] [info] [client_228]: Logger initialized correctly
+[2021-01-14 14:39:10.243] [127.0.0.1] [info] [client_204]: 
+[2021-01-14 14:39:10.243] [127.0.0.1] [info] [client_204]: [RCV HEADER]: message 1 parsed correctly
+[2021-01-14 14:39:10.246] [127.0.0.1] [info] [client_204]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 14:39:10.267] [127.0.0.1] [info] [client_340]: 
+[2021-01-14 14:39:10.267] [127.0.0.1] [info] [client_340]: wait for message from the client
+[2021-01-14 14:39:10.268] [127.0.0.1] [info] [client_228]: 
+[2021-01-14 14:39:10.268] [127.0.0.1] [info] [client_228]: wait for message from the client
+[2021-01-14 14:39:10.322] [127.0.0.1] [info] [client_228]: 
+[2021-01-14 14:39:10.322] [127.0.0.1] [info] [client_340]: 
+[2021-01-14 14:39:10.322] [127.0.0.1] [info] [client_228]: [RCV HEADER]: message 1 parsed correctly
+[2021-01-14 14:39:10.322] [127.0.0.1] [info] [client_340]: [RCV HEADER]: message 1 parsed correctly
+[2021-01-14 14:39:10.331] [127.0.0.1] [info] [client_228]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 14:39:10.332] [127.0.0.1] [info] [client_340]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 14:39:12.197] [127.0.0.1] [info] [client_276]: [RCV STREAM]: returned code: 0
+[2021-01-14 14:39:12.216] [127.0.0.1] [info] [client_276]: [SND STREAM RESP]: returned code: 0
+[2021-01-14 14:39:12.216] [127.0.0.1] [info] [client_276]: 
+[2021-01-14 14:39:12.216] [127.0.0.1] [info] [client_276]: wait for message from the client
+[2021-01-14 14:39:12.235] [127.0.0.1] [info] [client_276]: 
+[2021-01-14 14:39:12.235] [127.0.0.1] [info] [client_276]: [RCV HEADER]: message 6 parsed correctly
+[2021-01-14 14:39:12.235] [127.0.0.1] [info] [client_276]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 14:39:12.235] [127.0.0.1] [info] [client_276]: [CLIENT-CONN-276]: exited from run
+
+[2021-01-14 14:39:12.235] [127.0.0.1] [info] Exited from waiting messages from socket: 276 
+
+[2021-01-14 14:39:12.349] [127.0.0.1] [info] [client_204]: [RCV STREAM]: returned code: 0
+[2021-01-14 14:39:12.350] [127.0.0.1] [info] [client_204]: [SND STREAM RESP]: returned code: 0
+[2021-01-14 14:39:12.350] [127.0.0.1] [info] [client_204]: 
+[2021-01-14 14:39:12.350] [127.0.0.1] [info] [client_204]: wait for message from the client
+[2021-01-14 14:39:12.351] [127.0.0.1] [info] [client_204]: 
+[2021-01-14 14:39:12.351] [127.0.0.1] [info] [client_204]: [RCV HEADER]: message 6 parsed correctly
+[2021-01-14 14:39:12.351] [127.0.0.1] [info] [client_204]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 14:39:12.351] [127.0.0.1] [info] [client_204]: [CLIENT-CONN-204]: exited from run
+
+[2021-01-14 14:39:12.357] [127.0.0.1] [info] Exited from waiting messages from socket: 204 
+
+[2021-01-14 14:39:12.844] [127.0.0.1] [info] [client_224]: [RCV STREAM]: returned code: 0
+[2021-01-14 14:39:12.851] [127.0.0.1] [info] [client_284]: [RCV STREAM]: returned code: 0
+[2021-01-14 14:39:12.852] [127.0.0.1] [info] [client_284]: [SND STREAM RESP]: returned code: 0
+[2021-01-14 14:39:12.852] [127.0.0.1] [info] [client_284]: 
+[2021-01-14 14:39:12.852] [127.0.0.1] [info] [client_284]: wait for message from the client
+[2021-01-14 14:39:12.852] [127.0.0.1] [info] [client_224]: [SND STREAM RESP]: returned code: 0
+[2021-01-14 14:39:12.852] [127.0.0.1] [info] [client_224]: 
+[2021-01-14 14:39:12.852] [127.0.0.1] [info] [client_224]: wait for message from the client
+[2021-01-14 14:39:12.853] [127.0.0.1] [info] [client_284]: 
+[2021-01-14 14:39:12.853] [127.0.0.1] [info] [client_284]: [RCV HEADER]: message 6 parsed correctly
+[2021-01-14 14:39:12.853] [127.0.0.1] [info] [client_284]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 14:39:12.853] [127.0.0.1] [info] [client_284]: [CLIENT-CONN-284]: exited from run
+
+[2021-01-14 14:39:12.853] [127.0.0.1] [info] Exited from waiting messages from socket: 284 
+
+[2021-01-14 14:39:12.854] [127.0.0.1] [info] [client_224]: 
+[2021-01-14 14:39:12.854] [127.0.0.1] [info] [client_224]: [RCV HEADER]: message 6 parsed correctly
+[2021-01-14 14:39:12.854] [127.0.0.1] [info] [client_224]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 14:39:12.854] [127.0.0.1] [info] [client_224]: [CLIENT-CONN-224]: exited from run
+
+[2021-01-14 14:39:12.854] [127.0.0.1] [info] Exited from waiting messages from socket: 224 
+
+[2021-01-14 14:39:12.886] [127.0.0.1] [info] [client_228]: [RCV STREAM]: returned code: 0
+[2021-01-14 14:39:12.901] [127.0.0.1] [info] [client_280]: [RCV STREAM]: returned code: 0
+[2021-01-14 14:39:12.907] [127.0.0.1] [info] [client_340]: [RCV STREAM]: returned code: 0
+[2021-01-14 14:39:12.907] [127.0.0.1] [info] [client_328]: [RCV STREAM]: returned code: 0
+[2021-01-14 14:39:12.907] [127.0.0.1] [info] [client_280]: [SND STREAM RESP]: returned code: 0
+[2021-01-14 14:39:12.907] [127.0.0.1] [info] [client_280]: 
+[2021-01-14 14:39:12.907] [127.0.0.1] [info] [client_280]: wait for message from the client
+[2021-01-14 14:39:12.909] [127.0.0.1] [info] [client_228]: [SND STREAM RESP]: returned code: 0
+[2021-01-14 14:39:12.909] [127.0.0.1] [info] [client_228]: 
+[2021-01-14 14:39:12.909] [127.0.0.1] [info] [client_228]: wait for message from the client
+[2021-01-14 14:39:12.911] [127.0.0.1] [info] [client_340]: [SND STREAM RESP]: returned code: 0
+[2021-01-14 14:39:12.911] [127.0.0.1] [info] [client_340]: 
+[2021-01-14 14:39:12.911] [127.0.0.1] [info] [client_340]: wait for message from the client
+[2021-01-14 14:39:12.911] [127.0.0.1] [info] [client_328]: [SND STREAM RESP]: returned code: 0
+[2021-01-14 14:39:12.911] [127.0.0.1] [info] [client_328]: 
+[2021-01-14 14:39:12.911] [127.0.0.1] [info] [client_328]: wait for message from the client
+[2021-01-14 14:39:12.912] [127.0.0.1] [info] [client_280]: 
+[2021-01-14 14:39:12.912] [127.0.0.1] [info] [client_280]: [RCV HEADER]: message 6 parsed correctly
+[2021-01-14 14:39:12.912] [127.0.0.1] [info] [client_280]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 14:39:12.912] [127.0.0.1] [info] [client_280]: [CLIENT-CONN-280]: exited from run
+
+[2021-01-14 14:39:12.912] [127.0.0.1] [info] Exited from waiting messages from socket: 280 
+
+[2021-01-14 14:39:12.913] [127.0.0.1] [info] [client_340]: 
+[2021-01-14 14:39:12.913] [127.0.0.1] [info] [client_340]: [RCV HEADER]: message 6 parsed correctly
+[2021-01-14 14:39:12.913] [127.0.0.1] [info] [client_340]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 14:39:12.913] [127.0.0.1] [info] [client_340]: [CLIENT-CONN-340]: exited from run
+
+[2021-01-14 14:39:12.913] [127.0.0.1] [info] Exited from waiting messages from socket: 340 
+
+[2021-01-14 14:39:12.913] [127.0.0.1] [info] [client_328]: 
+[2021-01-14 14:39:12.913] [127.0.0.1] [info] [client_328]: [RCV HEADER]: message 6 parsed correctly
+[2021-01-14 14:39:12.914] [127.0.0.1] [info] [client_228]: 
+[2021-01-14 14:39:12.914] [127.0.0.1] [info] [client_228]: [RCV HEADER]: message 6 parsed correctly
+[2021-01-14 14:39:12.914] [127.0.0.1] [info] [client_328]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 14:39:12.914] [127.0.0.1] [info] [client_328]: [CLIENT-CONN-328]: exited from run
+
+[2021-01-14 14:39:12.914] [127.0.0.1] [info] [client_228]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 14:39:12.914] [127.0.0.1] [info] Exited from waiting messages from socket: 328 
+
+[2021-01-14 14:39:12.914] [127.0.0.1] [info] [client_228]: [CLIENT-CONN-228]: exited from run
+
+[2021-01-14 14:39:12.914] [127.0.0.1] [info] Exited from waiting messages from socket: 228 
+
+[2021-01-14 14:39:23.603] [127.0.0.1] [info] [CHECK-INACTIVITY]: go to sleep for 60 seconds
+[2021-01-14 15:20:31.308] [127.0.0.1] [info] Logger initialized correctly
+[2021-01-14 15:20:31.326] [127.0.0.1] [info] waiting for client connection
+[2021-01-14 15:20:31.328] [127.0.0.1] [info] [CHECK-INACTIVITY]: go to sleep for 60 seconds
+[2021-01-14 15:20:33.353] [127.0.0.1] [info] the socket 216 was accepted
+[2021-01-14 15:20:33.354] [127.0.0.1] [info] waiting for client connection
+[2021-01-14 15:20:33.355] [127.0.0.1] [info] the socket 204 was accepted
+[2021-01-14 15:20:33.355] [127.0.0.1] [info] [client_216]: Logger initialized correctly
+[2021-01-14 15:20:33.355] [127.0.0.1] [info] [client_216]: 
+[2021-01-14 15:20:33.355] [127.0.0.1] [info] [client_216]: wait for message from the client
+[2021-01-14 15:20:33.355] [127.0.0.1] [info] [client_216]: 
+[2021-01-14 15:20:33.355] [127.0.0.1] [info] [client_216]: [RCV HEADER]: message 2 parsed correctly
+[2021-01-14 15:20:33.356] [127.0.0.1] [info] waiting for client connection
+[2021-01-14 15:20:33.356] [127.0.0.1] [info] [client_204]: Logger initialized correctly
+[2021-01-14 15:20:33.356] [127.0.0.1] [info] the socket 208 was accepted
+[2021-01-14 15:20:33.356] [127.0.0.1] [info] [client_204]: 
+[2021-01-14 15:20:33.356] [127.0.0.1] [info] [client_204]: wait for message from the client
+[2021-01-14 15:20:33.356] [127.0.0.1] [info] [client_204]: 
+[2021-01-14 15:20:33.356] [127.0.0.1] [info] [client_204]: [RCV HEADER]: message 2 parsed correctly
+[2021-01-14 15:20:33.357] [127.0.0.1] [info] waiting for client connection
+[2021-01-14 15:20:33.359] [127.0.0.1] [info] [client_208]: Logger initialized correctly
+[2021-01-14 15:20:33.360] [127.0.0.1] [info] [client_208]: 
+[2021-01-14 15:20:33.360] [127.0.0.1] [info] [client_208]: wait for message from the client
+[2021-01-14 15:20:33.360] [127.0.0.1] [info] [client_208]: 
+[2021-01-14 15:20:33.360] [127.0.0.1] [info] [client_208]: [RCV HEADER]: message 2 parsed correctly
+[2021-01-14 15:20:58.378] [127.0.0.1] [info] [client_216]: [RENAME]: returned code: -3
+[2021-01-14 15:20:58.378] [127.0.0.1] [info] [client_204]: [RENAME]: returned code: -3
+[2021-01-14 15:20:58.378] [127.0.0.1] [info] [client_204]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 15:20:58.378] [127.0.0.1] [info] [client_204]: 
+[2021-01-14 15:20:58.378] [127.0.0.1] [info] [client_204]: wait for message from the client
+[2021-01-14 15:20:58.378] [127.0.0.1] [info] [client_216]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 15:20:58.378] [127.0.0.1] [info] [client_216]: 
+[2021-01-14 15:20:58.378] [127.0.0.1] [info] [client_216]: wait for message from the client
+[2021-01-14 15:20:58.378] [127.0.0.1] [info] [client_204]: 
+[2021-01-14 15:20:58.378] [127.0.0.1] [info] [client_204]: [RCV HEADER]: message 6 parsed correctly
+[2021-01-14 15:20:58.378] [127.0.0.1] [info] [client_216]: 
+[2021-01-14 15:20:58.378] [127.0.0.1] [info] [client_216]: [RCV HEADER]: message 6 parsed correctly
+[2021-01-14 15:20:58.378] [127.0.0.1] [info] [client_204]: [SND HEADER RESP]: returned code: -2
+[2021-01-14 15:20:58.378] [127.0.0.1] [info] [client_204]: [CLIENT-CONN-204]: exited from run
+
+[2021-01-14 15:20:58.378] [127.0.0.1] [info] [client_216]: [SND HEADER RESP]: returned code: -2
+[2021-01-14 15:20:58.378] [127.0.0.1] [info] [client_216]: [CLIENT-CONN-216]: exited from run
+
+[2021-01-14 15:20:58.378] [127.0.0.1] [info] Exited from waiting messages from socket: 204 
+
+[2021-01-14 15:20:58.378] [127.0.0.1] [info] Exited from waiting messages from socket: 216 
+
+[2021-01-14 15:20:58.382] [127.0.0.1] [info] [client_208]: [RENAME]: returned code: -3
+[2021-01-14 15:20:58.382] [127.0.0.1] [info] [client_208]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 15:20:58.382] [127.0.0.1] [info] [client_208]: 
+[2021-01-14 15:20:58.382] [127.0.0.1] [info] [client_208]: wait for message from the client
+[2021-01-14 15:20:58.382] [127.0.0.1] [info] [client_208]: 
+[2021-01-14 15:20:58.382] [127.0.0.1] [info] [client_208]: [RCV HEADER]: message 6 parsed correctly
+[2021-01-14 15:20:58.382] [127.0.0.1] [info] [client_208]: [SND HEADER RESP]: returned code: -2
+[2021-01-14 15:20:58.382] [127.0.0.1] [info] [client_208]: [CLIENT-CONN-208]: exited from run
+
+[2021-01-14 15:20:58.382] [127.0.0.1] [info] Exited from waiting messages from socket: 208 
+
+[2021-01-14 15:21:18.371] [127.0.0.1] [info] the socket 224 was accepted
+[2021-01-14 15:21:18.372] [127.0.0.1] [info] waiting for client connection
+[2021-01-14 15:21:18.372] [127.0.0.1] [info] [client_224]: Logger initialized correctly
+[2021-01-14 15:21:18.373] [127.0.0.1] [info] the socket 220 was accepted
+[2021-01-14 15:21:18.373] [127.0.0.1] [info] [client_224]: 
+[2021-01-14 15:21:18.373] [127.0.0.1] [info] [client_224]: wait for message from the client
+[2021-01-14 15:21:18.373] [127.0.0.1] [info] [client_224]: 
+[2021-01-14 15:21:18.373] [127.0.0.1] [info] [client_224]: [RCV HEADER]: message 2 parsed correctly
+[2021-01-14 15:21:18.373] [127.0.0.1] [info] waiting for client connection
+[2021-01-14 15:21:18.374] [127.0.0.1] [info] the socket 244 was accepted
+[2021-01-14 15:21:18.374] [127.0.0.1] [info] [client_220]: Logger initialized correctly
+[2021-01-14 15:21:18.375] [127.0.0.1] [info] waiting for client connection
+[2021-01-14 15:30:42.917] [127.0.0.1] [info] Logger initialized correctly
+[2021-01-14 15:30:42.935] [127.0.0.1] [info] waiting for client connection
+[2021-01-14 15:30:42.938] [127.0.0.1] [info] [CHECK-INACTIVITY]: go to sleep for 60 seconds
+[2021-01-14 15:31:17.587] [127.0.0.1] [info] the socket 200 was accepted
+[2021-01-14 15:31:17.588] [127.0.0.1] [info] waiting for client connection
+[2021-01-14 15:31:17.589] [127.0.0.1] [info] the socket 204 was accepted
+[2021-01-14 15:31:17.589] [127.0.0.1] [info] [client_200]: Logger initialized correctly
+[2021-01-14 15:31:17.590] [127.0.0.1] [info] [client_200]: 
+[2021-01-14 15:31:17.590] [127.0.0.1] [info] [client_200]: wait for message from the client
+[2021-01-14 15:31:17.590] [127.0.0.1] [info] waiting for client connection
+[2021-01-14 15:31:17.591] [127.0.0.1] [info] [client_200]: 
+[2021-01-14 15:31:17.591] [127.0.0.1] [info] [client_200]: [RCV HEADER]: message 2 parsed correctly
+[2021-01-14 15:31:17.591] [127.0.0.1] [info] [client_204]: Logger initialized correctly
+[2021-01-14 15:31:17.591] [127.0.0.1] [info] the socket 216 was accepted
+[2021-01-14 15:31:17.592] [127.0.0.1] [info] [client_204]: 
+[2021-01-14 15:31:17.592] [127.0.0.1] [info] [client_204]: wait for message from the client
+[2021-01-14 15:31:17.592] [127.0.0.1] [info] [client_204]: 
+[2021-01-14 15:31:17.592] [127.0.0.1] [info] [client_204]: [RCV HEADER]: message 2 parsed correctly
+[2021-01-14 15:31:17.593] [127.0.0.1] [info] waiting for client connection
+[2021-01-14 15:31:17.593] [127.0.0.1] [info] the socket 228 was accepted
+[2021-01-14 15:31:17.596] [127.0.0.1] [info] waiting for client connection
+[2021-01-14 15:31:17.596] [127.0.0.1] [info] [client_216]: Logger initialized correctly
+[2021-01-14 15:31:17.596] [127.0.0.1] [info] [client_228]: Logger initialized correctly
+[2021-01-14 15:31:17.596] [127.0.0.1] [info] the socket 244 was accepted
+[2021-01-14 15:31:17.596] [127.0.0.1] [info] [client_204]: [RENAME]: returned code: 0
+[2021-01-14 15:31:17.596] [127.0.0.1] [info] [client_200]: [RENAME]: returned code: 0
+[2021-01-14 15:31:17.596] [127.0.0.1] [info] [client_204]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 15:31:17.596] [127.0.0.1] [info] [client_204]: 
+[2021-01-14 15:31:17.596] [127.0.0.1] [info] [client_204]: wait for message from the client
+[2021-01-14 15:31:17.597] [127.0.0.1] [info] [client_228]: 
+[2021-01-14 15:31:17.597] [127.0.0.1] [info] [client_228]: wait for message from the client
+[2021-01-14 15:31:17.597] [127.0.0.1] [info] [client_216]: 
+[2021-01-14 15:31:17.597] [127.0.0.1] [info] [client_216]: wait for message from the client
+[2021-01-14 15:31:17.597] [127.0.0.1] [info] [client_200]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 15:31:17.597] [127.0.0.1] [info] [client_200]: 
+[2021-01-14 15:31:17.597] [127.0.0.1] [info] [client_200]: wait for message from the client
+[2021-01-14 15:31:17.597] [127.0.0.1] [info] [client_228]: 
+[2021-01-14 15:31:17.597] [127.0.0.1] [info] [client_228]: [RCV HEADER]: message 2 parsed correctly
+[2021-01-14 15:31:17.597] [127.0.0.1] [info] [client_216]: 
+[2021-01-14 15:31:17.597] [127.0.0.1] [info] [client_216]: [RCV HEADER]: message 2 parsed correctly
+[2021-01-14 15:31:17.598] [127.0.0.1] [info] [client_200]: 
+[2021-01-14 15:31:17.598] [127.0.0.1] [info] [client_200]: [RCV HEADER]: message 6 parsed correctly
+[2021-01-14 15:31:17.599] [127.0.0.1] [info] [client_200]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 15:31:17.599] [127.0.0.1] [info] [client_200]: [CLIENT-CONN-200]: exited from run
+
+[2021-01-14 15:31:17.599] [127.0.0.1] [info] Exited from waiting messages from socket: 200 
+
+[2021-01-14 15:31:17.599] [127.0.0.1] [info] waiting for client connection
+[2021-01-14 15:31:17.601] [127.0.0.1] [info] [client_244]: Logger initialized correctly
+[2021-01-14 15:31:17.601] [127.0.0.1] [info] [client_204]: 
+[2021-01-14 15:31:17.601] [127.0.0.1] [info] [client_204]: [RCV HEADER]: message 6 parsed correctly
+[2021-01-14 15:31:17.601] [127.0.0.1] [info] the socket 256 was accepted
+[2021-01-14 15:31:17.601] [127.0.0.1] [info] [client_228]: [RENAME]: returned code: 0
+[2021-01-14 15:31:17.601] [127.0.0.1] [info] [client_216]: [RENAME]: returned code: 0
+[2021-01-14 15:31:17.601] [127.0.0.1] [info] [client_204]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 15:31:17.601] [127.0.0.1] [info] [client_204]: [CLIENT-CONN-204]: exited from run
+
+[2021-01-14 15:31:17.601] [127.0.0.1] [info] Exited from waiting messages from socket: 204 
+
+[2021-01-14 15:31:17.602] [127.0.0.1] [info] [client_228]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 15:31:17.602] [127.0.0.1] [info] [client_216]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 15:31:17.602] [127.0.0.1] [info] [client_228]: 
+[2021-01-14 15:31:17.602] [127.0.0.1] [info] [client_228]: wait for message from the client
+[2021-01-14 15:31:17.602] [127.0.0.1] [info] [client_216]: 
+[2021-01-14 15:31:17.602] [127.0.0.1] [info] [client_216]: wait for message from the client
+[2021-01-14 15:31:17.602] [127.0.0.1] [info] [client_244]: 
+[2021-01-14 15:31:17.602] [127.0.0.1] [info] [client_244]: wait for message from the client
+[2021-01-14 15:31:17.602] [127.0.0.1] [info] waiting for client connection
+[2021-01-14 15:31:17.604] [127.0.0.1] [info] [client_256]: Logger initialized correctly
+[2021-01-14 15:31:17.604] [127.0.0.1] [info] [client_244]: 
+[2021-01-14 15:31:17.604] [127.0.0.1] [info] the socket 264 was accepted
+[2021-01-14 15:31:17.604] [127.0.0.1] [info] [client_244]: [RCV HEADER]: message 2 parsed correctly
+[2021-01-14 15:31:17.604] [127.0.0.1] [info] [client_228]: 
+[2021-01-14 15:31:17.604] [127.0.0.1] [info] [client_256]: 
+[2021-01-14 15:31:17.604] [127.0.0.1] [info] [client_256]: wait for message from the client
+[2021-01-14 15:31:17.604] [127.0.0.1] [info] [client_216]: 
+[2021-01-14 15:31:17.604] [127.0.0.1] [info] [client_228]: [RCV HEADER]: message 6 parsed correctly
+[2021-01-14 15:31:17.604] [127.0.0.1] [info] [client_216]: [RCV HEADER]: message 6 parsed correctly
+[2021-01-14 15:31:17.605] [127.0.0.1] [info] [client_228]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 15:31:17.605] [127.0.0.1] [info] [client_216]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 15:31:17.605] [127.0.0.1] [info] [client_228]: [CLIENT-CONN-228]: exited from run
+
+[2021-01-14 15:31:17.605] [127.0.0.1] [info] [client_216]: [CLIENT-CONN-216]: exited from run
+
+[2021-01-14 15:31:17.605] [127.0.0.1] [info] [client_256]: 
+[2021-01-14 15:31:17.605] [127.0.0.1] [info] [client_256]: [RCV HEADER]: message 2 parsed correctly
+[2021-01-14 15:31:17.605] [127.0.0.1] [info] waiting for client connection
+[2021-01-14 15:31:17.606] [127.0.0.1] [info] Exited from waiting messages from socket: 216 
+
+[2021-01-14 15:31:17.606] [127.0.0.1] [info] Exited from waiting messages from socket: 228 
+
+[2021-01-14 15:31:17.606] [127.0.0.1] [info] [client_264]: Logger initialized correctly
+[2021-01-14 15:31:17.607] [127.0.0.1] [info] the socket 252 was accepted
+[2021-01-14 15:31:17.607] [127.0.0.1] [info] [client_244]: [RENAME]: returned code: 0
+[2021-01-14 15:31:17.607] [127.0.0.1] [info] [client_244]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 15:31:17.607] [127.0.0.1] [info] [client_244]: 
+[2021-01-14 15:31:17.607] [127.0.0.1] [info] [client_244]: wait for message from the client
+[2021-01-14 15:31:17.608] [127.0.0.1] [info] [client_264]: 
+[2021-01-14 15:31:17.608] [127.0.0.1] [info] [client_264]: wait for message from the client
+[2021-01-14 15:31:17.608] [127.0.0.1] [info] waiting for client connection
+[2021-01-14 15:31:17.609] [127.0.0.1] [info] [client_252]: Logger initialized correctly
+[2021-01-14 15:31:17.609] [127.0.0.1] [info] [client_244]: 
+[2021-01-14 15:31:17.609] [127.0.0.1] [info] [client_244]: [RCV HEADER]: message 6 parsed correctly
+[2021-01-14 15:31:17.609] [127.0.0.1] [info] [client_264]: 
+[2021-01-14 15:31:17.609] [127.0.0.1] [info] [client_256]: [RENAME]: returned code: 0
+[2021-01-14 15:31:17.609] [127.0.0.1] [info] [client_264]: [RCV HEADER]: message 2 parsed correctly
+[2021-01-14 15:31:17.609] [127.0.0.1] [info] [client_252]: 
+[2021-01-14 15:31:17.609] [127.0.0.1] [info] [client_252]: wait for message from the client
+[2021-01-14 15:31:17.609] [127.0.0.1] [info] [client_244]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 15:31:17.609] [127.0.0.1] [info] [client_244]: [CLIENT-CONN-244]: exited from run
+
+[2021-01-14 15:31:17.609] [127.0.0.1] [info] Exited from waiting messages from socket: 244 
+
+[2021-01-14 15:31:17.609] [127.0.0.1] [info] [client_256]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 15:31:17.609] [127.0.0.1] [info] [client_256]: 
+[2021-01-14 15:31:17.609] [127.0.0.1] [info] [client_256]: wait for message from the client
+[2021-01-14 15:31:17.610] [127.0.0.1] [info] [client_252]: 
+[2021-01-14 15:31:17.610] [127.0.0.1] [info] [client_252]: [RCV HEADER]: message 2 parsed correctly
+[2021-01-14 15:31:17.612] [127.0.0.1] [info] [client_256]: 
+[2021-01-14 15:31:17.612] [127.0.0.1] [info] [client_256]: [RCV HEADER]: message 6 parsed correctly
+[2021-01-14 15:31:17.612] [127.0.0.1] [info] [client_256]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 15:31:17.612] [127.0.0.1] [info] [client_256]: [CLIENT-CONN-256]: exited from run
+
+[2021-01-14 15:31:17.612] [127.0.0.1] [info] Exited from waiting messages from socket: 256 
+
+[2021-01-14 15:31:17.613] [127.0.0.1] [info] [client_264]: [RENAME]: returned code: 0
+[2021-01-14 15:31:17.613] [127.0.0.1] [info] [client_252]: [RENAME]: returned code: 0
+[2021-01-14 15:31:17.613] [127.0.0.1] [info] [client_264]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 15:31:17.613] [127.0.0.1] [info] [client_264]: 
+[2021-01-14 15:31:17.613] [127.0.0.1] [info] [client_264]: wait for message from the client
+[2021-01-14 15:31:17.613] [127.0.0.1] [info] [client_252]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 15:31:17.613] [127.0.0.1] [info] [client_252]: 
+[2021-01-14 15:31:17.613] [127.0.0.1] [info] [client_252]: wait for message from the client
+[2021-01-14 15:31:17.614] [127.0.0.1] [info] [client_264]: 
+[2021-01-14 15:31:17.614] [127.0.0.1] [info] [client_264]: [RCV HEADER]: message 6 parsed correctly
+[2021-01-14 15:31:17.615] [127.0.0.1] [info] [client_264]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 15:31:17.615] [127.0.0.1] [info] [client_264]: [CLIENT-CONN-264]: exited from run
+
+[2021-01-14 15:31:17.615] [127.0.0.1] [info] Exited from waiting messages from socket: 264 
+
+[2021-01-14 15:31:17.616] [127.0.0.1] [info] [client_252]: 
+[2021-01-14 15:31:17.616] [127.0.0.1] [info] [client_252]: [RCV HEADER]: message 6 parsed correctly
+[2021-01-14 15:31:17.616] [127.0.0.1] [info] [client_252]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 15:31:17.616] [127.0.0.1] [info] [client_252]: [CLIENT-CONN-252]: exited from run
+
+[2021-01-14 15:31:17.616] [127.0.0.1] [info] Exited from waiting messages from socket: 252 
+
+[2021-01-14 15:31:32.594] [127.0.0.1] [info] the socket 236 was accepted
+[2021-01-14 15:31:32.595] [127.0.0.1] [info] waiting for client connection
+[2021-01-14 15:31:32.597] [127.0.0.1] [info] [client_236]: Logger initialized correctly
+[2021-01-14 15:31:32.597] [127.0.0.1] [info] [client_236]: 
+[2021-01-14 15:31:32.597] [127.0.0.1] [info] [client_236]: wait for message from the client
+[2021-01-14 15:31:32.597] [127.0.0.1] [info] [client_236]: 
+[2021-01-14 15:31:32.597] [127.0.0.1] [info] [client_236]: [RCV HEADER]: message 2 parsed correctly
+[2021-01-14 15:31:32.599] [127.0.0.1] [info] [client_236]: [RENAME]: returned code: 0
+[2021-01-14 15:31:32.599] [127.0.0.1] [info] [client_236]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 15:31:32.599] [127.0.0.1] [info] [client_236]: 
+[2021-01-14 15:31:32.599] [127.0.0.1] [info] [client_236]: wait for message from the client
+[2021-01-14 15:31:32.599] [127.0.0.1] [info] [client_236]: 
+[2021-01-14 15:31:32.599] [127.0.0.1] [info] [client_236]: [RCV HEADER]: message 6 parsed correctly
+[2021-01-14 15:31:32.599] [127.0.0.1] [info] [client_236]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 15:31:32.599] [127.0.0.1] [info] [client_236]: [CLIENT-CONN-236]: exited from run
+
+[2021-01-14 15:31:32.599] [127.0.0.1] [info] Exited from waiting messages from socket: 236 
+
+[2021-01-14 15:34:14.601] [127.0.0.1] [info] Logger initialized correctly
+[2021-01-14 15:34:14.618] [127.0.0.1] [info] waiting for client connection
+[2021-01-14 15:34:14.620] [127.0.0.1] [info] [CHECK-INACTIVITY]: go to sleep for 60 seconds
+[2021-01-14 15:35:14.622] [127.0.0.1] [info] [CHECK-INACTIVITY]: go to sleep for 60 seconds
+[2021-01-14 15:36:14.623] [127.0.0.1] [info] [CHECK-INACTIVITY]: go to sleep for 60 seconds
+[2021-01-14 15:37:05.405] [127.0.0.1] [info] the socket 132 was accepted
+[2021-01-14 15:37:05.406] [127.0.0.1] [info] waiting for client connection
+[2021-01-14 15:37:05.407] [127.0.0.1] [info] the socket 212 was accepted
+[2021-01-14 15:37:05.407] [127.0.0.1] [info] [client_132]: Logger initialized correctly
+[2021-01-14 15:37:05.407] [127.0.0.1] [info] [client_132]: 
+[2021-01-14 15:37:05.407] [127.0.0.1] [info] [client_132]: wait for message from the client
+[2021-01-14 15:37:05.407] [127.0.0.1] [info] [client_132]: 
+[2021-01-14 15:37:05.407] [127.0.0.1] [info] [client_132]: [RCV HEADER]: message 2 parsed correctly
+[2021-01-14 15:37:05.408] [127.0.0.1] [info] waiting for client connection
+[2021-01-14 15:37:05.408] [127.0.0.1] [info] [client_212]: Logger initialized correctly
+[2021-01-14 15:37:05.409] [127.0.0.1] [info] the socket 208 was accepted
+[2021-01-14 15:37:05.409] [127.0.0.1] [info] [client_212]: 
+[2021-01-14 15:37:05.409] [127.0.0.1] [info] [client_212]: wait for message from the client
+[2021-01-14 15:37:05.409] [127.0.0.1] [info] [client_212]: 
+[2021-01-14 15:37:05.409] [127.0.0.1] [info] [client_212]: [RCV HEADER]: message 2 parsed correctly
+[2021-01-14 15:37:05.410] [127.0.0.1] [info] waiting for client connection
+[2021-01-14 15:37:05.410] [127.0.0.1] [info] [client_208]: Logger initialized correctly
+[2021-01-14 15:37:05.411] [127.0.0.1] [info] [client_208]: 
+[2021-01-14 15:37:05.411] [127.0.0.1] [info] [client_208]: wait for message from the client
+[2021-01-14 15:37:05.411] [127.0.0.1] [info] [client_208]: 
+[2021-01-14 15:37:05.411] [127.0.0.1] [info] [client_208]: [RCV HEADER]: message 2 parsed correctly
+[2021-01-14 15:37:05.412] [127.0.0.1] [info] [client_212]: [RENAME]: returned code: 0
+[2021-01-14 15:37:05.412] [127.0.0.1] [info] [client_132]: [RENAME]: returned code: 0
+[2021-01-14 15:37:05.412] [127.0.0.1] [info] [client_212]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 15:37:05.412] [127.0.0.1] [info] [client_212]: 
+[2021-01-14 15:37:05.412] [127.0.0.1] [info] [client_212]: wait for message from the client
+[2021-01-14 15:37:05.412] [127.0.0.1] [info] [client_132]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 15:37:05.412] [127.0.0.1] [info] [client_132]: 
+[2021-01-14 15:37:05.412] [127.0.0.1] [info] [client_132]: wait for message from the client
+[2021-01-14 15:37:05.412] [127.0.0.1] [info] [client_212]: 
+[2021-01-14 15:37:05.412] [127.0.0.1] [info] [client_212]: [RCV HEADER]: message 6 parsed correctly
+[2021-01-14 15:37:05.413] [127.0.0.1] [info] [client_212]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 15:37:05.413] [127.0.0.1] [info] [client_212]: [CLIENT-CONN-212]: exited from run
+
+[2021-01-14 15:37:05.413] [127.0.0.1] [info] Exited from waiting messages from socket: 212 
+
+[2021-01-14 15:37:05.414] [127.0.0.1] [info] [client_132]: 
+[2021-01-14 15:37:05.414] [127.0.0.1] [info] [client_132]: [RCV HEADER]: message 6 parsed correctly
+[2021-01-14 15:37:05.414] [127.0.0.1] [info] [client_132]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 15:37:05.414] [127.0.0.1] [info] [client_132]: [CLIENT-CONN-132]: exited from run
+
+[2021-01-14 15:37:05.414] [127.0.0.1] [info] Exited from waiting messages from socket: 132 
+
+[2021-01-14 15:37:05.415] [127.0.0.1] [info] [client_208]: [RENAME]: returned code: 0
+[2021-01-14 15:37:05.415] [127.0.0.1] [info] [client_208]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 15:37:05.415] [127.0.0.1] [info] [client_208]: 
+[2021-01-14 15:37:05.415] [127.0.0.1] [info] [client_208]: wait for message from the client
+[2021-01-14 15:37:05.416] [127.0.0.1] [info] [client_208]: 
+[2021-01-14 15:37:05.416] [127.0.0.1] [info] [client_208]: [RCV HEADER]: message 6 parsed correctly
+[2021-01-14 15:37:05.416] [127.0.0.1] [info] [client_208]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 15:37:05.416] [127.0.0.1] [info] [client_208]: [CLIENT-CONN-208]: exited from run
+
+[2021-01-14 15:37:05.416] [127.0.0.1] [info] Exited from waiting messages from socket: 208 
+
+[2021-01-14 15:37:14.628] [127.0.0.1] [info] [CHECK-INACTIVITY]: go to sleep for 60 seconds
+[2021-01-14 15:38:14.629] [127.0.0.1] [info] [CHECK-INACTIVITY]: go to sleep for 60 seconds
+[2021-01-14 15:39:44.344] [127.0.0.1] [info] Logger initialized correctly
+[2021-01-14 15:39:44.375] [127.0.0.1] [info] waiting for client connection
+[2021-01-14 15:39:44.377] [127.0.0.1] [info] [CHECK-INACTIVITY]: go to sleep for 60 seconds
+[2021-01-14 15:40:22.241] [127.0.0.1] [info] the socket 136 was accepted
+[2021-01-14 15:40:22.242] [127.0.0.1] [info] waiting for client connection
+[2021-01-14 15:40:22.242] [127.0.0.1] [info] the socket 212 was accepted
+[2021-01-14 15:40:22.243] [127.0.0.1] [info] [client_136]: Logger initialized correctly
+[2021-01-14 15:40:22.244] [127.0.0.1] [info] [client_136]: 
+[2021-01-14 15:40:22.244] [127.0.0.1] [info] [client_136]: wait for message from the client
+[2021-01-14 15:40:22.244] [127.0.0.1] [info] [client_136]: 
+[2021-01-14 15:40:22.244] [127.0.0.1] [info] [client_136]: [RCV HEADER]: message 2 parsed correctly
+[2021-01-14 15:40:22.245] [127.0.0.1] [info] waiting for client connection
+[2021-01-14 15:40:22.245] [127.0.0.1] [info] [client_212]: Logger initialized correctly
+[2021-01-14 15:40:22.245] [127.0.0.1] [info] the socket 140 was accepted
+[2021-01-14 15:40:22.245] [127.0.0.1] [info] [client_212]: 
+[2021-01-14 15:40:22.245] [127.0.0.1] [info] [client_212]: wait for message from the client
+[2021-01-14 15:40:22.245] [127.0.0.1] [info] [client_212]: 
+[2021-01-14 15:40:22.245] [127.0.0.1] [info] [client_212]: [RCV HEADER]: message 2 parsed correctly
+[2021-01-14 15:40:22.246] [127.0.0.1] [info] waiting for client connection
+[2021-01-14 15:40:22.246] [127.0.0.1] [info] [client_140]: Logger initialized correctly
+[2021-01-14 15:40:22.247] [127.0.0.1] [info] [client_140]: 
+[2021-01-14 15:40:22.247] [127.0.0.1] [info] [client_140]: wait for message from the client
+[2021-01-14 15:40:22.247] [127.0.0.1] [info] [client_140]: 
+[2021-01-14 15:40:22.247] [127.0.0.1] [info] [client_140]: [RCV HEADER]: message 2 parsed correctly
+[2021-01-14 15:40:22.249] [127.0.0.1] [info] [client_212]: [RENAME]: returned code: 0
+[2021-01-14 15:40:22.249] [127.0.0.1] [info] [client_136]: [RENAME]: returned code: 0
+[2021-01-14 15:40:22.249] [127.0.0.1] [info] [client_212]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 15:40:22.249] [127.0.0.1] [info] [client_212]: 
+[2021-01-14 15:40:22.249] [127.0.0.1] [info] [client_212]: wait for message from the client
+[2021-01-14 15:40:22.249] [127.0.0.1] [info] [client_136]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 15:40:22.249] [127.0.0.1] [info] [client_136]: 
+[2021-01-14 15:40:22.249] [127.0.0.1] [info] [client_136]: wait for message from the client
+[2021-01-14 15:40:22.251] [127.0.0.1] [info] [client_140]: [RENAME]: returned code: -4
+[2021-01-14 15:40:22.251] [127.0.0.1] [info] [client_212]: 
+[2021-01-14 15:40:22.251] [127.0.0.1] [info] [client_212]: [RCV HEADER]: message 6 parsed correctly
+[2021-01-14 15:40:22.251] [127.0.0.1] [info] [client_136]: 
+[2021-01-14 15:40:22.251] [127.0.0.1] [info] [client_136]: [RCV HEADER]: message 6 parsed correctly
+[2021-01-14 15:40:22.251] [127.0.0.1] [info] [client_140]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 15:40:22.251] [127.0.0.1] [info] [client_140]: 
+[2021-01-14 15:40:22.251] [127.0.0.1] [info] [client_140]: wait for message from the client
+[2021-01-14 15:40:22.251] [127.0.0.1] [info] [client_136]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 15:40:22.251] [127.0.0.1] [info] [client_136]: [CLIENT-CONN-136]: exited from run
+
+[2021-01-14 15:40:22.251] [127.0.0.1] [info] [client_212]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 15:40:22.251] [127.0.0.1] [info] [client_212]: [CLIENT-CONN-212]: exited from run
+
+[2021-01-14 15:40:22.251] [127.0.0.1] [info] Exited from waiting messages from socket: 136 
+
+[2021-01-14 15:40:22.251] [127.0.0.1] [info] Exited from waiting messages from socket: 212 
+
+[2021-01-14 15:40:22.252] [127.0.0.1] [info] [client_140]: 
+[2021-01-14 15:40:22.252] [127.0.0.1] [info] [client_140]: [RCV HEADER]: message 6 parsed correctly
+[2021-01-14 15:40:22.252] [127.0.0.1] [info] [client_140]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 15:40:22.252] [127.0.0.1] [info] [client_140]: [CLIENT-CONN-140]: exited from run
+
+[2021-01-14 15:40:22.252] [127.0.0.1] [info] Exited from waiting messages from socket: 140 
+
+[2021-01-14 16:20:16.857] [127.0.0.1] [info] Logger initialized correctly
+[2021-01-14 16:20:16.872] [127.0.0.1] [info] waiting for client connection
+[2021-01-14 16:20:16.874] [127.0.0.1] [info] [CHECK-INACTIVITY]: go to sleep for 60 seconds
+[2021-01-14 16:20:20.703] [127.0.0.1] [info] the socket 204 was accepted
+[2021-01-14 16:20:20.704] [127.0.0.1] [info] waiting for client connection
+[2021-01-14 16:20:20.705] [127.0.0.1] [info] the socket 208 was accepted
+[2021-01-14 16:20:20.705] [127.0.0.1] [info] [client_204]: Logger initialized correctly
+[2021-01-14 16:20:20.706] [127.0.0.1] [info] [client_204]: 
+[2021-01-14 16:20:20.706] [127.0.0.1] [info] [client_204]: wait for message from the client
+[2021-01-14 16:20:20.706] [127.0.0.1] [info] [client_204]: 
+[2021-01-14 16:20:20.706] [127.0.0.1] [info] [client_204]: [RCV HEADER]: message 2 parsed correctly
+[2021-01-14 16:20:20.707] [127.0.0.1] [info] waiting for client connection
+[2021-01-14 16:20:20.707] [127.0.0.1] [info] [client_208]: Logger initialized correctly
+[2021-01-14 16:20:20.707] [127.0.0.1] [info] the socket 228 was accepted
+[2021-01-14 16:22:18.511] [127.0.0.1] [info] Logger initialized correctly
+[2021-01-14 16:22:18.532] [127.0.0.1] [info] waiting for client connection
+[2021-01-14 16:22:18.535] [127.0.0.1] [info] [CHECK-INACTIVITY]: go to sleep for 60 seconds
+[2021-01-14 16:22:20.765] [127.0.0.1] [info] the socket 208 was accepted
+[2021-01-14 16:22:20.766] [127.0.0.1] [info] waiting for client connection
+[2021-01-14 16:22:20.767] [127.0.0.1] [info] the socket 140 was accepted
+[2021-01-14 16:22:20.767] [127.0.0.1] [info] [client_208]: Logger initialized correctly
+[2021-01-14 16:22:20.767] [127.0.0.1] [info] [client_208]: 
+[2021-01-14 16:22:20.767] [127.0.0.1] [info] [client_208]: wait for message from the client
+[2021-01-14 16:22:20.768] [127.0.0.1] [info] [client_208]: 
+[2021-01-14 16:22:20.768] [127.0.0.1] [info] [client_208]: [RCV HEADER]: message 2 parsed correctly
+[2021-01-14 16:22:36.132] [127.0.0.1] [info] waiting for client connection
+[2021-01-14 16:22:36.133] [127.0.0.1] [info] [client_140]: Logger initialized correctly
+[2021-01-14 16:22:36.133] [127.0.0.1] [info] the socket 144 was accepted
+[2021-01-14 16:22:36.133] [127.0.0.1] [info] [client_140]: 
+[2021-01-14 16:22:36.133] [127.0.0.1] [info] [client_140]: wait for message from the client
+[2021-01-14 16:22:41.109] [127.0.0.1] [info] waiting for client connection
+[2021-01-14 16:22:41.146] [127.0.0.1] [info] [client_144]: Logger initialized correctly
+[2021-01-14 16:22:42.152] [127.0.0.1] [info] [client_140]: 
+[2021-01-14 16:22:42.152] [127.0.0.1] [info] [client_140]: [RCV HEADER]: message 2 parsed correctly
+[2021-01-14 16:22:46.466] [127.0.0.1] [info] [client_144]: 
+[2021-01-14 16:22:46.471] [127.0.0.1] [info] [client_144]: wait for message from the client
+[2021-01-14 16:22:46.901] [127.0.0.1] [info] [client_144]: 
+[2021-01-14 16:22:46.901] [127.0.0.1] [info] [client_144]: [RCV HEADER]: message 2 parsed correctly
+[2021-01-14 16:22:54.655] [127.0.0.1] [info] [client_140]: [RENAME]: returned code: 0
+[2021-01-14 16:22:54.655] [127.0.0.1] [info] [client_208]: [RENAME]: returned code: 0
+[2021-01-14 16:22:54.655] [127.0.0.1] [info] [client_144]: [RENAME]: returned code: 0
+[2021-01-14 16:22:54.655] [127.0.0.1] [info] [client_144]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 16:22:54.655] [127.0.0.1] [info] [client_144]: 
+[2021-01-14 16:22:54.655] [127.0.0.1] [info] [client_144]: wait for message from the client
+[2021-01-14 16:22:54.655] [127.0.0.1] [info] [client_208]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 16:22:54.655] [127.0.0.1] [info] [client_208]: 
+[2021-01-14 16:22:54.655] [127.0.0.1] [info] [client_208]: wait for message from the client
+[2021-01-14 16:22:54.655] [127.0.0.1] [info] [client_140]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 16:22:54.655] [127.0.0.1] [info] [client_140]: 
+[2021-01-14 16:22:54.655] [127.0.0.1] [info] [client_140]: wait for message from the client
+[2021-01-14 16:22:54.655] [127.0.0.1] [info] [client_208]: 
+[2021-01-14 16:22:54.655] [127.0.0.1] [info] [client_208]: [RCV HEADER]: message 6 parsed correctly
+[2021-01-14 16:22:54.655] [127.0.0.1] [info] [client_208]: [SND HEADER RESP]: returned code: -2
+[2021-01-14 16:22:54.655] [127.0.0.1] [info] [client_208]: [CLIENT-CONN-208]: exited from run
+
+[2021-01-14 16:22:54.655] [127.0.0.1] [info] Exited from waiting messages from socket: 208 
+
+[2021-01-14 16:22:54.656] [127.0.0.1] [info] [client_140]: 
+[2021-01-14 16:22:54.656] [127.0.0.1] [info] [client_140]: [RCV HEADER]: message 6 parsed correctly
+[2021-01-14 16:22:54.656] [127.0.0.1] [info] [client_140]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 16:22:54.656] [127.0.0.1] [info] [client_140]: [CLIENT-CONN-140]: exited from run
+
+[2021-01-14 16:22:54.656] [127.0.0.1] [info] Exited from waiting messages from socket: 140 
+
+[2021-01-14 16:22:54.657] [127.0.0.1] [info] [client_144]: 
+[2021-01-14 16:22:54.657] [127.0.0.1] [info] [client_144]: [RCV HEADER]: message 6 parsed correctly
+[2021-01-14 16:22:54.657] [127.0.0.1] [info] [client_144]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 16:22:54.657] [127.0.0.1] [info] [client_144]: [CLIENT-CONN-144]: exited from run
+
+[2021-01-14 16:22:54.658] [127.0.0.1] [info] Exited from waiting messages from socket: 144 
+
+[2021-01-14 16:23:05.786] [127.0.0.1] [info] the socket 236 was accepted
+[2021-01-14 16:23:05.787] [127.0.0.1] [info] waiting for client connection
+[2021-01-14 16:23:05.788] [127.0.0.1] [info] [client_236]: Logger initialized correctly
+[2021-01-14 16:23:05.788] [127.0.0.1] [info] [client_236]: 
+[2021-01-14 16:23:05.788] [127.0.0.1] [info] [client_236]: wait for message from the client
+[2021-01-14 16:23:05.788] [127.0.0.1] [info] [client_236]: 
+[2021-01-14 16:23:05.788] [127.0.0.1] [info] [client_236]: [RCV HEADER]: message 2 parsed correctly
+[2021-01-14 16:23:05.788] [127.0.0.1] [info] [client_236]: [RENAME]: returned code: 0
+[2021-01-14 16:23:05.788] [127.0.0.1] [info] [client_236]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 16:23:05.789] [127.0.0.1] [info] [client_236]: 
+[2021-01-14 16:23:05.789] [127.0.0.1] [info] [client_236]: wait for message from the client
+[2021-01-14 16:23:05.789] [127.0.0.1] [info] [client_236]: 
+[2021-01-14 16:23:05.789] [127.0.0.1] [info] [client_236]: [RCV HEADER]: message 6 parsed correctly
+[2021-01-14 16:23:05.789] [127.0.0.1] [info] [client_236]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 16:23:05.789] [127.0.0.1] [info] [client_236]: [CLIENT-CONN-236]: exited from run
+
+[2021-01-14 16:23:05.789] [127.0.0.1] [info] Exited from waiting messages from socket: 236 
+
+[2021-01-14 16:23:18.537] [127.0.0.1] [info] [CHECK-INACTIVITY]: go to sleep for 60 seconds
+[2021-01-14 16:23:40.530] [127.0.0.1] [info] the socket 224 was accepted
+[2021-01-14 16:23:40.533] [127.0.0.1] [info] waiting for client connection
+[2021-01-14 16:23:40.533] [127.0.0.1] [info] [client_224]: Logger initialized correctly
+[2021-01-14 16:23:40.533] [127.0.0.1] [info] the socket 220 was accepted
+[2021-01-14 16:23:40.533] [127.0.0.1] [info] [client_224]: 
+[2021-01-14 16:23:40.533] [127.0.0.1] [info] [client_224]: wait for message from the client
+[2021-01-14 16:23:40.534] [127.0.0.1] [info] [client_224]: 
+[2021-01-14 16:23:40.534] [127.0.0.1] [info] [client_224]: [RCV HEADER]: message 2 parsed correctly
+[2021-01-14 16:23:40.534] [127.0.0.1] [info] waiting for client connection
+[2021-01-14 16:23:40.535] [127.0.0.1] [info] [client_220]: Logger initialized correctly
+[2021-01-14 16:23:40.535] [127.0.0.1] [info] the socket 248 was accepted
+[2021-01-14 16:23:40.535] [127.0.0.1] [info] [client_220]: 
+[2021-01-14 16:23:40.535] [127.0.0.1] [info] [client_220]: wait for message from the client
+[2021-01-14 16:23:40.536] [127.0.0.1] [info] [client_220]: 
+[2021-01-14 16:23:40.536] [127.0.0.1] [info] [client_220]: [RCV HEADER]: message 2 parsed correctly
+[2021-01-14 16:23:40.539] [127.0.0.1] [info] waiting for client connection
+[2021-01-14 16:23:40.540] [127.0.0.1] [info] [client_248]: Logger initialized correctly
+[2021-01-14 16:23:40.540] [127.0.0.1] [info] the socket 232 was accepted
+[2021-01-14 16:23:40.541] [127.0.0.1] [info] [client_248]: 
+[2021-01-14 16:23:40.541] [127.0.0.1] [info] [client_248]: wait for message from the client
+[2021-01-14 16:23:40.541] [127.0.0.1] [info] [client_248]: 
+[2021-01-14 16:23:40.541] [127.0.0.1] [info] [client_248]: [RCV HEADER]: message 2 parsed correctly
+[2021-01-14 16:23:40.541] [127.0.0.1] [info] waiting for client connection
+[2021-01-14 16:23:40.543] [127.0.0.1] [info] the socket 260 was accepted
+[2021-01-14 16:23:40.543] [127.0.0.1] [info] [client_224]: [RENAME]: returned code: 0
+[2021-01-14 16:23:40.543] [127.0.0.1] [info] [client_224]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 16:23:40.544] [127.0.0.1] [info] [client_224]: 
+[2021-01-14 16:23:40.544] [127.0.0.1] [info] [client_224]: wait for message from the client
+[2021-01-14 16:23:40.544] [127.0.0.1] [info] [client_232]: Logger initialized correctly
+[2021-01-14 16:23:40.544] [127.0.0.1] [info] [client_220]: [RENAME]: returned code: 0
+[2021-01-14 16:23:40.544] [127.0.0.1] [info] [client_224]: 
+[2021-01-14 16:23:40.544] [127.0.0.1] [info] [client_224]: [RCV HEADER]: message 6 parsed correctly
+[2021-01-14 16:23:40.544] [127.0.0.1] [info] [client_220]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 16:23:40.544] [127.0.0.1] [info] [client_220]: 
+[2021-01-14 16:23:40.544] [127.0.0.1] [info] [client_220]: wait for message from the client
+[2021-01-14 16:23:40.544] [127.0.0.1] [info] [client_224]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 16:23:40.544] [127.0.0.1] [info] [client_224]: [CLIENT-CONN-224]: exited from run
+
+[2021-01-14 16:23:40.544] [127.0.0.1] [info] Exited from waiting messages from socket: 224 
+
+[2021-01-14 16:23:40.544] [127.0.0.1] [info] [client_232]: 
+[2021-01-14 16:23:40.545] [127.0.0.1] [info] [client_232]: wait for message from the client
+[2021-01-14 16:23:40.545] [127.0.0.1] [info] [client_248]: [RENAME]: returned code: 0
+[2021-01-14 16:23:40.545] [127.0.0.1] [info] [client_220]: 
+[2021-01-14 16:23:40.545] [127.0.0.1] [info] [client_220]: [RCV HEADER]: message 6 parsed correctly
+[2021-01-14 16:23:40.546] [127.0.0.1] [info] [client_232]: 
+[2021-01-14 16:23:40.546] [127.0.0.1] [info] [client_232]: [RCV HEADER]: message 2 parsed correctly
+[2021-01-14 16:23:40.546] [127.0.0.1] [info] [client_248]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 16:23:40.546] [127.0.0.1] [info] [client_248]: 
+[2021-01-14 16:23:40.546] [127.0.0.1] [info] [client_248]: wait for message from the client
+[2021-01-14 16:23:40.546] [127.0.0.1] [info] [client_220]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 16:23:40.546] [127.0.0.1] [info] [client_220]: [CLIENT-CONN-220]: exited from run
+
+[2021-01-14 16:23:40.546] [127.0.0.1] [info] Exited from waiting messages from socket: 220 
+
+[2021-01-14 16:23:40.548] [127.0.0.1] [info] waiting for client connection
+[2021-01-14 16:23:40.548] [127.0.0.1] [info] [client_260]: Logger initialized correctly
+[2021-01-14 16:23:40.548] [127.0.0.1] [info] [client_248]: 
+[2021-01-14 16:23:40.548] [127.0.0.1] [info] [client_248]: [RCV HEADER]: message 6 parsed correctly
+[2021-01-14 16:23:40.548] [127.0.0.1] [info] the socket 276 was accepted
+[2021-01-14 16:23:40.548] [127.0.0.1] [info] [client_248]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 16:23:40.548] [127.0.0.1] [info] [client_248]: [CLIENT-CONN-248]: exited from run
+
+[2021-01-14 16:23:40.548] [127.0.0.1] [info] Exited from waiting messages from socket: 248 
+
+[2021-01-14 16:23:40.550] [127.0.0.1] [info] waiting for client connection
+[2021-01-14 16:23:40.550] [127.0.0.1] [info] [client_260]: 
+[2021-01-14 16:23:40.551] [127.0.0.1] [info] [client_260]: wait for message from the client
+[2021-01-14 16:23:40.550] [127.0.0.1] [info] [client_276]: Logger initialized correctly
+[2021-01-14 16:23:40.551] [127.0.0.1] [info] [client_260]: 
+[2021-01-14 16:23:40.551] [127.0.0.1] [info] [client_260]: [RCV HEADER]: message 2 parsed correctly
+[2021-01-14 16:23:40.551] [127.0.0.1] [info] the socket 268 was accepted
+[2021-01-14 16:23:40.551] [127.0.0.1] [info] [client_232]: [RENAME]: returned code: 0
+[2021-01-14 16:23:40.551] [127.0.0.1] [info] [client_276]: 
+[2021-01-14 16:23:40.551] [127.0.0.1] [info] [client_276]: wait for message from the client
+[2021-01-14 16:23:40.551] [127.0.0.1] [info] [client_232]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 16:23:40.551] [127.0.0.1] [info] [client_232]: 
+[2021-01-14 16:23:40.551] [127.0.0.1] [info] [client_232]: wait for message from the client
+[2021-01-14 16:23:40.551] [127.0.0.1] [info] [client_276]: 
+[2021-01-14 16:23:40.551] [127.0.0.1] [info] [client_276]: [RCV HEADER]: message 2 parsed correctly
+[2021-01-14 16:23:40.552] [127.0.0.1] [info] [client_232]: 
+[2021-01-14 16:23:40.552] [127.0.0.1] [info] [client_232]: [RCV HEADER]: message 6 parsed correctly
+[2021-01-14 16:23:40.552] [127.0.0.1] [info] waiting for client connection
+[2021-01-14 16:23:40.552] [127.0.0.1] [info] [client_232]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 16:23:40.552] [127.0.0.1] [info] [client_232]: [CLIENT-CONN-232]: exited from run
+
+[2021-01-14 16:23:40.552] [127.0.0.1] [info] Exited from waiting messages from socket: 232 
+
+[2021-01-14 16:23:40.553] [127.0.0.1] [info] the socket 240 was accepted
+[2021-01-14 16:23:40.554] [127.0.0.1] [info] [client_268]: Logger initialized correctly
+[2021-01-14 16:23:40.555] [127.0.0.1] [info] [client_276]: [RENAME]: returned code: 0
+[2021-01-14 16:23:40.555] [127.0.0.1] [info] [client_260]: [RENAME]: returned code: 0
+[2021-01-14 16:23:40.555] [127.0.0.1] [info] [client_276]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 16:23:40.555] [127.0.0.1] [info] [client_260]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 16:23:40.555] [127.0.0.1] [info] [client_276]: 
+[2021-01-14 16:23:40.555] [127.0.0.1] [info] [client_260]: 
+[2021-01-14 16:23:40.555] [127.0.0.1] [info] [client_276]: wait for message from the client
+[2021-01-14 16:23:40.555] [127.0.0.1] [info] [client_260]: wait for message from the client
+[2021-01-14 16:23:40.555] [127.0.0.1] [info] waiting for client connection
+[2021-01-14 16:23:40.555] [127.0.0.1] [info] [client_268]: 
+[2021-01-14 16:23:40.556] [127.0.0.1] [info] [client_268]: wait for message from the client
+[2021-01-14 16:23:40.556] [127.0.0.1] [info] [client_240]: Logger initialized correctly
+[2021-01-14 16:23:40.556] [127.0.0.1] [info] [client_268]: 
+[2021-01-14 16:23:40.556] [127.0.0.1] [info] [client_268]: [RCV HEADER]: message 2 parsed correctly
+[2021-01-14 16:23:40.557] [127.0.0.1] [info] [client_240]: 
+[2021-01-14 16:23:40.557] [127.0.0.1] [info] [client_240]: wait for message from the client
+[2021-01-14 16:23:40.557] [127.0.0.1] [info] [client_240]: 
+[2021-01-14 16:23:40.557] [127.0.0.1] [info] [client_240]: [RCV HEADER]: message 2 parsed correctly
+[2021-01-14 16:23:40.558] [127.0.0.1] [info] [client_276]: 
+[2021-01-14 16:23:40.558] [127.0.0.1] [info] [client_276]: [RCV HEADER]: message 6 parsed correctly
+[2021-01-14 16:23:40.558] [127.0.0.1] [info] [client_260]: 
+[2021-01-14 16:23:40.558] [127.0.0.1] [info] [client_260]: [RCV HEADER]: message 6 parsed correctly
+[2021-01-14 16:23:40.558] [127.0.0.1] [info] [client_260]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 16:23:40.558] [127.0.0.1] [info] [client_276]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 16:23:40.558] [127.0.0.1] [info] [client_260]: [CLIENT-CONN-260]: exited from run
+
+[2021-01-14 16:23:40.558] [127.0.0.1] [info] [client_276]: [CLIENT-CONN-276]: exited from run
+
+[2021-01-14 16:23:40.558] [127.0.0.1] [info] Exited from waiting messages from socket: 260 
+
+[2021-01-14 16:23:40.558] [127.0.0.1] [info] Exited from waiting messages from socket: 276 
+
+[2021-01-14 16:23:40.559] [127.0.0.1] [info] [client_268]: [RENAME]: returned code: 0
+[2021-01-14 16:23:40.559] [127.0.0.1] [info] [client_240]: [RENAME]: returned code: 0
+[2021-01-14 16:23:40.560] [127.0.0.1] [info] [client_240]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 16:23:40.560] [127.0.0.1] [info] [client_240]: 
+[2021-01-14 16:23:40.560] [127.0.0.1] [info] [client_240]: wait for message from the client
+[2021-01-14 16:23:40.560] [127.0.0.1] [info] [client_268]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 16:23:40.560] [127.0.0.1] [info] [client_268]: 
+[2021-01-14 16:23:40.560] [127.0.0.1] [info] [client_268]: wait for message from the client
+[2021-01-14 16:23:40.561] [127.0.0.1] [info] [client_240]: 
+[2021-01-14 16:23:40.561] [127.0.0.1] [info] [client_240]: [RCV HEADER]: message 6 parsed correctly
+[2021-01-14 16:23:40.561] [127.0.0.1] [info] [client_240]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 16:23:40.561] [127.0.0.1] [info] [client_240]: [CLIENT-CONN-240]: exited from run
+
+[2021-01-14 16:23:40.561] [127.0.0.1] [info] Exited from waiting messages from socket: 240 
+
+[2021-01-14 16:23:40.562] [127.0.0.1] [info] [client_268]: 
+[2021-01-14 16:23:40.562] [127.0.0.1] [info] [client_268]: [RCV HEADER]: message 6 parsed correctly
+[2021-01-14 16:23:40.562] [127.0.0.1] [info] [client_268]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 16:23:40.562] [127.0.0.1] [info] [client_268]: [CLIENT-CONN-268]: exited from run
+
+[2021-01-14 16:23:40.562] [127.0.0.1] [info] Exited from waiting messages from socket: 268 
+
+[2021-01-14 16:24:18.550] [127.0.0.1] [info] [CHECK-INACTIVITY]: go to sleep for 60 seconds
+[2021-01-14 16:24:28.629] [127.0.0.1] [info] the socket 228 was accepted
+[2021-01-14 16:24:28.629] [127.0.0.1] [info] waiting for client connection
+[2021-01-14 16:24:28.630] [127.0.0.1] [info] [client_228]: Logger initialized correctly
+[2021-01-14 16:24:28.630] [127.0.0.1] [info] the socket 292 was accepted
+[2021-01-14 16:24:28.631] [127.0.0.1] [info] [client_228]: 
+[2021-01-14 16:24:28.631] [127.0.0.1] [info] [client_228]: wait for message from the client
+[2021-01-14 16:24:28.631] [127.0.0.1] [info] [client_228]: 
+[2021-01-14 16:24:28.631] [127.0.0.1] [info] [client_228]: [RCV HEADER]: message 2 parsed correctly
+[2021-01-14 16:24:28.632] [127.0.0.1] [info] waiting for client connection
+[2021-01-14 16:24:28.632] [127.0.0.1] [info] [client_292]: Logger initialized correctly
+[2021-01-14 16:24:28.632] [127.0.0.1] [info] the socket 288 was accepted
+[2021-01-14 16:24:28.633] [127.0.0.1] [info] [client_292]: 
+[2021-01-14 16:24:28.633] [127.0.0.1] [info] [client_292]: wait for message from the client
+[2021-01-14 16:24:28.633] [127.0.0.1] [info] waiting for client connection
+[2021-01-14 16:24:28.633] [127.0.0.1] [info] [client_292]: 
+[2021-01-14 16:24:28.633] [127.0.0.1] [info] [client_292]: [RCV HEADER]: message 2 parsed correctly
+[2021-01-14 16:24:28.634] [127.0.0.1] [info] the socket 252 was accepted
+[2021-01-14 16:24:28.634] [127.0.0.1] [info] [client_288]: Logger initialized correctly
+[2021-01-14 16:24:28.635] [127.0.0.1] [info] [client_228]: [RENAME]: returned code: 0
+[2021-01-14 16:24:28.635] [127.0.0.1] [info] [client_288]: 
+[2021-01-14 16:24:28.635] [127.0.0.1] [info] [client_288]: wait for message from the client
+[2021-01-14 16:24:28.635] [127.0.0.1] [info] [client_228]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 16:24:28.635] [127.0.0.1] [info] [client_228]: 
+[2021-01-14 16:24:28.635] [127.0.0.1] [info] [client_228]: wait for message from the client
+[2021-01-14 16:24:28.636] [127.0.0.1] [info] [client_288]: 
+[2021-01-14 16:24:28.636] [127.0.0.1] [info] [client_288]: [RCV HEADER]: message 2 parsed correctly
+[2021-01-14 16:24:28.636] [127.0.0.1] [info] [client_228]: 
+[2021-01-14 16:24:28.636] [127.0.0.1] [info] [client_228]: [RCV HEADER]: message 6 parsed correctly
+[2021-01-14 16:24:28.636] [127.0.0.1] [info] [client_292]: [RENAME]: returned code: 0
+[2021-01-14 16:24:28.636] [127.0.0.1] [info] [client_292]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 16:24:28.636] [127.0.0.1] [info] [client_292]: 
+[2021-01-14 16:24:28.636] [127.0.0.1] [info] [client_292]: wait for message from the client
+[2021-01-14 16:24:28.636] [127.0.0.1] [info] [client_228]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 16:24:28.636] [127.0.0.1] [info] [client_228]: [CLIENT-CONN-228]: exited from run
+
+[2021-01-14 16:24:28.637] [127.0.0.1] [info] waiting for client connection
+[2021-01-14 16:24:28.637] [127.0.0.1] [info] Exited from waiting messages from socket: 228 
+
+[2021-01-14 16:24:28.638] [127.0.0.1] [info] [client_252]: Logger initialized correctly
+[2021-01-14 16:24:28.638] [127.0.0.1] [info] [client_292]: 
+[2021-01-14 16:24:28.638] [127.0.0.1] [info] [client_292]: [RCV HEADER]: message 6 parsed correctly
+[2021-01-14 16:24:28.638] [127.0.0.1] [info] the socket 296 was accepted
+[2021-01-14 16:24:28.638] [127.0.0.1] [info] [client_288]: [RENAME]: returned code: 0
+[2021-01-14 16:24:28.638] [127.0.0.1] [info] [client_292]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 16:24:28.638] [127.0.0.1] [info] [client_292]: [CLIENT-CONN-292]: exited from run
+
+[2021-01-14 16:24:28.638] [127.0.0.1] [info] Exited from waiting messages from socket: 292 
+
+[2021-01-14 16:24:28.639] [127.0.0.1] [info] [client_252]: 
+[2021-01-14 16:24:28.639] [127.0.0.1] [info] [client_252]: wait for message from the client
+[2021-01-14 16:24:28.639] [127.0.0.1] [info] [client_288]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 16:24:28.639] [127.0.0.1] [info] [client_288]: 
+[2021-01-14 16:24:28.639] [127.0.0.1] [info] [client_288]: wait for message from the client
+[2021-01-14 16:24:28.639] [127.0.0.1] [info] [client_252]: 
+[2021-01-14 16:24:28.639] [127.0.0.1] [info] [client_252]: [RCV HEADER]: message 2 parsed correctly
+[2021-01-14 16:24:28.640] [127.0.0.1] [info] [client_288]: 
+[2021-01-14 16:24:28.640] [127.0.0.1] [info] [client_288]: [RCV HEADER]: message 6 parsed correctly
+[2021-01-14 16:24:28.640] [127.0.0.1] [info] [client_288]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 16:24:28.640] [127.0.0.1] [info] [client_288]: [CLIENT-CONN-288]: exited from run
+
+[2021-01-14 16:24:28.640] [127.0.0.1] [info] Exited from waiting messages from socket: 288 
+
+[2021-01-14 16:24:28.642] [127.0.0.1] [info] waiting for client connection
+[2021-01-14 16:24:28.642] [127.0.0.1] [info] [client_296]: Logger initialized correctly
+[2021-01-14 16:24:28.642] [127.0.0.1] [info] [client_252]: [RENAME]: returned code: 0
+[2021-01-14 16:24:28.642] [127.0.0.1] [info] [client_296]: 
+[2021-01-14 16:24:28.642] [127.0.0.1] [info] [client_296]: wait for message from the client
+[2021-01-14 16:24:28.642] [127.0.0.1] [info] [client_252]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 16:24:28.642] [127.0.0.1] [info] [client_252]: 
+[2021-01-14 16:24:28.642] [127.0.0.1] [info] [client_252]: wait for message from the client
+[2021-01-14 16:24:28.643] [127.0.0.1] [info] [client_296]: 
+[2021-01-14 16:24:28.643] [127.0.0.1] [info] [client_296]: [RCV HEADER]: message 2 parsed correctly
+[2021-01-14 16:24:28.644] [127.0.0.1] [info] [client_252]: 
+[2021-01-14 16:24:28.644] [127.0.0.1] [info] [client_252]: [RCV HEADER]: message 6 parsed correctly
+[2021-01-14 16:24:28.644] [127.0.0.1] [info] [client_252]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 16:24:28.644] [127.0.0.1] [info] [client_252]: [CLIENT-CONN-252]: exited from run
+
+[2021-01-14 16:24:28.644] [127.0.0.1] [info] Exited from waiting messages from socket: 252 
+
+[2021-01-14 16:24:28.645] [127.0.0.1] [info] [client_296]: [RENAME]: returned code: 0
+[2021-01-14 16:24:28.645] [127.0.0.1] [info] [client_296]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 16:24:28.645] [127.0.0.1] [info] [client_296]: 
+[2021-01-14 16:24:28.645] [127.0.0.1] [info] [client_296]: wait for message from the client
+[2021-01-14 16:24:28.646] [127.0.0.1] [info] [client_296]: 
+[2021-01-14 16:24:28.646] [127.0.0.1] [info] [client_296]: [RCV HEADER]: message 6 parsed correctly
+[2021-01-14 16:24:28.646] [127.0.0.1] [info] [client_296]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 16:24:28.646] [127.0.0.1] [info] [client_296]: [CLIENT-CONN-296]: exited from run
+
+[2021-01-14 16:24:28.646] [127.0.0.1] [info] Exited from waiting messages from socket: 296 
+
+[2021-01-14 16:24:40.916] [127.0.0.1] [info] the socket 272 was accepted
+[2021-01-14 16:24:40.918] [127.0.0.1] [info] waiting for client connection
+[2021-01-14 16:24:40.918] [127.0.0.1] [info] [client_272]: Logger initialized correctly
+[2021-01-14 16:24:40.918] [127.0.0.1] [info] the socket 316 was accepted
+[2021-01-14 16:24:40.919] [127.0.0.1] [info] [client_272]: 
+[2021-01-14 16:24:40.919] [127.0.0.1] [info] [client_272]: wait for message from the client
+[2021-01-14 16:24:40.920] [127.0.0.1] [info] waiting for client connection
+[2021-01-14 16:24:40.920] [127.0.0.1] [info] [client_272]: 
+[2021-01-14 16:24:40.920] [127.0.0.1] [info] [client_272]: [RCV HEADER]: message 2 parsed correctly
+[2021-01-14 16:24:40.920] [127.0.0.1] [info] [client_316]: Logger initialized correctly
+[2021-01-14 16:24:40.920] [127.0.0.1] [info] the socket 304 was accepted
+[2021-01-14 16:24:40.920] [127.0.0.1] [info] [client_316]: 
+[2021-01-14 16:24:40.920] [127.0.0.1] [info] [client_316]: wait for message from the client
+[2021-01-14 16:24:40.920] [127.0.0.1] [info] [client_316]: 
+[2021-01-14 16:24:40.920] [127.0.0.1] [info] [client_316]: [RCV HEADER]: message 2 parsed correctly
+[2021-01-14 16:24:40.921] [127.0.0.1] [info] waiting for client connection
+[2021-01-14 16:24:40.921] [127.0.0.1] [info] [client_304]: Logger initialized correctly
+[2021-01-14 16:24:40.921] [127.0.0.1] [info] the socket 300 was accepted
+[2021-01-14 16:24:40.922] [127.0.0.1] [info] [client_272]: [RENAME]: returned code: 0
+[2021-01-14 16:24:40.922] [127.0.0.1] [info] [client_316]: [RENAME]: returned code: 0
+[2021-01-14 16:24:40.922] [127.0.0.1] [info] [client_272]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 16:24:40.922] [127.0.0.1] [info] [client_272]: 
+[2021-01-14 16:24:40.922] [127.0.0.1] [info] [client_272]: wait for message from the client
+[2021-01-14 16:24:40.922] [127.0.0.1] [info] [client_304]: 
+[2021-01-14 16:24:40.923] [127.0.0.1] [info] [client_304]: wait for message from the client
+[2021-01-14 16:24:40.923] [127.0.0.1] [info] [client_316]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 16:24:40.923] [127.0.0.1] [info] [client_316]: 
+[2021-01-14 16:24:40.923] [127.0.0.1] [info] [client_316]: wait for message from the client
+[2021-01-14 16:24:40.923] [127.0.0.1] [info] [client_304]: 
+[2021-01-14 16:24:40.923] [127.0.0.1] [info] [client_304]: [RCV HEADER]: message 2 parsed correctly
+[2021-01-14 16:24:40.923] [127.0.0.1] [info] waiting for client connection
+[2021-01-14 16:24:40.924] [127.0.0.1] [info] [client_300]: Logger initialized correctly
+[2021-01-14 16:24:40.924] [127.0.0.1] [info] [client_272]: 
+[2021-01-14 16:24:40.924] [127.0.0.1] [info] [client_272]: [RCV HEADER]: message 6 parsed correctly
+[2021-01-14 16:24:40.924] [127.0.0.1] [info] [client_316]: 
+[2021-01-14 16:24:40.924] [127.0.0.1] [info] [client_316]: [RCV HEADER]: message 6 parsed correctly
+[2021-01-14 16:24:40.924] [127.0.0.1] [info] the socket 244 was accepted
+[2021-01-14 16:24:40.925] [127.0.0.1] [info] [client_272]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 16:24:40.925] [127.0.0.1] [info] [client_272]: [CLIENT-CONN-272]: exited from run
+
+[2021-01-14 16:24:40.925] [127.0.0.1] [info] Exited from waiting messages from socket: 272 
+
+[2021-01-14 16:24:40.925] [127.0.0.1] [info] [client_316]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 16:24:40.925] [127.0.0.1] [info] [client_316]: [CLIENT-CONN-316]: exited from run
+
+[2021-01-14 16:24:40.925] [127.0.0.1] [info] Exited from waiting messages from socket: 316 
+
+[2021-01-14 16:24:40.926] [127.0.0.1] [info] [client_300]: 
+[2021-01-14 16:24:40.926] [127.0.0.1] [info] [client_300]: wait for message from the client
+[2021-01-14 16:24:40.926] [127.0.0.1] [info] [client_304]: [RENAME]: returned code: 0
+[2021-01-14 16:24:40.926] [127.0.0.1] [info] [client_300]: 
+[2021-01-14 16:24:40.926] [127.0.0.1] [info] [client_300]: [RCV HEADER]: message 2 parsed correctly
+[2021-01-14 16:24:40.926] [127.0.0.1] [info] [client_304]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 16:24:40.926] [127.0.0.1] [info] [client_304]: 
+[2021-01-14 16:24:40.926] [127.0.0.1] [info] [client_304]: wait for message from the client
+[2021-01-14 16:24:40.926] [127.0.0.1] [info] waiting for client connection
+[2021-01-14 16:24:40.927] [127.0.0.1] [info] [client_244]: Logger initialized correctly
+[2021-01-14 16:24:40.927] [127.0.0.1] [info] [client_304]: 
+[2021-01-14 16:24:40.927] [127.0.0.1] [info] [client_304]: [RCV HEADER]: message 6 parsed correctly
+[2021-01-14 16:24:40.928] [127.0.0.1] [info] the socket 328 was accepted
+[2021-01-14 16:24:40.928] [127.0.0.1] [info] [client_304]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 16:24:40.928] [127.0.0.1] [info] [client_304]: [CLIENT-CONN-304]: exited from run
+
+[2021-01-14 16:24:40.928] [127.0.0.1] [info] Exited from waiting messages from socket: 304 
+
+[2021-01-14 16:24:40.929] [127.0.0.1] [info] [client_244]: 
+[2021-01-14 16:24:40.929] [127.0.0.1] [info] [client_244]: wait for message from the client
+[2021-01-14 16:24:40.929] [127.0.0.1] [info] [client_244]: 
+[2021-01-14 16:24:40.929] [127.0.0.1] [info] [client_244]: [RCV HEADER]: message 2 parsed correctly
+[2021-01-14 16:24:40.929] [127.0.0.1] [info] [client_300]: [RENAME]: returned code: 0
+[2021-01-14 16:24:40.929] [127.0.0.1] [info] [client_300]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 16:24:40.929] [127.0.0.1] [info] [client_300]: 
+[2021-01-14 16:24:40.929] [127.0.0.1] [info] [client_300]: wait for message from the client
+[2021-01-14 16:24:40.929] [127.0.0.1] [info] waiting for client connection
+[2021-01-14 16:24:40.930] [127.0.0.1] [info] [client_328]: Logger initialized correctly
+[2021-01-14 16:24:40.930] [127.0.0.1] [info] [client_300]: 
+[2021-01-14 16:24:40.930] [127.0.0.1] [info] [client_300]: [RCV HEADER]: message 6 parsed correctly
+[2021-01-14 16:24:40.930] [127.0.0.1] [info] the socket 340 was accepted
+[2021-01-14 16:24:40.930] [127.0.0.1] [info] [client_300]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 16:24:40.930] [127.0.0.1] [info] [client_300]: [CLIENT-CONN-300]: exited from run
+
+[2021-01-14 16:24:40.930] [127.0.0.1] [info] Exited from waiting messages from socket: 300 
+
+[2021-01-14 16:24:40.931] [127.0.0.1] [info] waiting for client connection
+[2021-01-14 16:24:40.932] [127.0.0.1] [info] [client_340]: Logger initialized correctly
+[2021-01-14 16:24:40.932] [127.0.0.1] [info] [client_328]: 
+[2021-01-14 16:24:40.932] [127.0.0.1] [info] [client_328]: wait for message from the client
+[2021-01-14 16:24:40.932] [127.0.0.1] [info] [client_244]: [RENAME]: returned code: 0
+[2021-01-14 16:24:40.932] [127.0.0.1] [info] the socket 284 was accepted
+[2021-01-14 16:24:40.932] [127.0.0.1] [info] [client_244]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 16:24:40.932] [127.0.0.1] [info] [client_244]: 
+[2021-01-14 16:24:40.932] [127.0.0.1] [info] [client_244]: wait for message from the client
+[2021-01-14 16:24:40.932] [127.0.0.1] [info] [client_328]: 
+[2021-01-14 16:24:40.932] [127.0.0.1] [info] [client_328]: [RCV HEADER]: message 2 parsed correctly
+[2021-01-14 16:24:40.932] [127.0.0.1] [info] [client_340]: 
+[2021-01-14 16:24:40.932] [127.0.0.1] [info] [client_340]: wait for message from the client
+[2021-01-14 16:24:40.934] [127.0.0.1] [info] waiting for client connection
+[2021-01-14 16:24:40.934] [127.0.0.1] [info] [client_244]: 
+[2021-01-14 16:24:40.934] [127.0.0.1] [info] [client_244]: [RCV HEADER]: message 6 parsed correctly
+[2021-01-14 16:24:40.934] [127.0.0.1] [info] [client_340]: 
+[2021-01-14 16:24:40.934] [127.0.0.1] [info] [client_340]: [RCV HEADER]: message 2 parsed correctly
+[2021-01-14 16:24:40.934] [127.0.0.1] [info] [client_244]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 16:24:40.934] [127.0.0.1] [info] [client_244]: [CLIENT-CONN-244]: exited from run
+
+[2021-01-14 16:24:40.934] [127.0.0.1] [info] Exited from waiting messages from socket: 244 
+
+[2021-01-14 16:24:40.935] [127.0.0.1] [info] [client_284]: Logger initialized correctly
+[2021-01-14 16:24:40.935] [127.0.0.1] [info] [client_328]: [RENAME]: returned code: 0
+[2021-01-14 16:24:40.935] [127.0.0.1] [info] [client_284]: 
+[2021-01-14 16:24:40.935] [127.0.0.1] [info] [client_284]: wait for message from the client
+[2021-01-14 16:24:40.935] [127.0.0.1] [info] [client_328]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 16:24:40.935] [127.0.0.1] [info] [client_328]: 
+[2021-01-14 16:24:40.935] [127.0.0.1] [info] [client_328]: wait for message from the client
+[2021-01-14 16:24:40.936] [127.0.0.1] [info] [client_284]: 
+[2021-01-14 16:24:40.936] [127.0.0.1] [info] [client_284]: [RCV HEADER]: message 2 parsed correctly
+[2021-01-14 16:24:40.937] [127.0.0.1] [info] [client_340]: [RENAME]: returned code: 0
+[2021-01-14 16:24:40.937] [127.0.0.1] [info] [client_328]: 
+[2021-01-14 16:24:40.937] [127.0.0.1] [info] [client_328]: [RCV HEADER]: message 6 parsed correctly
+[2021-01-14 16:24:40.937] [127.0.0.1] [info] [client_328]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 16:24:40.937] [127.0.0.1] [info] [client_328]: [CLIENT-CONN-328]: exited from run
+
+[2021-01-14 16:24:40.937] [127.0.0.1] [info] [client_340]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 16:24:40.937] [127.0.0.1] [info] Exited from waiting messages from socket: 328 
+
+[2021-01-14 16:24:40.937] [127.0.0.1] [info] [client_340]: 
+[2021-01-14 16:24:40.937] [127.0.0.1] [info] [client_340]: wait for message from the client
+[2021-01-14 16:24:40.938] [127.0.0.1] [info] [client_284]: [RENAME]: returned code: 0
+[2021-01-14 16:24:40.938] [127.0.0.1] [info] [client_340]: 
+[2021-01-14 16:24:40.938] [127.0.0.1] [info] [client_340]: [RCV HEADER]: message 6 parsed correctly
+[2021-01-14 16:24:40.938] [127.0.0.1] [info] [client_284]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 16:24:40.938] [127.0.0.1] [info] [client_284]: 
+[2021-01-14 16:24:40.938] [127.0.0.1] [info] [client_284]: wait for message from the client
+[2021-01-14 16:24:40.938] [127.0.0.1] [info] [client_340]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 16:24:40.938] [127.0.0.1] [info] [client_340]: [CLIENT-CONN-340]: exited from run
+
+[2021-01-14 16:24:40.939] [127.0.0.1] [info] Exited from waiting messages from socket: 340 
+
+[2021-01-14 16:24:40.939] [127.0.0.1] [info] [client_284]: 
+[2021-01-14 16:24:40.940] [127.0.0.1] [info] [client_284]: [RCV HEADER]: message 6 parsed correctly
+[2021-01-14 16:24:40.940] [127.0.0.1] [info] [client_284]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 16:24:40.940] [127.0.0.1] [info] [client_284]: [CLIENT-CONN-284]: exited from run
+
+[2021-01-14 16:24:40.940] [127.0.0.1] [info] Exited from waiting messages from socket: 284 
+
+[2021-01-14 16:24:55.936] [127.0.0.1] [info] the socket 352 was accepted
+[2021-01-14 16:24:55.936] [127.0.0.1] [info] waiting for client connection
+[2021-01-14 16:24:55.937] [127.0.0.1] [info] [client_352]: Logger initialized correctly
+[2021-01-14 16:24:55.937] [127.0.0.1] [info] [client_352]: 
+[2021-01-14 16:24:55.937] [127.0.0.1] [info] [client_352]: wait for message from the client
+[2021-01-14 16:24:55.938] [127.0.0.1] [info] [client_352]: 
+[2021-01-14 16:24:55.938] [127.0.0.1] [info] [client_352]: [RCV HEADER]: message 2 parsed correctly
+[2021-01-14 16:24:55.939] [127.0.0.1] [info] [client_352]: [RENAME]: returned code: 0
+[2021-01-14 16:24:55.939] [127.0.0.1] [info] [client_352]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 16:24:55.939] [127.0.0.1] [info] [client_352]: 
+[2021-01-14 16:24:55.939] [127.0.0.1] [info] [client_352]: wait for message from the client
+[2021-01-14 16:24:55.940] [127.0.0.1] [info] [client_352]: 
+[2021-01-14 16:24:55.940] [127.0.0.1] [info] [client_352]: [RCV HEADER]: message 6 parsed correctly
+[2021-01-14 16:24:55.940] [127.0.0.1] [info] [client_352]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 16:24:55.940] [127.0.0.1] [info] [client_352]: [CLIENT-CONN-352]: exited from run
+
+[2021-01-14 16:24:55.940] [127.0.0.1] [info] Exited from waiting messages from socket: 352 
+
+[2021-01-14 16:25:18.567] [127.0.0.1] [info] [CHECK-INACTIVITY]: go to sleep for 60 seconds
+[2021-01-14 16:25:38.125] [127.0.0.1] [info] the socket 216 was accepted
+[2021-01-14 16:25:38.126] [127.0.0.1] [info] waiting for client connection
+[2021-01-14 16:25:38.127] [127.0.0.1] [info] [client_216]: Logger initialized correctly
+[2021-01-14 16:25:38.127] [127.0.0.1] [info] the socket 312 was accepted
+[2021-01-14 16:25:38.127] [127.0.0.1] [info] [client_216]: 
+[2021-01-14 16:25:38.127] [127.0.0.1] [info] [client_216]: wait for message from the client
+[2021-01-14 16:25:38.128] [127.0.0.1] [info] [client_216]: 
+[2021-01-14 16:25:38.128] [127.0.0.1] [info] [client_216]: [RCV HEADER]: message 2 parsed correctly
+[2021-01-14 16:25:38.129] [127.0.0.1] [info] waiting for client connection
+[2021-01-14 16:25:38.129] [127.0.0.1] [info] [client_312]: Logger initialized correctly
+[2021-01-14 16:25:38.129] [127.0.0.1] [info] the socket 264 was accepted
+[2021-01-14 16:25:38.130] [127.0.0.1] [info] [client_312]: 
+[2021-01-14 16:25:38.130] [127.0.0.1] [info] [client_312]: wait for message from the client
+[2021-01-14 16:25:38.130] [127.0.0.1] [info] [client_216]: [RENAME]: returned code: 0
+[2021-01-14 16:25:38.130] [127.0.0.1] [info] [client_216]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 16:25:38.130] [127.0.0.1] [info] [client_216]: 
+[2021-01-14 16:25:38.130] [127.0.0.1] [info] [client_216]: wait for message from the client
+[2021-01-14 16:25:38.130] [127.0.0.1] [info] [client_312]: 
+[2021-01-14 16:25:38.130] [127.0.0.1] [info] [client_312]: [RCV HEADER]: message 2 parsed correctly
+[2021-01-14 16:25:38.132] [127.0.0.1] [info] waiting for client connection
+[2021-01-14 16:25:38.133] [127.0.0.1] [info] the socket 324 was accepted
+[2021-01-14 16:25:38.133] [127.0.0.1] [info] [client_264]: Logger initialized correctly
+[2021-01-14 16:25:38.134] [127.0.0.1] [info] [client_264]: 
+[2021-01-14 16:25:38.134] [127.0.0.1] [info] [client_264]: wait for message from the client
+[2021-01-14 16:25:38.135] [127.0.0.1] [info] waiting for client connection
+[2021-01-14 16:25:38.135] [127.0.0.1] [info] [client_264]: 
+[2021-01-14 16:25:38.135] [127.0.0.1] [info] [client_264]: [RCV HEADER]: message 2 parsed correctly
+[2021-01-14 16:25:38.135] [127.0.0.1] [info] [client_216]: 
+[2021-01-14 16:25:38.135] [127.0.0.1] [info] [client_216]: [RCV HEADER]: message 6 parsed correctly
+[2021-01-14 16:25:38.136] [127.0.0.1] [info] [client_324]: Logger initialized correctly
+[2021-01-14 16:25:38.136] [127.0.0.1] [info] the socket 356 was accepted
+[2021-01-14 16:25:38.136] [127.0.0.1] [info] [client_216]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 16:25:38.136] [127.0.0.1] [info] [client_216]: [CLIENT-CONN-216]: exited from run
+
+[2021-01-14 16:25:38.136] [127.0.0.1] [info] Exited from waiting messages from socket: 216 
+
+[2021-01-14 16:25:38.137] [127.0.0.1] [info] [client_312]: [RENAME]: returned code: 0
+[2021-01-14 16:25:38.137] [127.0.0.1] [info] [client_264]: [RENAME]: returned code: 0
+[2021-01-14 16:25:38.137] [127.0.0.1] [info] [client_324]: 
+[2021-01-14 16:25:38.137] [127.0.0.1] [info] [client_324]: wait for message from the client
+[2021-01-14 16:25:38.137] [127.0.0.1] [info] [client_264]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 16:25:38.137] [127.0.0.1] [info] [client_264]: 
+[2021-01-14 16:25:38.137] [127.0.0.1] [info] [client_264]: wait for message from the client
+[2021-01-14 16:25:38.138] [127.0.0.1] [info] [client_312]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 16:25:38.138] [127.0.0.1] [info] [client_312]: 
+[2021-01-14 16:25:38.138] [127.0.0.1] [info] [client_312]: wait for message from the client
+[2021-01-14 16:25:38.138] [127.0.0.1] [info] waiting for client connection
+[2021-01-14 16:25:38.139] [127.0.0.1] [info] [client_356]: Logger initialized correctly
+[2021-01-14 16:25:38.139] [127.0.0.1] [info] [client_324]: 
+[2021-01-14 16:25:38.139] [127.0.0.1] [info] [client_324]: [RCV HEADER]: message 2 parsed correctly
+[2021-01-14 16:25:38.139] [127.0.0.1] [info] the socket 360 was accepted
+[2021-01-14 16:25:38.139] [127.0.0.1] [info] [client_264]: 
+[2021-01-14 16:25:38.139] [127.0.0.1] [info] [client_264]: [RCV HEADER]: message 6 parsed correctly
+[2021-01-14 16:25:38.139] [127.0.0.1] [info] [client_356]: 
+[2021-01-14 16:25:38.139] [127.0.0.1] [info] [client_356]: wait for message from the client
+[2021-01-14 16:25:38.139] [127.0.0.1] [info] [client_264]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 16:25:38.139] [127.0.0.1] [info] [client_264]: [CLIENT-CONN-264]: exited from run
+
+[2021-01-14 16:25:38.139] [127.0.0.1] [info] Exited from waiting messages from socket: 264 
+
+[2021-01-14 16:25:38.140] [127.0.0.1] [info] [client_312]: 
+[2021-01-14 16:25:38.140] [127.0.0.1] [info] [client_312]: [RCV HEADER]: message 6 parsed correctly
+[2021-01-14 16:25:38.140] [127.0.0.1] [info] [client_356]: 
+[2021-01-14 16:25:38.140] [127.0.0.1] [info] [client_356]: [RCV HEADER]: message 2 parsed correctly
+[2021-01-14 16:25:38.140] [127.0.0.1] [info] [client_312]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 16:25:38.140] [127.0.0.1] [info] [client_312]: [CLIENT-CONN-312]: exited from run
+
+[2021-01-14 16:25:38.140] [127.0.0.1] [info] Exited from waiting messages from socket: 312 
+
+[2021-01-14 16:25:38.142] [127.0.0.1] [info] waiting for client connection
+[2021-01-14 16:25:38.143] [127.0.0.1] [info] the socket 336 was accepted
+[2021-01-14 16:25:38.144] [127.0.0.1] [info] waiting for client connection
+[2021-01-14 16:25:38.144] [127.0.0.1] [info] [client_360]: Logger initialized correctly
+[2021-01-14 16:25:38.145] [127.0.0.1] [info] [client_336]: Logger initialized correctly
+[2021-01-14 16:25:38.145] [127.0.0.1] [info] the socket 368 was accepted
+[2021-01-14 16:25:38.145] [127.0.0.1] [info] [client_336]: 
+[2021-01-14 16:25:38.145] [127.0.0.1] [info] [client_336]: wait for message from the client
+[2021-01-14 16:25:38.145] [127.0.0.1] [info] [client_360]: 
+[2021-01-14 16:25:38.145] [127.0.0.1] [info] [client_360]: wait for message from the client
+[2021-01-14 16:25:38.146] [127.0.0.1] [info] [client_360]: 
+[2021-01-14 16:25:38.146] [127.0.0.1] [info] [client_360]: [RCV HEADER]: message 2 parsed correctly
+[2021-01-14 16:25:38.146] [127.0.0.1] [info] [client_336]: 
+[2021-01-14 16:25:38.146] [127.0.0.1] [info] [client_336]: [RCV HEADER]: message 2 parsed correctly
+[2021-01-14 16:25:38.147] [127.0.0.1] [info] waiting for client connection
+[2021-01-14 16:25:38.147] [127.0.0.1] [info] [client_324]: [RENAME]: returned code: 0
+[2021-01-14 16:25:38.148] [127.0.0.1] [info] [client_324]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 16:25:38.148] [127.0.0.1] [info] [client_324]: 
+[2021-01-14 16:25:38.148] [127.0.0.1] [info] [client_324]: wait for message from the client
+[2021-01-14 16:25:38.149] [127.0.0.1] [info] [client_368]: Logger initialized correctly
+[2021-01-14 16:25:38.149] [127.0.0.1] [info] [client_324]: 
+[2021-01-14 16:25:38.149] [127.0.0.1] [info] [client_324]: [RCV HEADER]: message 6 parsed correctly
+[2021-01-14 16:25:38.149] [127.0.0.1] [info] [client_368]: 
+[2021-01-14 16:25:38.149] [127.0.0.1] [info] [client_368]: wait for message from the client
+[2021-01-14 16:25:38.149] [127.0.0.1] [info] [client_324]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 16:25:38.149] [127.0.0.1] [info] [client_324]: [CLIENT-CONN-324]: exited from run
+
+[2021-01-14 16:25:38.149] [127.0.0.1] [info] Exited from waiting messages from socket: 324 
+
+[2021-01-14 16:25:38.150] [127.0.0.1] [info] [client_368]: 
+[2021-01-14 16:25:38.150] [127.0.0.1] [info] [client_368]: [RCV HEADER]: message 2 parsed correctly
+[2021-01-14 16:25:38.156] [127.0.0.1] [info] [client_360]: [RENAME]: returned code: 0
+[2021-01-14 16:25:38.156] [127.0.0.1] [info] [client_360]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 16:25:38.156] [127.0.0.1] [info] [client_360]: 
+[2021-01-14 16:25:38.156] [127.0.0.1] [info] [client_360]: wait for message from the client
+[2021-01-14 16:25:38.159] [127.0.0.1] [info] [client_368]: [RENAME]: returned code: 0
+[2021-01-14 16:25:38.159] [127.0.0.1] [info] [client_368]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 16:25:38.159] [127.0.0.1] [info] [client_368]: 
+[2021-01-14 16:25:38.159] [127.0.0.1] [info] [client_368]: wait for message from the client
+[2021-01-14 16:25:38.160] [127.0.0.1] [info] [client_336]: [RENAME]: returned code: 0
+[2021-01-14 16:25:38.160] [127.0.0.1] [info] [client_336]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 16:25:38.160] [127.0.0.1] [info] [client_336]: 
+[2021-01-14 16:25:38.160] [127.0.0.1] [info] [client_336]: wait for message from the client
+[2021-01-14 16:25:38.160] [127.0.0.1] [info] [client_360]: 
+[2021-01-14 16:25:38.160] [127.0.0.1] [info] [client_360]: [RCV HEADER]: message 6 parsed correctly
+[2021-01-14 16:25:38.160] [127.0.0.1] [info] [client_360]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 16:25:38.160] [127.0.0.1] [info] [client_360]: [CLIENT-CONN-360]: exited from run
+
+[2021-01-14 16:25:38.160] [127.0.0.1] [info] Exited from waiting messages from socket: 360 
+
+[2021-01-14 16:25:38.163] [127.0.0.1] [info] [client_356]: [RENAME]: returned code: 0
+[2021-01-14 16:25:38.163] [127.0.0.1] [info] [client_356]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 16:25:38.163] [127.0.0.1] [info] [client_356]: 
+[2021-01-14 16:25:38.163] [127.0.0.1] [info] [client_356]: wait for message from the client
+[2021-01-14 16:25:38.165] [127.0.0.1] [info] [client_368]: 
+[2021-01-14 16:25:38.165] [127.0.0.1] [info] [client_368]: [RCV HEADER]: message 6 parsed correctly
+[2021-01-14 16:25:38.165] [127.0.0.1] [info] [client_368]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 16:25:38.165] [127.0.0.1] [info] [client_368]: [CLIENT-CONN-368]: exited from run
+
+[2021-01-14 16:25:38.165] [127.0.0.1] [info] Exited from waiting messages from socket: 368 
+
+[2021-01-14 16:25:38.167] [127.0.0.1] [info] [client_336]: 
+[2021-01-14 16:25:38.167] [127.0.0.1] [info] [client_336]: [RCV HEADER]: message 6 parsed correctly
+[2021-01-14 16:25:38.168] [127.0.0.1] [info] [client_336]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 16:25:38.168] [127.0.0.1] [info] [client_336]: [CLIENT-CONN-336]: exited from run
+
+[2021-01-14 16:25:38.168] [127.0.0.1] [info] Exited from waiting messages from socket: 336 
+
+[2021-01-14 16:25:38.169] [127.0.0.1] [info] [client_356]: 
+[2021-01-14 16:25:38.169] [127.0.0.1] [info] [client_356]: [RCV HEADER]: message 6 parsed correctly
+[2021-01-14 16:25:38.169] [127.0.0.1] [info] [client_356]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 16:25:38.169] [127.0.0.1] [info] [client_356]: [CLIENT-CONN-356]: exited from run
+
+[2021-01-14 16:25:38.169] [127.0.0.1] [info] Exited from waiting messages from socket: 356 
+
+[2021-01-14 16:25:53.148] [127.0.0.1] [info] the socket 380 was accepted
+[2021-01-14 16:25:53.148] [127.0.0.1] [info] waiting for client connection
+[2021-01-14 16:25:53.149] [127.0.0.1] [info] [client_380]: Logger initialized correctly
+[2021-01-14 16:25:53.149] [127.0.0.1] [info] the socket 384 was accepted
+[2021-01-14 16:25:53.150] [127.0.0.1] [info] [client_380]: 
+[2021-01-14 16:25:53.150] [127.0.0.1] [info] [client_380]: wait for message from the client
+[2021-01-14 16:25:53.150] [127.0.0.1] [info] [client_380]: 
+[2021-01-14 16:25:53.150] [127.0.0.1] [info] [client_380]: [RCV HEADER]: message 2 parsed correctly
+[2021-01-14 16:25:53.151] [127.0.0.1] [info] waiting for client connection
+[2021-01-14 16:25:53.151] [127.0.0.1] [info] [client_384]: Logger initialized correctly
+[2021-01-14 16:25:53.151] [127.0.0.1] [info] the socket 392 was accepted
+[2021-01-14 16:25:53.151] [127.0.0.1] [info] [client_384]: 
+[2021-01-14 16:25:53.151] [127.0.0.1] [info] [client_384]: wait for message from the client
+[2021-01-14 16:25:53.152] [127.0.0.1] [info] [client_384]: 
+[2021-01-14 16:25:53.152] [127.0.0.1] [info] [client_384]: [RCV HEADER]: message 2 parsed correctly
+[2021-01-14 16:25:53.153] [127.0.0.1] [info] waiting for client connection
+[2021-01-14 16:25:53.153] [127.0.0.1] [info] [client_392]: Logger initialized correctly
+[2021-01-14 16:25:53.153] [127.0.0.1] [info] the socket 376 was accepted
+[2021-01-14 16:25:53.154] [127.0.0.1] [info] [client_392]: 
+[2021-01-14 16:25:53.154] [127.0.0.1] [info] [client_392]: wait for message from the client
+[2021-01-14 16:25:53.154] [127.0.0.1] [info] [client_392]: 
+[2021-01-14 16:25:53.154] [127.0.0.1] [info] [client_392]: [RCV HEADER]: message 2 parsed correctly
+[2021-01-14 16:25:53.154] [127.0.0.1] [info] waiting for client connection
+[2021-01-14 16:25:53.155] [127.0.0.1] [info] [client_376]: Logger initialized correctly
+[2021-01-14 16:25:53.156] [127.0.0.1] [info] the socket 404 was accepted
+[2021-01-14 16:25:53.156] [127.0.0.1] [info] [client_384]: [RENAME]: returned code: 0
+[2021-01-14 16:25:53.156] [127.0.0.1] [info] [client_384]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 16:25:53.156] [127.0.0.1] [info] [client_384]: 
+[2021-01-14 16:25:53.156] [127.0.0.1] [info] [client_384]: wait for message from the client
+[2021-01-14 16:25:53.156] [127.0.0.1] [info] [client_376]: 
+[2021-01-14 16:25:53.156] [127.0.0.1] [info] [client_376]: wait for message from the client
+[2021-01-14 16:25:53.156] [127.0.0.1] [info] [client_380]: [RENAME]: returned code: 0
+[2021-01-14 16:25:53.156] [127.0.0.1] [info] [client_380]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 16:25:53.156] [127.0.0.1] [info] [client_380]: 
+[2021-01-14 16:25:53.156] [127.0.0.1] [info] [client_380]: wait for message from the client
+[2021-01-14 16:25:53.157] [127.0.0.1] [info] [client_376]: 
+[2021-01-14 16:25:53.157] [127.0.0.1] [info] [client_376]: [RCV HEADER]: message 2 parsed correctly
+[2021-01-14 16:25:53.157] [127.0.0.1] [info] [client_392]: [RENAME]: returned code: 0
+[2021-01-14 16:25:53.157] [127.0.0.1] [info] [client_392]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 16:25:53.157] [127.0.0.1] [info] [client_392]: 
+[2021-01-14 16:25:53.157] [127.0.0.1] [info] [client_392]: wait for message from the client
+[2021-01-14 16:25:53.158] [127.0.0.1] [info] [client_376]: [RENAME]: returned code: 0
+[2021-01-14 16:25:53.159] [127.0.0.1] [info] [client_384]: 
+[2021-01-14 16:25:53.159] [127.0.0.1] [info] [client_384]: [RCV HEADER]: message 6 parsed correctly
+[2021-01-14 16:25:53.159] [127.0.0.1] [info] [client_376]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 16:25:53.159] [127.0.0.1] [info] [client_376]: 
+[2021-01-14 16:25:53.159] [127.0.0.1] [info] [client_376]: wait for message from the client
+[2021-01-14 16:25:53.159] [127.0.0.1] [info] [client_384]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 16:25:53.159] [127.0.0.1] [info] [client_384]: [CLIENT-CONN-384]: exited from run
+
+[2021-01-14 16:25:53.159] [127.0.0.1] [info] Exited from waiting messages from socket: 384 
+
+[2021-01-14 16:25:53.160] [127.0.0.1] [info] waiting for client connection
+[2021-01-14 16:25:53.160] [127.0.0.1] [info] [client_380]: 
+[2021-01-14 16:25:53.160] [127.0.0.1] [info] [client_380]: [RCV HEADER]: message 6 parsed correctly
+[2021-01-14 16:25:53.160] [127.0.0.1] [info] the socket 420 was accepted
+[2021-01-14 16:25:53.161] [127.0.0.1] [info] [client_404]: Logger initialized correctly
+[2021-01-14 16:25:53.161] [127.0.0.1] [info] [client_380]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 16:25:53.161] [127.0.0.1] [info] [client_380]: [CLIENT-CONN-380]: exited from run
+
+[2021-01-14 16:25:53.161] [127.0.0.1] [info] Exited from waiting messages from socket: 380 
+
+[2021-01-14 16:25:53.162] [127.0.0.1] [info] waiting for client connection
+[2021-01-14 16:25:53.163] [127.0.0.1] [info] [client_404]: 
+[2021-01-14 16:25:53.163] [127.0.0.1] [info] [client_404]: wait for message from the client
+[2021-01-14 16:25:53.163] [127.0.0.1] [info] [client_420]: Logger initialized correctly
+[2021-01-14 16:25:53.163] [127.0.0.1] [info] [client_404]: 
+[2021-01-14 16:25:53.163] [127.0.0.1] [info] [client_404]: [RCV HEADER]: message 2 parsed correctly
+[2021-01-14 16:25:53.163] [127.0.0.1] [info] the socket 408 was accepted
+[2021-01-14 16:25:53.163] [127.0.0.1] [info] [client_420]: 
+[2021-01-14 16:25:53.163] [127.0.0.1] [info] [client_420]: wait for message from the client
+[2021-01-14 16:25:53.163] [127.0.0.1] [info] [client_392]: 
+[2021-01-14 16:25:53.163] [127.0.0.1] [info] [client_392]: [RCV HEADER]: message 6 parsed correctly
+[2021-01-14 16:25:53.164] [127.0.0.1] [info] [client_392]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 16:25:53.164] [127.0.0.1] [info] [client_392]: [CLIENT-CONN-392]: exited from run
+
+[2021-01-14 16:25:53.164] [127.0.0.1] [info] Exited from waiting messages from socket: 392 
+
+[2021-01-14 16:25:53.166] [127.0.0.1] [info] waiting for client connection
+[2021-01-14 16:25:53.166] [127.0.0.1] [info] [client_408]: Logger initialized correctly
+[2021-01-14 16:25:53.166] [127.0.0.1] [info] [client_376]: 
+[2021-01-14 16:25:53.166] [127.0.0.1] [info] [client_376]: [RCV HEADER]: message 6 parsed correctly
+[2021-01-14 16:25:53.166] [127.0.0.1] [info] [client_420]: 
+[2021-01-14 16:25:53.166] [127.0.0.1] [info] [client_420]: [RCV HEADER]: message 2 parsed correctly
+[2021-01-14 16:25:53.166] [127.0.0.1] [info] [client_376]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 16:25:53.166] [127.0.0.1] [info] [client_376]: [CLIENT-CONN-376]: exited from run
+
+[2021-01-14 16:25:53.166] [127.0.0.1] [info] Exited from waiting messages from socket: 376 
+
+[2021-01-14 16:25:53.166] [127.0.0.1] [info] [client_408]: 
+[2021-01-14 16:25:53.166] [127.0.0.1] [info] [client_408]: wait for message from the client
+[2021-01-14 16:25:53.167] [127.0.0.1] [info] [client_408]: 
+[2021-01-14 16:25:53.167] [127.0.0.1] [info] [client_408]: [RCV HEADER]: message 2 parsed correctly
+[2021-01-14 16:25:53.167] [127.0.0.1] [info] [client_404]: [RENAME]: returned code: 0
+[2021-01-14 16:25:53.167] [127.0.0.1] [info] [client_404]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 16:25:53.167] [127.0.0.1] [info] [client_404]: 
+[2021-01-14 16:25:53.167] [127.0.0.1] [info] [client_404]: wait for message from the client
+[2021-01-14 16:25:53.168] [127.0.0.1] [info] [client_420]: [RENAME]: returned code: 0
+[2021-01-14 16:25:53.168] [127.0.0.1] [info] [client_420]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 16:25:53.168] [127.0.0.1] [info] [client_420]: 
+[2021-01-14 16:25:53.168] [127.0.0.1] [info] [client_420]: wait for message from the client
+[2021-01-14 16:25:53.168] [127.0.0.1] [info] [client_404]: 
+[2021-01-14 16:25:53.168] [127.0.0.1] [info] [client_404]: [RCV HEADER]: message 6 parsed correctly
+[2021-01-14 16:25:53.168] [127.0.0.1] [info] [client_404]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 16:25:53.168] [127.0.0.1] [info] [client_404]: [CLIENT-CONN-404]: exited from run
+
+[2021-01-14 16:25:53.168] [127.0.0.1] [info] Exited from waiting messages from socket: 404 
+
+[2021-01-14 16:25:53.173] [127.0.0.1] [info] [client_420]: 
+[2021-01-14 16:25:53.173] [127.0.0.1] [info] [client_420]: [RCV HEADER]: message 6 parsed correctly
+[2021-01-14 16:25:53.173] [127.0.0.1] [info] [client_420]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 16:25:53.173] [127.0.0.1] [info] [client_420]: [CLIENT-CONN-420]: exited from run
+
+[2021-01-14 16:25:53.173] [127.0.0.1] [info] Exited from waiting messages from socket: 420 
+
+[2021-01-14 16:25:53.174] [127.0.0.1] [info] [client_408]: [RENAME]: returned code: 0
+[2021-01-14 16:25:53.174] [127.0.0.1] [info] [client_408]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 16:25:53.174] [127.0.0.1] [info] [client_408]: 
+[2021-01-14 16:25:53.174] [127.0.0.1] [info] [client_408]: wait for message from the client
+[2021-01-14 16:25:53.177] [127.0.0.1] [info] [client_408]: 
+[2021-01-14 16:25:53.177] [127.0.0.1] [info] [client_408]: [RCV HEADER]: message 6 parsed correctly
+[2021-01-14 16:25:53.177] [127.0.0.1] [info] [client_408]: [SND HEADER RESP]: returned code: 0
+[2021-01-14 16:25:53.177] [127.0.0.1] [info] [client_408]: [CLIENT-CONN-408]: exited from run
+
+[2021-01-14 16:25:53.177] [127.0.0.1] [info] Exited from waiting messages from socket: 408 
+
+[2021-01-14 16:26:18.594] [127.0.0.1] [info] [CHECK-INACTIVITY]: go to sleep for 60 seconds
+[2021-01-15 15:21:59.383] [127.0.0.1] [info] Logger initialized correctly
+[2021-01-15 15:21:59.416] [127.0.0.1] [info] waiting for client connection
+[2021-01-15 15:21:59.424] [127.0.0.1] [info] [CHECK-INACTIVITY]: go to sleep for 60 seconds
+[2021-01-15 15:22:01.798] [127.0.0.1] [info] the socket 208 was accepted
+[2021-01-15 15:22:01.799] [127.0.0.1] [info] waiting for client connection
+[2021-01-15 15:22:01.801] [127.0.0.1] [info] [client_208]: Logger initialized correctly
+[2021-01-15 15:22:01.802] [127.0.0.1] [info] [client_208]: 
+[2021-01-15 15:22:01.802] [127.0.0.1] [info] [client_208]: wait for message from the client
+[2021-01-15 15:22:01.816] [127.0.0.1] [info] [client_208]: 
+[2021-01-15 15:22:01.816] [127.0.0.1] [info] [client_208]: [RCV HEADER]: message 7 parsed correctly
+[2021-01-15 15:22:01.817] [127.0.0.1] [info] [client_208]: [SND HEADER RESP]: returned code: 0

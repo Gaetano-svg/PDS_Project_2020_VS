@@ -18,22 +18,23 @@
 enum class FileStatus { created, erased, renamed };
 
 struct info {
+
     std::filesystem::file_time_type file_last_write;
     std::uintmax_t file_size;
     std::string file_hash;
+
 };
 
 struct info_backup_file {
+
     FileStatus status;
     std::string file_path;
     std::filesystem::file_time_type file_last_write;
     std::uintmax_t file_size;
     std::string file_hash;
     std::string adding_info;
+
 };
-
-
-
 
 class FileWatcher {
 
@@ -45,8 +46,6 @@ private:
     std::unordered_map<std::string, std::atomic<bool>> thread_to_stop;
 
     bool running_ = true;
-
-
 
 public:
     std::string path_to_watch;

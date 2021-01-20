@@ -341,8 +341,15 @@ void FileWatcher2::start() {
                     }
                     else {
 
-                        if (paths_[file.path().string()].file_last_write < current_file_last_write_time) {
+                        if (paths_[file.path().string()].file_last_write < current_file_last_write_time || paths_[file.path().string()].checkHash) {
                             std::string  hash_to_add = this->compute_hash(file_name);
+
+                            // if we have to check the file hash and it is the same on server side, we'll continue checking
+                            if (paths_[file.path().string()].checkHash && hash_to_add == paths_[file.path().string()].file_hash)
+                                continue;
+
+                            std::cout << "continued" << std::endl;
+
                             paths_[file.path().string()].file_last_write = current_file_last_write_time;
                             paths_[file.path().string()].file_hash = hash_to_add;
 
@@ -573,6 +580,9 @@ void FileWatcher2::update_threads() {
             else
                 to_skip.insert(thr->first);
             thread_to_stop.erase(thr->first); //possibile problema: se distruggo il booleano qua ma il thread che lo modifica deve ancora terminare?
+            
+            // reset boolean check after table update
+            paths_[thr->first].checkHash = false;
             thread_table.erase(thr);
         }
     }
