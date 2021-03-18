@@ -234,14 +234,35 @@ int Server::startListening() {
 
 #endif
 
-    std::thread checkUserInactivityThread([this]() {
+    returningCode = 0;
+    running.store(true);
+    requestReceived.store(true);
 
-        this->checkUserInactivity();
+    clients.clear();
+    clientsNumberSocket.clear();
+    activeConnections = 0;
+
+    std::thread checkUserInactivityThread([&]() {
+
+        checkUserInactivity();
+
+    });
+
+    //checkUserInactivityThread.detach();
+    /*std::thread checkServerInactivityThread;
+
+    // IF it is the LOCAL USER_SERVER
+    if (!this->isTrueServer) {
+
+        checkServerInactivityThread = std::thread([&]() {
+
+            checkServerInactivity();
 
         });
 
-    checkUserInactivityThread.detach();
-    running.store(true);
+    }*/
+
+
 
     while (running.load()) {
 
@@ -271,6 +292,7 @@ int Server::startListening() {
                     WSACleanup();
                     //return 1;
                 }
+                this->requestReceived.store(true);
                 csock = ClientSocket;
 
                 DWORD timeout = sc.secondTimeout;
@@ -384,9 +406,24 @@ int Server::startListening() {
         }
 
     }
+
+    // wait for all the threads
+    std::cout << "[SERVER]: wait for check user thread" << std::endl;
+    checkUserInactivityThread.join();
+    std::cout << "[SERVER]: check user thread joined" << std::endl;
+    /*if (!this->isTrueServer) {
+
+        std::cout << "[SERVER]: wait for check server thread" << std::endl;
+        checkServerInactivityThread.join();
+        std::cout << "[SERVER]: check server thread joined" << std::endl;
+
+    }*/
+
     std::cout << "[SERVER]: exited" << std::endl;
     log->error("[SERVER]: exited from run");
-    return 0;
+
+
+    return returningCode;
 
 }
 
@@ -423,6 +460,8 @@ void Server::checkUserInactivity() {
 
         log->info("[CHECK-INACTIVITY]: go to sleep for 60 seconds");
         log->flush();
+
+        requestReceived.store(false);
 
 #ifdef _WIN32
         Sleep(60000);
@@ -477,9 +516,68 @@ void Server::checkUserInactivity() {
 
         }
 
+        // check also the request received
+        if (!isTrueServer && !requestReceived.load() && running.load()) {
+
+            returningCode = -1;
+            running.store(false);
+
+#ifdef _WIN32
+
+            closesocket(ListenSocket);
+#endif
+            shutdown(csock, 2);
+
+        }
+
     }
 
     log->info("[CHECK-INACTIVITY]: exited");
+    log->flush();
+
+}
+
+/*
+
+Thread to check user inactivity state.
+
+*/
+void Server::checkServerInactivity() {
+
+    do {
+        requestReceived.store(false);
+        log->info("[CHECK-SERVER-INACTIVITY]: go to sleep for 60 seconds");
+        log->flush();
+
+        try {
+
+#ifdef _WIN32
+            Sleep(60000);
+#else
+            sleep(60);
+#endif
+        }
+        catch (...) {
+            std::cout << "ERRORE" << std::endl;
+        }
+
+
+        if (!requestReceived.load()) {
+
+            returningCode = -1;
+            running.store(false);
+
+#ifdef _WIN32
+
+            closesocket(ListenSocket);
+#endif
+            shutdown(csock, 2);
+
+        }
+
+    } while (requestReceived.load() && running.load());
+
+    log->info("[CHECK-SERVER-INACTIVITY]: exited");
     log->flush();
 
 }

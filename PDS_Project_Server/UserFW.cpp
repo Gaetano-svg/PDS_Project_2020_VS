@@ -2,11 +2,13 @@
 #include <iostream>
 #include "UserFW.hpp"
 #include <set>
+using namespace std::chrono;
 
 Client client3;
 
 std::atomic<int> numberOfFileSent;
 std::atomic<int> numberOfFileToCheck;
+std::atomic_long actualReceivedMs;
 
 
 
@@ -154,6 +156,15 @@ bool fun2(info_backup_file_user i, std::atomic<bool>& b) {
     }
     else {
         numberOfFileSent++;
+
+
+        // save time stamp
+        milliseconds ms = duration_cast<milliseconds>(
+            system_clock::now().time_since_epoch()
+            );
+
+        long msNow = ms.count();
+        actualReceivedMs.store(msNow);
     }
 
 
@@ -184,10 +195,17 @@ UserFW::UserFW(std::string path_to_watch, std::chrono::duration<int, std::milli>
 }
 
 void UserFW::start() {
+    std::cout << std::endl << "[USER FW]: entered" << std::endl << std::endl;
+
+    milliseconds ms = duration_cast<milliseconds>(
+        system_clock::now().time_since_epoch()
+        );
+
+    long msNow = ms.count();
+    actualReceivedMs.store(msNow);
+
+
     while (running_) {
-
-        // Wait for "delay" milliseconds
-
 
         std::this_thread::sleep_for(delay);
 
@@ -285,7 +303,27 @@ void UserFW::start() {
             update_threads();
         }
 
+
+        // get actual ms
+        milliseconds ms = duration_cast<milliseconds>(
+            system_clock::now().time_since_epoch()
+            );
+
+        long msNow = ms.count();
+
+        long msReceived = actualReceivedMs.load();
+
+        long tot = msNow - msReceived;
+
+        if (tot > 60000)
+            running_ = false;
+
+        std::cout << std::endl << "[USER FW]: time passed" + std::to_string(tot) << std::endl << std::endl;
+
     }
+
+    std::cout << std::endl << "[USER FW]: exited" << std::endl << std::endl;
+
 }
 
 bool UserFW::contains(const std::string& key) {

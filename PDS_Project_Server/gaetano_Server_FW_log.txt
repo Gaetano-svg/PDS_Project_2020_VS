@@ -600,3 +600,503 @@
 [2021-01-06 15:24:08.063] [gaetano_Server_FW] [info] 
 [2021-01-06 15:24:08.063] [gaetano_Server_FW] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3534
 [2021-01-15 15:22:08.211] [gaetano_Server_FW] [info] Logger initialized correctly with file gaetano_Server_FW_log.txt
+[2021-03-18 22:41:04.397] [gaetano_Server_FW] [info] Logger initialized correctly with file gaetano_Server_FW_log.txt
+[2021-03-18 22:41:04.420] [gaetano_Server_FW] [info] try to connect to server - IP: 127.0.0.1 PORT: 3554
+[2021-03-18 22:41:04.420] [gaetano_Server_FW] [info] try to connect to server - IP: 127.0.0.1 PORT: 3554
+[2021-03-18 22:41:04.421] [gaetano_Server_FW] [info] try to connect to server - IP: 127.0.0.1 PORT: 3554
+[2021-03-18 22:41:04.422] [gaetano_Server_FW] [info] try to connect to server - IP: 127.0.0.1 PORT: 3554
+[2021-03-18 22:41:04.424] [gaetano_Server_FW] [info] try to connect to server - IP: 127.0.0.1 PORT: 3554
+[2021-03-18 22:41:04.425] [gaetano_Server_FW] [info] try to connect to server - IP: 127.0.0.1 PORT: 3554
+[2021-03-18 22:41:04.425] [gaetano_Server_FW] [info] try to connect to server - IP: 127.0.0.1 PORT: 3554
+[2021-03-18 22:41:04.426] [gaetano_Server_FW] [info] try to connect to server - IP: 127.0.0.1 PORT: 3554
+[2021-03-18 22:41:06.425] [gaetano_Server_FW] [info] 
+[2021-03-18 22:41:06.425] [gaetano_Server_FW] [info] [OPERATION_1]: path C:\Users\gabuscema\Desktop\BackupFolder\gaetano\C_\Users\gabuscema\Desktop\UserFolder\A - Copia (6).txt
+[2021-03-18 22:41:06.425] [gaetano_Server_FW] [info] 
+[2021-03-18 22:41:06.425] [gaetano_Server_FW] [info] 
+[2021-03-18 22:41:06.425] [gaetano_Server_FW] [info] [OPERATION_1]: path C:\Users\gabuscema\Desktop\BackupFolder\gaetano\C_\Users\gabuscema\Desktop\UserFolder\TEST_B (7).txt
+[2021-03-18 22:41:06.425] [gaetano_Server_FW] [info] 
+[2021-03-18 22:41:06.425] [gaetano_Server_FW] [info] [OPERATION_1]: SND MSG returned code: -2
+[2021-03-18 22:41:06.426] [gaetano_Server_FW] [info] [OPERATION_1]: SND MSG returned code: -2
+[2021-03-18 22:41:06.428] [gaetano_Server_FW] [info] 
+[2021-03-18 22:41:06.428] [gaetano_Server_FW] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3554
+[2021-03-18 22:41:06.429] [gaetano_Server_FW] [info] 
+[2021-03-18 22:41:06.429] [gaetano_Server_FW] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3554
+[2021-03-18 22:41:06.430] [gaetano_Server_FW] [info] 
+[2021-03-18 22:41:06.430] [gaetano_Server_FW] [info] [OPERATION_1]: path C:\Users\gabuscema\Desktop\BackupFolder\gaetano\C_\Users\gabuscema\Desktop\UserFolder\A - Copia.txt
+[2021-03-18 22:41:06.430] [gaetano_Server_FW] [info] 
+[2021-03-18 22:41:06.430] [gaetano_Server_FW] [info] 
+[2021-03-18 22:41:06.430] [gaetano_Server_FW] [info] [OPERATION_1]: path C:\Users\gabuscema\Desktop\BackupFolder\gaetano\C_\Users\gabuscema\Desktop\UserFolder\RENAME\test (2).txt
+[2021-03-18 22:41:06.430] [gaetano_Server_FW] [info] 
+[2021-03-18 22:41:06.430] [gaetano_Server_FW] [info] [OPERATION_1]: SND MSG returned code: -2
+[2021-03-18 22:41:06.430] [gaetano_Server_FW] [info] [OPERATION_1]: SND MSG returned code: -2
+[2021-03-18 22:41:06.431] [gaetano_Server_FW] [info] 
+[2021-03-18 22:41:06.431] [gaetano_Server_FW] [info] [OPERATION_1]: path C:\Users\gabuscema\Desktop\BackupFolder\gaetano\C_\Users\gabuscema\Desktop\UserFolder\RENAME\Ci (2).txt
+[2021-03-18 22:41:06.431] [gaetano_Server_FW] [info] 
+[2021-03-18 22:41:06.431] [gaetano_Server_FW] [info] [OPERATION_1]: SND MSG returned code: -2
+[2021-03-18 22:41:06.431] [gaetano_Server_FW] [info] 
+[2021-03-18 22:41:06.431] [gaetano_Server_FW] [info] [OPERATION_1]: path C:\Users\gabuscema\Desktop\BackupFolder\gaetano\C_\Users\gabuscema\Desktop\UserFolder\RENAME\rename (1).txt
+[2021-03-18 22:41:06.431] [gaetano_Server_FW] [info] 
+[2021-03-18 22:41:06.432] [gaetano_Server_FW] [info] [OPERATION_1]: SND MSG returned code: -2
+[2021-03-18 22:41:06.432] [gaetano_Server_FW] [info] 
+[2021-03-18 22:41:06.432] [gaetano_Server_FW] [info] [OPERATION_1]: path C:\Users\gabuscema\Desktop\BackupFolder\gaetano\C_\Users\gabuscema\Desktop\UserFolder\A.txt
+[2021-03-18 22:41:06.432] [gaetano_Server_FW] [info] 
+[2021-03-18 22:41:06.432] [gaetano_Server_FW] [info] [OPERATION_1]: SND MSG returned code: -2
+[2021-03-18 22:41:06.433] [gaetano_Server_FW] [info] 
+[2021-03-18 22:41:06.433] [gaetano_Server_FW] [info] [OPERATION_1]: path C:\Users\gabuscema\Desktop\BackupFolder\gaetano\C_\Users\gabuscema\Desktop\UserFolder\RENAME\Ci (1).txt
+[2021-03-18 22:41:06.433] [gaetano_Server_FW] [info] 
+[2021-03-18 22:41:06.434] [gaetano_Server_FW] [info] [OPERATION_1]: SND MSG returned code: -2
+[2021-03-18 22:41:06.438] [gaetano_Server_FW] [info] 
+[2021-03-18 22:41:06.438] [gaetano_Server_FW] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3554
+[2021-03-18 22:41:06.442] [gaetano_Server_FW] [info] 
+[2021-03-18 22:41:06.442] [gaetano_Server_FW] [info] 
+[2021-03-18 22:41:06.442] [gaetano_Server_FW] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3554
+[2021-03-18 22:41:06.442] [gaetano_Server_FW] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3554
+[2021-03-18 22:41:06.442] [gaetano_Server_FW] [info] 
+[2021-03-18 22:41:06.442] [gaetano_Server_FW] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3554
+[2021-03-18 22:41:06.443] [gaetano_Server_FW] [info] 
+[2021-03-18 22:41:06.443] [gaetano_Server_FW] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3554
+[2021-03-18 22:41:06.446] [gaetano_Server_FW] [info] 
+[2021-03-18 22:41:06.446] [gaetano_Server_FW] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3554
+[2021-03-18 22:41:34.439] [gaetano_Server_FW] [info] try to connect to server - IP: 127.0.0.1 PORT: 3554
+[2021-03-18 22:41:34.439] [gaetano_Server_FW] [info] try to connect to server - IP: 127.0.0.1 PORT: 3554
+[2021-03-18 22:41:34.440] [gaetano_Server_FW] [info] try to connect to server - IP: 127.0.0.1 PORT: 3554
+[2021-03-18 22:41:34.441] [gaetano_Server_FW] [info] try to connect to server - IP: 127.0.0.1 PORT: 3554
+[2021-03-18 22:41:34.441] [gaetano_Server_FW] [info] try to connect to server - IP: 127.0.0.1 PORT: 3554
+[2021-03-18 22:41:34.442] [gaetano_Server_FW] [info] try to connect to server - IP: 127.0.0.1 PORT: 3554
+[2021-03-18 22:41:34.442] [gaetano_Server_FW] [info] try to connect to server - IP: 127.0.0.1 PORT: 3554
+[2021-03-18 22:41:34.442] [gaetano_Server_FW] [info] try to connect to server - IP: 127.0.0.1 PORT: 3554
+[2021-03-18 22:41:36.444] [gaetano_Server_FW] [info] 
+[2021-03-18 22:41:36.444] [gaetano_Server_FW] [info] [OPERATION_1]: path C:\Users\gabuscema\Desktop\BackupFolder\gaetano\C_\Users\gabuscema\Desktop\UserFolder\RENAME\test (2).txt
+[2021-03-18 22:41:36.444] [gaetano_Server_FW] [info] 
+[2021-03-18 22:41:36.445] [gaetano_Server_FW] [info] [OPERATION_1]: SND MSG returned code: -2
+[2021-03-18 22:41:36.446] [gaetano_Server_FW] [info] 
+[2021-03-18 22:41:36.446] [gaetano_Server_FW] [info] [OPERATION_1]: path C:\Users\gabuscema\Desktop\BackupFolder\gaetano\C_\Users\gabuscema\Desktop\UserFolder\RENAME\Ci (1).txt
+[2021-03-18 22:41:36.446] [gaetano_Server_FW] [info] 
+[2021-03-18 22:41:36.446] [gaetano_Server_FW] [info] 
+[2021-03-18 22:41:36.446] [gaetano_Server_FW] [info] 
+[2021-03-18 22:41:36.446] [gaetano_Server_FW] [info] [OPERATION_1]: path C:\Users\gabuscema\Desktop\BackupFolder\gaetano\C_\Users\gabuscema\Desktop\UserFolder\RENAME\Ci (2).txt
+[2021-03-18 22:41:36.446] [gaetano_Server_FW] [info] [OPERATION_1]: path C:\Users\gabuscema\Desktop\BackupFolder\gaetano\C_\Users\gabuscema\Desktop\UserFolder\A.txt
+[2021-03-18 22:41:36.446] [gaetano_Server_FW] [info] 
+[2021-03-18 22:41:36.446] [gaetano_Server_FW] [info] 
+[2021-03-18 22:41:36.447] [gaetano_Server_FW] [info] 
+[2021-03-18 22:41:36.447] [gaetano_Server_FW] [info] [OPERATION_1]: SND MSG returned code: -2
+[2021-03-18 22:41:36.447] [gaetano_Server_FW] [info] [OPERATION_1]: path C:\Users\gabuscema\Desktop\BackupFolder\gaetano\C_\Users\gabuscema\Desktop\UserFolder\A - Copia.txt
+[2021-03-18 22:41:36.447] [gaetano_Server_FW] [info] 
+[2021-03-18 22:41:36.447] [gaetano_Server_FW] [info] 
+[2021-03-18 22:41:36.447] [gaetano_Server_FW] [info] [OPERATION_1]: path C:\Users\gabuscema\Desktop\BackupFolder\gaetano\C_\Users\gabuscema\Desktop\UserFolder\TEST_B (7).txt
+[2021-03-18 22:41:36.447] [gaetano_Server_FW] [info] 
+[2021-03-18 22:41:36.447] [gaetano_Server_FW] [info] [OPERATION_1]: SND MSG returned code: -2
+[2021-03-18 22:41:36.447] [gaetano_Server_FW] [info] [OPERATION_1]: SND MSG returned code: -2
+[2021-03-18 22:41:36.448] [gaetano_Server_FW] [info] [OPERATION_1]: SND MSG returned code: -2
+[2021-03-18 22:41:36.448] [gaetano_Server_FW] [info] [OPERATION_1]: SND MSG returned code: -2
+[2021-03-18 22:41:36.448] [gaetano_Server_FW] [info] 
+[2021-03-18 22:41:36.448] [gaetano_Server_FW] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3554
+[2021-03-18 22:41:36.449] [gaetano_Server_FW] [info] 
+[2021-03-18 22:41:36.449] [gaetano_Server_FW] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3554
+[2021-03-18 22:41:36.449] [gaetano_Server_FW] [info] 
+[2021-03-18 22:41:36.449] [gaetano_Server_FW] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3554
+[2021-03-18 22:41:36.450] [gaetano_Server_FW] [info] 
+[2021-03-18 22:41:36.450] [gaetano_Server_FW] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3554
+[2021-03-18 22:41:36.450] [gaetano_Server_FW] [info] 
+[2021-03-18 22:41:36.450] [gaetano_Server_FW] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3554
+[2021-03-18 22:41:36.451] [gaetano_Server_FW] [info] 
+[2021-03-18 22:41:36.451] [gaetano_Server_FW] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3554
+[2021-03-18 22:41:36.451] [gaetano_Server_FW] [info] 
+[2021-03-18 22:41:36.451] [gaetano_Server_FW] [info] [OPERATION_1]: path C:\Users\gabuscema\Desktop\BackupFolder\gaetano\C_\Users\gabuscema\Desktop\UserFolder\RENAME\rename (1).txt
+[2021-03-18 22:41:36.451] [gaetano_Server_FW] [info] 
+[2021-03-18 22:41:36.451] [gaetano_Server_FW] [info] 
+[2021-03-18 22:41:36.451] [gaetano_Server_FW] [info] [OPERATION_1]: path C:\Users\gabuscema\Desktop\BackupFolder\gaetano\C_\Users\gabuscema\Desktop\UserFolder\A - Copia (6).txt
+[2021-03-18 22:41:36.451] [gaetano_Server_FW] [info] 
+[2021-03-18 22:41:36.451] [gaetano_Server_FW] [info] [OPERATION_1]: SND MSG returned code: -2
+[2021-03-18 22:41:36.452] [gaetano_Server_FW] [info] [OPERATION_1]: SND MSG returned code: -2
+[2021-03-18 22:41:36.452] [gaetano_Server_FW] [info] 
+[2021-03-18 22:41:36.452] [gaetano_Server_FW] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3554
+[2021-03-18 22:41:36.452] [gaetano_Server_FW] [info] 
+[2021-03-18 22:41:36.452] [gaetano_Server_FW] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3554
+[2021-03-18 22:42:04.458] [gaetano_Server_FW] [info] try to connect to server - IP: 127.0.0.1 PORT: 3554
+[2021-03-18 22:42:04.459] [gaetano_Server_FW] [info] try to connect to server - IP: 127.0.0.1 PORT: 3554
+[2021-03-18 22:42:04.459] [gaetano_Server_FW] [info] try to connect to server - IP: 127.0.0.1 PORT: 3554
+[2021-03-18 22:42:04.460] [gaetano_Server_FW] [info] try to connect to server - IP: 127.0.0.1 PORT: 3554
+[2021-03-18 22:42:04.460] [gaetano_Server_FW] [info] try to connect to server - IP: 127.0.0.1 PORT: 3554
+[2021-03-18 22:42:04.461] [gaetano_Server_FW] [info] try to connect to server - IP: 127.0.0.1 PORT: 3554
+[2021-03-18 22:42:04.461] [gaetano_Server_FW] [info] try to connect to server - IP: 127.0.0.1 PORT: 3554
+[2021-03-18 22:42:04.462] [gaetano_Server_FW] [info] try to connect to server - IP: 127.0.0.1 PORT: 3554
+[2021-03-18 22:42:22.871] [gaetano_Server_FW] [info] 
+[2021-03-18 22:42:22.871] [gaetano_Server_FW] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3554
+[2021-03-18 22:42:22.872] [gaetano_Server_FW] [info] 
+[2021-03-18 22:42:22.872] [gaetano_Server_FW] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3554
+[2021-03-18 22:42:22.872] [gaetano_Server_FW] [info] 
+[2021-03-18 22:42:22.872] [gaetano_Server_FW] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3554
+[2021-03-18 22:42:22.873] [gaetano_Server_FW] [info] 
+[2021-03-18 22:42:22.873] [gaetano_Server_FW] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3554
+[2021-03-18 22:42:22.873] [gaetano_Server_FW] [info] 
+[2021-03-18 22:42:22.873] [gaetano_Server_FW] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3554
+[2021-03-18 22:42:22.873] [gaetano_Server_FW] [info] 
+[2021-03-18 22:42:22.873] [gaetano_Server_FW] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3554
+[2021-03-18 22:42:22.874] [gaetano_Server_FW] [info] 
+[2021-03-18 22:42:22.874] [gaetano_Server_FW] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3554
+[2021-03-18 22:42:22.874] [gaetano_Server_FW] [info] 
+[2021-03-18 22:42:22.874] [gaetano_Server_FW] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3554
+[2021-03-18 22:42:58.278] [gaetano_Server_FW] [info] Logger initialized correctly with file gaetano_Server_FW_log.txt
+[2021-03-18 22:43:11.826] [gaetano_Server_FW] [info] try to connect to server - IP: 127.0.0.1 PORT: 3554
+[2021-03-18 22:43:11.826] [gaetano_Server_FW] [info] try to connect to server - IP: 127.0.0.1 PORT: 3554
+[2021-03-18 22:43:11.826] [gaetano_Server_FW] [info] try to connect to server - IP: 127.0.0.1 PORT: 3554
+[2021-03-18 22:43:11.827] [gaetano_Server_FW] [info] try to connect to server - IP: 127.0.0.1 PORT: 3554
+[2021-03-18 22:43:11.829] [gaetano_Server_FW] [info] Socket 260 was created
+[2021-03-18 22:43:11.829] [gaetano_Server_FW] [info] Socket 228 was created
+[2021-03-18 22:43:11.829] [gaetano_Server_FW] [info] Socket 240 was created
+[2021-03-18 22:43:11.829] [gaetano_Server_FW] [info] Socket 264 was created
+[2021-03-18 22:43:11.829] [gaetano_Server_FW] [info] try to connect to server - IP: 127.0.0.1 PORT: 3554
+[2021-03-18 22:43:11.830] [gaetano_Server_FW] [info] Socket 276 was created
+[2021-03-18 22:43:11.830] [gaetano_Server_FW] [info] try to connect to server - IP: 127.0.0.1 PORT: 3554
+[2021-03-18 22:43:11.832] [gaetano_Server_FW] [info] try to connect to server - IP: 127.0.0.1 PORT: 3554
+[2021-03-18 22:43:11.832] [gaetano_Server_FW] [info] Socket 288 was created
+[2021-03-18 22:43:11.832] [gaetano_Server_FW] [info] try to connect to server - IP: 127.0.0.1 PORT: 3554
+[2021-03-18 22:43:11.832] [gaetano_Server_FW] [info] connected to server 127.0.0.1:3554
+[2021-03-18 22:43:11.832] [gaetano_Server_FW] [info] 
+[2021-03-18 22:43:11.832] [gaetano_Server_FW] [info] [OPERATION_1]: path C:\Users\gabuscema\Desktop\BackupFolder\gaetano\C_\Users\gabuscema\Desktop\UserFolder\A - Copia (6).txt
+[2021-03-18 22:43:11.832] [gaetano_Server_FW] [info] 
+[2021-03-18 22:43:11.833] [gaetano_Server_FW] [info] Socket 300 was created
+[2021-03-18 22:43:11.833] [gaetano_Server_FW] [info] Socket 312 was created
+[2021-03-18 22:43:11.833] [gaetano_Server_FW] [info] connected to server 127.0.0.1:3554
+[2021-03-18 22:43:11.833] [gaetano_Server_FW] [info] [OPERATION_1]: SND MSG returned code: 0
+[2021-03-18 22:43:11.833] [gaetano_Server_FW] [info] 
+[2021-03-18 22:43:11.834] [gaetano_Server_FW] [info] [OPERATION_1]: path C:\Users\gabuscema\Desktop\BackupFolder\gaetano\C_\Users\gabuscema\Desktop\UserFolder\TEST_B (7).txt
+[2021-03-18 22:43:11.834] [gaetano_Server_FW] [info] 
+[2021-03-18 22:43:11.834] [gaetano_Server_FW] [info] [OPERATION_1]: SND MSG returned code: 0
+[2021-03-18 22:43:11.835] [gaetano_Server_FW] [info] [OPERATION_1]: RCV RESP returned code: 0
+[2021-03-18 22:43:11.835] [gaetano_Server_FW] [info] connected to server 127.0.0.1:3554
+[2021-03-18 22:43:11.835] [gaetano_Server_FW] [info] 
+[2021-03-18 22:43:11.835] [gaetano_Server_FW] [info] [OPERATION_1]: path C:\Users\gabuscema\Desktop\BackupFolder\gaetano\C_\Users\gabuscema\Desktop\UserFolder\A - Copia.txt
+[2021-03-18 22:43:11.835] [gaetano_Server_FW] [info] 
+[2021-03-18 22:43:11.836] [gaetano_Server_FW] [info] [OPERATION_1]: SND FILE STREAM returned code: 0
+[2021-03-18 22:43:11.836] [gaetano_Server_FW] [info] [OPERATION_1]: SND MSG returned code: 0
+[2021-03-18 22:43:11.836] [gaetano_Server_FW] [info] [OPERATION_1]: RCV RESP returned code: 0
+[2021-03-18 22:43:11.837] [gaetano_Server_FW] [info] connected to server 127.0.0.1:3554
+[2021-03-18 22:43:11.837] [gaetano_Server_FW] [info] 
+[2021-03-18 22:43:11.837] [gaetano_Server_FW] [info] [OPERATION_1]: path C:\Users\gabuscema\Desktop\BackupFolder\gaetano\C_\Users\gabuscema\Desktop\UserFolder\RENAME\test (2).txt
+[2021-03-18 22:43:11.837] [gaetano_Server_FW] [info] 
+[2021-03-18 22:43:11.837] [gaetano_Server_FW] [info] [OPERATION_1]: SND FILE STREAM returned code: 0
+[2021-03-18 22:43:11.838] [gaetano_Server_FW] [info] [OPERATION_1]: RCV RESP returned code: 0
+[2021-03-18 22:43:11.838] [gaetano_Server_FW] [info] connected to server 127.0.0.1:3554
+[2021-03-18 22:43:11.838] [gaetano_Server_FW] [info] [OPERATION_1]: SND MSG returned code: 0
+[2021-03-18 22:43:11.838] [gaetano_Server_FW] [info] 
+[2021-03-18 22:43:11.838] [gaetano_Server_FW] [info] [OPERATION_1]: path C:\Users\gabuscema\Desktop\BackupFolder\gaetano\C_\Users\gabuscema\Desktop\UserFolder\A.txt
+[2021-03-18 22:43:11.838] [gaetano_Server_FW] [info] 
+[2021-03-18 22:43:11.839] [gaetano_Server_FW] [info] [OPERATION_1]: SND FILE STREAM returned code: 0
+[2021-03-18 22:43:11.839] [gaetano_Server_FW] [info] [OPERATION_1]: SND MSG returned code: 0
+[2021-03-18 22:43:11.839] [gaetano_Server_FW] [info] [OPERATION_1]: RCV RESP returned code: 0
+[2021-03-18 22:43:11.840] [gaetano_Server_FW] [info] [OPERATION_1]: RCV STREAM RESP returned code: 0
+[2021-03-18 22:43:11.840] [gaetano_Server_FW] [info] [OPERATION_1]: SND FILE STREAM returned code: 0
+[2021-03-18 22:43:11.841] [gaetano_Server_FW] [info] [OPERATION_1]: RCV RESP returned code: 0
+[2021-03-18 22:43:11.841] [gaetano_Server_FW] [info] connected to server 127.0.0.1:3554
+[2021-03-18 22:43:11.841] [gaetano_Server_FW] [info] 
+[2021-03-18 22:43:11.841] [gaetano_Server_FW] [info] [OPERATION_1]: path C:\Users\gabuscema\Desktop\BackupFolder\gaetano\C_\Users\gabuscema\Desktop\UserFolder\RENAME\Ci (1).txt
+[2021-03-18 22:43:11.841] [gaetano_Server_FW] [info] 
+[2021-03-18 22:43:11.842] [gaetano_Server_FW] [info] 
+[2021-03-18 22:43:11.842] [gaetano_Server_FW] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3554
+[2021-03-18 22:43:11.842] [gaetano_Server_FW] [info] [OPERATION_1]: SND FILE STREAM returned code: 0
+[2021-03-18 22:43:11.842] [gaetano_Server_FW] [info] [OPERATION_1]: SND MSG returned code: 0
+[2021-03-18 22:43:11.843] [gaetano_Server_FW] [info] connected to server 127.0.0.1:3554
+[2021-03-18 22:43:11.843] [gaetano_Server_FW] [info] [OPERATION_1]: RCV RESP returned code: 0
+[2021-03-18 22:43:11.843] [gaetano_Server_FW] [info] 
+[2021-03-18 22:43:11.843] [gaetano_Server_FW] [info] [OPERATION_1]: path C:\Users\gabuscema\Desktop\BackupFolder\gaetano\C_\Users\gabuscema\Desktop\UserFolder\RENAME\Ci (2).txt
+[2021-03-18 22:43:11.843] [gaetano_Server_FW] [info] 
+[2021-03-18 22:43:11.844] [gaetano_Server_FW] [info] disconnected from server 127.0.0.1:3554
+[2021-03-18 22:43:11.844] [gaetano_Server_FW] [info] [OPERATION_1]: SND FILE STREAM returned code: 0
+[2021-03-18 22:43:11.844] [gaetano_Server_FW] [info] [OPERATION_1]: SND MSG returned code: 0
+[2021-03-18 22:43:11.845] [gaetano_Server_FW] [info] [OPERATION_1]: RCV RESP returned code: 0
+[2021-03-18 22:43:11.846] [gaetano_Server_FW] [info] [OPERATION_1]: SND FILE STREAM returned code: 0
+[2021-03-18 22:43:11.847] [gaetano_Server_FW] [info] [OPERATION_1]: RCV STREAM RESP returned code: 0
+[2021-03-18 22:43:11.847] [gaetano_Server_FW] [info] [OPERATION_1]: RCV STREAM RESP returned code: 0
+[2021-03-18 22:43:11.848] [gaetano_Server_FW] [info] 
+[2021-03-18 22:43:11.848] [gaetano_Server_FW] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3554
+[2021-03-18 22:43:11.849] [gaetano_Server_FW] [info] 
+[2021-03-18 22:43:11.849] [gaetano_Server_FW] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3554
+[2021-03-18 22:43:11.850] [gaetano_Server_FW] [info] disconnected from server 127.0.0.1:3554
+[2021-03-18 22:43:11.851] [gaetano_Server_FW] [info] disconnected from server 127.0.0.1:3554
+[2021-03-18 22:43:11.854] [gaetano_Server_FW] [info] [OPERATION_1]: RCV STREAM RESP returned code: 0
+[2021-03-18 22:43:11.855] [gaetano_Server_FW] [info] connected to server 127.0.0.1:3554
+[2021-03-18 22:43:11.855] [gaetano_Server_FW] [info] 
+[2021-03-18 22:43:11.855] [gaetano_Server_FW] [info] [OPERATION_1]: path C:\Users\gabuscema\Desktop\BackupFolder\gaetano\C_\Users\gabuscema\Desktop\UserFolder\RENAME\rename (1).txt
+[2021-03-18 22:43:11.855] [gaetano_Server_FW] [info] 
+[2021-03-18 22:43:11.855] [gaetano_Server_FW] [info] 
+[2021-03-18 22:43:11.856] [gaetano_Server_FW] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3554
+[2021-03-18 22:43:11.856] [gaetano_Server_FW] [info] [OPERATION_1]: SND MSG returned code: 0
+[2021-03-18 22:43:11.857] [gaetano_Server_FW] [info] [OPERATION_1]: RCV RESP returned code: 0
+[2021-03-18 22:43:11.857] [gaetano_Server_FW] [info] [OPERATION_1]: RCV STREAM RESP returned code: 0
+[2021-03-18 22:43:11.857] [gaetano_Server_FW] [info] disconnected from server 127.0.0.1:3554
+[2021-03-18 22:43:11.858] [gaetano_Server_FW] [info] [OPERATION_1]: SND FILE STREAM returned code: 0
+[2021-03-18 22:43:11.858] [gaetano_Server_FW] [info] 
+[2021-03-18 22:43:11.858] [gaetano_Server_FW] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3554
+[2021-03-18 22:43:11.861] [gaetano_Server_FW] [info] disconnected from server 127.0.0.1:3554
+[2021-03-18 22:43:11.862] [gaetano_Server_FW] [info] [OPERATION_1]: RCV STREAM RESP returned code: 0
+[2021-03-18 22:43:11.864] [gaetano_Server_FW] [info] 
+[2021-03-18 22:43:11.864] [gaetano_Server_FW] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3554
+[2021-03-18 22:43:11.865] [gaetano_Server_FW] [info] disconnected from server 127.0.0.1:3554
+[2021-03-18 22:43:11.865] [gaetano_Server_FW] [info] [OPERATION_1]: RCV STREAM RESP returned code: 0
+[2021-03-18 22:43:11.866] [gaetano_Server_FW] [info] 
+[2021-03-18 22:43:11.866] [gaetano_Server_FW] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3554
+[2021-03-18 22:43:11.867] [gaetano_Server_FW] [info] [OPERATION_1]: RCV STREAM RESP returned code: 0
+[2021-03-18 22:43:11.867] [gaetano_Server_FW] [info] disconnected from server 127.0.0.1:3554
+[2021-03-18 22:43:11.869] [gaetano_Server_FW] [info] 
+[2021-03-18 22:43:11.869] [gaetano_Server_FW] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3554
+[2021-03-18 22:43:11.870] [gaetano_Server_FW] [info] disconnected from server 127.0.0.1:3554
+[2021-03-18 22:43:26.833] [gaetano_Server_FW] [info] try to connect to server - IP: 127.0.0.1 PORT: 3554
+[2021-03-18 22:43:28.838] [gaetano_Server_FW] [info] 
+[2021-03-18 22:43:28.838] [gaetano_Server_FW] [info] [OPERATION_8]: path \
+[2021-03-18 22:43:28.838] [gaetano_Server_FW] [info] 
+[2021-03-18 22:43:28.838] [gaetano_Server_FW] [info] [OPERATION_8]: SND MSG returned code: -2
+[2021-03-18 22:43:28.838] [gaetano_Server_FW] [info] 
+[2021-03-18 22:43:28.838] [gaetano_Server_FW] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3554
+[2021-03-18 22:44:13.597] [gaetano_Server_FW] [info] Logger initialized correctly with file gaetano_Server_FW_log.txt
+[2021-03-18 22:44:13.611] [gaetano_Server_FW] [info] try to connect to server - IP: 127.0.0.1 PORT: 3554
+[2021-03-18 22:44:13.613] [gaetano_Server_FW] [info] try to connect to server - IP: 127.0.0.1 PORT: 3554
+[2021-03-18 22:44:16.408] [gaetano_Server_FW] [info] try to connect to server - IP: 127.0.0.1 PORT: 3554
+[2021-03-18 22:44:16.409] [gaetano_Server_FW] [info] 
+[2021-03-18 22:44:16.409] [gaetano_Server_FW] [info] 
+[2021-03-18 22:44:16.409] [gaetano_Server_FW] [info] [OPERATION_1]: path C:\Users\gabuscema\Desktop\BackupFolder\gaetano\C_\Users\gabuscema\Desktop\UserFolder\A - Copia (6).txt
+[2021-03-18 22:44:16.409] [gaetano_Server_FW] [info] [OPERATION_1]: path C:\Users\gabuscema\Desktop\BackupFolder\gaetano\C_\Users\gabuscema\Desktop\UserFolder\TEST_B (7).txt
+[2021-03-18 22:44:16.409] [gaetano_Server_FW] [info] 
+[2021-03-18 22:44:16.409] [gaetano_Server_FW] [info] 
+[2021-03-18 22:44:16.409] [gaetano_Server_FW] [info] try to connect to server - IP: 127.0.0.1 PORT: 3554
+[2021-03-18 22:44:16.411] [gaetano_Server_FW] [info] try to connect to server - IP: 127.0.0.1 PORT: 3554
+[2021-03-18 22:44:16.411] [gaetano_Server_FW] [info] [OPERATION_1]: SND MSG returned code: -2
+[2021-03-18 22:44:16.411] [gaetano_Server_FW] [info] [OPERATION_1]: SND MSG returned code: -2
+[2021-03-18 22:44:16.413] [gaetano_Server_FW] [info] try to connect to server - IP: 127.0.0.1 PORT: 3554
+[2021-03-18 22:44:16.414] [gaetano_Server_FW] [info] try to connect to server - IP: 127.0.0.1 PORT: 3554
+[2021-03-18 22:44:16.414] [gaetano_Server_FW] [info] 
+[2021-03-18 22:44:16.414] [gaetano_Server_FW] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3554
+[2021-03-18 22:44:16.414] [gaetano_Server_FW] [info] try to connect to server - IP: 127.0.0.1 PORT: 3554
+[2021-03-18 22:44:16.415] [gaetano_Server_FW] [info] 
+[2021-03-18 22:44:16.415] [gaetano_Server_FW] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3554
+[2021-03-18 22:44:18.413] [gaetano_Server_FW] [info] 
+[2021-03-18 22:44:18.413] [gaetano_Server_FW] [info] [OPERATION_1]: path C:\Users\gabuscema\Desktop\BackupFolder\gaetano\C_\Users\gabuscema\Desktop\UserFolder\RENAME\test (2).txt
+[2021-03-18 22:44:18.413] [gaetano_Server_FW] [info] 
+[2021-03-18 22:44:18.414] [gaetano_Server_FW] [info] [OPERATION_1]: SND MSG returned code: -2
+[2021-03-18 22:44:18.414] [gaetano_Server_FW] [info] 
+[2021-03-18 22:44:18.414] [gaetano_Server_FW] [info] [OPERATION_1]: path C:\Users\gabuscema\Desktop\BackupFolder\gaetano\C_\Users\gabuscema\Desktop\UserFolder\A - Copia.txt
+[2021-03-18 22:44:18.414] [gaetano_Server_FW] [info] 
+[2021-03-18 22:44:18.414] [gaetano_Server_FW] [info] 
+[2021-03-18 22:44:18.414] [gaetano_Server_FW] [info] [OPERATION_1]: path C:\Users\gabuscema\Desktop\BackupFolder\gaetano\C_\Users\gabuscema\Desktop\UserFolder\A.txt
+[2021-03-18 22:44:18.414] [gaetano_Server_FW] [info] 
+[2021-03-18 22:44:18.415] [gaetano_Server_FW] [info] [OPERATION_1]: SND MSG returned code: -2
+[2021-03-18 22:44:18.415] [gaetano_Server_FW] [info] [OPERATION_1]: SND MSG returned code: -2
+[2021-03-18 22:44:18.416] [gaetano_Server_FW] [info] 
+[2021-03-18 22:44:18.416] [gaetano_Server_FW] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3554
+[2021-03-18 22:44:18.418] [gaetano_Server_FW] [info] 
+[2021-03-18 22:44:18.418] [gaetano_Server_FW] [info] [OPERATION_1]: path C:\Users\gabuscema\Desktop\BackupFolder\gaetano\C_\Users\gabuscema\Desktop\UserFolder\RENAME\rename (1).txt
+[2021-03-18 22:44:18.418] [gaetano_Server_FW] [info] 
+[2021-03-18 22:44:18.418] [gaetano_Server_FW] [info] [OPERATION_1]: SND MSG returned code: -2
+[2021-03-18 22:44:18.419] [gaetano_Server_FW] [info] 
+[2021-03-18 22:44:18.419] [gaetano_Server_FW] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3554
+[2021-03-18 22:44:18.420] [gaetano_Server_FW] [info] 
+[2021-03-18 22:44:18.420] [gaetano_Server_FW] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3554
+[2021-03-18 22:44:18.420] [gaetano_Server_FW] [info] 
+[2021-03-18 22:44:18.420] [gaetano_Server_FW] [info] [OPERATION_1]: path C:\Users\gabuscema\Desktop\BackupFolder\gaetano\C_\Users\gabuscema\Desktop\UserFolder\RENAME\Ci (1).txt
+[2021-03-18 22:44:18.420] [gaetano_Server_FW] [info] 
+[2021-03-18 22:44:18.420] [gaetano_Server_FW] [info] 
+[2021-03-18 22:44:18.420] [gaetano_Server_FW] [info] [OPERATION_1]: path C:\Users\gabuscema\Desktop\BackupFolder\gaetano\C_\Users\gabuscema\Desktop\UserFolder\RENAME\Ci (2).txt
+[2021-03-18 22:44:18.420] [gaetano_Server_FW] [info] 
+[2021-03-18 22:44:18.420] [gaetano_Server_FW] [info] 
+[2021-03-18 22:44:18.421] [gaetano_Server_FW] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3554
+[2021-03-18 22:44:18.421] [gaetano_Server_FW] [info] [OPERATION_1]: SND MSG returned code: -2
+[2021-03-18 22:44:18.421] [gaetano_Server_FW] [info] [OPERATION_1]: SND MSG returned code: -2
+[2021-03-18 22:44:18.421] [gaetano_Server_FW] [info] 
+[2021-03-18 22:44:18.421] [gaetano_Server_FW] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3554
+[2021-03-18 22:44:18.422] [gaetano_Server_FW] [info] 
+[2021-03-18 22:44:18.422] [gaetano_Server_FW] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3554
+[2021-03-18 22:44:46.425] [gaetano_Server_FW] [info] try to connect to server - IP: 127.0.0.1 PORT: 3554
+[2021-03-18 22:44:46.426] [gaetano_Server_FW] [info] try to connect to server - IP: 127.0.0.1 PORT: 3554
+[2021-03-18 22:44:46.426] [gaetano_Server_FW] [info] try to connect to server - IP: 127.0.0.1 PORT: 3554
+[2021-03-18 22:44:46.426] [gaetano_Server_FW] [info] try to connect to server - IP: 127.0.0.1 PORT: 3554
+[2021-03-18 22:44:46.426] [gaetano_Server_FW] [info] try to connect to server - IP: 127.0.0.1 PORT: 3554
+[2021-03-18 22:44:46.427] [gaetano_Server_FW] [info] try to connect to server - IP: 127.0.0.1 PORT: 3554
+[2021-03-18 22:44:46.427] [gaetano_Server_FW] [info] try to connect to server - IP: 127.0.0.1 PORT: 3554
+[2021-03-18 22:44:46.427] [gaetano_Server_FW] [info] try to connect to server - IP: 127.0.0.1 PORT: 3554
+[2021-03-18 22:44:48.428] [gaetano_Server_FW] [info] 
+[2021-03-18 22:44:48.429] [gaetano_Server_FW] [info] [OPERATION_1]: path C:\Users\gabuscema\Desktop\BackupFolder\gaetano\C_\Users\gabuscema\Desktop\UserFolder\A - Copia (6).txt
+[2021-03-18 22:44:48.429] [gaetano_Server_FW] [info] 
+[2021-03-18 22:44:48.430] [gaetano_Server_FW] [info] [OPERATION_1]: SND MSG returned code: -2
+[2021-03-18 22:44:48.430] [gaetano_Server_FW] [info] 
+[2021-03-18 22:44:48.430] [gaetano_Server_FW] [info] [OPERATION_1]: path C:\Users\gabuscema\Desktop\BackupFolder\gaetano\C_\Users\gabuscema\Desktop\UserFolder\RENAME\rename (1).txt
+[2021-03-18 22:44:48.430] [gaetano_Server_FW] [info] 
+[2021-03-18 22:44:48.430] [gaetano_Server_FW] [info] [OPERATION_1]: SND MSG returned code: -2
+[2021-03-18 22:44:48.431] [gaetano_Server_FW] [info] 
+[2021-03-18 22:44:48.431] [gaetano_Server_FW] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3554
+[2021-03-18 22:44:48.432] [gaetano_Server_FW] [info] 
+[2021-03-18 22:44:48.432] [gaetano_Server_FW] [info] [OPERATION_1]: path C:\Users\gabuscema\Desktop\BackupFolder\gaetano\C_\Users\gabuscema\Desktop\UserFolder\A.txt
+[2021-03-18 22:44:48.432] [gaetano_Server_FW] [info] 
+[2021-03-18 22:44:48.433] [gaetano_Server_FW] [info] [OPERATION_1]: SND MSG returned code: -2
+[2021-03-18 22:44:48.434] [gaetano_Server_FW] [info] 
+[2021-03-18 22:44:48.434] [gaetano_Server_FW] [info] [OPERATION_1]: path C:\Users\gabuscema\Desktop\BackupFolder\gaetano\C_\Users\gabuscema\Desktop\UserFolder\RENAME\Ci (1).txt
+[2021-03-18 22:44:48.434] [gaetano_Server_FW] [info] 
+[2021-03-18 22:44:48.434] [gaetano_Server_FW] [info] 
+[2021-03-18 22:44:48.434] [gaetano_Server_FW] [info] [OPERATION_1]: path C:\Users\gabuscema\Desktop\BackupFolder\gaetano\C_\Users\gabuscema\Desktop\UserFolder\RENAME\test (2).txt
+[2021-03-18 22:44:48.434] [gaetano_Server_FW] [info] 
+[2021-03-18 22:44:48.434] [gaetano_Server_FW] [info] [OPERATION_1]: SND MSG returned code: -2
+[2021-03-18 22:44:48.434] [gaetano_Server_FW] [info] 
+[2021-03-18 22:44:48.434] [gaetano_Server_FW] [info] [OPERATION_1]: path C:\Users\gabuscema\Desktop\BackupFolder\gaetano\C_\Users\gabuscema\Desktop\UserFolder\TEST_B (7).txt
+[2021-03-18 22:44:48.434] [gaetano_Server_FW] [info] 
+[2021-03-18 22:44:48.434] [gaetano_Server_FW] [info] [OPERATION_1]: SND MSG returned code: -2
+[2021-03-18 22:44:48.435] [gaetano_Server_FW] [info] 
+[2021-03-18 22:44:48.435] [gaetano_Server_FW] [info] [OPERATION_1]: path C:\Users\gabuscema\Desktop\BackupFolder\gaetano\C_\Users\gabuscema\Desktop\UserFolder\A - Copia.txt
+[2021-03-18 22:44:48.435] [gaetano_Server_FW] [info] 
+[2021-03-18 22:44:48.435] [gaetano_Server_FW] [info] [OPERATION_1]: SND MSG returned code: -2
+[2021-03-18 22:44:48.435] [gaetano_Server_FW] [info] 
+[2021-03-18 22:44:48.435] [gaetano_Server_FW] [info] [OPERATION_1]: SND MSG returned code: -2
+[2021-03-18 22:44:48.435] [gaetano_Server_FW] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3554
+[2021-03-18 22:44:48.436] [gaetano_Server_FW] [info] 
+[2021-03-18 22:44:48.436] [gaetano_Server_FW] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3554
+[2021-03-18 22:44:48.437] [gaetano_Server_FW] [info] 
+[2021-03-18 22:44:48.437] [gaetano_Server_FW] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3554
+[2021-03-18 22:44:48.437] [gaetano_Server_FW] [info] 
+[2021-03-18 22:44:48.437] [gaetano_Server_FW] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3554
+[2021-03-18 22:44:48.439] [gaetano_Server_FW] [info] 
+[2021-03-18 22:44:48.439] [gaetano_Server_FW] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3554
+[2021-03-18 22:44:48.439] [gaetano_Server_FW] [info] 
+[2021-03-18 22:44:48.439] [gaetano_Server_FW] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3554
+[2021-03-18 22:44:48.439] [gaetano_Server_FW] [info] 
+[2021-03-18 22:44:48.439] [gaetano_Server_FW] [info] [OPERATION_1]: path C:\Users\gabuscema\Desktop\BackupFolder\gaetano\C_\Users\gabuscema\Desktop\UserFolder\RENAME\Ci (2).txt
+[2021-03-18 22:44:48.439] [gaetano_Server_FW] [info] 
+[2021-03-18 22:44:48.440] [gaetano_Server_FW] [info] [OPERATION_1]: SND MSG returned code: -2
+[2021-03-18 22:44:48.440] [gaetano_Server_FW] [info] 
+[2021-03-18 22:44:48.440] [gaetano_Server_FW] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3554
+[2021-03-18 22:46:03.715] [gaetano_Server_FW] [info] try to connect to server - IP: 127.0.0.1 PORT: 3554
+[2021-03-18 22:46:03.715] [gaetano_Server_FW] [info] try to connect to server - IP: 127.0.0.1 PORT: 3554
+[2021-03-18 22:46:03.715] [gaetano_Server_FW] [info] try to connect to server - IP: 127.0.0.1 PORT: 3554
+[2021-03-18 22:46:03.716] [gaetano_Server_FW] [info] try to connect to server - IP: 127.0.0.1 PORT: 3554
+[2021-03-18 22:46:03.716] [gaetano_Server_FW] [info] try to connect to server - IP: 127.0.0.1 PORT: 3554
+[2021-03-18 22:46:03.716] [gaetano_Server_FW] [info] try to connect to server - IP: 127.0.0.1 PORT: 3554
+[2021-03-18 22:46:03.717] [gaetano_Server_FW] [info] try to connect to server - IP: 127.0.0.1 PORT: 3554
+[2021-03-18 22:46:03.717] [gaetano_Server_FW] [info] try to connect to server - IP: 127.0.0.1 PORT: 3554
+[2021-03-18 22:46:32.440] [gaetano_Server_FW] [info] 
+[2021-03-18 22:46:32.440] [gaetano_Server_FW] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3554
+[2021-03-18 22:46:32.440] [gaetano_Server_FW] [info] 
+[2021-03-18 22:46:32.440] [gaetano_Server_FW] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3554
+[2021-03-18 22:46:32.441] [gaetano_Server_FW] [info] 
+[2021-03-18 22:46:32.441] [gaetano_Server_FW] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3554
+[2021-03-18 22:46:32.442] [gaetano_Server_FW] [info] 
+[2021-03-18 22:46:32.442] [gaetano_Server_FW] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3554
+[2021-03-18 22:46:32.443] [gaetano_Server_FW] [info] 
+[2021-03-18 22:46:32.443] [gaetano_Server_FW] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3554
+[2021-03-18 22:46:32.444] [gaetano_Server_FW] [info] 
+[2021-03-18 22:46:32.444] [gaetano_Server_FW] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3554
+[2021-03-18 22:46:32.444] [gaetano_Server_FW] [info] 
+[2021-03-18 22:46:32.444] [gaetano_Server_FW] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3554
+[2021-03-18 22:46:32.445] [gaetano_Server_FW] [info] 
+[2021-03-18 22:46:32.445] [gaetano_Server_FW] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3554
+[2021-03-18 22:48:01.198] [gaetano_Server_FW] [info] try to connect to server - IP: 127.0.0.1 PORT: 3554
+[2021-03-18 22:48:01.199] [gaetano_Server_FW] [info] try to connect to server - IP: 127.0.0.1 PORT: 3554
+[2021-03-18 22:48:01.199] [gaetano_Server_FW] [info] Socket 200 was created
+[2021-03-18 22:48:01.199] [gaetano_Server_FW] [info] try to connect to server - IP: 127.0.0.1 PORT: 3554
+[2021-03-18 22:48:01.199] [gaetano_Server_FW] [info] Socket 344 was created
+[2021-03-18 22:48:01.200] [gaetano_Server_FW] [info] try to connect to server - IP: 127.0.0.1 PORT: 3554
+[2021-03-18 22:48:01.200] [gaetano_Server_FW] [info] Socket 248 was created
+[2021-03-18 22:48:01.200] [gaetano_Server_FW] [info] try to connect to server - IP: 127.0.0.1 PORT: 3554
+[2021-03-18 22:48:01.200] [gaetano_Server_FW] [info] Socket 244 was created
+[2021-03-18 22:48:01.200] [gaetano_Server_FW] [info] try to connect to server - IP: 127.0.0.1 PORT: 3554
+[2021-03-18 22:48:01.200] [gaetano_Server_FW] [info] Socket 340 was created
+[2021-03-18 22:48:01.201] [gaetano_Server_FW] [info] Socket 376 was created
+[2021-03-18 22:48:01.201] [gaetano_Server_FW] [info] try to connect to server - IP: 127.0.0.1 PORT: 3554
+[2021-03-18 22:48:02.727] [gaetano_Server_FW] [info] connected to server 127.0.0.1:3554
+[2021-03-18 22:48:02.727] [gaetano_Server_FW] [info] Socket 380 was created
+[2021-03-18 22:48:02.727] [gaetano_Server_FW] [info] connected to server 127.0.0.1:3554
+[2021-03-18 22:48:02.727] [gaetano_Server_FW] [info] connected to server 127.0.0.1:3554
+[2021-03-18 22:48:02.727] [gaetano_Server_FW] [info] 
+[2021-03-18 22:48:02.727] [gaetano_Server_FW] [info] [OPERATION_1]: path C:\Users\gabuscema\Desktop\BackupFolder\gaetano\C_\Users\gabuscema\Desktop\UserFolder\RENAME\test (2).txt
+[2021-03-18 22:48:02.727] [gaetano_Server_FW] [info] 
+[2021-03-18 22:48:02.727] [gaetano_Server_FW] [info] 
+[2021-03-18 22:48:02.727] [gaetano_Server_FW] [info] [OPERATION_1]: path C:\Users\gabuscema\Desktop\BackupFolder\gaetano\C_\Users\gabuscema\Desktop\UserFolder\RENAME\Ci (1).txt
+[2021-03-18 22:48:02.727] [gaetano_Server_FW] [info] 
+[2021-03-18 22:48:02.728] [gaetano_Server_FW] [info] 
+[2021-03-18 22:48:02.728] [gaetano_Server_FW] [info] [OPERATION_1]: path C:\Users\gabuscema\Desktop\BackupFolder\gaetano\C_\Users\gabuscema\Desktop\UserFolder\RENAME\rename (1).txt
+[2021-03-18 22:48:02.728] [gaetano_Server_FW] [info] 
+[2021-03-18 22:48:02.727] [gaetano_Server_FW] [info] connected to server 127.0.0.1:3554
+[2021-03-18 22:48:02.728] [gaetano_Server_FW] [info] connected to server 127.0.0.1:3554
+[2021-03-18 22:48:02.728] [gaetano_Server_FW] [info] 
+[2021-03-18 22:48:02.728] [gaetano_Server_FW] [info] 
+[2021-03-18 22:48:02.728] [gaetano_Server_FW] [info] [OPERATION_1]: path C:\Users\gabuscema\Desktop\BackupFolder\gaetano\C_\Users\gabuscema\Desktop\UserFolder\A.txt
+[2021-03-18 22:48:02.728] [gaetano_Server_FW] [info] [OPERATION_1]: path C:\Users\gabuscema\Desktop\BackupFolder\gaetano\C_\Users\gabuscema\Desktop\UserFolder\RENAME\Ci (2).txt
+[2021-03-18 22:48:02.727] [gaetano_Server_FW] [info] connected to server 127.0.0.1:3554
+[2021-03-18 22:48:02.728] [gaetano_Server_FW] [info] 
+[2021-03-18 22:48:02.728] [gaetano_Server_FW] [info] 
+[2021-03-18 22:48:02.728] [gaetano_Server_FW] [info] 
+[2021-03-18 22:48:02.728] [gaetano_Server_FW] [info] [OPERATION_1]: path C:\Users\gabuscema\Desktop\BackupFolder\gaetano\C_\Users\gabuscema\Desktop\UserFolder\A - Copia (6).txt
+[2021-03-18 22:48:02.728] [gaetano_Server_FW] [info] 
+[2021-03-18 22:48:02.729] [gaetano_Server_FW] [info] [OPERATION_1]: SND MSG returned code: 0
+[2021-03-18 22:48:02.729] [gaetano_Server_FW] [info] [OPERATION_1]: SND MSG returned code: 0
+[2021-03-18 22:48:02.730] [gaetano_Server_FW] [info] [OPERATION_1]: SND MSG returned code: 0
+[2021-03-18 22:48:02.730] [gaetano_Server_FW] [info] [OPERATION_1]: SND MSG returned code: 0
+[2021-03-18 22:48:02.731] [gaetano_Server_FW] [info] [OPERATION_1]: SND MSG returned code: 0
+[2021-03-18 22:48:02.731] [gaetano_Server_FW] [info] [OPERATION_1]: RCV RESP returned code: 0
+[2021-03-18 22:48:02.731] [gaetano_Server_FW] [info] [OPERATION_1]: RCV RESP returned code: 0
+[2021-03-18 22:48:02.731] [gaetano_Server_FW] [info] [OPERATION_1]: RCV RESP returned code: 0
+[2021-03-18 22:48:02.731] [gaetano_Server_FW] [info] [OPERATION_1]: RCV RESP returned code: 0
+[2021-03-18 22:48:02.731] [gaetano_Server_FW] [info] [OPERATION_1]: SND MSG returned code: 0
+[2021-03-18 22:48:02.732] [gaetano_Server_FW] [info] try to connect to server - IP: 127.0.0.1 PORT: 3554
+[2021-03-18 22:48:02.732] [gaetano_Server_FW] [info] [OPERATION_1]: SND FILE STREAM returned code: 0
+[2021-03-18 22:48:02.732] [gaetano_Server_FW] [info] [OPERATION_1]: SND FILE STREAM returned code: 0
+[2021-03-18 22:48:02.732] [gaetano_Server_FW] [info] [OPERATION_1]: SND FILE STREAM returned code: 0
+[2021-03-18 22:48:02.732] [gaetano_Server_FW] [info] [OPERATION_1]: RCV RESP returned code: 0
+[2021-03-18 22:48:02.732] [gaetano_Server_FW] [info] [OPERATION_1]: SND FILE STREAM returned code: 0
+[2021-03-18 22:48:02.733] [gaetano_Server_FW] [info] Socket 384 was created
+[2021-03-18 22:48:02.733] [gaetano_Server_FW] [info] [OPERATION_1]: RCV RESP returned code: 0
+[2021-03-18 22:48:02.733] [gaetano_Server_FW] [info] [OPERATION_1]: SND FILE STREAM returned code: 0
+[2021-03-18 22:48:02.733] [gaetano_Server_FW] [info] [OPERATION_1]: SND FILE STREAM returned code: 0
+[2021-03-18 22:48:02.734] [gaetano_Server_FW] [info] connected to server 127.0.0.1:3554
+[2021-03-18 22:48:02.734] [gaetano_Server_FW] [info] 
+[2021-03-18 22:48:02.734] [gaetano_Server_FW] [info] [OPERATION_1]: path C:\Users\gabuscema\Desktop\BackupFolder\gaetano\C_\Users\gabuscema\Desktop\UserFolder\TEST_B (7).txt
+[2021-03-18 22:48:02.734] [gaetano_Server_FW] [info] 
+[2021-03-18 22:48:02.735] [gaetano_Server_FW] [info] [OPERATION_1]: SND MSG returned code: 0
+[2021-03-18 22:48:02.735] [gaetano_Server_FW] [info] [OPERATION_1]: RCV RESP returned code: 0
+[2021-03-18 22:48:02.736] [gaetano_Server_FW] [info] [OPERATION_1]: SND FILE STREAM returned code: 0
+[2021-03-18 22:48:02.741] [gaetano_Server_FW] [info] [OPERATION_1]: RCV STREAM RESP returned code: 0
+[2021-03-18 22:48:02.741] [gaetano_Server_FW] [info] [OPERATION_1]: RCV STREAM RESP returned code: 0
+[2021-03-18 22:48:02.742] [gaetano_Server_FW] [info] 
+[2021-03-18 22:48:02.743] [gaetano_Server_FW] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3554
+[2021-03-18 22:48:02.743] [gaetano_Server_FW] [info] [OPERATION_1]: RCV STREAM RESP returned code: 0
+[2021-03-18 22:48:02.743] [gaetano_Server_FW] [info] [OPERATION_1]: RCV STREAM RESP returned code: 0
+[2021-03-18 22:48:02.744] [gaetano_Server_FW] [info] 
+[2021-03-18 22:48:02.744] [gaetano_Server_FW] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3554
+[2021-03-18 22:48:02.745] [gaetano_Server_FW] [info] disconnected from server 127.0.0.1:3554
+[2021-03-18 22:48:02.746] [gaetano_Server_FW] [info] disconnected from server 127.0.0.1:3554
+[2021-03-18 22:48:02.750] [gaetano_Server_FW] [info] 
+[2021-03-18 22:48:02.750] [gaetano_Server_FW] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3554
+[2021-03-18 22:48:02.750] [gaetano_Server_FW] [info] connected to server 127.0.0.1:3554
+[2021-03-18 22:48:02.750] [gaetano_Server_FW] [info] 
+[2021-03-18 22:48:02.750] [gaetano_Server_FW] [info] [OPERATION_1]: path C:\Users\gabuscema\Desktop\BackupFolder\gaetano\C_\Users\gabuscema\Desktop\UserFolder\A - Copia.txt
+[2021-03-18 22:48:02.750] [gaetano_Server_FW] [info] 
+[2021-03-18 22:48:02.751] [gaetano_Server_FW] [info] 
+[2021-03-18 22:48:02.751] [gaetano_Server_FW] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3554
+[2021-03-18 22:48:02.752] [gaetano_Server_FW] [info] [OPERATION_1]: SND MSG returned code: 0
+[2021-03-18 22:48:02.752] [gaetano_Server_FW] [info] disconnected from server 127.0.0.1:3554
+[2021-03-18 22:48:02.752] [gaetano_Server_FW] [info] [OPERATION_1]: RCV STREAM RESP returned code: 0
+[2021-03-18 22:48:02.753] [gaetano_Server_FW] [info] [OPERATION_1]: RCV STREAM RESP returned code: 0
+[2021-03-18 22:48:02.753] [gaetano_Server_FW] [info] disconnected from server 127.0.0.1:3554
+[2021-03-18 22:48:02.753] [gaetano_Server_FW] [info] [OPERATION_1]: RCV RESP returned code: 0
+[2021-03-18 22:48:02.754] [gaetano_Server_FW] [info] [OPERATION_1]: SND FILE STREAM returned code: 0
+[2021-03-18 22:48:02.755] [gaetano_Server_FW] [info] 
+[2021-03-18 22:48:02.755] [gaetano_Server_FW] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3554
+[2021-03-18 22:48:02.756] [gaetano_Server_FW] [info] 
+[2021-03-18 22:48:02.756] [gaetano_Server_FW] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3554
+[2021-03-18 22:48:02.756] [gaetano_Server_FW] [info] disconnected from server 127.0.0.1:3554
+[2021-03-18 22:48:02.757] [gaetano_Server_FW] [info] disconnected from server 127.0.0.1:3554
+[2021-03-18 22:48:02.758] [gaetano_Server_FW] [info] [OPERATION_1]: RCV STREAM RESP returned code: 0
+[2021-03-18 22:48:02.760] [gaetano_Server_FW] [info] 
+[2021-03-18 22:48:02.760] [gaetano_Server_FW] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3554
+[2021-03-18 22:48:02.762] [gaetano_Server_FW] [info] disconnected from server 127.0.0.1:3554
+[2021-03-18 22:48:02.763] [gaetano_Server_FW] [info] [OPERATION_1]: RCV STREAM RESP returned code: 0
+[2021-03-18 22:48:02.765] [gaetano_Server_FW] [info] 
+[2021-03-18 22:48:02.765] [gaetano_Server_FW] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3554
+[2021-03-18 22:48:02.766] [gaetano_Server_FW] [info] disconnected from server 127.0.0.1:3554
+[2021-03-18 22:48:17.730] [gaetano_Server_FW] [info] try to connect to server - IP: 127.0.0.1 PORT: 3554
+[2021-03-18 22:48:17.730] [gaetano_Server_FW] [info] Socket 388 was created
+[2021-03-18 22:48:17.733] [gaetano_Server_FW] [info] connected to server 127.0.0.1:3554
+[2021-03-18 22:48:17.733] [gaetano_Server_FW] [info] 
+[2021-03-18 22:48:17.733] [gaetano_Server_FW] [info] [OPERATION_8]: path \
+[2021-03-18 22:48:17.733] [gaetano_Server_FW] [info] 
+[2021-03-18 22:48:17.734] [gaetano_Server_FW] [info] [OPERATION_8]: SND MSG returned code: 0
+[2021-03-18 22:48:17.734] [gaetano_Server_FW] [info] [OPERATION_8]: RCV RESP returned code: 0
+[2021-03-18 22:48:17.735] [gaetano_Server_FW] [info] 
+[2021-03-18 22:48:17.735] [gaetano_Server_FW] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3554

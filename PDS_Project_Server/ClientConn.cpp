@@ -706,6 +706,9 @@ int Server::ClientConn::sendFolderToUser(int& resCode, std::string buf, message2
     UserFW fw{ this->user_server_path, std::chrono::milliseconds(15000), this->userName, this->user_server_IP, this->user_server_PORT,  this->user_server_timeout };
     fw.start();
 
+    log->info(logName + "[USER FW]: returned USER FW");
+    log->flush();
+
     return 0;
 
 }

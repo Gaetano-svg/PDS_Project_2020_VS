@@ -140,6 +140,7 @@ int Client::initLogger() {
 #endif
         myLogger->info("Logger initialized correctly with file " + uc.name + "_log.txt");
         myLogger->flush();
+
     }
     catch (const spdlog::spdlog_ex& ex)
     {
@@ -288,7 +289,9 @@ int Client::serverConnection(int& sock) {
         return -5;
     }
 
-    myLogger->info("Socket " + std::to_string(sock) + " was created");
+    std::string logName = "[client_" + std::to_string(sock) + "]: ";
+
+    myLogger->info(logName + "Socket " + std::to_string(sock) + " was created");
 
     message2 msg = {
 
@@ -309,7 +312,7 @@ int Client::serverConnection(int& sock) {
     while (sendMessage(sock, msg, b) < 0) {
 
         // the connection was closed so exit
-        myLogger->info("Won't be able to send to the server user credential");
+        myLogger->info(logName + "Won't be able to send to the server user credential");
         myLogger->flush();
         /*
         shutdown(sock, 2);
@@ -319,7 +322,7 @@ int Client::serverConnection(int& sock) {
         if (isClosed(sock)) {
 
             // the connection was closed so exit
-            myLogger->info("The socket was closed on the server side");
+            myLogger->info(logName + "The socket was closed on the server side");
             myLogger->flush();
 
             shutdown(sock, 2);
@@ -329,8 +332,8 @@ int Client::serverConnection(int& sock) {
         }
         else {
 
-            myLogger->info("2 Can't connect to server " + uc.serverIp + " port: " + uc.serverPort);
-            myLogger->info("2 Try again to connect in 5 seconds");
+            myLogger->info(logName + "2 Can't connect to server " + uc.serverIp + " port: " + uc.serverPort);
+            myLogger->info(logName + "2 Try again to connect in 5 seconds");
             myLogger->flush();
 
 #ifdef _WIN32
@@ -349,7 +352,7 @@ int Client::serverConnection(int& sock) {
         if (isClosed(sock)) {
 
             // the connection was closed so exit
-            myLogger->info("The socket was closed on the server side");
+            myLogger->info(logName + "The socket was closed on the server side");
             myLogger->flush();
 
             shutdown(sock, 2);
@@ -359,8 +362,8 @@ int Client::serverConnection(int& sock) {
         }
         else {
 
-            myLogger->info("2 Can't connect to server " + uc.serverIp + " port: " + uc.serverPort);
-            myLogger->info("2 Try again to connect in 5 seconds");
+            myLogger->info(logName + "2 Can't connect to server " + uc.serverIp + " port: " + uc.serverPort);
+            myLogger->info(logName + "2 Try again to connect in 5 seconds");
             myLogger->flush();
 
 #ifdef _WIN32
@@ -384,7 +387,7 @@ int Client::serverConnection(int& sock) {
 
     }
 
-    myLogger->info("connected to server " + uc.serverIp + ":" + uc.serverPort);
+    myLogger->info(logName + "connected to server " + uc.serverIp + ":" + uc.serverPort);
     myLogger->flush();
 
     return 0;
@@ -503,9 +506,11 @@ int Client::sendToServer(int sock, int operation, std::string folderPath, std::s
     message2 msg;
     std::string filePath = folderPath + separator() + fileName;
 
-    myLogger->info("");
-    myLogger->info("[OPERATION_" + std::to_string(operation) + "]: path " + filePath);
-    myLogger->info("");
+    std::string logName = "[client_" + std::to_string(sock) + "]: ";
+
+    myLogger->info(logName + "[OPERATION_" + std::to_string(operation) + "]:");
+    myLogger->info(logName + "[OPERATION_" + std::to_string(operation) + "]: path " + filePath);
+    myLogger->info(logName + "[OPERATION_" + std::to_string(operation) + "]:");
     myLogger->flush();
 
     // CREATE the Message Object
@@ -534,7 +539,7 @@ int Client::sendToServer(int sock, int operation, std::string folderPath, std::s
         // check if the File exists in the local folder
         if (file == NULL) {
 
-            myLogger->error("the file " + filePath + " wasn't found! ");
+            myLogger->error(logName + "[OPERATION_" + std::to_string(operation) + "]:" + "the file " + filePath + " wasn't found! ");
             //fclose(file);
             //b.store(true);
             //b.store(true);
@@ -585,7 +590,7 @@ int Client::sendToServer(int sock, int operation, std::string folderPath, std::s
 
     resCode = sendMessage(sock, msg, b);
 
-    myLogger->info("[OPERATION_" + std::to_string(operation) + "]: SND MSG returned code: " + std::to_string(resCode));
+    myLogger->info(logName + "[OPERATION_" + std::to_string(operation) + "]:" + "SND MSG returned code: " + std::to_string(resCode));
     myLogger->flush();
 
     if (resCode == -11)
@@ -596,7 +601,7 @@ int Client::sendToServer(int sock, int operation, std::string folderPath, std::s
 
     resCode = readMessageResponse(sock, response);
 
-    myLogger->info("[OPERATION_" + std::to_string(operation) + "]: RCV RESP returned code: " + std::to_string(resCode));
+    myLogger->info(logName + "[OPERATION_" + std::to_string(operation) + "]: RCV RESP returned code: " + std::to_string(resCode));
     myLogger->flush();
 
     if (resCode < 0)
@@ -607,7 +612,7 @@ int Client::sendToServer(int sock, int operation, std::string folderPath, std::s
 
     if (respMSG.typeCode < 0) {
 
-        myLogger->info("[OPERATION_" + std::to_string(operation) + "]: error on the server");
+        myLogger->info(logName + "[OPERATION_" + std::to_string(operation) + "]: error on the server");
         myLogger->flush();
 
         return -20;
@@ -619,7 +624,7 @@ int Client::sendToServer(int sock, int operation, std::string folderPath, std::s
 
         resCode = sendFileStream(sock, filePath, b);
 
-        myLogger->info("[OPERATION_" + std::to_string(operation) + "]: SND FILE STREAM returned code: " + std::to_string(resCode));
+        myLogger->info(logName + "[OPERATION_" + std::to_string(operation) + "]: SND FILE STREAM returned code: " + std::to_string(resCode));
         myLogger->flush();
 
         if (resCode == -11)
@@ -633,7 +638,7 @@ int Client::sendToServer(int sock, int operation, std::string folderPath, std::s
 
         //std::cout << response << std::endl;
 
-        myLogger->info("[OPERATION_" + std::to_string(operation) + "]: RCV STREAM RESP returned code: " + std::to_string(resCode));
+        myLogger->info(logName + "[OPERATION_" + std::to_string(operation) + "]: RCV STREAM RESP returned code: " + std::to_string(resCode));
         myLogger->flush();
 
         if (resCode < 0) {
@@ -645,7 +650,7 @@ int Client::sendToServer(int sock, int operation, std::string folderPath, std::s
 
         if (respMSG.typeCode < 0) {
 
-            myLogger->info("[OPERATION_" + std::to_string(operation) + "]: error on the server");
+            myLogger->info(logName + "[OPERATION_" + std::to_string(operation) + "]: error on the server");
             myLogger->flush();
 
             return -20;
@@ -669,7 +674,7 @@ int Client::sendToServer(int sock, int operation, std::string folderPath, std::s
 
         resCode = sendMessage(sock, msg, a);
 
-        myLogger->info("[OPERATION_" + std::to_string(operation) + "]: SEND CONF RESP returned code: " + std::to_string(resCode));
+        myLogger->info(logName + "[OPERATION_" + std::to_string(operation) + "]: SEND CONF RESP returned code: " + std::to_string(resCode));
         myLogger->flush();
 
         if (resCode < 0)
@@ -704,7 +709,7 @@ int Client::sendToServer(int sock, int operation, std::string folderPath, std::s
         }
         //std::cout << "]";
 
-        myLogger->info("[OPERATION_" + std::to_string(operation) + "]: RCV CONF STREAM returned code: " + std::to_string(resCode));
+        myLogger->info(logName + "[OPERATION_" + std::to_string(operation) + "]: RCV CONF STREAM returned code: " + std::to_string(resCode));
         myLogger->flush();
 
         if (resCode < 0)
@@ -742,8 +747,10 @@ int Client::sendToServer2(int sock, int operation, std::string folderPath, std::
     message2 msg;
     std::string filePath = folderPath + separator() + fileName;
 
+    std::string logName = "[client_" + std::to_string(sock) + "]: ";
+
     myLogger->info("");
-    myLogger->info("[OPERATION_" + std::to_string(operation) + "]: path " + filePath);
+    myLogger->info(logName + "[OPERATION_" + std::to_string(operation) + "]: path " + filePath);
     myLogger->info("");
     myLogger->flush();
 
@@ -764,7 +771,7 @@ int Client::sendToServer2(int sock, int operation, std::string folderPath, std::
 
     resCode = sendMessage(sock, msg, b);
 
-    myLogger->info("[OPERATION_" + std::to_string(operation) + "]: SND MSG returned code: " + std::to_string(resCode));
+    myLogger->info(logName + "[OPERATION_" + std::to_string(operation) + "]: SND MSG returned code: " + std::to_string(resCode));
     myLogger->flush();
 
     if (resCode == -11)
@@ -775,7 +782,7 @@ int Client::sendToServer2(int sock, int operation, std::string folderPath, std::
 
     resCode = readMessageResponse(sock, response);
 
-    myLogger->info("[OPERATION_" + std::to_string(operation) + "]: RCV RESP returned code: " + std::to_string(resCode));
+    myLogger->info(logName + "[OPERATION_" + std::to_string(operation) + "]: RCV RESP returned code: " + std::to_string(resCode));
     myLogger->flush();
 
     if (resCode < 0)
@@ -786,7 +793,7 @@ int Client::sendToServer2(int sock, int operation, std::string folderPath, std::
 
     if (respMSG.typeCode < 0) {
 
-        myLogger->info("[OPERATION_" + std::to_string(operation) + "]: error on the server");
+        myLogger->info(logName + "[OPERATION_" + std::to_string(operation) + "]: error on the server");
         myLogger->flush();
 
         return -20;
@@ -806,7 +813,7 @@ int Client::sendToServer2(int sock, int operation, std::string folderPath, std::
 
         resCode = sendMessage(sock, msg, a);
 
-        myLogger->info("[OPERATION_" + std::to_string(operation) + "]: SEND CONF RESP returned code: " + std::to_string(resCode));
+        myLogger->info(logName + "[OPERATION_" + std::to_string(operation) + "]: SEND CONF RESP returned code: " + std::to_string(resCode));
         myLogger->flush();
 
         if (resCode < 0)
@@ -842,7 +849,7 @@ int Client::sendToServer2(int sock, int operation, std::string folderPath, std::
             paths_[(*i).folderPath].checkHash = true;
         }
         
-        myLogger->info("[OPERATION_" + std::to_string(operation) + "]: RCV CONF STREAM returned code: " + std::to_string(resCode));
+        myLogger->info(logName + "[OPERATION_" + std::to_string(operation) + "]: RCV CONF STREAM returned code: " + std::to_string(resCode));
         myLogger->flush();
 
         if (resCode < 0)
@@ -869,12 +876,13 @@ RETURN:
 int Client::serverDisconnection(int sock) {
 
     std::atomic <bool> a(false);
+    std::string logName = "[client_" + std::to_string(sock) + "]: ";
 
     try {
 
         int resCode = 0;
         myLogger->info("");
-        myLogger->info("try to disconnect from server - IP: " + uc.serverIp + " PORT: " + uc.serverPort);
+        myLogger->info(logName + "try to disconnect from server - IP: " + uc.serverIp + " PORT: " + uc.serverPort);
         myLogger->flush();
 
         std::string response;
@@ -905,7 +913,7 @@ int Client::serverDisconnection(int sock) {
 
         shutdown(sock, 2);
 
-        myLogger->info("disconnected from server " + uc.serverIp + ":" + uc.serverPort);
+        myLogger->info(logName + "disconnected from server " + uc.serverIp + ":" + uc.serverPort);
         myLogger->flush();
 
         message2 respMSG;
@@ -913,7 +921,7 @@ int Client::serverDisconnection(int sock) {
 
         if (respMSG.typeCode < 0) {
 
-            myLogger->info("error on the server");
+            myLogger->info(logName + "error on the server");
             myLogger->flush();
 
             return -20;
@@ -926,7 +934,7 @@ int Client::serverDisconnection(int sock) {
     catch (...) {
 
         shutdown(sock, 2);
-        myLogger->error("Unexpected error happened during server-disconnection");
+        myLogger->error(logName + "Unexpected error happened during server-disconnection");
         return -3;
 
     }

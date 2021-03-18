@@ -7398,3 +7398,104 @@
 [2021-01-15 15:22:01.816] [127.0.0.1] [info] [client_208]: 
 [2021-01-15 15:22:01.816] [127.0.0.1] [info] [client_208]: [RCV HEADER]: message 7 parsed correctly
 [2021-01-15 15:22:01.817] [127.0.0.1] [info] [client_208]: [SND HEADER RESP]: returned code: 0
+[2021-03-18 20:02:06.173] [127.0.0.1] [info] Logger initialized correctly
+[2021-03-18 20:02:06.200] [127.0.0.1] [info] [CHECK-INACTIVITY]: exited
+[2021-03-18 20:02:06.200] [127.0.0.1] [info] [CHECK-SERVER-INACTIVITY]: go to sleep for 60 seconds
+[2021-03-18 20:02:33.533] [127.0.0.1] [info] Logger initialized correctly
+[2021-03-18 22:40:37.594] [127.0.0.1] [info] Logger initialized correctly
+[2021-03-18 22:40:39.663] [127.0.0.1] [info] waiting for client connection
+[2021-03-18 22:40:40.682] [127.0.0.1] [info] [CHECK-INACTIVITY]: go to sleep for 60 seconds
+[2021-03-18 22:40:54.393] [127.0.0.1] [info] the socket 208 was accepted
+[2021-03-18 22:41:02.853] [127.0.0.1] [info] waiting for client connection
+[2021-03-18 22:41:02.854] [127.0.0.1] [info] [client_208]: Logger initialized correctly
+[2021-03-18 22:41:02.855] [127.0.0.1] [info] [client_208]: 
+[2021-03-18 22:41:02.855] [127.0.0.1] [info] [client_208]: wait for message from the client
+[2021-03-18 22:41:04.395] [127.0.0.1] [info] [client_208]: 
+[2021-03-18 22:41:04.396] [127.0.0.1] [info] [client_208]: [RCV HEADER]: message 7 parsed correctly
+[2021-03-18 22:41:04.396] [127.0.0.1] [info] [client_208]: [SND HEADER RESP]: returned code: 0
+[2021-03-18 22:41:45.050] [127.0.0.1] [info] socket 208 was inactive for 40654
+[2021-03-18 22:41:45.050] [127.0.0.1] [info] [CHECK-INACTIVITY]: client - socket 208 will be closed for inactivity (30000 milliSeconds)
+[2021-03-18 22:41:48.805] [127.0.0.1] [info] [CHECK-INACTIVITY]: go to sleep for 60 seconds
+[2021-03-18 22:42:22.874] [127.0.0.1] [info] [client_208]: [CLIENT-CONN-208]: exited from run
+
+[2021-03-18 22:42:22.876] [127.0.0.1] [info] Exited from waiting messages from socket: 208 
+
+[2021-03-18 22:42:39.870] [127.0.0.1] [info] Logger initialized correctly
+[2021-03-18 22:42:44.098] [127.0.0.1] [info] waiting for client connection
+[2021-03-18 22:42:47.852] [127.0.0.1] [info] [CHECK-INACTIVITY]: go to sleep for 60 seconds
+[2021-03-18 22:42:58.270] [127.0.0.1] [info] the socket 204 was accepted
+[2021-03-18 22:42:58.271] [127.0.0.1] [info] waiting for client connection
+[2021-03-18 22:42:58.273] [127.0.0.1] [info] [client_204]: Logger initialized correctly
+[2021-03-18 22:42:58.274] [127.0.0.1] [info] [client_204]: 
+[2021-03-18 22:42:58.274] [127.0.0.1] [info] [client_204]: wait for message from the client
+[2021-03-18 22:42:58.276] [127.0.0.1] [info] [client_204]: 
+[2021-03-18 22:42:58.276] [127.0.0.1] [info] [client_204]: [RCV HEADER]: message 7 parsed correctly
+[2021-03-18 22:42:58.277] [127.0.0.1] [info] [client_204]: [SND HEADER RESP]: returned code: 0
+[2021-03-18 22:43:28.839] [127.0.0.1] [info] [client_204]: 
+[2021-03-18 22:43:28.839] [127.0.0.1] [info] [client_204]: wait for message from the client
+[2021-03-18 22:43:28.839] [127.0.0.1] [info] [client_204]: 
+[2021-03-18 22:43:28.839] [127.0.0.1] [info] [client_204]: [RCV HEADER]: message 6 parsed correctly
+[2021-03-18 22:43:28.839] [127.0.0.1] [info] [client_204]: [SND HEADER RESP]: returned code: -2
+[2021-03-18 22:43:28.839] [127.0.0.1] [info] [client_204]: [CLIENT-CONN-204]: exited from run
+
+[2021-03-18 22:43:28.840] [127.0.0.1] [info] Exited from waiting messages from socket: 204 
+
+[2021-03-18 22:43:47.858] [127.0.0.1] [info] [CHECK-INACTIVITY]: go to sleep for 60 seconds
+[2021-03-18 22:44:11.610] [127.0.0.1] [info] Logger initialized correctly
+[2021-03-18 22:44:11.641] [127.0.0.1] [info] waiting for client connection
+[2021-03-18 22:44:11.643] [127.0.0.1] [info] [CHECK-INACTIVITY]: go to sleep for 60 seconds
+[2021-03-18 22:44:13.587] [127.0.0.1] [info] the socket 208 was accepted
+[2021-03-18 22:44:13.589] [127.0.0.1] [info] waiting for client connection
+[2021-03-18 22:44:13.590] [127.0.0.1] [info] [client_208]: Logger initialized correctly
+[2021-03-18 22:44:13.591] [127.0.0.1] [info] [client_208]: 
+[2021-03-18 22:44:13.591] [127.0.0.1] [info] [client_208]: wait for message from the client
+[2021-03-18 22:44:13.596] [127.0.0.1] [info] [client_208]: 
+[2021-03-18 22:44:13.596] [127.0.0.1] [info] [client_208]: [RCV HEADER]: message 7 parsed correctly
+[2021-03-18 22:44:13.597] [127.0.0.1] [info] [client_208]: [SND HEADER RESP]: returned code: 0
+[2021-03-18 22:45:48.705] [127.0.0.1] [info] socket 208 was inactive for 95108
+[2021-03-18 22:45:48.706] [127.0.0.1] [info] [CHECK-INACTIVITY]: client - socket 208 will be closed for inactivity (30000 milliSeconds)
+[2021-03-18 22:45:48.706] [127.0.0.1] [info] [CHECK-INACTIVITY]: go to sleep for 60 seconds
+[2021-03-18 22:46:32.445] [127.0.0.1] [info] [client_208]: [CLIENT-CONN-208]: exited from run
+
+[2021-03-18 22:46:32.445] [127.0.0.1] [info] Exited from waiting messages from socket: 208 
+
+[2021-03-18 22:46:48.708] [127.0.0.1] [info] [CHECK-INACTIVITY]: go to sleep for 60 seconds
+[2021-03-18 22:47:48.661] [127.0.0.1] [info] the socket 212 was accepted
+[2021-03-18 22:47:48.662] [127.0.0.1] [info] waiting for client connection
+[2021-03-18 22:47:48.664] [127.0.0.1] [info] [client_212]: Logger initialized correctly
+[2021-03-18 22:47:48.666] [127.0.0.1] [info] [client_212]: 
+[2021-03-18 22:47:48.666] [127.0.0.1] [info] [client_212]: wait for message from the client
+[2021-03-18 22:47:48.668] [127.0.0.1] [info] [client_212]: 
+[2021-03-18 22:47:48.668] [127.0.0.1] [info] [client_212]: [RCV HEADER]: message 7 parsed correctly
+[2021-03-18 22:47:48.668] [127.0.0.1] [info] [client_212]: [SND HEADER RESP]: returned code: 0
+[2021-03-18 22:48:01.177] [127.0.0.1] [info] socket 212 was inactive for 12508
+[2021-03-18 22:48:01.177] [127.0.0.1] [info] [CHECK-INACTIVITY]: go to sleep for 60 seconds
+[2021-03-18 22:48:17.735] [127.0.0.1] [info] [client_212]: 
+[2021-03-18 22:48:17.735] [127.0.0.1] [info] [client_212]: wait for message from the client
+[2021-03-18 22:48:17.735] [127.0.0.1] [info] [client_212]: 
+[2021-03-18 22:48:17.735] [127.0.0.1] [info] [client_212]: [RCV HEADER]: message 6 parsed correctly
+[2021-03-18 22:48:17.735] [127.0.0.1] [info] [client_212]: [SND HEADER RESP]: returned code: -2
+[2021-03-18 22:48:17.735] [127.0.0.1] [info] [client_212]: [CLIENT-CONN-212]: exited from run
+
+[2021-03-18 22:48:17.736] [127.0.0.1] [info] Exited from waiting messages from socket: 212 
+
+[2021-03-18 22:48:53.685] [127.0.0.1] [info] the socket 308 was accepted
+[2021-03-18 22:48:53.686] [127.0.0.1] [info] waiting for client connection
+[2021-03-18 22:48:53.687] [127.0.0.1] [info] [client_308]: Logger initialized correctly
+[2021-03-18 22:48:53.688] [127.0.0.1] [info] [client_308]: 
+[2021-03-18 22:48:53.688] [127.0.0.1] [info] [client_308]: wait for message from the client
+[2021-03-18 22:48:53.689] [127.0.0.1] [info] [client_308]: 
+[2021-03-18 22:48:53.689] [127.0.0.1] [info] [client_308]: [RCV HEADER]: message 5 parsed correctly
+[2021-03-18 22:48:53.701] [127.0.0.1] [info] [client_308]: [SND HEADER CONF]: returned code: 0
+[2021-03-18 22:48:53.702] [127.0.0.1] [info] [client_308]: [RCV HEADER CONF RESP]: returned code: 0
+[2021-03-18 22:48:53.702] [127.0.0.1] [info] [client_308]: [SND STREAM]: returned code: 1977
+[2021-03-18 22:48:53.702] [127.0.0.1] [info] [client_308]: 
+[2021-03-18 22:48:53.702] [127.0.0.1] [info] [client_308]: wait for message from the client
+[2021-03-18 22:48:53.706] [127.0.0.1] [info] [client_308]: 
+[2021-03-18 22:48:53.706] [127.0.0.1] [info] [client_308]: [RCV HEADER]: message 6 parsed correctly
+[2021-03-18 22:48:53.706] [127.0.0.1] [info] [client_308]: [SND HEADER RESP]: returned code: 0
+[2021-03-18 22:48:53.706] [127.0.0.1] [info] [client_308]: [CLIENT-CONN-308]: exited from run
+
+[2021-03-18 22:48:53.706] [127.0.0.1] [info] Exited from waiting messages from socket: 308 
+
+[2021-03-18 22:49:01.180] [127.0.0.1] [info] [CHECK-INACTIVITY]: go to sleep for 60 seconds

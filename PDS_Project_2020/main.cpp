@@ -41,6 +41,10 @@ int main(int argc, char* argv[]) {
 
         // instantiate the LOCAL SERVER
         Server server;
+
+        // set is true server variable to false
+        server.isTrueServer = false;
+
         server.readConfiguration("userServerConfiguration.json");
         server.logFile = client.uc.name + "_Local_Server.txt";
 
@@ -50,50 +54,57 @@ int main(int argc, char* argv[]) {
             server.sc.port
         };
 
-        std::string userScString;
-        client.fromUserServerConfToString(userSC, userScString);
-
-        while (client.serverConnection(sock) < 0) {
-
-            std::cout << "couldn't open the connection with the server -> go to sleep for 5 seconds" << std::endl;
-#ifdef _WIN32
-            Sleep(5000);
-#else
-            sleep(5);
-#endif
-
-        }
-
-        // remove all the contents of the folder path of the user
-        // the folder will be erased only if the connection with the server is ok
-        fs::directory_iterator dir(client.uc.folderPath), end;
-
-        while (dir != end) {
-
-            fs::remove_all(dir->path().string());
-            dir++;
-
-        }
-
-        // send the Local_Server configuration to the SERVER
-        int resCode = client.sendToServer(sock, 7, "", "", userScString, 0, "", 0, b);
-        client.serverDisconnection(sock);
-
         // start the local_Server
         server.initLogger();
-        int exitCode = -1;
 
-        try {
+        while (!noErrorWithBackup) {
+            std::string userScString;
+            client.fromUserServerConfToString(userSC, userScString);
 
-            exitCode = server.startListening();
-            noErrorWithBackup = true;
+            while (client.serverConnection(sock) < 0) {
+
+                std::cout << "couldn't open the connection with the server -> go to sleep for 5 seconds" << std::endl;
+#ifdef _WIN32
+                Sleep(5000);
+#else
+                sleep(5);
+#endif
+
+            }
+
+            // remove all the contents of the folder path of the user
+            // the folder will be erased only if the connection with the server is ok
+            fs::directory_iterator dir(client.uc.folderPath), end;
+
+            while (dir != end) {
+
+                fs::remove_all(dir->path().string());
+                dir++;
+
+            }
+
+            // send the Local_Server configuration to the SERVER
+            int resCode = client.sendToServer(sock, 7, "", "", userScString, 0, "", 0, b);
+            client.serverDisconnection(sock);
+
+            int exitCode = -1;
+
+            try {
+
+                exitCode = server.startListening();
+                if (exitCode == 0)
+                    noErrorWithBackup = true;
+                else
+                    noErrorWithBackup = false;
+
+            }
+            catch (...) {
+                noErrorWithBackup = false;
+            }
+
+            std::cout << "SERVER EXITED with code: " << exitCode << std::endl;
 
         }
-        catch (...) {
-            noErrorWithBackup = false;
-        }
-
-        std::cout << "SERVER EXITED with code: " << exitCode << std::endl;
 
     }
 

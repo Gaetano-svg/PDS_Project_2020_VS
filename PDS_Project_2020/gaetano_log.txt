@@ -7383,3 +7383,376 @@
 [2021-01-16 20:31:22.422] [gaetano] [info] 
 [2021-01-16 20:31:22.422] [gaetano] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3524
 [2021-01-16 20:31:22.423] [gaetano] [info] disconnected from server 127.0.0.1:3524
+[2021-03-18 20:05:33.216] [gaetano] [info] Logger initialized correctly with file gaetano_log.txt
+[2021-03-18 20:05:33.220] [gaetano] [info] try to connect to server - IP: 127.0.0.1 PORT: 3524
+[2021-03-18 20:05:33.224] [gaetano] [info] Socket 196 was created
+[2021-03-18 20:05:33.227] [gaetano] [info] connected to server 127.0.0.1:3524
+[2021-03-18 20:05:33.228] [gaetano] [info] 
+[2021-03-18 20:05:33.228] [gaetano] [info] [OPERATION_7]: path \
+[2021-03-18 20:05:33.228] [gaetano] [info] 
+[2021-03-18 20:05:33.229] [gaetano] [info] [OPERATION_7]: SND MSG returned code: 0
+[2021-03-18 20:05:33.229] [gaetano] [info] [OPERATION_7]: RCV RESP returned code: 0
+[2021-03-18 20:05:33.230] [gaetano] [info] 
+[2021-03-18 20:05:33.230] [gaetano] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3524
+[2021-03-18 20:05:38.230] [gaetano] [info] disconnected from server 127.0.0.1:3524
+[2021-03-18 20:05:38.237] [gaetano] [info] error on the server
+[2021-03-18 20:05:59.115] [gaetano] [info] Logger initialized correctly with file gaetano_log.txt
+[2021-03-18 20:05:59.116] [gaetano] [info] try to connect to server - IP: 127.0.0.1 PORT: 3524
+[2021-03-18 20:05:59.120] [gaetano] [info] Socket 136 was created
+[2021-03-18 20:05:59.123] [gaetano] [info] connected to server 127.0.0.1:3524
+[2021-03-18 20:05:59.123] [gaetano] [info] 
+[2021-03-18 20:05:59.123] [gaetano] [info] [OPERATION_7]: path \
+[2021-03-18 20:05:59.123] [gaetano] [info] 
+[2021-03-18 20:05:59.123] [gaetano] [info] [OPERATION_7]: SND MSG returned code: 0
+[2021-03-18 20:05:59.124] [gaetano] [info] [OPERATION_7]: RCV RESP returned code: 0
+[2021-03-18 20:05:59.124] [gaetano] [info] 
+[2021-03-18 20:05:59.124] [gaetano] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3524
+[2021-03-18 20:06:04.125] [gaetano] [info] disconnected from server 127.0.0.1:3524
+[2021-03-18 20:06:04.127] [gaetano] [info] error on the server
+[2021-03-18 20:08:33.988] [gaetano] [info] Logger initialized correctly with file gaetano_log.txt
+[2021-03-18 20:08:33.996] [gaetano] [info] try to connect to server - IP: 127.0.0.1 PORT: 3524
+[2021-03-18 20:08:34.000] [gaetano] [info] Socket 196 was created
+[2021-03-18 20:08:34.003] [gaetano] [info] connected to server 127.0.0.1:3524
+[2021-03-18 20:08:34.003] [gaetano] [info] 
+[2021-03-18 20:08:34.003] [gaetano] [info] [OPERATION_7]: path \
+[2021-03-18 20:08:34.003] [gaetano] [info] 
+[2021-03-18 20:08:34.004] [gaetano] [info] [OPERATION_7]: SND MSG returned code: 0
+[2021-03-18 20:08:34.004] [gaetano] [info] [OPERATION_7]: RCV RESP returned code: 0
+[2021-03-18 20:08:34.005] [gaetano] [info] 
+[2021-03-18 20:08:34.005] [gaetano] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3524
+[2021-03-18 20:08:39.007] [gaetano] [info] disconnected from server 127.0.0.1:3524
+[2021-03-18 20:08:39.009] [gaetano] [info] error on the server
+[2021-03-18 20:10:18.842] [gaetano] [info] try to connect to server - IP: 127.0.0.1 PORT: 3524
+[2021-03-18 20:10:25.847] [gaetano] [info] try to connect to server - IP: 127.0.0.1 PORT: 3524
+[2021-03-18 20:10:32.851] [gaetano] [info] try to connect to server - IP: 127.0.0.1 PORT: 3524
+[2021-03-18 20:10:39.861] [gaetano] [info] try to connect to server - IP: 127.0.0.1 PORT: 3524
+[2021-03-18 20:10:39.861] [gaetano] [info] Socket 208 was created
+[2021-03-18 20:10:39.864] [gaetano] [info] connected to server 127.0.0.1:3524
+[2021-03-18 20:10:39.864] [gaetano] [info] 
+[2021-03-18 20:10:39.864] [gaetano] [info] [OPERATION_7]: path \
+[2021-03-18 20:10:39.864] [gaetano] [info] 
+[2021-03-18 20:10:39.865] [gaetano] [info] [OPERATION_7]: SND MSG returned code: 0
+[2021-03-18 20:10:39.865] [gaetano] [info] [OPERATION_7]: RCV RESP returned code: 0
+[2021-03-18 20:10:39.865] [gaetano] [info] 
+[2021-03-18 20:10:39.866] [gaetano] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3524
+[2021-03-18 20:11:16.615] [gaetano] [info] disconnected from server 127.0.0.1:3524
+[2021-03-18 20:11:16.616] [gaetano] [info] error on the server
+[2021-03-18 20:11:29.118] [gaetano] [info] Logger initialized correctly with file gaetano_log.txt
+[2021-03-18 20:11:29.119] [gaetano] [info] try to connect to server - IP: 127.0.0.1 PORT: 3524
+[2021-03-18 20:11:29.123] [gaetano] [info] Socket 196 was created
+[2021-03-18 20:11:29.127] [gaetano] [info] connected to server 127.0.0.1:3524
+[2021-03-18 20:11:29.127] [gaetano] [info] 
+[2021-03-18 20:11:29.127] [gaetano] [info] [OPERATION_7]: path \
+[2021-03-18 20:11:29.127] [gaetano] [info] 
+[2021-03-18 20:11:29.127] [gaetano] [info] [OPERATION_7]: SND MSG returned code: 0
+[2021-03-18 20:11:29.128] [gaetano] [info] [OPERATION_7]: RCV RESP returned code: 0
+[2021-03-18 20:11:29.128] [gaetano] [info] 
+[2021-03-18 20:11:29.128] [gaetano] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3524
+[2021-03-18 20:11:34.129] [gaetano] [info] disconnected from server 127.0.0.1:3524
+[2021-03-18 20:11:34.132] [gaetano] [info] error on the server
+[2021-03-18 20:59:48.483] [gaetano] [info] Logger initialized correctly with file gaetano_log.txt
+[2021-03-18 20:59:48.504] [gaetano] [info] try to connect to server - IP: 127.0.0.1 PORT: 3524
+[2021-03-18 20:59:55.511] [gaetano] [info] try to connect to server - IP: 127.0.0.1 PORT: 3524
+[2021-03-18 21:00:02.514] [gaetano] [info] try to connect to server - IP: 127.0.0.1 PORT: 3524
+[2021-03-18 21:00:02.515] [gaetano] [info] Socket 84 was created
+[2021-03-18 21:00:02.518] [gaetano] [info] connected to server 127.0.0.1:3524
+[2021-03-18 21:00:02.518] [gaetano] [info] 
+[2021-03-18 21:00:02.518] [gaetano] [info] [OPERATION_7]: path \
+[2021-03-18 21:00:02.518] [gaetano] [info] 
+[2021-03-18 21:00:02.518] [gaetano] [info] [OPERATION_7]: SND MSG returned code: 0
+[2021-03-18 21:00:02.519] [gaetano] [info] [OPERATION_7]: RCV RESP returned code: 0
+[2021-03-18 21:00:02.519] [gaetano] [info] 
+[2021-03-18 21:00:02.519] [gaetano] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3524
+[2021-03-18 21:00:07.520] [gaetano] [info] disconnected from server 127.0.0.1:3524
+[2021-03-18 21:00:07.522] [gaetano] [info] error on the server
+[2021-03-18 21:02:23.362] [gaetano] [info] Logger initialized correctly with file gaetano_log.txt
+[2021-03-18 21:02:23.363] [gaetano] [info] try to connect to server - IP: 127.0.0.1 PORT: 3524
+[2021-03-18 21:02:30.370] [gaetano] [info] try to connect to server - IP: 127.0.0.1 PORT: 3524
+[2021-03-18 21:02:30.372] [gaetano] [info] Socket 196 was created
+[2021-03-18 21:02:30.375] [gaetano] [info] connected to server 127.0.0.1:3524
+[2021-03-18 21:02:30.375] [gaetano] [info] 
+[2021-03-18 21:02:30.375] [gaetano] [info] [OPERATION_7]: path \
+[2021-03-18 21:02:30.375] [gaetano] [info] 
+[2021-03-18 21:02:30.375] [gaetano] [info] [OPERATION_7]: SND MSG returned code: 0
+[2021-03-18 21:02:30.376] [gaetano] [info] [OPERATION_7]: RCV RESP returned code: 0
+[2021-03-18 21:02:30.376] [gaetano] [info] 
+[2021-03-18 21:02:30.376] [gaetano] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3524
+[2021-03-18 21:02:35.377] [gaetano] [info] disconnected from server 127.0.0.1:3524
+[2021-03-18 21:02:35.378] [gaetano] [info] error on the server
+[2021-03-18 21:03:35.229] [gaetano] [info] Logger initialized correctly with file gaetano_log.txt
+[2021-03-18 21:03:35.233] [gaetano] [info] try to connect to server - IP: 127.0.0.1 PORT: 3524
+[2021-03-18 21:03:35.237] [gaetano] [info] Socket 196 was created
+[2021-03-18 21:03:35.240] [gaetano] [info] connected to server 127.0.0.1:3524
+[2021-03-18 21:03:35.240] [gaetano] [info] 
+[2021-03-18 21:03:35.240] [gaetano] [info] [OPERATION_7]: path \
+[2021-03-18 21:03:35.240] [gaetano] [info] 
+[2021-03-18 21:03:35.240] [gaetano] [info] [OPERATION_7]: SND MSG returned code: 0
+[2021-03-18 21:03:35.241] [gaetano] [info] [OPERATION_7]: RCV RESP returned code: 0
+[2021-03-18 21:03:35.241] [gaetano] [info] 
+[2021-03-18 21:03:35.241] [gaetano] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3524
+[2021-03-18 21:03:40.242] [gaetano] [info] disconnected from server 127.0.0.1:3524
+[2021-03-18 21:03:40.244] [gaetano] [info] error on the server
+[2021-03-18 21:05:24.504] [gaetano] [info] Logger initialized correctly with file gaetano_log.txt
+[2021-03-18 21:05:24.505] [gaetano] [info] try to connect to server - IP: 127.0.0.1 PORT: 3524
+[2021-03-18 21:05:24.508] [gaetano] [info] Socket 204 was created
+[2021-03-18 21:05:24.511] [gaetano] [info] connected to server 127.0.0.1:3524
+[2021-03-18 21:05:24.514] [gaetano] [info] 
+[2021-03-18 21:05:24.514] [gaetano] [info] [OPERATION_7]: path \
+[2021-03-18 21:05:24.514] [gaetano] [info] 
+[2021-03-18 21:05:24.515] [gaetano] [info] [OPERATION_7]: SND MSG returned code: 0
+[2021-03-18 21:05:24.516] [gaetano] [info] [OPERATION_7]: RCV RESP returned code: 0
+[2021-03-18 21:05:24.516] [gaetano] [info] 
+[2021-03-18 21:05:24.516] [gaetano] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3524
+[2021-03-18 21:05:29.517] [gaetano] [info] disconnected from server 127.0.0.1:3524
+[2021-03-18 21:05:29.518] [gaetano] [info] error on the server
+[2021-03-18 21:07:03.955] [gaetano] [info] try to connect to server - IP: 127.0.0.1 PORT: 3524
+[2021-03-18 21:07:10.960] [gaetano] [info] try to connect to server - IP: 127.0.0.1 PORT: 3524
+[2021-03-18 21:07:17.963] [gaetano] [info] try to connect to server - IP: 127.0.0.1 PORT: 3524
+[2021-03-18 21:07:17.964] [gaetano] [info] Socket 216 was created
+[2021-03-18 21:07:17.967] [gaetano] [info] connected to server 127.0.0.1:3524
+[2021-03-18 21:07:17.967] [gaetano] [info] 
+[2021-03-18 21:07:17.967] [gaetano] [info] [OPERATION_7]: path \
+[2021-03-18 21:07:17.967] [gaetano] [info] 
+[2021-03-18 21:07:17.967] [gaetano] [info] [OPERATION_7]: SND MSG returned code: 0
+[2021-03-18 21:07:17.968] [gaetano] [info] [OPERATION_7]: RCV RESP returned code: 0
+[2021-03-18 21:07:17.968] [gaetano] [info] 
+[2021-03-18 21:07:17.968] [gaetano] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3524
+[2021-03-18 21:07:22.968] [gaetano] [info] disconnected from server 127.0.0.1:3524
+[2021-03-18 21:07:22.970] [gaetano] [info] error on the server
+[2021-03-18 21:07:52.631] [gaetano] [info] Logger initialized correctly with file gaetano_log.txt
+[2021-03-18 21:07:52.636] [gaetano] [info] try to connect to server - IP: 127.0.0.1 PORT: 3524
+[2021-03-18 21:07:52.639] [gaetano] [info] Socket 196 was created
+[2021-03-18 21:07:52.642] [gaetano] [info] connected to server 127.0.0.1:3524
+[2021-03-18 21:07:52.642] [gaetano] [info] 
+[2021-03-18 21:07:52.642] [gaetano] [info] [OPERATION_7]: path \
+[2021-03-18 21:07:52.642] [gaetano] [info] 
+[2021-03-18 21:07:52.643] [gaetano] [info] [OPERATION_7]: SND MSG returned code: 0
+[2021-03-18 21:07:52.643] [gaetano] [info] [OPERATION_7]: RCV RESP returned code: 0
+[2021-03-18 21:07:52.644] [gaetano] [info] 
+[2021-03-18 21:07:52.644] [gaetano] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3524
+[2021-03-18 21:07:57.084] [gaetano] [info] disconnected from server 127.0.0.1:3524
+[2021-03-18 21:07:57.088] [gaetano] [info] error on the server
+[2021-03-18 21:10:33.688] [gaetano] [info] try to connect to server - IP: 127.0.0.1 PORT: 3524
+[2021-03-18 21:10:51.835] [gaetano] [info] try to connect to server - IP: 127.0.0.1 PORT: 3524
+[2021-03-18 21:10:53.838] [gaetano] [info] Socket 208 was created
+[2021-03-18 21:10:53.841] [gaetano] [info] connected to server 127.0.0.1:3524
+[2021-03-18 21:11:01.377] [gaetano] [info] 
+[2021-03-18 21:11:01.377] [gaetano] [info] [OPERATION_7]: path \
+[2021-03-18 21:11:01.377] [gaetano] [info] 
+[2021-03-18 21:11:01.378] [gaetano] [info] [OPERATION_7]: SND MSG returned code: 0
+[2021-03-18 21:11:01.379] [gaetano] [info] [OPERATION_7]: RCV RESP returned code: 0
+[2021-03-18 21:11:02.350] [gaetano] [info] 
+[2021-03-18 21:11:02.351] [gaetano] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3524
+[2021-03-18 21:11:07.351] [gaetano] [info] disconnected from server 127.0.0.1:3524
+[2021-03-18 21:11:07.371] [gaetano] [info] error on the server
+[2021-03-18 21:13:07.553] [gaetano] [info] Logger initialized correctly with file gaetano_log.txt
+[2021-03-18 21:13:09.843] [gaetano] [info] try to connect to server - IP: 127.0.0.1 PORT: 3524
+[2021-03-18 21:13:09.847] [gaetano] [info] Socket 164 was created
+[2021-03-18 21:13:09.850] [gaetano] [info] connected to server 127.0.0.1:3524
+[2021-03-18 21:13:10.675] [gaetano] [info] 
+[2021-03-18 21:13:10.675] [gaetano] [info] [OPERATION_7]: path \
+[2021-03-18 21:13:10.675] [gaetano] [info] 
+[2021-03-18 21:13:10.675] [gaetano] [info] [OPERATION_7]: SND MSG returned code: 0
+[2021-03-18 21:13:10.676] [gaetano] [info] [OPERATION_7]: RCV RESP returned code: 0
+[2021-03-18 21:13:10.677] [gaetano] [info] 
+[2021-03-18 21:13:10.677] [gaetano] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3524
+[2021-03-18 21:13:14.487] [gaetano] [info] disconnected from server 127.0.0.1:3524
+[2021-03-18 21:13:14.491] [gaetano] [info] error on the server
+[2021-03-18 21:15:11.792] [gaetano] [info] Logger initialized correctly with file gaetano_log.txt
+[2021-03-18 21:15:11.793] [gaetano] [info] try to connect to server - IP: 127.0.0.1 PORT: 3524
+[2021-03-18 21:15:18.804] [gaetano] [info] try to connect to server - IP: 127.0.0.1 PORT: 3524
+[2021-03-18 21:15:18.805] [gaetano] [info] Socket 204 was created
+[2021-03-18 21:15:18.808] [gaetano] [info] connected to server 127.0.0.1:3524
+[2021-03-18 21:15:18.808] [gaetano] [info] 
+[2021-03-18 21:15:18.808] [gaetano] [info] [OPERATION_7]: path \
+[2021-03-18 21:15:18.808] [gaetano] [info] 
+[2021-03-18 21:15:18.808] [gaetano] [info] [OPERATION_7]: SND MSG returned code: 0
+[2021-03-18 21:15:18.809] [gaetano] [info] [OPERATION_7]: RCV RESP returned code: 0
+[2021-03-18 21:15:18.809] [gaetano] [info] 
+[2021-03-18 21:15:18.809] [gaetano] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3524
+[2021-03-18 21:15:21.844] [gaetano] [info] disconnected from server 127.0.0.1:3524
+[2021-03-18 21:15:21.848] [gaetano] [info] error on the server
+[2021-03-18 21:17:34.774] [gaetano] [info] try to connect to server - IP: 127.0.0.1 PORT: 3524
+[2021-03-18 21:17:41.778] [gaetano] [info] try to connect to server - IP: 127.0.0.1 PORT: 3524
+[2021-03-18 21:17:42.780] [gaetano] [info] Socket 192 was created
+[2021-03-18 21:17:42.783] [gaetano] [info] connected to server 127.0.0.1:3524
+[2021-03-18 21:17:42.783] [gaetano] [info] 
+[2021-03-18 21:17:42.783] [gaetano] [info] [OPERATION_7]: path \
+[2021-03-18 21:17:42.783] [gaetano] [info] 
+[2021-03-18 21:17:42.783] [gaetano] [info] [OPERATION_7]: SND MSG returned code: 0
+[2021-03-18 21:17:42.784] [gaetano] [info] [OPERATION_7]: RCV RESP returned code: 0
+[2021-03-18 21:17:42.784] [gaetano] [info] 
+[2021-03-18 21:17:42.784] [gaetano] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3524
+[2021-03-18 21:17:47.785] [gaetano] [info] disconnected from server 127.0.0.1:3524
+[2021-03-18 21:17:47.787] [gaetano] [info] error on the server
+[2021-03-18 21:18:57.181] [gaetano] [info] Logger initialized correctly with file gaetano_log.txt
+[2021-03-18 21:18:57.182] [gaetano] [info] try to connect to server - IP: 127.0.0.1 PORT: 3524
+[2021-03-18 21:18:57.186] [gaetano] [info] Socket 196 was created
+[2021-03-18 21:18:57.190] [gaetano] [info] connected to server 127.0.0.1:3524
+[2021-03-18 21:18:57.190] [gaetano] [info] 
+[2021-03-18 21:18:57.190] [gaetano] [info] [OPERATION_7]: path \
+[2021-03-18 21:18:57.190] [gaetano] [info] 
+[2021-03-18 21:18:57.191] [gaetano] [info] [OPERATION_7]: SND MSG returned code: 0
+[2021-03-18 21:18:57.191] [gaetano] [info] [OPERATION_7]: RCV RESP returned code: 0
+[2021-03-18 21:18:57.192] [gaetano] [info] 
+[2021-03-18 21:18:57.192] [gaetano] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3524
+[2021-03-18 21:19:02.193] [gaetano] [info] disconnected from server 127.0.0.1:3524
+[2021-03-18 21:19:02.195] [gaetano] [info] error on the server
+[2021-03-18 21:21:37.060] [gaetano] [info] try to connect to server - IP: 127.0.0.1 PORT: 3524
+[2021-03-18 21:21:44.063] [gaetano] [info] try to connect to server - IP: 127.0.0.1 PORT: 3524
+[2021-03-18 21:21:44.064] [gaetano] [info] Socket 212 was created
+[2021-03-18 21:21:44.067] [gaetano] [info] connected to server 127.0.0.1:3524
+[2021-03-18 21:21:44.067] [gaetano] [info] 
+[2021-03-18 21:21:44.067] [gaetano] [info] [OPERATION_7]: path \
+[2021-03-18 21:21:44.067] [gaetano] [info] 
+[2021-03-18 21:21:44.067] [gaetano] [info] [OPERATION_7]: SND MSG returned code: 0
+[2021-03-18 21:21:44.068] [gaetano] [info] [OPERATION_7]: RCV RESP returned code: 0
+[2021-03-18 21:21:44.068] [gaetano] [info] 
+[2021-03-18 21:21:44.068] [gaetano] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3524
+[2021-03-18 21:21:49.068] [gaetano] [info] disconnected from server 127.0.0.1:3524
+[2021-03-18 21:21:49.070] [gaetano] [info] error on the server
+[2021-03-18 21:23:18.354] [gaetano] [info] Logger initialized correctly with file gaetano_log.txt
+[2021-03-18 21:23:18.354] [gaetano] [info] try to connect to server - IP: 127.0.0.1 PORT: 3524
+[2021-03-18 21:23:18.357] [gaetano] [info] Socket 200 was created
+[2021-03-18 21:23:18.360] [gaetano] [info] connected to server 127.0.0.1:3524
+[2021-03-18 21:23:18.360] [gaetano] [info] 
+[2021-03-18 21:23:18.360] [gaetano] [info] [OPERATION_7]: path \
+[2021-03-18 21:23:18.360] [gaetano] [info] 
+[2021-03-18 21:23:18.361] [gaetano] [info] [OPERATION_7]: SND MSG returned code: 0
+[2021-03-18 21:23:18.361] [gaetano] [info] [OPERATION_7]: RCV RESP returned code: 0
+[2021-03-18 21:23:18.362] [gaetano] [info] 
+[2021-03-18 21:23:18.362] [gaetano] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3524
+[2021-03-18 21:23:23.362] [gaetano] [info] disconnected from server 127.0.0.1:3524
+[2021-03-18 21:23:23.364] [gaetano] [info] error on the server
+[2021-03-18 21:25:19.051] [gaetano] [info] Logger initialized correctly with file gaetano_log.txt
+[2021-03-18 21:25:19.059] [gaetano] [info] try to connect to server - IP: 127.0.0.1 PORT: 3524
+[2021-03-18 21:25:26.066] [gaetano] [info] try to connect to server - IP: 127.0.0.1 PORT: 3524
+[2021-03-18 21:25:26.068] [gaetano] [info] Socket 200 was created
+[2021-03-18 21:25:26.071] [gaetano] [info] connected to server 127.0.0.1:3524
+[2021-03-18 21:25:26.071] [gaetano] [info] 
+[2021-03-18 21:25:26.071] [gaetano] [info] [OPERATION_7]: path \
+[2021-03-18 21:25:26.071] [gaetano] [info] 
+[2021-03-18 21:25:26.071] [gaetano] [info] [OPERATION_7]: SND MSG returned code: 0
+[2021-03-18 21:25:26.072] [gaetano] [info] [OPERATION_7]: RCV RESP returned code: 0
+[2021-03-18 21:25:26.072] [gaetano] [info] 
+[2021-03-18 21:25:26.072] [gaetano] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3524
+[2021-03-18 21:25:28.649] [gaetano] [info] disconnected from server 127.0.0.1:3524
+[2021-03-18 21:25:28.652] [gaetano] [info] error on the server
+[2021-03-18 21:26:39.220] [gaetano] [info] try to connect to server - IP: 127.0.0.1 PORT: 3524
+[2021-03-18 21:26:46.226] [gaetano] [info] try to connect to server - IP: 127.0.0.1 PORT: 3524
+[2021-03-18 21:26:48.229] [gaetano] [info] Socket 212 was created
+[2021-03-18 21:26:48.232] [gaetano] [info] connected to server 127.0.0.1:3524
+[2021-03-18 21:26:48.232] [gaetano] [info] 
+[2021-03-18 21:26:48.232] [gaetano] [info] [OPERATION_7]: path \
+[2021-03-18 21:26:48.232] [gaetano] [info] 
+[2021-03-18 21:26:48.232] [gaetano] [info] [OPERATION_7]: SND MSG returned code: 0
+[2021-03-18 21:26:48.233] [gaetano] [info] [OPERATION_7]: RCV RESP returned code: 0
+[2021-03-18 21:26:48.234] [gaetano] [info] 
+[2021-03-18 21:26:48.234] [gaetano] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3524
+[2021-03-18 21:26:53.234] [gaetano] [info] disconnected from server 127.0.0.1:3524
+[2021-03-18 21:26:53.235] [gaetano] [info] error on the server
+[2021-03-18 21:32:48.294] [gaetano] [info] Logger initialized correctly with file gaetano_log.txt
+[2021-03-18 21:32:48.298] [gaetano] [info] try to connect to server - IP: 127.0.0.1 PORT: 3524
+[2021-03-18 21:32:50.305] [gaetano] [info] Socket 196 was created
+[2021-03-18 21:32:50.309] [gaetano] [info] connected to server 127.0.0.1:3524
+[2021-03-18 21:32:50.309] [gaetano] [info] 
+[2021-03-18 21:32:50.309] [gaetano] [info] [OPERATION_7]: path \
+[2021-03-18 21:32:50.309] [gaetano] [info] 
+[2021-03-18 21:32:50.310] [gaetano] [info] [OPERATION_7]: SND MSG returned code: 0
+[2021-03-18 21:32:50.310] [gaetano] [info] [OPERATION_7]: RCV RESP returned code: 0
+[2021-03-18 21:32:50.311] [gaetano] [info] 
+[2021-03-18 21:32:50.311] [gaetano] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3524
+[2021-03-18 21:32:53.761] [gaetano] [info] disconnected from server 127.0.0.1:3524
+[2021-03-18 21:32:53.767] [gaetano] [info] error on the server
+[2021-03-18 21:35:01.107] [gaetano] [info] try to connect to server - IP: 127.0.0.1 PORT: 3524
+[2021-03-18 21:35:08.112] [gaetano] [info] try to connect to server - IP: 127.0.0.1 PORT: 3524
+[2021-03-18 21:35:08.113] [gaetano] [info] Socket 216 was created
+[2021-03-18 21:35:08.116] [gaetano] [info] connected to server 127.0.0.1:3524
+[2021-03-18 21:35:08.116] [gaetano] [info] 
+[2021-03-18 21:35:08.116] [gaetano] [info] [OPERATION_7]: path \
+[2021-03-18 21:35:08.116] [gaetano] [info] 
+[2021-03-18 21:35:08.116] [gaetano] [info] [OPERATION_7]: SND MSG returned code: 0
+[2021-03-18 21:35:08.117] [gaetano] [info] [OPERATION_7]: RCV RESP returned code: 0
+[2021-03-18 21:35:08.117] [gaetano] [info] 
+[2021-03-18 21:35:08.117] [gaetano] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3524
+[2021-03-18 21:35:13.118] [gaetano] [info] disconnected from server 127.0.0.1:3524
+[2021-03-18 21:35:13.120] [gaetano] [info] error on the server
+[2021-03-18 21:40:42.692] [gaetano] [info] Logger initialized correctly with file gaetano_log.txt
+[2021-03-18 21:40:42.695] [gaetano] [info] try to connect to server - IP: 127.0.0.1 PORT: 3524
+[2021-03-18 21:40:49.702] [gaetano] [info] try to connect to server - IP: 127.0.0.1 PORT: 3524
+[2021-03-18 21:40:49.704] [gaetano] [info] Socket 188 was created
+[2021-03-18 21:40:49.706] [gaetano] [info] connected to server 127.0.0.1:3524
+[2021-03-18 21:40:49.706] [gaetano] [info] 
+[2021-03-18 21:40:49.706] [gaetano] [info] [OPERATION_7]: path \
+[2021-03-18 21:40:49.706] [gaetano] [info] 
+[2021-03-18 21:40:49.707] [gaetano] [info] [OPERATION_7]: SND MSG returned code: 0
+[2021-03-18 21:40:49.707] [gaetano] [info] [OPERATION_7]: RCV RESP returned code: 0
+[2021-03-18 21:40:49.708] [gaetano] [info] 
+[2021-03-18 21:40:49.708] [gaetano] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3524
+[2021-03-18 21:40:52.955] [gaetano] [info] disconnected from server 127.0.0.1:3524
+[2021-03-18 21:40:52.962] [gaetano] [info] error on the server
+[2021-03-18 21:42:24.722] [gaetano] [info] Logger initialized correctly with file gaetano_log.txt
+[2021-03-18 21:42:24.725] [gaetano] [info] try to connect to server - IP: 127.0.0.1 PORT: 3524
+[2021-03-18 21:42:26.736] [gaetano] [info] Socket 164 was created
+[2021-03-18 21:42:26.738] [gaetano] [info] connected to server 127.0.0.1:3524
+[2021-03-18 21:42:26.739] [gaetano] [info] 
+[2021-03-18 21:42:26.739] [gaetano] [info] [OPERATION_7]: path \
+[2021-03-18 21:42:26.739] [gaetano] [info] 
+[2021-03-18 21:42:26.739] [gaetano] [info] [OPERATION_7]: SND MSG returned code: 0
+[2021-03-18 21:42:26.740] [gaetano] [info] [OPERATION_7]: RCV RESP returned code: 0
+[2021-03-18 21:42:26.740] [gaetano] [info] 
+[2021-03-18 21:42:26.740] [gaetano] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3524
+[2021-03-18 21:42:31.741] [gaetano] [info] disconnected from server 127.0.0.1:3524
+[2021-03-18 21:42:31.743] [gaetano] [info] error on the server
+[2021-03-18 21:44:40.810] [gaetano] [info] try to connect to server - IP: 127.0.0.1 PORT: 3524
+[2021-03-18 21:44:47.816] [gaetano] [info] try to connect to server - IP: 127.0.0.1 PORT: 3524
+[2021-03-18 21:44:47.816] [gaetano] [info] Socket 220 was created
+[2021-03-18 21:44:47.820] [gaetano] [info] connected to server 127.0.0.1:3524
+[2021-03-18 21:44:47.820] [gaetano] [info] 
+[2021-03-18 21:44:47.820] [gaetano] [info] [OPERATION_7]: path \
+[2021-03-18 21:44:47.820] [gaetano] [info] 
+[2021-03-18 21:44:47.821] [gaetano] [info] [OPERATION_7]: SND MSG returned code: 0
+[2021-03-18 21:44:47.822] [gaetano] [info] [OPERATION_7]: RCV RESP returned code: 0
+[2021-03-18 21:44:47.822] [gaetano] [info] 
+[2021-03-18 21:44:47.822] [gaetano] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3524
+[2021-03-18 21:44:52.823] [gaetano] [info] disconnected from server 127.0.0.1:3524
+[2021-03-18 21:44:52.825] [gaetano] [info] error on the server
+[2021-03-18 21:47:50.099] [gaetano] [info] Logger initialized correctly with file gaetano_log.txt
+[2021-03-18 21:47:50.109] [gaetano] [info] try to connect to server - IP: 127.0.0.1 PORT: 3524
+[2021-03-18 21:47:51.626] [gaetano] [info] Socket 196 was created
+[2021-03-18 21:47:51.630] [gaetano] [info] connected to server 127.0.0.1:3524
+[2021-03-18 21:47:51.630] [gaetano] [info] 
+[2021-03-18 21:47:51.630] [gaetano] [info] [OPERATION_7]: path \
+[2021-03-18 21:47:51.630] [gaetano] [info] 
+[2021-03-18 21:47:51.630] [gaetano] [info] [OPERATION_7]: SND MSG returned code: 0
+[2021-03-18 21:47:51.631] [gaetano] [info] [OPERATION_7]: RCV RESP returned code: 0
+[2021-03-18 21:47:51.631] [gaetano] [info] 
+[2021-03-18 21:47:51.631] [gaetano] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3524
+[2021-03-18 21:47:56.631] [gaetano] [info] disconnected from server 127.0.0.1:3524
+[2021-03-18 21:47:56.633] [gaetano] [info] error on the server
+[2021-03-18 21:50:48.428] [gaetano] [info] Logger initialized correctly with file gaetano_log.txt
+[2021-03-18 21:50:48.436] [gaetano] [info] try to connect to server - IP: 127.0.0.1 PORT: 3524
+[2021-03-18 21:50:48.440] [gaetano] [info] Socket 196 was created
+[2021-03-18 21:50:48.443] [gaetano] [info] connected to server 127.0.0.1:3524
+[2021-03-18 21:50:48.443] [gaetano] [info] 
+[2021-03-18 21:50:48.443] [gaetano] [info] [OPERATION_7]: path \
+[2021-03-18 21:50:48.443] [gaetano] [info] 
+[2021-03-18 21:50:48.443] [gaetano] [info] [OPERATION_7]: SND MSG returned code: 0
+[2021-03-18 21:50:48.444] [gaetano] [info] [OPERATION_7]: RCV RESP returned code: 0
+[2021-03-18 21:50:48.445] [gaetano] [info] 
+[2021-03-18 21:50:48.445] [gaetano] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3524
+[2021-03-18 21:50:53.446] [gaetano] [info] disconnected from server 127.0.0.1:3524
+[2021-03-18 21:50:53.449] [gaetano] [info] error on the server
+[2021-03-18 21:52:31.921] [gaetano] [info] try to connect to server - IP: 127.0.0.1 PORT: 3524
+[2021-03-18 21:52:38.924] [gaetano] [info] try to connect to server - IP: 127.0.0.1 PORT: 3524
+[2021-03-18 21:52:38.925] [gaetano] [info] Socket 208 was created
+[2021-03-18 21:52:38.928] [gaetano] [info] connected to server 127.0.0.1:3524
+[2021-03-18 21:52:38.928] [gaetano] [info] 
+[2021-03-18 21:52:38.928] [gaetano] [info] [OPERATION_7]: path \
+[2021-03-18 21:52:38.928] [gaetano] [info] 
+[2021-03-18 21:52:38.928] [gaetano] [info] [OPERATION_7]: SND MSG returned code: 0
+[2021-03-18 21:52:38.929] [gaetano] [info] [OPERATION_7]: RCV RESP returned code: 0
+[2021-03-18 21:52:38.929] [gaetano] [info] 
+[2021-03-18 21:52:38.929] [gaetano] [info] try to disconnect from server - IP: 127.0.0.1 PORT: 3524
+[2021-03-18 21:52:43.930] [gaetano] [info] disconnected from server 127.0.0.1:3524
+[2021-03-18 21:52:43.932] [gaetano] [info] error on the server

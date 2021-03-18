@@ -202,12 +202,16 @@ private:
     std::map<std::string, std::atomic_int> clientsNumberSocket;
 
     void checkUserInactivity();
+    void checkServerInactivity();
     void unregisterClient(int csock);
     bool isClosed(int sock);
 
 public:
 
     int csock;
+    bool isTrueServer = true;
+    int returningCode = 0;
+    std::atomic_bool requestReceived;
 
 #ifdef _WIN32
 
