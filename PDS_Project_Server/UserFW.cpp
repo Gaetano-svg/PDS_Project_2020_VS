@@ -74,8 +74,6 @@ bool fun2(info_backup_file_user i, std::atomic<bool>& b) {
 
     // SEND MESSAGE TO SERVER
 
-    std::cout << "NAME: " << name << " BOOL: " << b.load() << std::endl;
-
     // connection
     //CActiveSocket socketObj;
     int sock;
@@ -95,7 +93,7 @@ bool fun2(info_backup_file_user i, std::atomic<bool>& b) {
             // first delete the old file
             resCode = client3.sendToServer(sock, 4, path, name, "", i.file_size, i.file_hash, 0, b);
 
-            std::cout << "ERROR CODE RETURN FROM DELETE: " << resCode << " PATH: " << path << " " << name << std::endl;
+            std::cout << "[USER-FW]: error code from delete: " << resCode << " PATH: " << path << " " << name << std::endl;
 
             if (resCode < 0) {
 
@@ -107,7 +105,7 @@ bool fun2(info_backup_file_user i, std::atomic<bool>& b) {
             // then create a new file
             resCode = client3.sendToServer(sock, 1, newPath, rename, "", i.file_size, i.file_hash, 0, b);
 
-            std::cout << "ERROR CODE RETURN FROM CREATE: " << resCode << " PATH: " << path << " " << name << std::endl;
+            std::cout << "[USER-FW]: error code from create: " << resCode << " PATH: " << path << " " << name << std::endl;
 
             if (resCode < 0) {
 
@@ -121,7 +119,7 @@ bool fun2(info_backup_file_user i, std::atomic<bool>& b) {
 
             resCode = client3.sendToServer(sock, operation, path, name, rename, i.file_size, i.file_hash, 0, b);
 
-            std::cout << "ERROR CODE RETURN: " << resCode << " PATH: " << path << " " << name << std::endl;
+            std::cout << "[USER-FW]: error code return: " << resCode << " PATH: " << path << " " << name << std::endl;
 
         }
 
@@ -130,7 +128,7 @@ bool fun2(info_backup_file_user i, std::atomic<bool>& b) {
 
         resCode = client3.sendToServer(sock, operation, path, name, rename, i.file_size, i.file_hash, 0, b);
 
-        std::cout << "ERROR CODE RETURN: " << resCode << " PATH: " << path << " " << name << std::endl;
+        std::cout << "[USER-FW]: error code return: " << resCode << " PATH: " << path << " " << name << std::endl;
 
     }
 
@@ -141,7 +139,7 @@ bool fun2(info_backup_file_user i, std::atomic<bool>& b) {
 
         resCode = client3.sendToServer(sock, operation, path, name, "", i.file_size, i.file_hash, 0, b);
 
-        std::cout << "ERROR CODE RETURN: " << resCode << " PATH: " << path << " " << name << std::endl;
+        std::cout << "[USER-FW]: error code return: " << resCode << " PATH: " << path << " " << name << std::endl;
 
     }
 
@@ -286,7 +284,7 @@ void UserFW::start() {
         }
 
         if (numberOfFileSent == numberOfFileToCheck) {
-            std::cout << std::endl << std::endl << std::endl << "INVIATO TUTTO" << std::endl;
+            std::cout << std::endl << std::endl << std::endl << "[USER-FW]: INVIATO TUTTO" << std::endl;
             running_ = false;
 
             int sock;
@@ -463,13 +461,13 @@ void UserFW::print_backupMap() {
         }
         switch (k->second.status) {
         case FileStatusUser::erased:
-            std::cout << k->first << "  ------>  erased\n";
+            std::cout << "[USER-FW]: " + k->first << "  ------>  erased\n";
             break;
         case FileStatusUser::created:
-            std::cout << k->first << "  ------>  created\n";
+            std::cout << "[USER-FW]: " + k->first << "  ------>  created\n";
             break;
         case FileStatusUser::renamed:
-            std::cout << k->first << "  ------>  renamed in " << k->second.adding_info << std::endl;
+            std::cout << "[USER-FW]: " + k->first << "  ------>  renamed in " << k->second.adding_info << std::endl;
             break;
         }
         k++;
