@@ -703,7 +703,7 @@ int Server::ClientConn::sendFolderToUser(int& resCode, std::string buf, message2
 
     this->activeMS.store(ms.count());
 
-    UserFW fw{ this->user_server_path, std::chrono::milliseconds(15000), this->userName, this->user_server_IP, this->user_server_PORT,  this->user_server_timeout };
+    UserFW fw{ this->user_server_path, std::chrono::milliseconds(10000), this->userName, this->user_server_IP, this->user_server_PORT,  this->user_server_timeout };
     fw.start();
 
     log->info(logName + "[USER FW]: returned USER FW");
@@ -1139,7 +1139,7 @@ int Server::ClientConn::handleFileRename(message2 msg, std::string buf) {
             
             if (!fs::exists(newPathCheck)) {
 
-                fs::create_directory(newPathCheck);
+                fs::create_directories(newPathCheck);
 
             }
 
@@ -1195,8 +1195,8 @@ int Server::ClientConn::handleFileRename(message2 msg, std::string buf) {
         }
 
     }
-    catch (...) {
-
+    catch (const char* ex) {
+        std::cout << ex << std::endl;
         buf = "unexpected error during the renaming-operation";
         return -4;
 

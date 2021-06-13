@@ -582,7 +582,10 @@ void FileWatcher2::update_threads() {
             thread_to_stop.erase(thr->first); //possibile problema: se distruggo il booleano qua ma il thread che lo modifica deve ancora terminare?
             
             // reset boolean check after table update
-            paths_[thr->first].checkHash = false;
+
+            if (paths_.find(thr->first) != paths_.end())
+                paths_[thr->first].checkHash = false;
+
             thread_table.erase(thr);
         }
     }

@@ -110,7 +110,7 @@ int main(int argc, char* argv[]) {
 
     // Receive all the Server folder configuration
 
-    FileWatcher2 fw{ client, client.uc.folderPath, std::chrono::milliseconds(15000) };
+    FileWatcher2 fw{ client, client.uc.folderPath, std::chrono::milliseconds(10000) };
 
     // ask for the configuration on the server side
     int resCode = -1;
