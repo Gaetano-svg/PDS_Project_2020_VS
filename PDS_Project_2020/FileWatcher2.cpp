@@ -67,8 +67,6 @@ bool fun2(info_backup_file i, std::atomic<bool>& b) {
 
     // SEND MESSAGE TO SERVER
 
-    std::cout << "NAME: " << name << " BOOL: " << b.load() << std::endl;
-
     // connection
     //CActiveSocket socketObj;
     int sock;
@@ -83,7 +81,7 @@ bool fun2(info_backup_file i, std::atomic<bool>& b) {
 
         resCode = client2.sendToServer(sock, operation, path, name, rename, i.file_size, i.file_hash, 0, b);
 
-        std::cout << "ERROR CODE RETURN: " << resCode << " PATH: " << path << " " << name << std::endl;
+        std::cout << "[FW]: error code return: " << resCode << " PATH: " << path << " " << name << std::endl;
 
     }
 
@@ -94,7 +92,7 @@ bool fun2(info_backup_file i, std::atomic<bool>& b) {
 
         resCode = client2.sendToServer(sock, operation, path, name, "", i.file_size, i.file_hash, 0, b);
 
-        std::cout << "ERROR CODE RETURN: " << resCode << " PATH: " << path << " " << name << std::endl;
+        std::cout << "[FW]: error code return: " << resCode << " PATH: " << path << " " << name << std::endl;
 
     }
 
@@ -133,9 +131,8 @@ FileWatcher2::FileWatcher2(Client client, std::string path_to_watch, std::chrono
 
 void FileWatcher2::start() {
 
-    std::cout << paths_.size() << std::endl;
-
-    std::cout << std::endl << std::endl << "STARTED" << std::endl;
+    std::cout << std::endl << std::endl << "[FW]: STARTED" << std::endl;
+    std::cout << "[FW]: paths size: " + paths_.size() << std::endl;
 
     while (running_) {
 
@@ -348,8 +345,6 @@ void FileWatcher2::start() {
                             if (paths_[file.path().string()].checkHash && hash_to_add == paths_[file.path().string()].file_hash)
                                 continue;
 
-                            std::cout << "continued" << std::endl;
-
                             paths_[file.path().string()].file_last_write = current_file_last_write_time;
                             paths_[file.path().string()].file_hash = hash_to_add;
 
@@ -388,7 +383,7 @@ void FileWatcher2::start() {
                                 elements_to_backup3[file_name] = k;
                             }
                             else {
-                                std::cout << "\n\nMODIFICATION AFTER DELETE OR RENAME --> ERROR\n\n";
+                                std::cout << "\n\n[FW]: MODIFICATION AFTER DELETE OR RENAME --> ERROR\n\n";
                                 exit(666);
                             }
                         }
@@ -445,7 +440,7 @@ void FileWatcher2::start() {
 
                     }
                     else {
-                        std::cout << "\n\DELETE AFTER DELETE OR RENAME --> ERROR\n\n";
+                        std::cout << "\n\[FW]: DELETE AFTER DELETE OR RENAME --> ERROR\n\n";
                         exit(666);
                     }
 
@@ -464,7 +459,8 @@ void FileWatcher2::start() {
 
         }
         catch (...) {
-            std::cout << "erroreeee" << std::endl;
+            std::cout << "[FW]: error during thread print and update" << std::endl;
+            exit(-1);
         }
 
     }
@@ -613,13 +609,13 @@ void FileWatcher2::print_backupMap() {
         }
         switch (k->second.status) {
         case FileStatus::erased:
-            std::cout << k->first << "  ------>  erased\n";
+            std::cout << "[FW]: " + k->first << "  ------>  erased\n";
             break;
         case FileStatus::created:
-            std::cout << k->first << "  ------>  created\n";
+            std::cout << "[FW]: " + k->first << "  ------>  created\n";
             break;
         case FileStatus::renamed:
-            std::cout << k->first << "  ------>  renamed in " << k->second.adding_info << std::endl;
+            std::cout << "[FW]: " + k->first << "  ------>  renamed in " << k->second.adding_info << std::endl;
             break;
         }
         k++;

@@ -115,7 +115,6 @@ void Server::ClientConn::handleConnection() {
                     }
                     else {
 
-                        std::cout << "not accepted" << std::endl;
                         // send response to CONNECTION MESSAGE by the client
                         msg.body = "socket NOT accepted";
                         sendResponse(-1, "Socket Not Accepted beacuse to many sockets were opened for the USER", msg);
@@ -139,7 +138,6 @@ void Server::ClientConn::handleConnection() {
         else {
 
             // can't log because the logger wasn't initialized; in any case the socket will be closed
-            std::cout << "Errore handle" << std::endl;
             serv.unregisterClient(sock);
 
         }
@@ -525,7 +523,6 @@ void Server::ClientConn::updateFile(int& resCode, std::string buf, message2& msg
     if (resCode < 0) error = true;
     if (isClosed(sock) || !this->running.load()) goto checkCode;
 
-    std::cout << "[SND STREAM RESP]: " << buf << std::endl;
     if (resCode < 0) error = true;
     resCode = sendResponse(resCode, buf, msg);
     log->info(logName + "[SND STREAM RESP]: returned code: " + std::to_string(resCode));
@@ -534,10 +531,13 @@ checkCode:
 
     if (isClosed(sock) || !this->running.load() || error) {
 
+        std::cout << "[UPDATE FILE ERROR]: res code " + std::to_string(resCode) << std::endl;
         this->running.store(false);
         return;
 
     }
+
+    std::cout << "[UPDATE FILE]: res code " + std::to_string(resCode) << std::endl;
 
     return;
 
@@ -562,10 +562,14 @@ checkCode:
     // if there are errors on sending, the thread will exit
     if (isClosed(sock) || !this->running.load()) {
 
+        std::cout << "[RENAME FILE ERROR]: res code " + std::to_string(resCode) << std::endl;
         this->running.store(false);
         return;
 
     }
+
+    std::cout << "[RENAME FILE]: res code " + std::to_string(resCode) << std::endl;
+
 }
 
 /*
@@ -587,10 +591,13 @@ checkCode:
     // if there are errors on sending, the thread will exit
     if (isClosed(sock) || !this->running.load()) {
 
+        std::cout << "[DELETE FILE ERROR]: res code " + std::to_string(resCode) << std::endl;
         this->running.store(false);
         return;
 
     }
+
+    std::cout << "[DELETE FILE]: res code " + std::to_string(resCode) << std::endl;
 
 }
 
@@ -638,10 +645,13 @@ checkCode:
     // if there are errors on sending, the thread will exit
     if (isClosed(sock) || !this->running.load()) {
 
+        std::cout << "[INITIAL CONF ERROR]: res code " + std::to_string(resCode) << std::endl;
         this->running.store(false);
         return;
 
     }
+
+    std::cout << "[INITIAL CONF]: res code " + std::to_string(resCode) << std::endl;
 
 }
 
@@ -664,6 +674,7 @@ int Server::ClientConn::sendFolderToUser(int& resCode, std::string buf, message2
     // if there are errors on sending, the thread will exit
     if (isClosed(sock) || !this->running.load()) {
 
+        std::cout << "[BKP ERROR]: res code " + std::to_string(resCode) << std::endl;
         log->flush();
         this->running.store(false);
         return -1;
@@ -695,8 +706,6 @@ int Server::ClientConn::sendFolderToUser(int& resCode, std::string buf, message2
         fs::create_directory(this->user_server_path);
     }
 
-    std::cout << this->user_server_path << std::endl;
-
     milliseconds ms = duration_cast<milliseconds>(
         system_clock::now().time_since_epoch()
         );
@@ -705,7 +714,8 @@ int Server::ClientConn::sendFolderToUser(int& resCode, std::string buf, message2
 
     UserFW fw{ this->user_server_path, std::chrono::milliseconds(10000), this->userName, this->user_server_IP, this->user_server_PORT,  this->user_server_timeout };
     fw.start();
-
+    
+    std::cout << "[BKP]: returned USER FW"<< std::endl;
     log->info(logName + "[USER FW]: returned USER FW");
     log->flush();
 
@@ -793,8 +803,6 @@ int Server::ClientConn::handleFileUpdate(message2 msg, std::string buf) {
             path = msgFolderPath;
 
         dstFolder = path;
-
-        std::cout << dstFolder << std::endl;
 
         if (!fs::exists(dstFolder))
 #ifdef _WIN32
@@ -1128,15 +1136,11 @@ int Server::ClientConn::handleFileRename(message2 msg, std::string buf) {
             newMessageFolder = (newMsgFolderPath.substr(0, i));
         }
 
-        std::cout << msgFolderPath + " " + newMessageFolder << std::endl;
-
         if (msgFolderPath != newMessageFolder) {
 
             //check if the new folder exists
             std::string newPathCheck = serverBackupFolder + separator() + msg.userName + separator() + newMessageFolder;
-
-            std::cout <<"PATHCHECK:" + newPathCheck << std::endl;
-            
+                        
             if (!fs::exists(newPathCheck)) {
 
                 fs::create_directories(newPathCheck);
@@ -1195,8 +1199,7 @@ int Server::ClientConn::handleFileRename(message2 msg, std::string buf) {
         }
 
     }
-    catch (const char* ex) {
-        std::cout << ex << std::endl;
+    catch (...) {
         buf = "unexpected error during the renaming-operation";
         return -4;
 
@@ -1318,7 +1321,6 @@ int Server::ClientConn::selective_search(std::string& response, std::string buf,
             {
                 //lastModify = result.st_mtime;
                 fileSize = result.st_size;
-                std::cout << dir->path().filename().string() << " " << fileSize << std::endl;
             }
             message2 msgConf{
 

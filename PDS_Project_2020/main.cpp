@@ -102,7 +102,7 @@ int main(int argc, char* argv[]) {
                 noErrorWithBackup = false;
             }
 
-            std::cout << "SERVER EXITED with code: " << exitCode << std::endl;
+            std::cout << "[CLIENT-SERVER] exited with code: " << exitCode << std::endl;
 
         }
 
@@ -133,7 +133,7 @@ int main(int argc, char* argv[]) {
 
     }
 
-    std::cout << "INITIAL CONF RECEIVED" << std::endl;
+    std::cout << "[CLIENT]: initial configuration received, the filewatcher will start" << std::endl;
 
     fw.start();
 

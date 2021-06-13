@@ -559,6 +559,7 @@ void Server::checkServerInactivity() {
         }
         catch (...) {
             std::cout << "ERRORE" << std::endl;
+            return;
         }
 
 
